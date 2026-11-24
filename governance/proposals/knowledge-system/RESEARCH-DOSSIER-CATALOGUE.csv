@@ -1,0 +1,33 @@
+id,topic,priority,chapters,decisions,required_depth,strategic_value
+R-01,"Identity principals, workload identity and tenancy",P0,"15,19,21,35","D-04,D-19,D-20,D-25",Authority graph; machine identity lifecycle; tenant isolation; negative access tests,Foundational to delegated action safety
+R-02,Delegation and scope attenuation,P0,"15,16,27,57","D-10,D-19,D-20",Actor chain; scope intersection; expiry/audience; denied escalation,Central to Chapter 16 and Atlas proof
+R-03,Mutable action authorisation and PEP/PDP,P0,"12,16,18,48","D-09,D-10,D-18,D-23",Decision/receipt binding; fail-closed; non-bypassability; idempotency,Highest-value proof case
+R-04,Context provenance and retrieval ACL,P0,"13,21,57","D-11,D-14,D-25",Source ACL vs index metadata; context manifest; quarantined source,Essential for Meridian fixture
+R-05,Semantic identity and persistent disagreement,P0,"13,18,57","D-11,D-14,D-22",Identity keys; effective time; conflict state; steward escalation,Distinctive enterprise data decision
+R-06,Decision-to-Evidence Engineering,P0,"18,23,40,52,57","D-10,D-18,D-22,D-23,D-24",Decision instance; evidence links; failures; review trigger,Potential adoptable intellectual product
+R-07,Evaluation design and evidence quality,P0,"18,33,39,47","D-22,D-23,D-24",Golden sets; measurable assertions; false decisions; thresholds,Release authority depends on it
+R-08,Offline evaluations and regression suites,P0,"18,33,47,57","D-22,D-23",Replay dataset; versions; reproducibility; negative tests,Enables model upgrades
+R-09,Online evaluation and production monitoring,P1,"17,18,33,36","D-22,D-23,D-24",Sampling bias; continuous signals; privacy; rollback,Assurance during operations
+R-10,Memory categories and write governance,P0,"13,21,57","D-12,D-13,D-25",Ephemeral vs durable; write gates; deletion propagation; provenance,Common category confusion
+R-11,Cross-agent context and memory handoff,P1,"13,14,22","D-13,D-15,D-20,D-21",Sender/recipient authority; provenance survival; replay,Multi-agent reliability
+R-12,"Durable execution, checkpoints and resumability",P0,"14,36,37","D-15,D-16,D-27",Retry boundaries; side effects; resumed authority; idempotency,Prevents unsafe replay
+R-13,"Run, trace, thread, trajectory and span taxonomy",P0,"14,17,40,57","D-15,D-24",Correlation semantics; parentage; diagnostic vs audit evidence,Avoids misleading observability prose
+R-14,Distributed tracing and evidence architecture,P0,"17,40,57","D-22,D-24,D-25",Sampling vs audit retention; lineage; integrity; access,Makes decisions reconstructable
+R-15,MCP governance and tool contracts,P1,"12,16,22","D-09,D-10,D-18,D-21",Registry trust; contract version; tool origin; PEP admission,Useful independent workshop topic
+R-16,A2A and cross-agent interoperability governance,P1,"14,15,22","D-13,D-20,D-21",Capability trust; delegated claims; provenance; protocol risks,Avoids protocol-as-security confusion
+R-17,"Model routing, fallback and deprecation",P1,"8,20,39,47","D-17,D-22,D-26",Decision criteria; safety/cost/latency; fallback denial,Long-lived engineering concern
+R-18,Prompt injection and tool output trust,P0,"12,13,16,37,48","D-09,D-10,D-11,D-18",Threat assumptions; observed failures; limitations,Safety-critical examples
+R-19,Non-bypassability and negative controls,P0,"11,16,27,40","D-07,D-10,D-18",Direct route test; credentials; egress; PEP logs,Most compelling security demo
+R-20,Tenant isolation and sovereign boundaries,P1,"7,11,21,28","D-04,D-07,D-25",Separate trust planes; data movement; tests,High enterprise relevance
+R-21,FinOps and cost attribution,P1,"8,20,38","D-17,D-26",Cost per safe successful task; budgets; disputed usage,Strategic buyer relevance
+R-22,"SLO, capacity, reliability and graceful degradation",P1,"8,11,14,36","D-08,D-17,D-27",SLOs; queue depth; recovery; fallback safety,Platform operations
+R-23,Human approval and break-glass,P1,"9,16,19,37","D-16,D-18,D-28",Approval scope/expiry; emergency trace; review,Ownership of exceptions
+R-24,Incident containment and forensic reconstruction,P1,"17,37,40,48","D-24,D-27,D-28",Kill paths; evidence freeze; replay limits,High workshop value
+R-25,"Regulatory, privacy, retention and deletion",P1,"13,21,40,55","D-12,D-25,D-30",Jurisdiction/version ledger; deletion proof; rights,Citation and longevity risk
+R-26,Portfolio operating model and team interaction,P1,"6,30,31,32,35","D-03,D-06,D-29",Service boundaries; funding; onboarding; exception owners,Addresses cross-team friction
+R-27,"Retirement, portability and exit rehearsal",P1,"34,49,50,57","D-25,D-27,D-30",Identity withdrawal; data disposal; continuity proof,Less crowded book territory
+R-28,Architecture governance and decision applications,P0,"5,23,35,40,52","D-01,D-02,D-06,D-29",Applied ADR; deviations; lifecycle re-review,Makes methodology repeatable
+R-29,Supply chain and dependency security,P2,"11,12,22,39","D-07,D-09,D-21",SBOM; dependency review; trust in tools/plugins,Implementation assurance
+R-30,Open source and publication IP governance,P0,"23,40,52,57","D-24,D-29",Provenance; attribution; permissive licences; generated assets,Prevents rights and trust failures
+R-31,Platform product measurement and developer experience,P2,"6,32,35,38","D-06,D-26,D-29",Adoption metrics; onboarding cost; service catalogue,Training and productisation
+R-32,Research reproduction and benchmark ethics,P1,"18,40,57","D-22,D-24",Data licences; test harness; external validity; claims,Avoids synthetic-as-production claims
