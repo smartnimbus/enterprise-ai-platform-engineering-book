@@ -1,0 +1,77 @@
+[
+  {
+    "name": "ALL-TRACKED-ASSETS-80.csv",
+    "sha256": "0610a34efb0116a016744febc7eac8fe8011b3545f16485e2f7cde25179bd812",
+    "bytes": 24906
+  },
+  {
+    "name": "ARTICLE-AND-PATTERN-STATUS-200.csv",
+    "sha256": "a5dd3c0ecad7d5a432d21470011649227ae318a161e35af57825aeefff907eac",
+    "bytes": 42876
+  },
+  {
+    "name": "AUDIT-SUMMARY.json",
+    "sha256": "b9756f2ff4a12194db12bc898a23a3e0c34c6bc1b8d980469e7085790b439564",
+    "bytes": 1516
+  },
+  {
+    "name": "CHAPTER-COMPLETENESS-HEATMAP.csv",
+    "sha256": "17c12c7d9d03c5aacfd5f407103d420fdf08e92bdd31bd4db9af725847d7ae8b",
+    "bytes": 12411
+  },
+  {
+    "name": "CHAPTER-HEATMAP.png",
+    "sha256": "5adaef9b1b6b2839ac012221362162943e723e5085dda40ee00248bf4ea6113b",
+    "bytes": 153358
+  },
+  {
+    "name": "CHAPTER-STATUS-RECORD-TEMPLATE.md",
+    "sha256": "35ff0d02767bf05e708124c12bbc1ad3ac5cfa7e66da6c855043fd42125e5229",
+    "bytes": 1399
+  },
+  {
+    "name": "CONVERGENCE-EVIDENCE-RECORD-TEMPLATE.md",
+    "sha256": "62579e3e4ca06904365ab5cd13442e9fb4532aa170875cf4eb3f150d386b6966",
+    "bytes": 1416
+  },
+  {
+    "name": "DECISION-COVERAGE-30.csv",
+    "sha256": "2d5a50f6c53bd43a6ce7c2431c368a4e2c693dec4a66cb6c5954fd3471956b99",
+    "bytes": 7109
+  },
+  {
+    "name": "FILE-MANIFEST.json",
+    "sha256": "0c865575371351998b7475238c140073cbefb0e4d21df85b0c817f135908970f",
+    "bytes": 1821
+  },
+  {
+    "name": "REPOSITORY-CONVERGENCE-AUDIT-v1.0.md",
+    "sha256": "40a76c774cd8214573e7df1a8e818d76aba469ebe68df155448cbcdce8743eb4",
+    "bytes": 22795
+  },
+  {
+    "name": "REPOSITORY-TOPOLOGY.csv",
+    "sha256": "3814a90128060eb6ed291e0fc8a32c1590e09c557feae1d5f62a3299a5bcffae",
+    "bytes": 1244
+  },
+  {
+    "name": "SOLUTION-DOCUMENT-INVENTORY.csv",
+    "sha256": "e7184abfd1a9ecb677b66987002c28700aa01bc33a5e52017cd4c67f892c6aad",
+    "bytes": 4766
+  },
+  {
+    "name": "TOP-25-CONVERGENCE-GAPS.csv",
+    "sha256": "09a698b28756848b9d8f9fad790096b7781ff38095c06538c90d7e25efd2b274",
+    "bytes": 5622
+  },
+  {
+    "name": "add_coverages.py",
+    "sha256": "a5ad10aaa9bd74514d71caf1dab4026c3c2a84ab32846016040279b41d4f291d",
+    "bytes": 2245
+  },
+  {
+    "name": "inventory.py",
+    "sha256": "e0ecfdb194391679cd5bf8cc145f03ac0cee59e4cab44742735d751c08e9e0fe",
+    "bytes": 9881
+  }
+]

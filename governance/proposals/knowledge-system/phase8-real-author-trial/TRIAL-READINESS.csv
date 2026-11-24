@@ -1,13 +1,13 @@
 requirement,status,evidence
-Local source bytes,AVAILABLE_NOT_APPROVED,Local Phase 1-7 sources and pinned manifests accessible
-Human source ratification,BLOCKED,Phase4 crosswalk and errata candidate status
-Independent A B C recruitment,BLOCKED,No actual contributor evidence
-Qualified independent reviewer,BLOCKED,No appointment evidence
-Workspace isolation,BLOCKED,No access proof
-Sealed prompts,DESIGN_ONLY,Packet templates require individual hashes
-First-submission custody,BLOCKED,No append-only receipt test
-Restricted calibration key,DESIGN_ONLY,Examiner-only download not published
-Fresh independent heldout set,BLOCKED,Known mutation set only
-Rights clearance,UNKNOWN,External distribution not signed
-G0-G6 actual execution,BLOCKED,No completed independent trial
-Timed reviewer worksheet,READY_AS_TEMPLATE,Forms only
+Source files present,LOCAL_COMPLETE,"18/18 present, locally hashed; approval requires separate attestation"
+Authority of crosswalk and errata,BLOCKED,Candidate status not shown ratified
+Author A/B/C recruited,BLOCKED,No independent participants evidenced
+Independent reviewer appointed,BLOCKED,No human reviewer evidenced
+Isolated workspaces verified,BLOCKED,No access audit evidenced
+Sealed role prompts,DESIGN_ONLY,Common template requires per-role split and SHA
+Immutable raw submissions,BLOCKED,No append-only evidence store tested
+Answer key access separated,DESIGN_ONLY,Local examiner folder; do not publish
+Fresh independent reviewer holdout,BLOCKED,Known defects cannot estimate generalisation
+Rights and privacy clearance,UNKNOWN,External distribution authorisation not shown
+G0–G6 approvals tied to hashes,BLOCKED,No real trial results exist
+Timing and contradiction worksheets,READY_AS_TEMPLATE,Forms prepared but no observed reviewer hours

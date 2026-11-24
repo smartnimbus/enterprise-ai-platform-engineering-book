@@ -1,0 +1,73 @@
+{
+  "test_scope": "Derived Phase 3 files only",
+  "passed": 13,
+  "total": 13,
+  "checks": [
+    {
+      "check": "30 decision unique IDs",
+      "passed": true,
+      "detail": "30 rows"
+    },
+    {
+      "check": "58 chapter unique IDs",
+      "passed": true,
+      "detail": "58 rows"
+    },
+    {
+      "check": "Four layers/eight control planes",
+      "passed": true,
+      "detail": "12 rows"
+    },
+    {
+      "check": "11 lifecycle stages",
+      "passed": true,
+      "detail": "Stages 0\u201310"
+    },
+    {
+      "check": "15 synthetic fixture events",
+      "passed": true,
+      "detail": "MF-EVT-001..015"
+    },
+    {
+      "check": "References only known chapters",
+      "passed": true,
+      "detail": "30 crosswalks"
+    },
+    {
+      "check": "References only known decisions",
+      "passed": true,
+      "detail": "58 chapter rows"
+    },
+    {
+      "check": "Fixture event crosswalk references only known fixture events",
+      "passed": true,
+      "detail": "30 crosswalks"
+    },
+    {
+      "check": "No false published validation grades",
+      "passed": true,
+      "detail": "All event mappings explicitly inferred"
+    },
+    {
+      "check": "Contradiction IDs unique",
+      "passed": true,
+      "detail": "42 findings"
+    },
+    {
+      "check": "Controlled vocabulary not empty",
+      "passed": true,
+      "detail": "24 terms"
+    },
+    {
+      "check": "No cycle in *proposed* teaching prerequisites",
+      "passed": true,
+      "detail": "Does not certify source-defined dependencies"
+    },
+    {
+      "check": "Derived registers present",
+      "passed": true,
+      "detail": "AUTHORING-RISK-REGISTER.csv, CHAPTER-DEPENDENCY-58.csv, CHAPTER-LINK-EDGES.csv, CONTRADICTION-AND-RISK-REGISTER.csv, DECISION-TRACEABILITY-30.csv, FRAMEWORK-INTEGRITY-SCORECARD.csv, LAYER-CONTROL-CONSISTENCY-12.csv, LIFECYCLE-CONSISTENCY-11.csv, MERIDIAN-EVENT-INTEGRITY-15.csv, TERMINOLOGY-AUDIT.csv"
+    }
+  ],
+  "fixture_validation": "Separate original fixture validator PASS 27/27; not independently verified"
+}

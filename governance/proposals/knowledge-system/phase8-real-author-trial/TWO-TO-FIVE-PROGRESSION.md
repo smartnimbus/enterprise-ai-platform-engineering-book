@@ -1,13 +1,15 @@
-# 2 → 5 full-chapter empirical progression
+# Two-to-five manuscript progression — empirical acceptance
 
-A two-chapter clean-room independent human trial is a prerequisite, not an optional simulation.
+No automatic promotion. First obtain complete eligible A/B/C runs from three isolated contributors, a qualified independent reviewer, source authorization, all original hashes and evidence custody.
 
-1. Ratified source/input SHA, rights clearance, isolated A/B/C contributors, qualified independent human reviewer, originals and complete G0–G6 records.
-2. **Zero Critical errors in original first submissions** and **zero unresolved Major errors at final acceptance**. Exact D-10/D-14/D-18 semantics; 100% consequential observed claims have correct source/event and evidence grade.
-3. Blind reviewer calibration catches all Critical, >=90% Major, >=80% Minor with <=10% false positives; fresh external holdout required.
-4. Measure actual reviewer active time by source verification, semantic analysis, overlap, adjudication and retest. Proposed <=5 qualified reviewer-hours per accepted finished chapter is a **progression target**, not an established observed capacity.
-5. <=20% of consequential accepted claims require substantive correction, measured against original first-submission claim rows. Independent post-review sample has zero detected escaped Critical errors, with sample size disclosed.
-6. Do not treat lint v2 PASS as semantic clearance: Phase 7 newly constructed unsafe challenge catch rate was 0/8.
-7. Only the existing authorised owner may advance to a five-chapter cohort; add three disjoint chapters, retain primary concept ownership and serialise overlapping decision review. Any Critical escape halts progression.
+**Defects:** zero Critical in any first submission; zero unresolved Major at final acceptance; 100% consequential observed claims correctly cited and evidence graded; 100% D-10/D-14/D-18 outcomes consistent with frozen source.
 
-**Current eligibility: NO.** Genuine contributor independence, timed review, human acceptance and false-negative results from a fresh held-out corpus have not been demonstrated.
+**Reviewer calibration:** independently blind reviewer identifies all Critical cases, at least 90% Major, at least 80% Minor, <=10% false positives against independently supplied safe cases; also pass a fresh holdout unseen by rule authors.
+
+**Throughput:** measure actual reviewer time by G3/G4/G5 stage. The proposed <=5 reviewer-hours per accepted full chapter is a progression **planning gate**, not an observed baseline. Preserve retest and adjudication time. No more than 20% of accepted consequential claim rows may require substantive rework; count a first-submission correction even if ultimately resolved.
+
+**Escape control:** independent QA sample of accepted claims shows zero Critical escapes; disclose the sample size and limitations rather than claiming statistical assurance from two chapters.
+
+**Decision:** only an authorised existing owner may approve a five-chapter cohort after the above metrics are evidenced on exact hashes. The first five-chapter trial includes the initial two plus three disjoint chapter ownership assignments; do not add ten concurrent authors on forecasted reviewer capacity. Stop if a critical defect, source drift, or approval bypass is found.
+
+**Current result:** NOT ELIGIBLE TO PROGRESS. Real reviewer hours, true author independence and fresh held-out calibration are unavailable. Phase 6 estimates (14.25 reviewer hours for two chapters) are hypothetical, not measured.

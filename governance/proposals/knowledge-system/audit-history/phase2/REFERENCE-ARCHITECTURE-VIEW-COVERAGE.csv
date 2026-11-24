@@ -1,0 +1,9 @@
+view,primary_chapters,assessment,design_coverage_0_to_5,demonstrated_evidence_0_to_5,closure_evidence
+Conceptual,Ch1–10,"Boundaries, product and business value are described; no fully cross-verified capability and business motivation map",4,1,Outcome-to-capability-to-Atlas crosswalk
+Logical,Ch10–22,Strong normative structural and control responsibilities; cross-plane behaviour needs specimen-level consistency,4,2,Multiple data/control sequence diagrams and ownership/proof links
+Physical,"Ch11, Ch16, Ch21, Ch26–29, Ch42","Technology-neutral stance appropriate but few instantiated zones, stores, networks or resource constraints",2,0,"One optional deployment specimen demonstrating isolation, endpoints and constraints"
+Runtime,"Ch11–18, Ch29–30, Ch36",One rich Gateway case; not a full multi-step success and interruption trajectory,3,1,"Correlated normal, failure, resume and shutdown trajectories"
+Deployment,"Ch26–29, Ch39, Ch42–44","Environment, release and tenancy bootstrap as plans; no tested environment manifest",2,0,Versioned deployment/topology example with rollback and validation commands
+Operations,"Ch32–40, Ch45–50",Lifecycle/operational responsibilities and playbook contracts but untested incidents/SLO/recovery,3,1,"Incident, recovery, capacity and retirement run-through with measured evidence"
+Security,"Ch7, Ch12–16, Ch21, Ch27, Ch40","Strong control boundaries; signed token crypto, revocation and cross-domain bypass proof absent",4,1,"Threat model, crypto spec, negative tests and limitation table"
+AI Agent,"Ch2, Ch11–18, Ch30, Ch33","Agent autonomy, Harness, tools, memory, identity and gates covered; role/approval tasks need more operational examples",4,2,Normal and adversarial trajectories with model fallback and evaluation assertions

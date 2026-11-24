@@ -1,7 +1,5 @@
-<PARSED TEXT FOR SHEET: 1 / 1 TABS
-TAB NAME: REPOSITORY-TOPOLOGY.csv>
-index,branch,file_count,last_commit_utc,head_sha,purpose,pr,shared_same_blob,distinct_other_paths,duplicate_conflicting_paths,recommended_action
-0,main,1,2026-11-24T11:47:01Z,b38854ba1386b587ad8c31ef007f4bc7bdbe82a1,Root governance only,,REPOSITORY-GOVERNANCE.md,0,0,Preserve; protect after bootstrap
-1,research/industry-lineage-and-book-baseline-2026-11-24,48,2026-11-24T12:37:02Z,d97d3ccf60651f1821b5a208fbc2d48ff7017ac2,"Book outlines, one manuscript, Atlas catalogue, two decision pages, Mermaid narrative, forensic research",1.0,REPOSITORY-GOVERNANCE.md,47,0,"Gate and merge first after rights, baseline, fixture and review checks; archive branch after merge"
-2,governance/knowledge-system-v1-2026-11-24,31,2026-11-24T15:12:08Z,65365771a7ac1cee95231695722acc2e23a7b3f7,"Proposal-heavy governance, execution, validation, AI and twin designs",2.0,REPOSITORY-GOVERNANCE.md,30,0,Split or mark proposal-only; rebase after PR #1; independent review then selective merge; delete branch after
-3,research/deterministic-first-patterns-2026-11-24,3,2026-11-24T13:04:44Z,47559b53bbdac9fd4642d79d394e4f6b01c9a8b5,Research review and source mapping,3.0,REPOSITORY-GOVERNANCE.md,2,0,Rebase on approved baseline; merge as non-authoritative research; delete branch after
+branch,file_count,last_commit_utc,head_sha,purpose,pr,shared_same_blob,distinct_other_paths,duplicate_conflicting_paths,recommended_action
+main,1,2026-11-24T11:47:01Z,b38854ba1386b587ad8c31ef007f4bc7bdbe82a1,Root governance only,,REPOSITORY-GOVERNANCE.md,0,0,Preserve; protect after bootstrap
+research/industry-lineage-and-book-baseline-2026-11-24,48,2026-11-24T12:37:02Z,d97d3ccf60651f1821b5a208fbc2d48ff7017ac2,"Book outlines, one manuscript, Atlas catalogue, two decision pages, Mermaid narrative, forensic research",1,REPOSITORY-GOVERNANCE.md,47,0,"Gate and merge first after rights, baseline, fixture and review checks; archive branch after merge"
+governance/knowledge-system-v1-2026-11-24,31,2026-11-24T15:12:08Z,65365771a7ac1cee95231695722acc2e23a7b3f7,"Proposal-heavy governance, execution, validation, AI and twin designs",2,REPOSITORY-GOVERNANCE.md,30,0,Split or mark proposal-only; rebase after PR #1; independent review then selective merge; delete branch after
+research/deterministic-first-patterns-2026-11-24,3,2026-11-24T13:04:44Z,47559b53bbdac9fd4642d79d394e4f6b01c9a8b5,Research review and source mapping,3,REPOSITORY-GOVERNANCE.md,2,0,Rebase on approved baseline; merge as non-authoritative research; delete branch after

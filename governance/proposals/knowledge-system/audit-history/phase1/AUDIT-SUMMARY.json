@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-24",
+  "repo": "smartnimbus/enterprise-ai-platform-engineering-book",
+  "branch_trees": {
+    "main": 1,
+    "research/industry-lineage-and-book-baseline-2026-11-24": 48,
+    "governance/knowledge-system-v1-2026-11-24": 31,
+    "research/deterministic-first-patterns-2026-11-24": 3
+  },
+  "unique_tracked_paths": 80,
+  "shared_blob": "REPOSITORY-GOVERNANCE.md",
+  "same_path_different_content": 0,
+  "open_draft_prs": [
+    1,
+    2,
+    3
+  ],
+  "main_protected": false,
+  "rulesets": 0,
+  "expected_chapters": 58,
+  "complete_manuscripts": 0,
+  "draft_manuscripts": 1,
+  "blueprint_only_chapters": 1,
+  "outline_only_chapters": 56,
+  "decision_records": 30,
+  "individual_F1_pages": 2,
+  "chapter_decision_reference_errors": [],
+  "decisions_without_TOC_mappings": [],
+  "decisions_without_chapter_index": [],
+  "published_approved_chapters": 0,
+  "meridian_machine_fixture_in_remote": false,
+  "source_note": "GitHub tree/commit API plus local canonical CSV and mounted files; static snapshots, no independent runtime deployment.",
+  "derived_graph": {
+    "nodes": 315,
+    "edges": 2013,
+    "edge_types": {
+      "references": 2013
+    },
+    "isolated": 25,
+    "isolated_chapters": [
+      "CH-029",
+      "CH-051",
+      "CH-056",
+      "CH-058"
+    ],
+    "isolated_validations": [
+      "IV-01",
+      "IV-05",
+      "IV-07",
+      "IV-08",
+      "IV-09",
+      "IV-10",
+      "IV-11",
+      "IV-12"
+    ],
+    "broken_endpoints": 0,
+    "full_dependency_graph_possible": false
+  }
+}

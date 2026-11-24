@@ -1,0 +1,140 @@
+{
+  "audit_date": "2026-11-24",
+  "scope": "Intellectual completeness and publisher readiness; no canonical file modified",
+  "source_inputs": [
+    {
+      "path": "Enterprise_AI_Agent_Fabric_Revised_TOC.csv",
+      "sha256": "2866cc73850a55d98d0626c7675f542bae2a38e16a1338d49790d6a49fbafe72",
+      "bytes": 10032
+    },
+    {
+      "path": "Enterprise_AI_Agent_Fabric_Development_Blueprint.md",
+      "sha256": "3d928bdf0f1dc0e523fd91f2478fc03f75b148e26ad60201504d26b5cd0a28f8",
+      "bytes": 170653
+    },
+    {
+      "path": "Enterprise_AI_Agent_Fabric_Decision_Catalogue.csv",
+      "sha256": "22d705952471d0444955f95927ba88a2cbc9a6ccd691a5f1a88d5a0f20c68079",
+      "bytes": 20134
+    },
+    {
+      "path": "style-v1.2.md",
+      "sha256": "e74e928e0824ea1131553af96c66728931b878f11f401e933dc8aa42287db15f",
+      "bytes": 71011
+    },
+    {
+      "path": "Chapter_13_Authoring_Blueprint_v1.0.md",
+      "sha256": "cefc1752a6ed16d01e61d3c604a8705f305ffffe8912481c01ade9c6ed4738cd",
+      "bytes": 43249
+    },
+    {
+      "path": "Chapter_16_Authoring_Blueprint_v1.0.md",
+      "sha256": "9f8d6904bc3ece032ed9fa659d02ccc449ef84e054c3af15fa24c1af06e087d7",
+      "bytes": 34929
+    },
+    {
+      "path": "chapter-16-gateway-control-plane-v1.0.md",
+      "sha256": "ebf587fa9430cd6b5018e2c09b1c528cc080711f96fac3ad325670f54c58fd63",
+      "bytes": 20047
+    },
+    {
+      "path": "Meridian_Evidence_Fixture_v1.0.zip",
+      "sha256": "39e403a98b4ebff48a4cc6d0a1a3ede8b9aa7b78277ff0fef577631689606d5c",
+      "bytes": 28005
+    },
+    {
+      "path": "convergence/REPOSITORY-CONVERGENCE-AUDIT-v1.0.md",
+      "sha256": "40a76c774cd8214573e7df1a8e818d76aba469ebe68df155448cbcdce8743eb4",
+      "bytes": 22795
+    }
+  ],
+  "generated_files": [
+    {
+      "path": "BOOK-PART-USEFULNESS-8.csv",
+      "sha256": "44b1b3c9375ce188decbfe358bb2a3ca08b768968e33036a7364d57573f0db18",
+      "bytes": 496
+    },
+    {
+      "path": "CHAPTER-BRIEF-SECTIONS-348.csv",
+      "sha256": "fdb8377928f55a151baffae95643e9c63ff07ef23a04179eb8b103ae27801811",
+      "bytes": 96248
+    },
+    {
+      "path": "CHAPTER-CTO-USEFULNESS-58.csv",
+      "sha256": "bc5bded0a33e610df667fecd22267c4bc90ec51b90e8b3ab515f76b93cc73dc0",
+      "bytes": 23161
+    },
+    {
+      "path": "CHAPTER-CTO-UTILITY-HEATMAP.png",
+      "sha256": "b1b50e729071407a4b67d09259d732362998ccf22a9fa0ed7cc643821d71b119",
+      "bytes": 348403
+    },
+    {
+      "path": "DECISION-ATLAS-30-EDITORIAL-ASSESSMENT.csv",
+      "sha256": "2694ab9e0f955de60d012b94cd110e7daad60a09163fd3d457cf697f21497842",
+      "bytes": 7006
+    },
+    {
+      "path": "ENTERPRISE-ARCHITECTURE-COVERAGE-HEATMAP.png",
+      "sha256": "c1c01ed5e5f435e71f7b31573c8e5ad20760463b924dbd7cf7d6b2407f653819",
+      "bytes": 92186
+    },
+    {
+      "path": "ENTERPRISE-ARCHITECTURE-COVERAGE.csv",
+      "sha256": "2fba0f35ab47fce3b806dd95232765058408822efd65456641b086cc53cf9b6c",
+      "bytes": 2720
+    },
+    {
+      "path": "MERIDIAN-LIFECYCLE-COVERAGE.csv",
+      "sha256": "7fa49c550ca00a42385d60eb5e997c1f73cc9ac998ce256717f935e0348afacd",
+      "bytes": 3593
+    },
+    {
+      "path": "MISSING-CHAPTER-CONTENT-NOT-NEW-CHAPTERS.csv",
+      "sha256": "393163d0d3835020bf643912e5a9fafc9d0f11f50a3aa8e3d04fc8e310e0a9f7",
+      "bytes": 4411
+    },
+    {
+      "path": "MISSING-CHAPTER-REGISTER-58.csv",
+      "sha256": "baaf27fdb91752e41a69b46c378bdc022ffb368a5484b536c69a81d39d012f14",
+      "bytes": 12548
+    },
+    {
+      "path": "MISSING-DECISION-QUESTIONS-NOT-NEW-IDS.csv",
+      "sha256": "3176e582f327292bd4646737ab354083bfa729f744c75001945c6c20a180fa55",
+      "bytes": 3736
+    },
+    {
+      "path": "PHASE-2-INTELLECTUAL-COMPLETENESS-AND-PUBLISHER-READINESS-v1.0.md",
+      "sha256": "e2c355f372fe15f94f0ec1dcb12131f4c9461e075e12ff960b904a6879b099de",
+      "bytes": 58248
+    },
+    {
+      "path": "REFERENCE-ARCHITECTURE-VIEW-COVERAGE.csv",
+      "sha256": "9a94715eed8b858592023773667f54dca1dc3428bee4254109eb04e9b4b1717e",
+      "bytes": 1804
+    },
+    {
+      "path": "REVISED-PROGRAMME-MATURITY-SCORECARD.csv",
+      "sha256": "1a3869a9102696b3073b6feda7a0a22e649fb5dfd6a1e11c45a53d5bcec4cd31",
+      "bytes": 1049
+    },
+    {
+      "path": "TOP-25-INTELLECTUAL-AND-PUBLICATION-GAPS.csv",
+      "sha256": "8cceab99ebfee7abe81353ee75bb274a9791f2eaf270c93c35a0dde895023fbc",
+      "bytes": 4758
+    }
+  ],
+  "verification": {
+    "chapters": 58,
+    "atlas_decisions": 30,
+    "section_brief_records": 348,
+    "section_briefs_explicit": 330,
+    "meridian_coverage_rows": 12,
+    "existing_decision_question_gaps": 19,
+    "missing_teaching_elements": 25,
+    "top25_publication_gaps": 25,
+    "chapter_manuscripts_present": 1,
+    "publication_ready_chapters": 0
+  }
+}

@@ -1,13 +1,11 @@
-<PARSED TEXT FOR SHEET: 1 / 1 TABS
-TAB NAME: AUTHORING-READINESS-SCORECARD.csv>
-index,dimension,status,evidence,disposition,exit_action
-0,Frozen architectural ownership,SOURCE_STABLE,"4 structural layers, 8 control planes; source-linked audit",Ready for bounded reference,No source redesign
-1,Decision identity and catalogue,SOURCE_STABLE,30 original IDs and defaults retained,Ready for bounded reference,
-2,Atlas-to-chapter classification,BLOCKED_PENDING_REVIEW,26 catalogue/TOC crosswalk asymmetries,Not ready for mass authoring,Human reconcile chapter role classifications
-3,Chapter authoring scopes,PROPOSED_READY_TO_REVIEW,58 contracts; 58 purpose statements,Pilot preparation only,Human accepts lane and topical home
-4,Controlled terminology,BLOCKED_PENDING_ERRATA,24 Phase3 audited terms and Style Bible navigation discrepancies,Pilot needs checks,Existing errata approval; no silent frozen edits
-5,Meridian references,CONDITIONAL,15 event records; event-decision mapping inferred,Safe if explicitly synthetic,Verify original frozen event and evidence anchor
-6,Evidence classification,PROPOSED_READY_TO_REVIEW,15 scoped categories; referenced != implemented != approved,Ready for sample lint,Qualify claims and real approvals
-7,AI authoring control,NOT_ENFORCED,Scope/risk assertions specified; not wired into CI,Manual review only,Enforcement and negative tests
-8,Independent two-author dry run,NOT_RUN,No human observed scores supplied,Blocks mass authoring,Run pilot under existing independent validation programme
-9,Mass-production authoring readiness,NO_GO,Unresolved authority and untested cross-author stability,Do not scale,Resolve critical blockers and record human acceptance
+dimension,status,evidence,disposition,exit_action
+Frozen architectural ownership,SOURCE_STABLE,"4 structural layers, 8 control planes; source-linked audit",Ready for bounded reference,No source redesign
+Decision identity and catalogue,SOURCE_STABLE,30 original IDs and defaults retained,Ready for bounded reference,None
+Atlas-to-chapter classification,BLOCKED_PENDING_REVIEW,26 catalogue/TOC crosswalk asymmetries,Not ready for mass authoring,Human reconcile chapter role classifications
+Chapter authoring scopes,PROPOSED_READY_TO_REVIEW,58 contracts; 58 purpose statements,Pilot preparation only,Human accepts lane and topical home
+Controlled terminology,BLOCKED_PENDING_ERRATA,24 Phase3 audited terms and Style Bible navigation discrepancies,Pilot needs checks,Existing errata approval; no silent frozen edits
+Meridian references,CONDITIONAL,15 event records; event-decision mapping inferred,Safe if explicitly synthetic,Verify original frozen event and evidence anchor
+Evidence classification,PROPOSED_READY_TO_REVIEW,15 scoped categories; referenced != implemented != approved,Ready for sample lint,Qualify claims and real approvals
+AI authoring control,NOT_ENFORCED,Scope/risk assertions specified; not wired into CI,Manual review only,Enforcement and negative tests
+Independent two-author dry run,NOT_RUN,No human observed scores supplied,Blocks mass authoring,Run pilot under existing independent validation programme
+Mass-production authoring readiness,NO_GO,Unresolved authority and untested cross-author stability,Do not scale,Resolve critical blockers and record human acceptance

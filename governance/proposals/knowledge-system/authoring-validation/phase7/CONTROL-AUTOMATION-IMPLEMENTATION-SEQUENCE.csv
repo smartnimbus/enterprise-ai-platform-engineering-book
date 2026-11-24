@@ -1,13 +1,11 @@
-<PARSED TEXT FOR SHEET: 1 / 1 TABS
-TAB NAME: CONTROL-AUTOMATION-IMPLEMENTATION-SEQUENCE.csv>
-index,priority,work,dependencies,mode,state,acceptance_limit
-0,P0,Keep Phase5 v1 suite green; v2 22-case regression,Existing lint and source files,Automated,Done locally; 18/18 + 4/4,Not production integrated
-1,P0,Immutable source and chapter-title checks,Frozen SHA manifest/contract,Automated,Prototype,Human approves baseline
-2,P0,Structured evidence claim cards for high-stakes assertions,"Claim-id actor action status evidence, revision",Hybrid,Specified only,Do not claim as implemented
-3,P0,A/B/C sealed submission capture,Sealed prompt packs and independent workspaces,Hybrid,Not run,Human recruited participant and reviewer
-4,P1,Clause-aware authority claim extractor,"Per-claim subject, verb, object, negation scope",Reviewer-assisted,Not implemented,Compare to crosswalk
-5,P1,Source-driven Meridian state machine validation,Pinned event actor/receipt & state table,Automated + reviewer,Not implemented,Negative tests + provenance
-6,P1,Atlas exact default quote assertions,Source exact byte spans,Automated,Not implemented,Human judges paraphrase equivalence
-7,P1,Cross-manuscript claim diff,Typed decision/subject and event joins,Reviewer-assisted,Not implemented,No AI majority rule
-8,P2,CI release gate and reporting,Approved gate state and reviewer data,Hybrid,Not implemented,Cannot merge without qualified approval
-9,P2,Held-out mutation corpus from independent reviewer,Novel paraphrases and counterexamples,Independent evaluation,Not run,Avoid in-sample leakage
+priority,work,dependencies,mode,state,acceptance_limit
+P0,Keep Phase5 v1 suite green; v2 22-case regression,Existing lint and source files,Automated,Done locally; 18/18 + 4/4,Not production integrated
+P0,Immutable source and chapter-title checks,Frozen SHA manifest/contract,Automated,Prototype,Human approves baseline
+P0,Structured evidence claim cards for high-stakes assertions,"Claim-id actor action status evidence, revision",Hybrid,Specified only,Do not claim as implemented
+P0,A/B/C sealed submission capture,Sealed prompt packs and independent workspaces,Hybrid,Not run,Human recruited participant and reviewer
+P1,Clause-aware authority claim extractor,"Per-claim subject, verb, object, negation scope",Reviewer-assisted,Not implemented,Compare to crosswalk
+P1,Source-driven Meridian state machine validation,Pinned event actor/receipt & state table,Automated + reviewer,Not implemented,Negative tests + provenance
+P1,Atlas exact default quote assertions,Source exact byte spans,Automated,Not implemented,Human judges paraphrase equivalence
+P1,Cross-manuscript claim diff,Typed decision/subject and event joins,Reviewer-assisted,Not implemented,No AI majority rule
+P2,CI release gate and reporting,Approved gate state and reviewer data,Hybrid,Not implemented,Cannot merge without qualified approval
+P2,Held-out mutation corpus from independent reviewer,Novel paraphrases and counterexamples,Independent evaluation,Not run,Avoid in-sample leakage

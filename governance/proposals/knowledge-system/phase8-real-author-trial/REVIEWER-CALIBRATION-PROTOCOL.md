@@ -1,13 +1,12 @@
-# Reviewer calibration — blind execution protocol
+# Independent reviewer calibration — execution instructions
 
-The controlled injection catalogue contains 21 deliberately unsafe claims: one Critical, one Major and one Minor in each of seven families: ownership drift; Atlas reinterpretation; Meridian evidence inflation; terminology drift; lifecycle misuse; delegated authority expansion; chapter-scope violation.
+Use the existing Phase 7 review rules; this pack provides calibration cases and worksheets, not a new review authority.
 
-**Examiner-only restriction:** The labelled case text and outcomes must remain outside the public GitHub repository. Prepare a blinded set with opaque cases and at least seven independently verified safe controls; supply the reviewer only approved source bytes, candidate text, the rubric and blank worksheet. Record exact case order and SHA-256.
+**Answer-key separation:** `examiner/DEFECT-EXAMINER-KEY-RESTRICTED.csv` is NOT a participant resource, NOT a GitHub-public asset, and NOT a held-out benchmark. Examiner prepares blinded, shuffled cases with opaque IDs and controls; only the examiner retains the mapping and original unmodified snippets. The calibration set has seven Critical, seven Major and seven Minor deliberately unsafe claims, distributed across seven risk classes. Add at least seven independently sourced clean controls and a genuinely unseen holdout before relying on reviewer performance.
 
-The reviewer records source citation, quoted span, specific mechanism violated, severity, proposed correction, and active minutes per case; absence of evidence cannot be guessed into PASS. Score once after locking original worksheets. A generic alarm without a supported defect/source anchor does not receive a correct detection.
+Reviewer sees pinned frozen source bundle, blinded excerpts, source citation requirements and `SEMANTIC-REVIEW-WORKSHEET.csv`; not earlier authors' outputs, the answer key or future holdout. Record per-case exact span, authoritative source, explanation, severity, corrected statement, confidence and active minutes. After all answers are locked, examiner reveals scores and preserves misses and false positives.
 
-Required calibration: **7/7 Critical**, **7/7 Major** (since >=90% of seven), **>=6/7 Minor**, and **<=10% false positives** on safe controls. A missed Critical is a failed calibration regardless of total score. Retests use a different independently authored blind set, not the same visible corrections.
+## Scoring
+Five dimensions total 100: Atlas fidelity 25; ownership 25; evidence 25; chapter-contract scope 15; semantic correctness 10. Case detection requires identifying the real defect, citing the source, and assigning appropriate severity—not a vague “might be wrong.” Critical miss = calibration NO GO regardless of score. With seven Major cases, >=90% means 7/7; with seven Minor, >=80% means 6/7. Safe-case false positives must not exceed 10%; sample count and raw denominators must be reported.
 
-Five scored dimensions total 100: Atlas fidelity 25, ownership fidelity 25, evidence fidelity 25, chapter contract 15, semantic correctness 10. Hard-stop Critical findings override numeric scores.
-
-Calibration tests reviewer discrimination, not independent authorship reproducibility. Keep original answers, misses and times.
+No recoding after seeing the answer key counts as first-try success. A failed reviewer must practise on disclosed cases and then attempt fresh, independently constructed blinded material. Calibration demonstrates reviewer discrimination, not three-author reproducibility.

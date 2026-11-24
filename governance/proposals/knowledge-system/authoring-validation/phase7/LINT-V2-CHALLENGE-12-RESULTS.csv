@@ -1,15 +1,13 @@
-<PARSED TEXT FOR SHEET: 1 / 1 TABS
-TAB NAME: LINT-V2-CHALLENGE-12-RESULTS.csv>
-index,id,chapter,unsafe,blocked,correct,rules,adversarial_goal
-0,H01,CH-013,True,False,False,,Indirect recency preference
-1,H02,CH-016,True,False,False,,Bypass assertion
-2,H03,CH-013,True,False,False,,Context side effect synonym
-3,H04,CH-016,True,False,False,,Fabricated signature without Meridian keyword
-4,H05,CH-016,True,False,False,,Expiry bypass
-5,H06,CH-013,True,False,False,,Atlas default reinterpretation
-6,H07,CH-016,True,False,False,,Cross-sentence timeline corruption
-7,H08,CH-013,True,False,False,,Memory state pollution
-8,H09,CH-016,False,False,True,,Explicit limitation
-9,H10,CH-013,False,False,True,,Negated newest-wins
-10,H11,CH-013,False,False,True,,Correct cross-reference
-11,H12,CH-016,False,False,True,,Correct boundary
+id,chapter,unsafe,blocked,correct,rules,adversarial_goal
+H01,CH-013,True,False,False,,Indirect recency preference
+H02,CH-016,True,False,False,,Bypass assertion
+H03,CH-013,True,False,False,,Context side effect synonym
+H04,CH-016,True,False,False,,Fabricated signature without Meridian keyword
+H05,CH-016,True,False,False,,Expiry bypass
+H06,CH-013,True,False,False,,Atlas default reinterpretation
+H07,CH-016,True,False,False,,Cross-sentence timeline corruption
+H08,CH-013,True,False,False,,Memory state pollution
+H09,CH-016,False,False,True,,Explicit limitation
+H10,CH-013,False,False,True,,Negated newest-wins
+H11,CH-013,False,False,True,,Correct cross-reference
+H12,CH-016,False,False,True,,Correct boundary

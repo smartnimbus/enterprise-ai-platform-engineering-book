@@ -1,0 +1,38 @@
+{
+  "source_files": [
+    {
+      "relative_path": "phase5_validation/lint_manuscript.py",
+      "sha256": "a00ed6abf545a0deba70a761afdd4c6a9485179eff92b1e62b0a3d8709f071b4"
+    },
+    {
+      "relative_path": "phase5_validation/CHAPTER-VALIDATION-GATES.csv",
+      "sha256": "d85de8468075d214e58ef4f3aafa4758ee18ab1b8f3f575039a43c92ea28a04d"
+    },
+    {
+      "relative_path": "phase6_trial/reviewer/LINT-MUTATION-BENCHMARK.csv",
+      "sha256": "308b5ce6bd999e9f90507c96798fa1048bcd59df1eb534979f17e29906e024e2"
+    },
+    {
+      "relative_path": "phase6_trial/reviewer/run_review.py",
+      "sha256": "be43460226c8a4125cdd225d770207725c49fc6ba3d8652ac0823e34473e257a"
+    },
+    {
+      "relative_path": "phase4_authoring/CHAPTER-AUTHORING-CONTRACTS-58.csv",
+      "sha256": "de6f4e312dcde5ce5cee1f79ae4a535b45093c4967b5195a8369d5373d5e9ac9"
+    },
+    {
+      "relative_path": "phase7_hardening/lint_v2.py",
+      "sha256": "44824b0f971c8db3e13e5463d4ba5b3ba630d80f23d7b659c845fdf4b4df030f"
+    },
+    {
+      "relative_path": "phase7_hardening/LINT-V2-CHALLENGE-12-RESULTS.csv",
+      "sha256": "d1546a3173ca5bb67f0849e55d998966e8eac0979f15bca40a275f54e2ac0fb3"
+    }
+  ],
+  "phase5_baseline_tests": "18 passed in preceding phase, not re-run within this package",
+  "phase7_unit_test_suite": "6 test methods passed",
+  "phase7_mutation_regression": "18/18 unsafe blocked and 4/4 safe allowed; fitted in sample",
+  "phase7_challenge": "0/8 unsafe blocked; 4/4 safe allowed; exploratory negative evidence",
+  "human_independent_trial": "NOT_RUN",
+  "approval": "NOT_GRANTED"
+}

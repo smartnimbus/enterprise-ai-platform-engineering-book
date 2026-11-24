@@ -1,0 +1,22 @@
+{
+  "chapter": "CH-016",
+  "status": "DRAFT_LINT_PASS_NOT_APPROVED",
+  "diagnostics": [
+    {
+      "rule": "L004",
+      "severity": "WARN",
+      "message": "Check deployment validation claim against independent evidence",
+      "line": 57,
+      "excerpt": "| Direct bypass blocked | `MF-EVT-013`, `MF-EVD-DN-001.negative_bypass_test` | Synthetic egress negative test | All production bypass routes proven blocked |"
+    }
+  ],
+  "counts": {
+    "BLOCK": 0,
+    "WARN": 1
+  },
+  "limits": [
+    "Mechanical scanning cannot detect every semantic contradiction",
+    "No review, rights or approval is inferred",
+    "Frozen source bytes must be checked separately"
+  ]
+}

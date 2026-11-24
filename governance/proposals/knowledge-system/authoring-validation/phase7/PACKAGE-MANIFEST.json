@@ -1,0 +1,108 @@
+{
+  "package": "PHASE-7-CONTROL-SYSTEM-HARDENING-v1.0",
+  "generated_on": "2026-11-24",
+  "files": [
+    {
+      "name": "CONTROL-AUTOMATION-IMPLEMENTATION-SEQUENCE.csv",
+      "sha256": "bf7088ecc9d8b8c45e38c62f69dc338c2ba56e45382718d628f444a57f05759e",
+      "bytes": 1465
+    },
+    {
+      "name": "DEFECT-PREVENTION-MATRIX.csv",
+      "sha256": "154bc6396c72cf2ee0f98af5ac29952251675057455ba528363be69f182bde6a",
+      "bytes": 1865
+    },
+    {
+      "name": "HARDENED-G0-G6-QUALITY-GATES.csv",
+      "sha256": "f91ca0ddb60b516dfcb98d0c18cf4adca2e154fa55d1c223484c77c1406127d3",
+      "bytes": 2744
+    },
+    {
+      "name": "INDEPENDENT-AUTHOR-TRIAL-SPECIFICATION.md",
+      "sha256": "ead68654fd6ca7a1eaca259f39b5476a932324d335f84fbbdbe407cd2f87fd43",
+      "bytes": 10012
+    },
+    {
+      "name": "LINT-V2-BASELINE-22-RESULTS.csv",
+      "sha256": "2687da5998d9de9ac459f6b085706748f34f525a2c20f9dc59d22f93609ff184",
+      "bytes": 1424
+    },
+    {
+      "name": "LINT-V2-BENCHMARK-REPORT.json",
+      "sha256": "adf788a58a1f1dfd43f1b53ffb5719c6a44676e6030d10e453649231c16afd4e",
+      "bytes": 584
+    },
+    {
+      "name": "LINT-V2-CHALLENGE-12-RESULTS.csv",
+      "sha256": "d1546a3173ca5bb67f0849e55d998966e8eac0979f15bca40a275f54e2ac0fb3",
+      "bytes": 721
+    },
+    {
+      "name": "LINT-V2-CHALLENGE-REPORT.json",
+      "sha256": "b98322c3e6490b3fb9a6de9e6268a98863fe95016c2539de5f860007ff330e9a",
+      "bytes": 1934
+    },
+    {
+      "name": "MISSED-MUTATION-ROOT-CAUSE-7.csv",
+      "sha256": "364de146bc08fff32394fda01c763a34f4215795ac38369685de90a9eeb22411",
+      "bytes": 3452
+    },
+    {
+      "name": "PHASE-7-CONTROL-HARDENING-AND-INDEPENDENT-VALIDATION-v1.0.md",
+      "sha256": "2e59d63f952608856caa85f6b39843bbac26c08064cb8186c0733fceba192365",
+      "bytes": 14787
+    },
+    {
+      "name": "README.md",
+      "sha256": "f73e5d499a41abde97b05c484fe66c884598eda2e3e18fcffe96d354b1a80600",
+      "bytes": 1441
+    },
+    {
+      "name": "SCALED-AUTHORING-RISK-COMPARISON.csv",
+      "sha256": "45a1b40906abe9262e5447ebe8ba6c816a3e02fd9030c85b8867d648cbfda849",
+      "bytes": 858
+    },
+    {
+      "name": "SEALED-TRIAL-RUN-RECORD-TEMPLATE.json",
+      "sha256": "b54dc514345e90abd036286c5122406c45d19e31e6fec744fd1d7e3b51283117",
+      "bytes": 991
+    },
+    {
+      "name": "SEMANTIC-VALIDATION-CONTROL-MATRIX.csv",
+      "sha256": "2f5e8d33451a5d3ea16dc7ba89cfa721f1781436b739935904c751133b83c40f",
+      "bytes": 3005
+    },
+    {
+      "name": "SOURCE-AND-TEST-MANIFEST.json",
+      "sha256": "fa45fd265b6c20470b753bae4a9082f05df1c0417e04fe7c2afdcb45f6047f0d",
+      "bytes": 1582
+    },
+    {
+      "name": "benchmark.py",
+      "sha256": "3eb6095b3f9e4a0f98f3a11bf05698a4cb9d7b3d7aac8ea34ab81184497de04a",
+      "bytes": 1989
+    },
+    {
+      "name": "build_deliverables.py",
+      "sha256": "52bd3404d704b465178d8470d4966f68aff14df21dc54b22ec453bcc6045f28e",
+      "bytes": 18225
+    },
+    {
+      "name": "heldout_challenge.py",
+      "sha256": "fce3fe0dcfccdd2e3fd0c500afca4e4864ac32af1c4cd262e102d782346a0a6b",
+      "bytes": 3232
+    },
+    {
+      "name": "lint_v2.py",
+      "sha256": "44824b0f971c8db3e13e5463d4ba5b3ba630d80f23d7b659c845fdf4b4df030f",
+      "bytes": 11067
+    },
+    {
+      "name": "test_lint_v2.py",
+      "sha256": "dc474b74f2e947cb530cf2d8c2c5e0e2a88469abd3655f9d04e50edd486acc9d",
+      "bytes": 2340
+    }
+  ],
+  "frozen_sources_changed": false,
+  "independent_validation_run": false
+}

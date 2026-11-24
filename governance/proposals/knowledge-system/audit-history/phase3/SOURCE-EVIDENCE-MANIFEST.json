@@ -1,0 +1,61 @@
+{
+  "audit": "PHASE-3 FRAMEWORK INTEGRITY",
+  "method": "immutable read-only source audit",
+  "inputs": [
+    {
+      "file": "Enterprise_AI_Agent_Fabric_Decision_Catalogue.csv",
+      "sha256": "22d705952471d0444955f95927ba88a2cbc9a6ccd691a5f1a88d5a0f20c68079",
+      "bytes": 20134
+    },
+    {
+      "file": "Enterprise_AI_Agent_Fabric_Revised_TOC.csv",
+      "sha256": "2866cc73850a55d98d0626c7675f542bae2a38e16a1338d49790d6a49fbafe72",
+      "bytes": 10032
+    },
+    {
+      "file": "Enterprise_AI_Agent_Fabric_Development_Blueprint.md",
+      "sha256": "3d928bdf0f1dc0e523fd91f2478fc03f75b148e26ad60201504d26b5cd0a28f8",
+      "bytes": 170653
+    },
+    {
+      "file": "style-v1.2.md",
+      "sha256": "e74e928e0824ea1131553af96c66728931b878f11f401e933dc8aa42287db15f",
+      "bytes": 71011
+    },
+    {
+      "file": "Enterprise_AI_Agent_Fabric_Meridian_Timeline.csv",
+      "sha256": "e924dfeba28b4a2a1d49c86bc5eb5a1b9e7e410dc224abbf2e6061da8fb3bc78",
+      "bytes": 3112
+    },
+    {
+      "file": "Meridian_Evidence_Fixture_v1.0.zip",
+      "sha256": "39e403a98b4ebff48a4cc6d0a1a3ede8b9aa7b78277ff0fef577631689606d5c",
+      "bytes": 28005
+    },
+    {
+      "file": "chapter-16-gateway-control-plane-v1.0.md",
+      "sha256": "ebf587fa9430cd6b5018e2c09b1c528cc080711f96fac3ad325670f54c58fd63",
+      "bytes": 20047
+    },
+    {
+      "file": "Chapter_13_Authoring_Blueprint_v1.0.md",
+      "sha256": "cefc1752a6ed16d01e61d3c604a8705f305ffffe8912481c01ade9c6ed4738cd",
+      "bytes": 43249
+    },
+    {
+      "file": "Chapter_16_Authoring_Blueprint_v1.0.md",
+      "sha256": "9f8d6904bc3ece032ed9fa659d02ccc449ef84e054c3af15fa24c1af06e087d7",
+      "bytes": 34929
+    },
+    {
+      "file": "independent-validation/SCENARIO-CATALOGUE.csv",
+      "sha256": "dc26c3cf5c17f994bf21f47cbb7f1eea47775afa72d0046c859e1db46d09e1c3",
+      "bytes": 2417
+    }
+  ],
+  "notes": [
+    "No source modified",
+    "The ZIP fixture was unpacked for validation only; frozen ZIP bytes untouched",
+    "Machine-generated source link crosswalks contain editorial inferences and are not approved authority."
+  ]
+}

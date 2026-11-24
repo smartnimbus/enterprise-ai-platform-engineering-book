@@ -1,2 +1,2 @@
-submission_sha,case_id,reviewer_pseudonym,artifact,dimension,quoted_span,source_anchor,finding,severity,active_minutes,proposed_correction,disposition
-<sha256>,<opaque-id>,<reviewer-id>,CH13|CH16|F1,atlas|ownership|evidence|chapter|semantic,<unedited-quote>,<path:line/hash>,<source-grounded-finding>,Critical|Major|Minor|None,,<bounded-fix>,FINDING|CLEAR|INSUFFICIENT_EVIDENCE
+submission_sha,case_id,reviewer_id,artifact,dimension,quoted_span,source_anchor,finding,severity,active_minutes,proposed_correction,disposition
+<sha256>,<blind-id>,<pseudonym>,CH13|CH16|F1,atlas|ownership|evidence|chapter|semantic,<exact passage>,<file:line / event id>,<reason>,Critical|Major|Minor|None,,,FINDING|CLEAR|NOT_ENOUGH_EVIDENCE

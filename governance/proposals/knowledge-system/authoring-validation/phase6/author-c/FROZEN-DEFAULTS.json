@@ -1,0 +1,20 @@
+{
+  "D-10": {
+    "title": "Authorise mutable tool actions",
+    "default": "Default to Gateway-enforced action authorisation with a signed, scoped receipt and idempotency key before every external mutation.",
+    "reversibility": "Two-way door",
+    "chapters": "12; 15; 16; 27; 48"
+  },
+  "D-14": {
+    "title": "Reconcile semantic identities",
+    "default": "Default to canonical IDs with source lineage and explicit unresolved-conflict states; never silently choose the newest record as truth.",
+    "reversibility": "Two-way door",
+    "chapters": "13; 18; 22; 28"
+  },
+  "D-18": {
+    "title": "Prove Gateway non-bypassability",
+    "default": "Default to mandatory PEP checks on mutable external actions, enforced by credentials, routing policy and egress controls.",
+    "reversibility": "One-way door",
+    "chapters": "10; 12; 16; 27; 42"
+  }
+}

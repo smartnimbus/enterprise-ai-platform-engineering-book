@@ -1,6 +1,6 @@
-dimension,max_points,source_of_truth,critical_override
-Atlas fidelity,25,Frozen D-10 D-14 D-18 defaults,YES
-Ownership fidelity,25,Frozen E/T/C/L and eight planes,YES
-Evidence fidelity,25,Meridian source/event and evidence grade,YES
-Chapter contract,15,Frozen F6 F7 F1 and Phase 4 contracts,YES
-Semantic correctness,10,Frozen source causal and timeline claims,YES
+dimension,max_points,objective_standard,blocking
+Atlas fidelity,25,Exact frozen defaults and source-supported paraphrase,Any modified default
+Ownership fidelity,25,"Component, plane and side-effect ownership matches frozen responsibility",Unsafe responsibility inversion
+Evidence fidelity,25,Every consequential observation cites correct event and grade,Synthetic as deployed proof or fabricated result
+Chapter contract,15,"F6/F7/F1, frozen titles, chapter scope, distinct teaching outcome",Source rewrite or other chapter ownership usurped
+Semantic correctness,10,"Causal, stage and chronology claims faithfully represented",Unsafe contradiction

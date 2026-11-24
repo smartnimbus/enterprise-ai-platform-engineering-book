@@ -1,0 +1,15 @@
+{
+  "decisions": 30,
+  "chapters": 58,
+  "stages": 11,
+  "playbooks": 10,
+  "fixture_events": 15,
+  "decision_catalogue_chapter_links": 147,
+  "decision_toc_chapter_links": 263,
+  "decisions_with_index_asymmetry": 26,
+  "explicit_see_also_edges": 358,
+  "inferred_teaching_edges": 51,
+  "fixture_artefacts": 6,
+  "source_fixture_validator": "PASS 27/27",
+  "run_status": "AUDIT ONLY; NO INDEPENDENT HUMAN VALIDATION"
+}

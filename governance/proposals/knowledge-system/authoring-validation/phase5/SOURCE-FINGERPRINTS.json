@@ -1,0 +1,45 @@
+{
+  "snapshot_date": "2026-11-24",
+  "sources": {
+    "Enterprise_AI_Agent_Fabric_Revised_TOC.csv": {
+      "sha256": "2866cc73850a55d98d0626c7675f542bae2a38e16a1338d49790d6a49fbafe72",
+      "size_bytes": 10032
+    },
+    "Enterprise_AI_Agent_Fabric_Decision_Catalogue.csv": {
+      "sha256": "22d705952471d0444955f95927ba88a2cbc9a6ccd691a5f1a88d5a0f20c68079",
+      "size_bytes": 20134
+    },
+    "style-v1.2.md": {
+      "sha256": "e74e928e0824ea1131553af96c66728931b878f11f401e933dc8aa42287db15f",
+      "size_bytes": 71011
+    },
+    "chapter-16-gateway-control-plane-v1.0.md": {
+      "sha256": "ebf587fa9430cd6b5018e2c09b1c528cc080711f96fac3ad325670f54c58fd63",
+      "size_bytes": 20047
+    },
+    "Chapter_13_Authoring_Blueprint_v1.0.md": {
+      "sha256": "cefc1752a6ed16d01e61d3c604a8705f305ffffe8912481c01ade9c6ed4738cd",
+      "size_bytes": 43249
+    },
+    "Chapter_16_Authoring_Blueprint_v1.0.md": {
+      "sha256": "9f8d6904bc3ece032ed9fa659d02ccc449ef84e054c3af15fa24c1af06e087d7",
+      "size_bytes": 34929
+    },
+    "phase3_integrity/DECISION-TRACEABILITY-30.csv": {
+      "sha256": "ff1aafd825e6b1f45c83efa40a83581078341cd9607958e2d610b047f4b3447b",
+      "size_bytes": 13464
+    },
+    "phase3_integrity/CONTRADICTION-AND-RISK-REGISTER.csv": {
+      "sha256": "d9dd9e68b812f8b0d103bb04ea03c246c4f1bbedc4ce901d797ddd9ae7482a45",
+      "size_bytes": 13618
+    },
+    "phase4_authoring/DECISION-AUTHORITY-30.csv": {
+      "sha256": "9ad6c461bb940c1bdff5038b76167fce935eda816f678407dcbb1a9ad62809f4",
+      "size_bytes": 15431
+    },
+    "phase4_authoring/CHAPTER-AUTHORING-CONTRACTS-58.csv": {
+      "sha256": "de6f4e312dcde5ce5cee1f79ae4a535b45093c4967b5195a8369d5373d5e9ac9",
+      "size_bytes": 44351
+    }
+  }
+}

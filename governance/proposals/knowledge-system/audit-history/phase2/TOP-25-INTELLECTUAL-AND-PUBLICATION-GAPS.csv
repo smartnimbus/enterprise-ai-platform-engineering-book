@@ -1,28 +1,26 @@
-<PARSED TEXT FOR SHEET: 1 / 1 TABS
-TAB NAME: TOP-25-INTELLECTUAL-AND-PUBLICATION-GAPS.csv>
-index,priority,missing_asset,domain,chapters,observed_gap,completion_evidence
-0,P0,Complete manuscripts for 57 remaining chapters,Editorial,"Ch1–15,17–58",Only Ch16 standalone draft; 58 total,One full manuscript per numbered chapter
-1,P0,Independent technical review and production editing for all chapters,Editorial,All 58,No accepted chapter proofs,Signed chapter acceptance with source/cross-ref/accessibility checks
-2,P0,Finish F1 production pages for 28 remaining decisions,Atlas,Ch23,"30 catalogue records, 2 standalone F1 pages",Thirty correct one-page pages without frozen default edits
-3,P0,Publication-quality context chapter,Educational,Ch13,"Blueprint only, no full F6 manuscript",F6 headings + provenance/conflict examples reviewed
-4,P0,Publication-quality Gateway chapter,Educational,Ch16,"Draft only, no independent approval","F7 manuscript, negative-test limitations, external tech review"
-5,P0,Complete evidence specimens in Chapter 57,Evidence,Ch57,"Six synthetic records exist, full delivery portfolio not printed",Joined print-ready worked specimens without false production claims
-6,P0,Whole-book dependency / terminology / figure crosswalk,Editorial,All chapters,"Blueprint lists references, some style chapter refs stale",All 58 references resolve under frozen TOC with one controlled vocabulary
-7,P0,Proof of human-readable method through independent trial,Method,"Ch23,41–50,57","Method specified, no independent practitioner results","2 independent architects + learner complete bounded tasks, defects logged"
-8,P0,"Rights, source citations and legal/technical fact-check",Publishing,"Ch53–58, entire book",Historic archive/industry sources not all rights cleared,Documented rights and verified up-to-date citations for every public claim
-9,P0,Publisher-facing sample and complete proposal,Publishing,"Ch13,16,23,57","Proposal draft exists, no signed reviewer acceptance",Apress-ready submission and commissioned editor feedback
-10,P1,Business capability outcome and value-stream mapping,Enterprise architecture,"Ch1,3,6,24,35,41",No full business capability specimen,One full business-to-platform-to-proof trace
-11,P1,Concrete logical information/data contract and movement,Information/data,"Ch7,13,21,28,43",Concepts documented but partial data semantics and physical flows,"Record-of-authority, storage, lineage, retention and dispute mapping"
-12,P1,Physical/deployment deployment specimen,Technology,"Ch10,11,26,29,42",Vendor-neutral roles; no reference build,One annotated optional environment deployment and failure tests
-13,P1,Signed delegation and revocation testing,Security,"Ch14–16,27,48",Fixture explicitly unsigned synthetic,Runnable signature/expiry/revocation with failure evidence
-14,P1,PEP/egress/credential isolation test matrix,Security,"Ch11–12,16,42",One synthetic bypass outcome only,"Direct and indirect route negative tests, logs and limitations"
-15,P1,Offline/online regression and dataset stewardship,Verification,"Ch18,33,47",Single hard-block release failure case,"Versioned evaluation suite with gold labels, false positives and canary"
-16,P1,"End-to-end normal, retry, resume, failure tracing",Runtime,"Ch11–18,36,40","Denial path strong, normal/resume weak",Correlated four-path sequence and versioned evidence samples
-17,P1,Tenancy isolation beyond retrieval,Security/data,"Ch7,11,13,21,28",Only index/source ACL fault simulated,"Cache, queue, logs, memory, egress and deletion negative tests"
-18,P1,Meridian operations and retirement teaching specimens,Lifecycle,"Ch32–34,36–40,49–50",Fixture covers limited incident/release and no retirement events,External synthetic worked operations/exit case without modifying fixture
-19,P1,Measured unit economics and deterministic comparison,FinOps,"Ch4,8,20,38,41,54",No actual cost benchmarks,Reproducible workload model and safe-success cost sensitivity
-20,P1,Supplier/tool interoperability trust example,Interoperability,"Ch12,22,53","Protocols described, no versioned conformance evidence",Current-version MCP/A2A test and trust/permission matrix
-21,P1,Audience prerequisite and skill assessment,Educational,"Ch1,10,23,41,51",Reading paths outline only,Learner role prerequisites and sample comprehension assessment
-22,P1,Incident command/evidence custody and verified recovery,Operations,"Ch36–37,40,48","Roles and playbooks described, not exercised",Runbook + simulated incident evidence/recovery review
-23,P2,Industry overlays scoped with sourced applicability,Adoption,"Ch55,58",No complete current regulation mappings,"Sector matrices with jurisdiction, as-of date and source"
-24,P2,"Accessible, reproducible visual and code examples",Editorial/engineering,All chapters,"Figures planned, most not produced","Source-controlled diagrams, alt text, executable snippet tests"
+priority,missing_asset,domain,chapters,observed_gap,completion_evidence
+P0,Complete manuscripts for 57 remaining chapters,Editorial,"Ch1–15,17–58",Only Ch16 standalone draft; 58 total,One full manuscript per numbered chapter
+P0,Independent technical review and production editing for all chapters,Editorial,All 58,No accepted chapter proofs,Signed chapter acceptance with source/cross-ref/accessibility checks
+P0,Finish F1 production pages for 28 remaining decisions,Atlas,Ch23,"30 catalogue records, 2 standalone F1 pages",Thirty correct one-page pages without frozen default edits
+P0,Publication-quality context chapter,Educational,Ch13,"Blueprint only, no full F6 manuscript",F6 headings + provenance/conflict examples reviewed
+P0,Publication-quality Gateway chapter,Educational,Ch16,"Draft only, no independent approval","F7 manuscript, negative-test limitations, external tech review"
+P0,Complete evidence specimens in Chapter 57,Evidence,Ch57,"Six synthetic records exist, full delivery portfolio not printed",Joined print-ready worked specimens without false production claims
+P0,Whole-book dependency / terminology / figure crosswalk,Editorial,All chapters,"Blueprint lists references, some style chapter refs stale",All 58 references resolve under frozen TOC with one controlled vocabulary
+P0,Proof of human-readable method through independent trial,Method,"Ch23,41–50,57","Method specified, no independent practitioner results","2 independent architects + learner complete bounded tasks, defects logged"
+P0,"Rights, source citations and legal/technical fact-check",Publishing,"Ch53–58, entire book",Historic archive/industry sources not all rights cleared,Documented rights and verified up-to-date citations for every public claim
+P0,Publisher-facing sample and complete proposal,Publishing,"Ch13,16,23,57","Proposal draft exists, no signed reviewer acceptance",Apress-ready submission and commissioned editor feedback
+P1,Business capability outcome and value-stream mapping,Enterprise architecture,"Ch1,3,6,24,35,41",No full business capability specimen,One full business-to-platform-to-proof trace
+P1,Concrete logical information/data contract and movement,Information/data,"Ch7,13,21,28,43",Concepts documented but partial data semantics and physical flows,"Record-of-authority, storage, lineage, retention and dispute mapping"
+P1,Physical/deployment deployment specimen,Technology,"Ch10,11,26,29,42",Vendor-neutral roles; no reference build,One annotated optional environment deployment and failure tests
+P1,Signed delegation and revocation testing,Security,"Ch14–16,27,48",Fixture explicitly unsigned synthetic,Runnable signature/expiry/revocation with failure evidence
+P1,PEP/egress/credential isolation test matrix,Security,"Ch11–12,16,42",One synthetic bypass outcome only,"Direct and indirect route negative tests, logs and limitations"
+P1,Offline/online regression and dataset stewardship,Verification,"Ch18,33,47",Single hard-block release failure case,"Versioned evaluation suite with gold labels, false positives and canary"
+P1,"End-to-end normal, retry, resume, failure tracing",Runtime,"Ch11–18,36,40","Denial path strong, normal/resume weak",Correlated four-path sequence and versioned evidence samples
+P1,Tenancy isolation beyond retrieval,Security/data,"Ch7,11,13,21,28",Only index/source ACL fault simulated,"Cache, queue, logs, memory, egress and deletion negative tests"
+P1,Meridian operations and retirement teaching specimens,Lifecycle,"Ch32–34,36–40,49–50",Fixture covers limited incident/release and no retirement events,External synthetic worked operations/exit case without modifying fixture
+P1,Measured unit economics and deterministic comparison,FinOps,"Ch4,8,20,38,41,54",No actual cost benchmarks,Reproducible workload model and safe-success cost sensitivity
+P1,Supplier/tool interoperability trust example,Interoperability,"Ch12,22,53","Protocols described, no versioned conformance evidence",Current-version MCP/A2A test and trust/permission matrix
+P1,Audience prerequisite and skill assessment,Educational,"Ch1,10,23,41,51",Reading paths outline only,Learner role prerequisites and sample comprehension assessment
+P1,Incident command/evidence custody and verified recovery,Operations,"Ch36–37,40,48","Roles and playbooks described, not exercised",Runbook + simulated incident evidence/recovery review
+P2,Industry overlays scoped with sourced applicability,Adoption,"Ch55,58",No complete current regulation mappings,"Sector matrices with jurisdiction, as-of date and source"
+P2,"Accessible, reproducible visual and code examples",Editorial/engineering,All chapters,"Figures planned, most not produced","Source-controlled diagrams, alt text, executable snippet tests"
