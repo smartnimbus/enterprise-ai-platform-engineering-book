@@ -1,0 +1,10 @@
+archive,sha256,archive_size_bytes,member_count,extracted_text_count,archive_class_counts,custody_status
+estate-pulse-main.zip,92a58a8e53a190215d17d4c72779b4cf2bdaf81cfb3557c340c226d10e5affc0,284456,167,155,"{""empty"": 9, ""nontext"": 3, ""source"": 155}",IMMUTABLE_ORIGINAL_NOT_UPLOADED
+estate-pulse.zip,92a58a8e53a190215d17d4c72779b4cf2bdaf81cfb3557c340c226d10e5affc0,284456,167,155,"{""empty"": 9, ""nontext"": 3, ""source"": 155}",IMMUTABLE_ORIGINAL_NOT_UPLOADED
+AEGIS.zip,50b30c701349927db60cf34c0050aeb44f2b6aa61f13782531d1b9c6c982e9a0,24312029,194,65,"{""development-metadata"": 115, ""empty"": 5, ""nontext"": 9, ""source"": 65}",IMMUTABLE_ORIGINAL_NOT_UPLOADED
+Kollab.zip,08cd2292c4dff6ddc13cc116d25aa30201df444a719fbe5a42365390ae4c4423,8469666,136,80,"{""empty"": 5, ""nontext"": 51, ""source"": 80}",IMMUTABLE_ORIGINAL_NOT_UPLOADED
+uaf.zip,ef92535c2ae9579dba3e46372bddbda04f44f6328dd85d45a0ecae1ed71ed689,192039966,467,346,"{""development-metadata"": 100, ""empty"": 5, ""nontext"": 2, ""oversize"": 14, ""source"": 346}",IMMUTABLE_ORIGINAL_NOT_UPLOADED
+MemOS-2026-05-21-09-53-51.7z,e2b4b6a40f7b16e35c9a6a8830091782f3906c20d573ac8fda8a27addb47cc94,143805070,3119,2551,"{""development-metadata"": 392, ""nontext"": 175, ""oversize"": 1, ""source"": 2551}",IMMUTABLE_ORIGINAL_NOT_UPLOADED
+workshop-2026-05-21-09-50-32.7z,809a0c398396dd2c2c46459ca29431529002f1ffc7ed62316c8296683cefc798,23802045,464,134,"{""development-metadata"": 320, ""nontext"": 7, ""oversize"": 3, ""source"": 134}",IMMUTABLE_ORIGINAL_NOT_UPLOADED
+agentic-enterprise-reference-architecture-complete-v2.zip,a302625188d6a68de9c822e8ce4e71c87923777cb38acc58ca41d33a27de8cc7,463349,373,370,"{""nontext"": 3, ""source"": 370}",IMMUTABLE_ORIGINAL_NOT_UPLOADED
+agentic-enterprise-reference-architecture-final-V2.zip,f4bd98365e7e49fc595d2d51d604dced5ce8c58524492582b6257bd7fd9a371e,461842,373,370,"{""nontext"": 3, ""source"": 370}",IMMUTABLE_ORIGINAL_NOT_UPLOADED
