@@ -1,0 +1,22 @@
+<PARSED TEXT FOR SHEET: 1 / 1 TABS
+TAB NAME: MISSING-DECISION-QUESTIONS-NOT-NEW-IDS.csv>
+index,question_id,missing_implementation_decision,existing_Atlas_decisions,existing_chapter_placement,required_content_or_test,priority,new_Atlas_id
+0,DQ-01,Deterministic task vs LLM vs agent choice,D-01;D-02;D-05;D-22,Ch2;Ch4;Ch8;Ch41;Ch54,"Three-way comparative workload, negative outcomes and total safe-success cost",Critical,NO—FROZEN
+1,DQ-02,"Cryptographic signature profile, key rotation and proof-of-possession",D-19;D-20;D-10,Ch15;Ch16;Ch27,Signed-token threat/verification examples separate from unsigned Meridian,Critical,NO—FROZEN
+2,DQ-03,Revocation during queued and resumed work,D-20;D-15;D-27,Ch14;Ch15;Ch36,State transitions with revoked token and blocked resume,Critical,NO—FROZEN
+3,DQ-04,"Cross-tenant cache, broker and vector index controls",D-04;D-11;D-25,Ch7;Ch13;Ch21;Ch28,Threat tests at all shared storage and cached retrieval boundaries,Critical,NO—FROZEN
+4,DQ-05,"Policy bundle version, rollout and fail-closed failure cases",D-10;D-18;D-29,Ch16;Ch19;Ch39,"Admission matrix, rollback and negative proof",Critical,NO—FROZEN
+5,DQ-06,Model supply-chain and prompt integrity controls,D-17;D-21;D-23,Ch8;Ch22;Ch39;Ch47,"Pinned provenance/SBOM, prompt bundle hashes and upgrade tests",Important,NO—FROZEN
+6,DQ-07,"Evaluation corpus ownership, label quality and leakage",D-22;D-23;D-24,Ch18;Ch33;Ch47;Ch57,"Offline/online suites, gold-set stewardship, confidence and drift thresholds",Critical,NO—FROZEN
+7,DQ-08,Online evaluation rollback and human escalation threshold,D-05;D-16;D-22;D-23,Ch9;Ch18;Ch33;Ch47,"Measured canary thresholds, manual override and abort tests",Critical,NO—FROZEN
+8,DQ-09,"Memory deletion, legal hold and downstream propagation",D-12;D-13;D-25;D-30,Ch13;Ch21;Ch34;Ch49,Multi-store disposal receipt and failure/appeal trace,Critical,NO—FROZEN
+9,DQ-10,"Exactly-once claims, idempotency and compensation across systems",D-09;D-10;D-15,Ch12;Ch14;Ch16,At-least-once retry with idempotent external system and compensation failure tests,Important,NO—FROZEN
+10,DQ-11,"MCP tool trust, discovery and delegation boundary",D-09;D-10;D-18;D-21,Ch12;Ch16;Ch22;Ch53,"Versioned tool trust contract, auth bypass negative tests and revoked server",Important,NO—FROZEN
+11,DQ-12,"A2A trust, handoff and nested agent authority",D-13;D-15;D-20;D-21,Ch14;Ch15;Ch22;Ch53,Nested handoff test with audience and scope constraints,Important,NO—FROZEN
+12,DQ-13,Data sovereignty multi-region placement and failover trade-off,D-04;D-17;D-25;D-27,Ch7;Ch8;Ch21;Ch36,Residency matrix and disaster recovery restore in allowed region,Important,NO—FROZEN
+13,DQ-14,"Business-value owners, measurable benefits and stop decision",D-01;D-02;D-03;D-26,Ch1;Ch4;Ch24;Ch35;Ch41,Capability map and before-after safe-success baseline with accountable owner,Critical,NO—FROZEN
+14,DQ-15,Operational burden of ten-to-hundred use cases,D-08;D-26;D-27;D-29,Ch31;Ch36;Ch38;Ch45;Ch46,"Capacity, support and incident-load simulation with cost envelope",Important,NO—FROZEN
+15,DQ-16,"Security incident containment, evidence custody and restored authority",D-19;D-20;D-24;D-28,Ch27;Ch37;Ch40;Ch48,"Attack path, emergency revocation and safe-resume test",Critical,NO—FROZEN
+16,DQ-17,"Accessibility, human factors and reviewer comprehension",D-16;D-22;D-23,Ch18;Ch30;Ch44;Ch57,"Human-approval usability test, misleading UI and timing risks",Important,NO—FROZEN
+17,DQ-18,Evidence completeness/correlation and retention gaps,D-23;D-24;D-25;D-30,Ch17;Ch40;Ch57,"Trace/action/policy decision join, missing spans and forensic reconstruction",Critical,NO—FROZEN
+18,DQ-19,Exit portability and cross-provider migration validation,D-02;D-21;D-27;D-30,Ch22;Ch34;Ch49;Ch50,Exit rehearsal with source/evidence export and hold exceptions,Important,NO—FROZEN

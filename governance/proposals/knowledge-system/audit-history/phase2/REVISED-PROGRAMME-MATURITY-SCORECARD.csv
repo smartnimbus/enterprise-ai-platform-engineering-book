@@ -1,0 +1,12 @@
+<PARSED TEXT FOR SHEET: 1 / 1 TABS
+TAB NAME: REVISED-PROGRAMME-MATURITY-SCORECARD.csv>
+index,dimension,specified_0_to_10,independently_demonstrated_0_to_10,principal_evidence_gap
+0,Enterprise architecture completeness,6,2,Business and capability views weaker than platform; no cross-domain independent proof
+1,Reference architecture completeness,7,2,E/T/C/L + eight responsibilities strong; physical/deployment and runtime outcomes unverified
+2,CTO utility,7,1,Potential decision value high; no external CTO/practitioner trial
+3,Enterprise relevance,8,2,Requirements well framed; practical adoption and measured outcomes absent
+4,Governance coverage,7,2,"Roles, rules, gates specified; executed cross-plane evidence limited to synthetic case"
+5,Educational quality,5,1,Blueprint and two chapter briefs exist; one draft and no reviewed coherent syllabus
+6,Publisher readiness,3,0,Proposal exists; no accepted full manuscript or confirmed acquisition
+7,Methodological reproducibility,6,1,"Method inferred, no independent participant reports"
+8,Synthetic evidence coherence,8,5,Six-record Meridian links consistent; does not certify production controls
