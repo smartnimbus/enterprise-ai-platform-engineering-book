@@ -1,0 +1,41 @@
+# Proposed portable handover template; fill placeholders from actual GitHub state.
+# This is not an approval or an instruction to mutate frozen content.
+handover_schema_version: 1
+handover_id: "<assigned-handover-id>"
+created_at_utc: "<ISO8601>"
+repository: smartnimbus/enterprise-ai-platform-engineering-book
+branch: "<verified-branch>"
+commit_sha: "<verified-40-character-sha>"
+base_branch: main
+work_item: "<issue-or-task-id>"
+owner_role: "<contributor-role>"
+status: IN_PROGRESS
+objective: "<bounded-work-objective>"
+read_first:
+  - REPOSITORY-GOVERNANCE.md
+  - governance/BASELINE-MANIFEST.yaml
+  - continuity/CURRENT-STATE.md
+frozen_invariants:
+  - four-structural-layers
+  - eight-control-planes
+  - 58-chapters
+  - D-01-through-D-30
+  - meridian-fixture-v1.0
+  - style-bible-v1.2
+scope: []
+out_of_scope: []
+sources_read: []
+changes_made: []
+verified_facts: []
+assumptions: []
+conflicts: []
+open_questions: []
+known_limitations: []
+tests_passed: []
+tests_failed: []
+tests_not_run: []
+external_actions_completed: []
+next_actions: []
+requested_reviewers: []
+rights_status: PENDING
+publication_status: NOT_SUBMITTED
