@@ -58,7 +58,7 @@ We test seven questions, not abstract satisfaction: (1) Can an unaided newcomer 
 
 **Minimal feasible cohort:** 2 independent architects, 1 junior, 1 senior/principal engineer, 1 security reviewer, 1 publisher/editor; roles may overlap only if that does not compromise independence on the same claim. Use different reviewers for the author and security-critical claims. Target a 6–8 participant set if accessible; do not pretend the solo architect can simulate an independent cohort. Obtain consent to record timing/errors, minimise personal data, anonymise published scores, never publish identities without consent.
 
-**Blindness:** distribute the participant brief without the answer key, previous chat, research verdict or scoring sheet of expected outcomes. Each participant declares prior familiarity; cases are assigned individually and timeboxed. The coordinator discloses the fixture is synthetic but not its decision outcomes. Examiner records all coaching; any substantive prompt changes validity to `ASSISTED`.
+**Blindness:** distribute the participant brief without the assessor key, this master coordinator protocol, previous chat, research verdict or scoring sheet of expected outcomes. Each participant declares prior familiarity; cases are assigned individually and timeboxed. The coordinator discloses the fixture is synthetic but not its decision outcomes. Examiner records all coaching; any substantive prompt changes validity to `ASSISTED`.
 
 ## Part 3 — Scenario scripts with frozen answers
 
@@ -68,31 +68,31 @@ Every scenario is **synthetic** and does not involve a real customer, bank, serv
 
 **Participant brief (20 min):** Investigate whether customer product eligibility can be concluded from `MF-REC-A-001` and `MF-REC-B-001` using `MF-EVD-CM-001`, `MF-EVD-RC-001` and `MF-EVT-005`–`MF-EVT-008`. Report which inputs may be admitted, whether product status is established, who should decide, and whether a durable memory fact can be written. Also inspect `MF-EVT-002`–`004` for the mislabelled insurance item. Include record IDs and source-level access decision.
 
-**Assessor key:** Record A says `ACTIVE` and B says `CLOSED` about the same canonical product with aligned effective date, in allowed retail context. Conflict remains `UNRESOLVED`; do not choose the later timestamp, invent authoritative precedence or assert eligibility. Escalate to retail data steward. Mislabelled insurance result returned at index but was **quarantined before agent context consumption**; don't claim successful cross-tenant content use. The fixture does not record a completed durable-memory write or deletion event. Scoring dimensions: accurate identities (2), source check (2), explicit unresolved state (2), escalation (2), no memory fabrication (2). Hard stop: silent selection of ACTIVE/CLOSED as authoritative.
+**Scoring:** The private assessor key defines the expected values and source-level controls. Record evidence IDs, a 0–10 score and any safety hard stop; the key is distributed only through the restricted examiner packet.
 
 ### IV-03 — D-10 / Chapter 16: action admission
 
 **Participant brief (20 min):** From `MF-REQ-REF-001`, `MF-EVD-DG-001`, `MF-EVD-AU-001`, `MF-EVD-DN-001` and `MF-EVT-009`–`012`, decide whether `MF-ACT-REF-001` may invoke `refund.issue` (`POST /refunds`) for £125. Report effective versus required scope, approvals, context preconditions, action outcome, and what the receipt actually proves. Distinguish issuer, PDP, PEP and external tool.
 
-**Assessor key:** Original request is investigate/read/prepare only, not transfer funds. Effective delegated scope `refund:request`; required `refund:execute` is absent. Policy decision `DENY`; `SCOPE_EXCEEDS_DELEGATION` primary; `UNRESOLVED_PRODUCT_STATUS` and `HUMAN_EXECUTION_APPROVAL_MISSING` secondary. `MF-EVD-AU-001` is a **denial decision receipt**, not signed permit; illustrative delegation signatures are **not cryptographic**. PEP denies before tool call; `external_tool_called=false`, mutation count zero. Scores: original restriction (2), scope/chain (2), policy reasons (2), PEP/PDP (2), evidence limit (2). Hard stop: instructing a refund execution or claiming actual signed authorisation.
+**Scoring:** The private assessor key defines the expected values and source-level controls. Record evidence IDs, a 0–10 score and any safety hard stop; the key is distributed only through the restricted examiner packet.
 
 ### IV-04 — D-18 / Chapter 16: bypass and proof limits
 
 **Participant brief (20 min):** Auditor claims “Since the Gateway denied, the network is proven non-bypassable.” Test the claim using `MF-EVT-013` and `MF-EVD-DN-001`. Identify exactly two distinct denials and propose **non-destructive** control evidence required before a production non-bypassability assertion could be accepted.
 
-**Assessor key:** Gateway PEP denied normal `MF-ACT-REF-001`; separate *simulated* direct service-to-ledger path was `DENIED_BY_NETWORK_EGRESS` and target did not receive request. Neither establishes deployed credentials, routing policy, service-mesh bypass coverage, external target logs or independent production negatives. Propose isolated test credentials, deny-route probes, egress/network enforcement audit and target-side negative observation; do **not** execute real mutations or attempt to bypass production controls. Scores: separate mechanisms (3), synthetic/production boundary (3), grounded limits (2), safe verification design (2). Hard stop: declaring real-world proof from fixture.
+**Scoring:** The private assessor key defines the expected values and source-level controls. Record evidence IDs, a 0–10 score and any safety hard stop; the key is distributed only through the restricted examiner packet.
 
 ### IV-05 — Chapter 13 teaching test
 
 **Participant brief (25 min):** After reading Chapter 13 alone, create a one-page table separating retrieval, source-level access, Context Manifest, reconciliation, semantic identity, escalation and durable memory. Explain the two-week sequence and where uncertainty must persist. Supply a case counterexample. **Do not score until a frozen chapter text exists**; the existing F6 blueprint cannot substitute for prose.
 
-**Assessor key:** Retrieval is not admission; relevance not authority; semantic identity matching not source precedence; Context not durable memory; source stewardship owns business truth; Gateway handles action admission; Verification handles behavioural release. Scores on distinction, traceability, correct chronology, teach-back and absence of fictional invented events.
+**Scoring:** The private assessor key defines the expected values and source-level controls. Record evidence IDs, a 0–10 score and any safety hard stop; the key is distributed only through the restricted examiner packet.
 
 ### IV-06 — Chapter 16 teaching test
 
-**Participant brief (25 min):** After Chapter 16 alone, draw an actor-chain/PEP/target sequence and identify the first point of forbidden external side effect, the purpose of D-10 versus D-18, and what later release-gate failure means. Do not show Figure 16 answer key during the teach-back.
+**Participant brief (25 min):** After Chapter 16 alone, draw an actor-chain/PEP/target sequence and identify the first point of forbidden external side effect, the purpose of D-10 versus D-18, and what later release-gate failure means, using `MF-EVD-RG-001` as source evidence. Do not show Figure 16 answer key during the teach-back.
 
-**Assessor key:** Tool proposal is not permission; scopes attenuate; PDP returns decision, PEP controls invocation; one denial receipt is not proof of egress; distinct `MF-EVT-013` bypass negative test; Week 11 `MF-EVD-RG-001` and `MF-EVT-014`–`015` blocked release of candidate for selecting the forbidden action despite PEP denial. No claim of completed funds transfer. Scored 0–10.
+**Scoring:** The private assessor key defines the expected values and source-level controls. Record evidence IDs, a 0–10 score and any safety hard stop; the key is distributed only through the restricted examiner packet.
 
 ### IV-07 — paired blind architect decision trial
 
@@ -194,7 +194,7 @@ A knowledge system is usable only when a person can **find the right item, recog
 
 `RUN-ID` unique, `IV-ID`, protocol version/hash, source baseline SHA, fixture ID/hash, participant pseudonym and declared independence, environment/tool versions, start/end active seconds, allowed access, unaltered submitted response, criterion scores, errors/assistance, evidence paths/hashes, reviewer role and verdict, challenge/remediation link, retest linkage, retention and confidentiality designation.
 
-Use `validation-run-template.json` supplied with this package. Use `SCENARIO-CATALOGUE.csv` and `SCORING-RUBRIC.csv` to prepare participant-specific task cards; **never supply the answer key in the participant packet**. Store full original responses and keys separately from public summary.
+Use `validation-run-template.json` supplied with this package. Use `SCENARIO-CATALOGUE.csv` and `SCORING-RUBRIC.csv` to prepare participant-specific task cards; **never supply the answer key in the participant packet**. Participant distribution also excludes this master coordinator protocol; use task cards and approved canonical source files only. Store full original responses and keys separately from public summary.
 
 ### C. Evaluation integrity and repeatability
 
