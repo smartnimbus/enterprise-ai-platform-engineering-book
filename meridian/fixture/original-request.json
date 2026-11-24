@@ -1,0 +1,16 @@
+{
+  "id": "MF-REQ-REF-001",
+  "received_at": "2027-02-16T10:00:00Z",
+  "originator_id": "MF-HUM-RET-017",
+  "tenant_id": "MF-TEN-RET-001",
+  "case_id": "MF-CASE-REFUND-001",
+  "customer_id": "MF-CUST-SYN-0042",
+  "channel": "Retail Service Desk Portal",
+  "request_text": "Customer requests a refund of GBP 125.00 for a duplicate service charge. Check product status, determine eligibility, and prepare a decision for an authorised human reviewer. Do not send money without explicit authorisation.",
+  "currency": "GBP",
+  "amount_minor": 12500,
+  "risk_class": "FINANCIAL_MUTATION",
+  "requested_task": "review and prepare, not execute",
+  "allowed_workflow": "read records; reconcile; draft recommendation; request approval",
+  "forbidden_workflow": "refund.issue without approved refund:execute authority"
+}

@@ -1,0 +1,182 @@
+{
+  "humans": [
+    {
+      "id": "MF-HUM-SPN-001",
+      "name": "Eleanor Price",
+      "role": "Executive sponsor",
+      "org_scope": "MF-ORG-001",
+      "fictional": true
+    },
+    {
+      "id": "MF-HUM-PLT-001",
+      "name": "Maya Shah",
+      "role": "Platform lead",
+      "org_scope": "MF-ORG-001",
+      "fictional": true
+    },
+    {
+      "id": "MF-HUM-SEC-001",
+      "name": "Ruth Mercer",
+      "role": "Security architect",
+      "org_scope": "MF-ORG-001",
+      "fictional": true
+    },
+    {
+      "id": "MF-HUM-DOM-001",
+      "name": "Tomas Reed",
+      "role": "Retail domain lead",
+      "org_scope": "MF-BU-RET",
+      "fictional": true
+    },
+    {
+      "id": "MF-HUM-SRE-001",
+      "name": "Samir Khan",
+      "role": "SRE lead",
+      "org_scope": "MF-ORG-001",
+      "fictional": true
+    },
+    {
+      "id": "MF-HUM-FIN-001",
+      "name": "Priya Nair",
+      "role": "FinOps lead",
+      "org_scope": "MF-ORG-001",
+      "fictional": true
+    },
+    {
+      "id": "MF-HUM-RET-017",
+      "name": "Alex Morgan",
+      "role": "Synthetic retail support adviser",
+      "org_scope": "MF-BU-RET",
+      "fictional": true
+    },
+    {
+      "id": "MF-HUM-RET-OWN-001",
+      "name": "Retail Data Steward",
+      "role": "Retail data owner",
+      "org_scope": "MF-BU-RET",
+      "fictional": true
+    },
+    {
+      "id": "MF-HUM-INS-OWN-001",
+      "name": "Insurance Data Steward",
+      "role": "Insurance data owner",
+      "org_scope": "MF-BU-INS",
+      "fictional": true
+    },
+    {
+      "id": "MF-HUM-WEA-OWN-001",
+      "name": "Wealth Data Steward",
+      "role": "Wealth data owner",
+      "org_scope": "MF-BU-WEA",
+      "fictional": true
+    }
+  ],
+  "agents": [
+    {
+      "id": "MF-AGT-RET-004",
+      "name": "Retail Refund Assistant",
+      "persona": "MF-PER-RET-001",
+      "archetype": "MF-ARC-CUST-ASSIST-001",
+      "tenant": "MF-TEN-RET-001",
+      "workload_identity": "MF-SID-AGT-004",
+      "permitted_scopes": [
+        "case:read",
+        "refund:request",
+        "product:read"
+      ],
+      "denied_scopes": [
+        "refund:execute",
+        "tenant:cross_read"
+      ],
+      "autonomy": "approval-gated candidate, no external mutation rights"
+    }
+  ],
+  "service_identities": [
+    {
+      "id": "MF-SID-AGT-004",
+      "principal_for": "MF-AGT-RET-004",
+      "tenant": "MF-TEN-RET-001"
+    },
+    {
+      "id": "MF-SID-REF-002",
+      "principal_for": "MF-SVC-REF-002",
+      "tenant": "MF-TEN-RET-001"
+    },
+    {
+      "id": "MF-SID-CTX-001",
+      "principal_for": "MF-SVC-CTX-001",
+      "tenant": "MF-TEN-RET-001"
+    },
+    {
+      "id": "MF-SID-PEP-001",
+      "principal_for": "MF-SVC-PEP-001",
+      "tenant": "MULTI_TENANT_CONTROL"
+    },
+    {
+      "id": "MF-SID-VER-001",
+      "principal_for": "MF-SVC-VER-001",
+      "tenant": "MULTI_TENANT_CONTROL"
+    }
+  ],
+  "policy_ids": {
+    "retrieval": "MF-POL-RET-ACCESS-v1.0",
+    "semantic": "MF-POL-CTX-CONFLICT-v1.0",
+    "delegation": "MF-POL-DELEGATE-v1.0",
+    "gateway": "MF-POL-ACTION-v1.0",
+    "release": "MF-POL-RELEASE-v1.0",
+    "tenant": "MF-POL-TENANT-v1.0"
+  },
+  "policy_owners": {
+    "retrieval": "MF-HUM-SEC-001",
+    "semantic": "MF-HUM-RET-OWN-001",
+    "delegation": "MF-HUM-SEC-001",
+    "gateway": "MF-HUM-SEC-001",
+    "release": "MF-HUM-DOM-001",
+    "tenant": "MF-HUM-SEC-001"
+  },
+  "policy_approval": "fictional policy baselines for examples; no real regulatory approval",
+  "roles_and_scopes": {
+    "human_originator": {
+      "id": "MF-HUM-RET-017",
+      "allowed": [
+        "case:read",
+        "product:read",
+        "refund:request"
+      ],
+      "denied": [
+        "refund:execute",
+        "tenant:cross_read"
+      ]
+    },
+    "agent": {
+      "id": "MF-AGT-RET-004",
+      "allowed": [
+        "case:read",
+        "product:read",
+        "refund:request"
+      ],
+      "denied": [
+        "refund:execute",
+        "tenant:cross_read"
+      ]
+    },
+    "service": {
+      "id": "MF-SVC-REF-002",
+      "allowed": [
+        "case:read",
+        "refund:request"
+      ],
+      "denied": [
+        "refund:execute",
+        "tenant:cross_read"
+      ]
+    },
+    "tool": {
+      "id": "MF-TOOL-REF-001",
+      "required": [
+        "refund:execute"
+      ],
+      "effective_authority": []
+    }
+  }
+}

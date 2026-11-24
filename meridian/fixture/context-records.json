@@ -1,0 +1,49 @@
+{
+  "case_id": "MF-CASE-REFUND-001",
+  "records": [
+    {
+      "id": "MF-REC-A-001",
+      "record_label": "Record A",
+      "source_system": "MF-SYS-PROD-001",
+      "source_uri": "synthetic://retail-product-registry/records/MF-REC-A-001",
+      "entity_id": "MF-CUST-SYN-0042",
+      "product_id": "MF-PROD-0091",
+      "tenant_id": "MF-TEN-RET-001",
+      "recorded_at": "2027-02-22T09:00:00Z",
+      "effective_as_of": "2027-02-22T00:00:00Z",
+      "owner_id": "MF-HUM-RET-OWN-001",
+      "classification": "CONFIDENTIAL_CUSTOMER",
+      "attributes": {
+        "product_status": "ACTIVE",
+        "eligible_for_refund_review": true
+      },
+      "provenance": "Synthetic Retail Product Registry status record",
+      "access_label": [
+        "retail:product:read"
+      ],
+      "verified_truth": false
+    },
+    {
+      "id": "MF-REC-B-001",
+      "record_label": "Record B",
+      "source_system": "MF-SYS-CRM-001",
+      "source_uri": "synthetic://retail-crm/records/MF-REC-B-001",
+      "entity_id": "MF-CUST-SYN-0042",
+      "product_id": "MF-PROD-0091",
+      "tenant_id": "MF-TEN-RET-001",
+      "recorded_at": "2027-02-22T09:10:00Z",
+      "effective_as_of": "2027-02-22T00:00:00Z",
+      "owner_id": "MF-HUM-RET-OWN-001",
+      "classification": "CONFIDENTIAL_CUSTOMER",
+      "attributes": {
+        "product_status": "CLOSED",
+        "eligible_for_refund_review": false
+      },
+      "provenance": "Synthetic CRM customer-service account projection",
+      "access_label": [
+        "retail:product:read"
+      ],
+      "verified_truth": false
+    }
+  ]
+}
