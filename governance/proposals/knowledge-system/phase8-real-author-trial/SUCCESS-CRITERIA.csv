@@ -1,0 +1,5 @@
+role,scope,objective_thresholds
+Author A,Full CH13,0 critical first submission; 0 unresolved major; >=90/100; 100% consequential evidence cited; F6 D-11-D-14 exact boundaries
+Author B,Full CH16,0 critical first submission; 0 unresolved major; >=90/100; 100% consequential evidence cited; F7 D-10 D-18 exact boundaries
+Author C,F1 D-10 D-14 D-18,0 critical; >=95/100; 100% exact frozen defaults when quoting; 8 F1 fields; no invented human approval
+Independent reviewer,Blind all three,100% Critical; >=90% Major; >=80% Minor; <=10% false positive safe controls; qualified and distinct; actual active minutes

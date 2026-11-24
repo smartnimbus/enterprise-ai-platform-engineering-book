@@ -1,0 +1,6 @@
+dimension,max_points,source_of_truth,critical_override
+Atlas fidelity,25,Frozen D-10 D-14 D-18 defaults,YES
+Ownership fidelity,25,Frozen E/T/C/L and eight planes,YES
+Evidence fidelity,25,Meridian source/event and evidence grade,YES
+Chapter contract,15,Frozen F6 F7 F1 and Phase 4 contracts,YES
+Semantic correctness,10,Frozen source causal and timeline claims,YES

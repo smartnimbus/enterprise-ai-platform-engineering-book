@@ -1,0 +1,13 @@
+requirement,status,evidence
+Local source bytes,AVAILABLE_NOT_APPROVED,Local Phase 1-7 sources and pinned manifests accessible
+Human source ratification,BLOCKED,Phase4 crosswalk and errata candidate status
+Independent A B C recruitment,BLOCKED,No actual contributor evidence
+Qualified independent reviewer,BLOCKED,No appointment evidence
+Workspace isolation,BLOCKED,No access proof
+Sealed prompts,DESIGN_ONLY,Packet templates require individual hashes
+First-submission custody,BLOCKED,No append-only receipt test
+Restricted calibration key,DESIGN_ONLY,Examiner-only download not published
+Fresh independent heldout set,BLOCKED,Known mutation set only
+Rights clearance,UNKNOWN,External distribution not signed
+G0-G6 actual execution,BLOCKED,No completed independent trial
+Timed reviewer worksheet,READY_AS_TEMPLATE,Forms only
