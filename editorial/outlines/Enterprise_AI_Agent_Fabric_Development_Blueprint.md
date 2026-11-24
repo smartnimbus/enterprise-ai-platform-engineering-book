@@ -997,6 +997,7 @@ The following thirty entries are the **drafting masters** for 30 printed F1 page
 **Reversibility.** Two-way door.
 
 **Artefact.** `action-authorisation-contract.json`.
+
 **See also.** Chapter 12; Chapter 15; Chapter 16; Chapter 27; Chapter 48.
 
 ### D-11: Control retrieval access
@@ -1996,7 +1997,8 @@ book/
   production/tables-register.csv
   production/chapter-tracker.csv
   production/index-terms.csv
-  submission/proposal.md  submission/comp-titles.md
+  submission/proposal.md
+  submission/comp-titles.md
   submission/query-tracker.csv
 ```
 
@@ -2084,3 +2086,4 @@ These are positioning comparables, **not asserted competitors with identical sco
 **Authoritative work order:** (1) lock ED-018 cross-reference decisions and architecture; (2) write Ch16; (3) write Ch13; (4) reconcile sample-related F1 decisions; (5) follow the Month 2–6 chapter schedule; (6) run the M2/M3, narrative and diagram gates; (7) release the submission package. A chapter that cannot pass its evidence gate does not advance by adding explanatory prose.
 
 **Never infer that a fictional Meridian decision or metric is a real bank's experience.** The final disclaimer and every worked artefact must identify the scenario as fictional and data as synthetic. The printed book must remain self-sufficient even if its companion site disappears.
+

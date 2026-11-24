@@ -998,6 +998,7 @@ The book must meet **WCAG 2.2 AA** for all digital formats and the **EPUB Access
 | Captions | Every figure and table |
 
 ### K2. Global English
+
 The book is written in **International English** with British spelling (the primary author's locale), with the following rules:
 
 - Spelling: British (organisation, colour, prioritise).

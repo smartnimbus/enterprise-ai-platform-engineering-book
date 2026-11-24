@@ -491,3 +491,4 @@ These sources are illustrative corroboration of overlap, not an exhaustive freed
 - `Enterprise_AI_Agent_Fabric_Signature_Concepts.csv`: the 20 ranked intellectual assets, four publishing attributes and ownership cautions.
 - `Enterprise_AI_Agent_Fabric_Chapter_Content_Crosswalk.csv`: evidence that all 58 frozen chapters are referenced by the 104-item content programme.
 - `Enterprise_AI_Agent_Fabric_Thought_Leadership_Manifest.json`: counts and checksums for reproducibility.
+
