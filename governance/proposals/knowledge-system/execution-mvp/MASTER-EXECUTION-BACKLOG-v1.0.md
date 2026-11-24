@@ -62,11 +62,11 @@ The complete, sortable register is `100-ARTICLE-MVP-CANDIDATES.csv` with rank, s
 |---|---:|---|---|
 | Baseline & Method | 10 | Source-of-truth and evidence authority | Ch 5,23,40,52,57; D-01,D-02,D-23,D-24,D-29 |
 | Identity & Access | 10 | Human, service and agent principals | Ch 7,15,16,19,21; D-04,D-10,D-19,D-20,D-25 |
+| Context, Data & Memory | 10 | Source-level ACL recheck after search | Ch 13,18,21,57; D-11,D-12,D-13,D-14,D-25 |
+| Gateway, APIs & Integration | 10 | Authorisation receipt versus denial receipt | Ch 12,14,16,22; D-09,D-10,D-15,D-18,D-21 |
+| Verification & Observability | 10 | Release gate assertions and blockers | Ch 17,18,33,40,57; D-22,D-23,D-24,D-27 |
 | Security & Data Protection | 10 | KMS, HSM and key ownership | Ch 11,16,19,21,48; D-07,D-09,D-10,D-18,D-25 |
-| Context, Data & Memory | 10 | Retrieval filtering before model context | Ch 13,18,21,57; D-11,D-12,D-13,D-14,D-25 |
-| Gateway, APIs & Integration | 10 | Action contracts and side effects | Ch 12,14,16,22; D-09,D-10,D-15,D-18,D-21 |
 | Platform & Operations | 10 | GitLab runners and executor isolation | Ch 8,14,32,35,36; D-06,D-07,D-08,D-15,D-27 |
-| Verification & Observability | 10 | Run, thread, trace, span and trajectory | Ch 17,18,33,40,57; D-22,D-23,D-24,D-27 |
 | Economics & Sourcing | 10 | Cost per safe successful task | Ch 1,6,8,20,38; D-01,D-02,D-03,D-17,D-26 |
 | Networking & Infrastructure | 10 | Network segmentation and east-west policy | Ch 7,11,16,36; D-04,D-07,D-08,D-18 |
 | Learning & Lifecycle | 10 | Learning objectives and assessed competency | Ch 23,34,35,49,50; D-24,D-29,D-30 |
@@ -79,14 +79,14 @@ The complete register `100-ENGINEERING-PATTERN-CANDIDATES.csv` carries rank, pla
 
 | Group | Candidates | First proposed pattern | Required proof before publication |
 |---|---:|---|---|
-| Authority and Security | 10 | Fail-closed mutation admission | Positive/negative scenario, scope limits, operational consequence |
-| Context and Evidence | 10 | Provenance-carrying context envelope | Positive/negative scenario, scope limits, operational consequence |
-| Contracts and Runtime | 10 | Contract-first API evolution | Positive/negative scenario, scope limits, operational consequence |
-| Platform Reuse | 10 | Isolated ephemeral executor | Positive/negative scenario, scope limits, operational consequence |
-| Quality and Verification | 10 | Negative test before approval | Positive/negative scenario, scope limits, operational consequence |
-| Distributed Systems | 10 | Partition key aligned to tenant | Positive/negative scenario, scope limits, operational consequence |
-| Cost and Sourcing | 10 | No-AI baseline as mandatory option | Positive/negative scenario, scope limits, operational consequence |
 | Governance and Knowledge | 10 | Canonical source with derived views | Positive/negative scenario, scope limits, operational consequence |
+| Quality and Verification | 10 | Fixture checksum and stable IDs | Positive/negative scenario, scope limits, operational consequence |
+| Authority and Security | 10 | Mandatory policy enforcement point | Positive/negative scenario, scope limits, operational consequence |
+| Context and Evidence | 10 | Explicit unresolved state | Positive/negative scenario, scope limits, operational consequence |
+| Contracts and Runtime | 10 | Transactional idempotency key | Positive/negative scenario, scope limits, operational consequence |
+| Cost and Sourcing | 10 | No-AI baseline as mandatory option | Positive/negative scenario, scope limits, operational consequence |
+| Platform Reuse | 10 | Isolated ephemeral executor | Positive/negative scenario, scope limits, operational consequence |
+| Distributed Systems | 10 | Partition key aligned to tenant | Positive/negative scenario, scope limits, operational consequence |
 | Learning and Practice | 10 | Worked incident with reproducible artefacts | Positive/negative scenario, scope limits, operational consequence |
 | Lifecycle and Reliability | 10 | Stage-gated autonomy promotion | Positive/negative scenario, scope limits, operational consequence |
 
@@ -175,87 +175,87 @@ Monthly loading is an estimate: allocations split multi-month tasks uniformly; *
 | Rank / ID | Domain | Article | Why it earns a place |
 |---|---|---|---|
 | 1 / KA-001 | Baseline & Method | Source-of-truth and evidence authority | Prevents a working note from overruling a frozen source |
-| 2 / KA-002 | Identity & Access | Human, service and agent principals | Distinguishes actor authority from workload execution |
-| 3 / KA-003 | Security & Data Protection | KMS, HSM and key ownership | Clarifies custody and signing trust |
-| 4 / KA-004 | Context, Data & Memory | Retrieval filtering before model context | Prevents unauthorised retrieved data from being consumed |
-| 5 / KA-005 | Gateway, APIs & Integration | Action contracts and side effects | Differentiates read intent from mutation |
-| 6 / KA-006 | Platform & Operations | GitLab runners and executor isolation | Ensures build agents cannot cross trust zones |
-| 7 / KA-007 | Verification & Observability | Run, thread, trace, span and trajectory | Removes ambiguity in correlated evidence |
-| 8 / KA-008 | Economics & Sourcing | Cost per safe successful task | Avoids optimising token price alone |
-| 9 / KA-009 | Networking & Infrastructure | Network segmentation and east-west policy | Defines trust-zone boundaries for service traffic |
-| 10 / KA-010 | Learning & Lifecycle | Learning objectives and assessed competency | Distinguishes reading from demonstrated skill |
-| 11 / KA-011 | Baseline & Method | Git baselines and reproducible builds | Makes every result tied to a recoverable revision |
-| 12 / KA-012 | Identity & Access | OAuth versus OIDC versus SAML | Prevents authentication protocols from being confused |
-| 13 / KA-013 | Security & Data Protection | PKI, certificates and mTLS | Secures service identity and connections |
-| 14 / KA-014 | Context, Data & Memory | Source-level ACL recheck after search | Catches stale or mislabelled index results |
-| 15 / KA-015 | Gateway, APIs & Integration | Authorisation receipt versus denial receipt | Stops DENY records being reused as permits |
-| 16 / KA-016 | Platform & Operations | Terraform plan, apply and state ownership | Preserves review and recovery independence |
-| 17 / KA-017 | Verification & Observability | Telemetry versus audit evidence | Prevents sampling from erasing accountable decisions |
-| 18 / KA-018 | Economics & Sourcing | Model routing and fallback economics | Measures risk, cost and quality trade-offs |
-| 19 / KA-019 | Networking & Infrastructure | DNS discovery and service naming | Avoids endpoint ambiguity and brittle addressing |
-| 20 / KA-020 | Learning & Lifecycle | Scenario-based architecture review | Makes decisions teachable through realistic cases |
-| 21 / KA-021 | Baseline & Method | Decision Atlas versus applied ADR | Separates recommended defaults from a real approval |
-| 22 / KA-022 | Identity & Access | Workload identity federation | Avoids persistent shared credentials |
-| 23 / KA-023 | Security & Data Protection | Secret lifecycle and rotation | Limits credential leakage windows |
-| 24 / KA-024 | Context, Data & Memory | Context manifest schema and provenance | Makes retrieval choices auditable |
-| 25 / KA-025 | Gateway, APIs & Integration | Idempotency and external mutation semantics | Explains why exactly-once cannot be assumed |
-| 26 / KA-026 | Platform & Operations | Kubernetes reconciler versus batch job | Chooses a runtime suitable to workload duration |
-| 27 / KA-027 | Verification & Observability | Offline evaluation datasets and baselines | Supports reproducible model release decisions |
-| 28 / KA-028 | Economics & Sourcing | Build versus buy versus embed | Selects ownership according to control needs |
-| 29 / KA-029 | Networking & Infrastructure | Load balancing and health checks | Separates availability decisions from traffic routing |
-| 30 / KA-030 | Learning & Lifecycle | Hands-on denial and failure lab | Trains independent evidence interpretation |
-| 31 / KA-031 | Baseline & Method | Decision-to-evidence trace contract | Links a chosen control to tests and observed outcome |
-| 32 / KA-032 | Identity & Access | Audience and token expiry validation | Limits replay and token misuse |
-| 33 / KA-033 | Security & Data Protection | Policy as code versus cloud resource policy | Avoids treating environment rules as business authorisation |
-| 34 / KA-034 | Context, Data & Memory | Canonical entity matching | Keeps identity resolution distinct from truth |
-| 35 / KA-035 | Gateway, APIs & Integration | Gateway non-bypassability and egress | Requires independent negative-route tests |
-| 36 / KA-036 | Platform & Operations | Resource quotas and tenant budgets | Bounds noisy neighbours and overspend |
-| 37 / KA-037 | Verification & Observability | Online evaluation and drift detection | Separates live monitoring from offline correctness |
-| 38 / KA-038 | Economics & Sourcing | Reusable control business case | Prevents shared platforms without funded consumers |
-| 39 / KA-039 | Networking & Infrastructure | Private connectivity and egress design | Constrains data flows to approved routes |
-| 40 / KA-040 | Learning & Lifecycle | Peer review and reproducibility rubric | Supports quality when authors change |
-| 41 / KA-041 | Baseline & Method | Evidence grades: designed, tested, deployed | Stops simulated records becoming production claims |
-| 42 / KA-042 | Identity & Access | Delegation and scope attenuation | Prevents downstream authority amplification |
-| 43 / KA-043 | Security & Data Protection | Prompt injection and tool-output trust | Defines untrusted model inputs and action boundaries |
-| 44 / KA-044 | Context, Data & Memory | Bitemporal records and effective time | Prevents timestamp order deciding business authority |
-| 45 / KA-045 | Gateway, APIs & Integration | REST and OpenAPI compatibility | Uses machine-readable contracts instead of prompts |
-| 46 / KA-046 | Platform & Operations | Redis cache versus durable queue | Prevents cache loss being mistaken for workflow completion |
-| 47 / KA-047 | Verification & Observability | Golden-set versioning and contamination | Controls benchmark leakage and regression noise |
-| 48 / KA-048 | Economics & Sourcing | Capacity and queueing fundamentals | Translates throughput requirements into safe limits |
-| 49 / KA-049 | Networking & Infrastructure | IP address and CIDR overlap management | Prevents cross-network routing mistakes |
-| 50 / KA-050 | Learning & Lifecycle | Architecture trade-off workshop facilitation | Trains defensible rather than slogan choices |
-| 51 / KA-051 | Baseline & Method | Research claim and contradiction ledger | Allows disputed claims to remain reviewable |
-| 52 / KA-052 | Identity & Access | On-behalf-of and token exchange | Makes multi-hop actor identity inspectable |
-| 53 / KA-053 | Security & Data Protection | Supply-chain signing, SBOM and provenance | Tests trust in binaries and plugins |
-| 54 / KA-054 | Context, Data & Memory | Persistent disagreement and escalation | Represents conflict without silent source precedence |
-| 55 / KA-055 | Gateway, APIs & Integration | MCP capability registration and trust | Prevents tool listing from implying authorisation |
-| 56 / KA-056 | Platform & Operations | Kafka versus RabbitMQ versus cloud queues | Matches ordering and durability to workload needs |
-| 57 / KA-057 | Verification & Observability | Release gate assertions and blockers | Makes safety failures stop promotion |
-| 58 / KA-058 | Economics & Sourcing | Cloud cost attribution and chargeback | Makes spend traceable by workload and tenant |
-| 59 / KA-059 | Networking & Infrastructure | Service mesh identity and policy | Distinguishes mTLS transport from action authorisation |
-| 60 / KA-060 | Learning & Lifecycle | Platform onboarding and consumer adoption | Captures friction and service ownership |
-| 61 / KA-061 | Baseline & Method | Rights, citation and source custody | Prevents publishing unlicensed or confidential material |
-| 62 / KA-062 | Identity & Access | PDP versus PEP boundaries | Separates permit decisions from actual enforcement |
-| 63 / KA-063 | Security & Data Protection | Data classification and consent lineage | Controls sensitive context inclusion |
-| 64 / KA-064 | Context, Data & Memory | Working context versus durable memory | Prevents transient claims becoming persistent facts |
-| 65 / KA-065 | Gateway, APIs & Integration | A2A delegation and provenance exchange | Secures actor claims across agent boundaries |
-| 66 / KA-066 | Platform & Operations | Durable workflow checkpoint and resume | Requires safe replay and renewed authority |
-| 67 / KA-067 | Verification & Observability | Synthetic negative-test harness | Exercises denial cases without real side effects |
-| 68 / KA-068 | Economics & Sourcing | Technology selection and weighted evidence | Prevents unexamined vendor preference |
-| 69 / KA-069 | Networking & Infrastructure | Zero-trust network access | Assumes no implicit zone-based permission |
-| 70 / KA-070 | Learning & Lifecycle | Release to operations handover | Avoids orphaned controls and undocumented runbooks |
-| 71 / KA-071 | Baseline & Method | AI-to-human handover by commit | Makes authorship independent of a model context window |
-| 72 / KA-072 | Identity & Access | RBAC, ABAC and ReBAC selection | Matches permission model to risk and scale |
-| 73 / KA-073 | Security & Data Protection | Encryption at rest and in transit | Names protections and remaining exposures |
-| 74 / KA-074 | Context, Data & Memory | Memory write admission and approval | Applies explicit trust checks to persistence |
-| 75 / KA-075 | Gateway, APIs & Integration | Event schemas and schema evolution | Prevents incompatible producer-consumer changes |
-| 76 / KA-076 | Platform & Operations | Golden paths and platform product contracts | Reduces platform onboarding complexity |
-| 77 / KA-077 | Verification & Observability | Evidence integrity and correlated timestamps | Enables independent reconstruction |
-| 78 / KA-078 | Economics & Sourcing | Sensitivity analysis for architecture options | Exposes assumptions that change recommendations |
-| 79 / KA-079 | Networking & Infrastructure | Resilient ingress and API exposure | Protects entry paths under failure |
-| 80 / KA-080 | Learning & Lifecycle | Retirement, key withdrawal and teardown | Makes authority removal a lifecycle gate |
-| 81 / KA-081 | Baseline & Method | Review gates and negative evidence | Makes a failing test a stop condition |
-| 82 / KA-082 | Identity & Access | Tenant isolation and cross-tenant denial | Proves source rechecks rather than trusting index tags |
+| 2 / KA-002 | Baseline & Method | Git baselines and reproducible builds | Makes every result tied to a recoverable revision |
+| 3 / KA-003 | Baseline & Method | Decision Atlas versus applied ADR | Separates recommended defaults from a real approval |
+| 4 / KA-004 | Baseline & Method | Decision-to-evidence trace contract | Links a chosen control to tests and observed outcome |
+| 5 / KA-005 | Baseline & Method | Evidence grades: designed, tested, deployed | Stops simulated records becoming production claims |
+| 6 / KA-006 | Baseline & Method | Rights, citation and source custody | Prevents publishing unlicensed or confidential material |
+| 7 / KA-007 | Identity & Access | Human, service and agent principals | Distinguishes actor authority from workload execution |
+| 8 / KA-008 | Identity & Access | Delegation and scope attenuation | Prevents downstream authority amplification |
+| 9 / KA-009 | Identity & Access | PDP versus PEP boundaries | Separates permit decisions from actual enforcement |
+| 10 / KA-010 | Context, Data & Memory | Source-level ACL recheck after search | Catches stale or mislabelled index results |
+| 11 / KA-011 | Context, Data & Memory | Context manifest schema and provenance | Makes retrieval choices auditable |
+| 12 / KA-012 | Context, Data & Memory | Persistent disagreement and escalation | Represents conflict without silent source precedence |
+| 13 / KA-013 | Gateway, APIs & Integration | Authorisation receipt versus denial receipt | Stops DENY records being reused as permits |
+| 14 / KA-014 | Gateway, APIs & Integration | Gateway non-bypassability and egress | Requires independent negative-route tests |
+| 15 / KA-015 | Verification & Observability | Release gate assertions and blockers | Makes safety failures stop promotion |
+| 16 / KA-016 | Context, Data & Memory | Retrieval filtering before model context | Prevents unauthorised retrieved data from being consumed |
+| 17 / KA-017 | Identity & Access | Tenant isolation and cross-tenant denial | Proves source rechecks rather than trusting index tags |
+| 18 / KA-018 | Gateway, APIs & Integration | Idempotency and external mutation semantics | Explains why exactly-once cannot be assumed |
+| 19 / KA-019 | Verification & Observability | Offline evaluation datasets and baselines | Supports reproducible model release decisions |
+| 20 / KA-020 | Context, Data & Memory | Working context versus durable memory | Prevents transient claims becoming persistent facts |
+| 21 / KA-021 | Security & Data Protection | KMS, HSM and key ownership | Clarifies custody and signing trust |
+| 22 / KA-022 | Gateway, APIs & Integration | Action contracts and side effects | Differentiates read intent from mutation |
+| 23 / KA-023 | Platform & Operations | GitLab runners and executor isolation | Ensures build agents cannot cross trust zones |
+| 24 / KA-024 | Verification & Observability | Run, thread, trace, span and trajectory | Removes ambiguity in correlated evidence |
+| 25 / KA-025 | Economics & Sourcing | Cost per safe successful task | Avoids optimising token price alone |
+| 26 / KA-026 | Networking & Infrastructure | Network segmentation and east-west policy | Defines trust-zone boundaries for service traffic |
+| 27 / KA-027 | Learning & Lifecycle | Learning objectives and assessed competency | Distinguishes reading from demonstrated skill |
+| 28 / KA-028 | Identity & Access | OAuth versus OIDC versus SAML | Prevents authentication protocols from being confused |
+| 29 / KA-029 | Security & Data Protection | PKI, certificates and mTLS | Secures service identity and connections |
+| 30 / KA-030 | Platform & Operations | Terraform plan, apply and state ownership | Preserves review and recovery independence |
+| 31 / KA-031 | Verification & Observability | Telemetry versus audit evidence | Prevents sampling from erasing accountable decisions |
+| 32 / KA-032 | Economics & Sourcing | Model routing and fallback economics | Measures risk, cost and quality trade-offs |
+| 33 / KA-033 | Networking & Infrastructure | DNS discovery and service naming | Avoids endpoint ambiguity and brittle addressing |
+| 34 / KA-034 | Learning & Lifecycle | Scenario-based architecture review | Makes decisions teachable through realistic cases |
+| 35 / KA-035 | Identity & Access | Workload identity federation | Avoids persistent shared credentials |
+| 36 / KA-036 | Security & Data Protection | Secret lifecycle and rotation | Limits credential leakage windows |
+| 37 / KA-037 | Platform & Operations | Kubernetes reconciler versus batch job | Chooses a runtime suitable to workload duration |
+| 38 / KA-038 | Economics & Sourcing | Build versus buy versus embed | Selects ownership according to control needs |
+| 39 / KA-039 | Networking & Infrastructure | Load balancing and health checks | Separates availability decisions from traffic routing |
+| 40 / KA-040 | Learning & Lifecycle | Hands-on denial and failure lab | Trains independent evidence interpretation |
+| 41 / KA-041 | Identity & Access | Audience and token expiry validation | Limits replay and token misuse |
+| 42 / KA-042 | Security & Data Protection | Policy as code versus cloud resource policy | Avoids treating environment rules as business authorisation |
+| 43 / KA-043 | Context, Data & Memory | Canonical entity matching | Keeps identity resolution distinct from truth |
+| 44 / KA-044 | Platform & Operations | Resource quotas and tenant budgets | Bounds noisy neighbours and overspend |
+| 45 / KA-045 | Verification & Observability | Online evaluation and drift detection | Separates live monitoring from offline correctness |
+| 46 / KA-046 | Economics & Sourcing | Reusable control business case | Prevents shared platforms without funded consumers |
+| 47 / KA-047 | Networking & Infrastructure | Private connectivity and egress design | Constrains data flows to approved routes |
+| 48 / KA-048 | Learning & Lifecycle | Peer review and reproducibility rubric | Supports quality when authors change |
+| 49 / KA-049 | Security & Data Protection | Prompt injection and tool-output trust | Defines untrusted model inputs and action boundaries |
+| 50 / KA-050 | Context, Data & Memory | Bitemporal records and effective time | Prevents timestamp order deciding business authority |
+| 51 / KA-051 | Gateway, APIs & Integration | REST and OpenAPI compatibility | Uses machine-readable contracts instead of prompts |
+| 52 / KA-052 | Platform & Operations | Redis cache versus durable queue | Prevents cache loss being mistaken for workflow completion |
+| 53 / KA-053 | Verification & Observability | Golden-set versioning and contamination | Controls benchmark leakage and regression noise |
+| 54 / KA-054 | Economics & Sourcing | Capacity and queueing fundamentals | Translates throughput requirements into safe limits |
+| 55 / KA-055 | Networking & Infrastructure | IP address and CIDR overlap management | Prevents cross-network routing mistakes |
+| 56 / KA-056 | Learning & Lifecycle | Architecture trade-off workshop facilitation | Trains defensible rather than slogan choices |
+| 57 / KA-057 | Baseline & Method | Research claim and contradiction ledger | Allows disputed claims to remain reviewable |
+| 58 / KA-058 | Identity & Access | On-behalf-of and token exchange | Makes multi-hop actor identity inspectable |
+| 59 / KA-059 | Security & Data Protection | Supply-chain signing, SBOM and provenance | Tests trust in binaries and plugins |
+| 60 / KA-060 | Gateway, APIs & Integration | MCP capability registration and trust | Prevents tool listing from implying authorisation |
+| 61 / KA-061 | Platform & Operations | Kafka versus RabbitMQ versus cloud queues | Matches ordering and durability to workload needs |
+| 62 / KA-062 | Economics & Sourcing | Cloud cost attribution and chargeback | Makes spend traceable by workload and tenant |
+| 63 / KA-063 | Networking & Infrastructure | Service mesh identity and policy | Distinguishes mTLS transport from action authorisation |
+| 64 / KA-064 | Learning & Lifecycle | Platform onboarding and consumer adoption | Captures friction and service ownership |
+| 65 / KA-065 | Security & Data Protection | Data classification and consent lineage | Controls sensitive context inclusion |
+| 66 / KA-066 | Gateway, APIs & Integration | A2A delegation and provenance exchange | Secures actor claims across agent boundaries |
+| 67 / KA-067 | Platform & Operations | Durable workflow checkpoint and resume | Requires safe replay and renewed authority |
+| 68 / KA-068 | Verification & Observability | Synthetic negative-test harness | Exercises denial cases without real side effects |
+| 69 / KA-069 | Economics & Sourcing | Technology selection and weighted evidence | Prevents unexamined vendor preference |
+| 70 / KA-070 | Networking & Infrastructure | Zero-trust network access | Assumes no implicit zone-based permission |
+| 71 / KA-071 | Learning & Lifecycle | Release to operations handover | Avoids orphaned controls and undocumented runbooks |
+| 72 / KA-072 | Baseline & Method | AI-to-human handover by commit | Makes authorship independent of a model context window |
+| 73 / KA-073 | Identity & Access | RBAC, ABAC and ReBAC selection | Matches permission model to risk and scale |
+| 74 / KA-074 | Security & Data Protection | Encryption at rest and in transit | Names protections and remaining exposures |
+| 75 / KA-075 | Context, Data & Memory | Memory write admission and approval | Applies explicit trust checks to persistence |
+| 76 / KA-076 | Gateway, APIs & Integration | Event schemas and schema evolution | Prevents incompatible producer-consumer changes |
+| 77 / KA-077 | Platform & Operations | Golden paths and platform product contracts | Reduces platform onboarding complexity |
+| 78 / KA-078 | Verification & Observability | Evidence integrity and correlated timestamps | Enables independent reconstruction |
+| 79 / KA-079 | Economics & Sourcing | Sensitivity analysis for architecture options | Exposes assumptions that change recommendations |
+| 80 / KA-080 | Networking & Infrastructure | Resilient ingress and API exposure | Protects entry paths under failure |
+| 81 / KA-081 | Learning & Lifecycle | Retirement, key withdrawal and teardown | Makes authority removal a lifecycle gate |
+| 82 / KA-082 | Baseline & Method | Review gates and negative evidence | Makes a failing test a stop condition |
 | 83 / KA-083 | Security & Data Protection | Retention, erasure and derivative copies | Prevents false claims of complete deletion |
 | 84 / KA-084 | Context, Data & Memory | Memory sharing across agents | Preserves tenant and actor restrictions across transfer |
 | 85 / KA-085 | Gateway, APIs & Integration | API gateway versus service mesh | Separates edge routing from service traffic enforcement |
@@ -279,101 +279,101 @@ Monthly loading is an estimate: allocations split multi-month tasks uniformly; *
 
 | Rank / ID | Group | Pattern | Why / required consequence |
 |---|---|---|---|
-| 1 / EP-001 | Authority and Security | Fail-closed mutation admission | Deny when policy cannot return a trustworthy result |
-| 2 / EP-002 | Context and Evidence | Provenance-carrying context envelope | Preserve source and classification through retrieval |
-| 3 / EP-003 | Contracts and Runtime | Contract-first API evolution | Reject breaking schema changes before release |
-| 4 / EP-004 | Platform Reuse | Isolated ephemeral executor | Reduce per-task credential persistence |
-| 5 / EP-005 | Quality and Verification | Negative test before approval | Prove forbidden paths are stopped |
-| 6 / EP-006 | Distributed Systems | Partition key aligned to tenant | Contain cross-tenant data access |
-| 7 / EP-007 | Cost and Sourcing | No-AI baseline as mandatory option | Make deterministic alternative visible |
-| 8 / EP-008 | Governance and Knowledge | Canonical source with derived views | Prevent conflicting editable copies |
-| 9 / EP-009 | Learning and Practice | Worked incident with reproducible artefacts | Teach consequences not slogans |
-| 10 / EP-010 | Lifecycle and Reliability | Stage-gated autonomy promotion | Tie risk envelope to observed results |
-| 11 / EP-011 | Authority and Security | Monotonic delegation attenuation | Intersect effective scope at each hop |
-| 12 / EP-012 | Context and Evidence | Explicit unresolved state | Block silent conflict winner selection |
-| 13 / EP-013 | Contracts and Runtime | Transactional idempotency key | Deduplicate requests before side effect |
-| 14 / EP-014 | Platform Reuse | Declarative desired-state reconciliation | Detect configuration drift |
-| 15 / EP-015 | Quality and Verification | Release gate on critical assertion | Block promotion despite partial success |
-| 16 / EP-016 | Distributed Systems | Consumer group with replayable offsets | Recover event processing independently |
-| 17 / EP-017 | Cost and Sourcing | Conditional model invocation | Call a model only for an ambiguous task |
-| 18 / EP-018 | Governance and Knowledge | Signed baseline manifest | Pin authority to approved file versions |
-| 19 / EP-019 | Learning and Practice | Pre/post competency test | Measure learning rather than attendance |
-| 20 / EP-020 | Lifecycle and Reliability | Continuous requalification trigger | Reassess after material environment change |
-| 21 / EP-021 | Authority and Security | Audience-bound short-lived claims | Check recipient and expiry, not token presence |
-| 22 / EP-022 | Context and Evidence | Canonical entity key with raw ID retention | Keep identity matching reversible and auditable |
-| 23 / EP-023 | Contracts and Runtime | Outbox with durable event delivery | Bridge local commit and asynchronous delivery |
-| 24 / EP-024 | Platform Reuse | Approval before infrastructure apply | Separate plan from irreversible effect |
-| 25 / EP-025 | Quality and Verification | Fixture checksum and stable IDs | Detect accidental reference data mutation |
-| 26 / EP-026 | Distributed Systems | Backpressure at queue boundary | Avoid propagating load spikes |
-| 27 / EP-027 | Cost and Sourcing | Model routing by measured quality budget | Avoid lowest-cost-only routing |
-| 28 / EP-028 | Governance and Knowledge | Stable knowledge ID and alias map | Survive rename and path relocation |
-| 29 / EP-029 | Learning and Practice | Blind peer application of Atlas | Test method usability outside author |
-| 30 / EP-030 | Lifecycle and Reliability | Incident stop-action switch | Contain unsafe actions before analysis |
-| 31 / EP-031 | Authority and Security | Mandatory policy enforcement point | Stop the call rather than log a DENY |
-| 32 / EP-032 | Context and Evidence | Bitemporal reconciliation | Compare effective and recorded time separately |
-| 33 / EP-033 | Contracts and Runtime | Inbox deduplication on consumer | Tolerate at-least-once message delivery |
-| 34 / EP-034 | Platform Reuse | GitOps signed provenance trail | Tie config deployment to reviewed commit |
-| 35 / EP-035 | Quality and Verification | Offline golden-set regression | Compare candidate against versioned cases |
-| 36 / EP-036 | Distributed Systems | Bulkhead isolation by workload class | Stop one dependency exhausting workers |
-| 37 / EP-037 | Cost and Sourcing | Cache bounded by confidentiality and TTL | Avoid unsafe reuse of sensitive output |
-| 38 / EP-038 | Governance and Knowledge | Claim ledger with contradiction edges | Preserve dissent and negative evidence |
-| 39 / EP-039 | Learning and Practice | Decision guide with no-choice outcome | Prevent forced tool selection |
-| 40 / EP-040 | Lifecycle and Reliability | Audit evidence hold with access control | Preserve investigations without oversharing |
-| 41 / EP-041 | Authority and Security | Egress deny by default | Disallow direct routes to mutable targets |
-| 42 / EP-042 | Context and Evidence | Quarantine invalid retrieval | Exclude suspect results before model use |
-| 43 / EP-043 | Contracts and Runtime | Bounded retry with exponential backoff | Prevent retry storms and unbounded spend |
-| 44 / EP-044 | Platform Reuse | Resource quotas and per-tenant limits | Prevent noisy-neighbour exhaustion |
-| 45 / EP-045 | Quality and Verification | Online monitor with sampled calibration | Detect drift while acknowledging sampling |
-| 46 / EP-046 | Distributed Systems | Saga compensation with explicit limits | Avoid assuming automatic undo of effects |
-| 47 / EP-047 | Cost and Sourcing | Per-task token and tool budget | Cap runaway autonomous work |
-| 48 / EP-048 | Governance and Knowledge | Research source expiry and revalidation | Catch vendor documentation drift |
-| 49 / EP-049 | Learning and Practice | Failure injection in safe sandbox | Experience denials without harm |
-| 50 / EP-050 | Lifecycle and Reliability | Retirement inventory of credentials and data | Make teardown auditable |
-| 51 / EP-051 | Authority and Security | Credential isolation per trust zone | Keep high privilege outside broad worker pools |
-| 52 / EP-052 | Context and Evidence | Memory write admission gate | Separate context consumption from persistence |
-| 53 / EP-053 | Contracts and Runtime | Circuit breaker on unstable dependency | Contain downstream failure |
-| 54 / EP-054 | Platform Reuse | Cache-aside with authoritative fallback | Treat cache as acceleration, not truth |
-| 55 / EP-055 | Quality and Verification | Differential deterministic-versus-LLM test | Quantify model value beyond correctness alone |
-| 56 / EP-056 | Distributed Systems | State-machine transition guard | Reject invalid workflow jumps |
-| 57 / EP-057 | Cost and Sourcing | Cost per safe successful task metric | Include failed and human-reviewed work |
-| 58 / EP-058 | Governance and Knowledge | PR reviewer separation of duties | Prevent self-approval of high-risk claims |
-| 59 / EP-059 | Learning and Practice | Role-based learning objective map | Align depth with responsibility |
-| 60 / EP-060 | Lifecycle and Reliability | Identity revocation rehearsal | Prove expired principals lose access |
-| 61 / EP-061 | Authority and Security | Scoped break-glass grant | Expiring exceptional access with review |
-| 62 / EP-062 | Context and Evidence | Memory tombstone propagation | Track derivative deletion and unresolved copies |
-| 63 / EP-063 | Contracts and Runtime | Timeout and cancellation propagation | Stop abandoned execution paths |
-| 64 / EP-064 | Platform Reuse | Durable queue over ephemeral signal | Prevent lost work on worker restart |
-| 65 / EP-065 | Quality and Verification | Canary release with rollback predicate | Limit blast radius of behavioural changes |
-| 66 / EP-066 | Distributed Systems | Deterministic event ordering by key | Document limits of global ordering |
-| 67 / EP-067 | Cost and Sourcing | Build-buy-embed decision record | Surface integration and exit costs |
-| 68 / EP-068 | Governance and Knowledge | AI handover packet pinned to SHA | Make state reconstructable across tools |
-| 69 / EP-069 | Learning and Practice | Cheat sheet generated from canonical article | Avoid independent contradictory short copy |
-| 70 / EP-070 | Lifecycle and Reliability | Data export with integrity manifest | Preserve migration and audit portability |
-| 71 / EP-071 | Authority and Security | Two-party high-risk approval | Prevent unilateral irreversible action |
-| 72 / EP-072 | Context and Evidence | Immutable evidence reference with redaction | Retain integrity without exposing secrets |
-| 73 / EP-073 | Contracts and Runtime | Dead-letter with operator replay | Make poison messages inspectable |
-| 74 / EP-074 | Platform Reuse | Autoscale on useful backlog signal | Avoid scaling on misleading CPU alone |
-| 75 / EP-075 | Quality and Verification | Shadow-mode recommendation only | Observe without authorising mutations |
-| 76 / EP-076 | Distributed Systems | Checkpoint plus external effect ledger | Avoid double effects after restart |
-| 77 / EP-077 | Cost and Sourcing | Sensitivity test on unit economics | Expose changes that reverse sourcing choices |
-| 78 / EP-078 | Governance and Knowledge | Article promotion only with citations | Separate note from approved guidance |
-| 79 / EP-079 | Learning and Practice | Lab reset and cleanup script | Make exercises reproducible |
-| 80 / EP-080 | Lifecycle and Reliability | Backup recovery independent of platform | Avoid circular recovery dependency |
-| 81 / EP-081 | Authority and Security | Tenant source-level recheck | Reject index labels as an access grant |
-| 82 / EP-082 | Context and Evidence | Trace-to-case correlation invariant | Reconstruct why an action was attempted |
-| 83 / EP-083 | Contracts and Runtime | Durable workflow checkpoint | Resume from persisted progress |
-| 84 / EP-084 | Platform Reuse | Golden path as tested contract | Reduce variance for common workflows |
-| 85 / EP-085 | Quality and Verification | Evidence grading and claim status | Separate designed, simulated and deployed |
-| 86 / EP-086 | Distributed Systems | Timeout budget across service chain | Keep tail latency within contract |
-| 87 / EP-087 | Cost and Sourcing | Shared-service funding threshold | Require funded demand before centralising |
-| 88 / EP-088 | Governance and Knowledge | Deprecation with redirect and withdrawal | Avoid silently breaking readers |
-| 89 / EP-089 | Learning and Practice | Accessibility review for diagrams | Make architecture usable beyond visuals |
-| 90 / EP-090 | Lifecycle and Reliability | Runbook tested from clean environment | Prove restoration outside author memory |
-| 91 / EP-091 | Authority and Security | Policy bundle pinning and drift alert | Tie decisions to reviewed rule versions |
-| 92 / EP-092 | Context and Evidence | Counterevidence linked to claim | Avoid certainty from one supporting record |
-| 93 / EP-093 | Contracts and Runtime | Authority recheck on resume | Do not restore expired delegation |
-| 94 / EP-094 | Platform Reuse | Plugin sandbox with capability manifest | Constrain extension access and upgrade |
-| 95 / EP-095 | Quality and Verification | Independent reviewer replay | Validate outside author context |
+| 1 / EP-001 | Governance and Knowledge | Canonical source with derived views | Prevent conflicting editable copies |
+| 2 / EP-002 | Quality and Verification | Fixture checksum and stable IDs | Detect accidental reference data mutation |
+| 3 / EP-003 | Authority and Security | Mandatory policy enforcement point | Stop the call rather than log a DENY |
+| 4 / EP-004 | Authority and Security | Monotonic delegation attenuation | Intersect effective scope at each hop |
+| 5 / EP-005 | Authority and Security | Egress deny by default | Disallow direct routes to mutable targets |
+| 6 / EP-006 | Authority and Security | Tenant source-level recheck | Reject index labels as an access grant |
+| 7 / EP-007 | Context and Evidence | Explicit unresolved state | Block silent conflict winner selection |
+| 8 / EP-008 | Context and Evidence | Provenance-carrying context envelope | Preserve source and classification through retrieval |
+| 9 / EP-009 | Contracts and Runtime | Transactional idempotency key | Deduplicate requests before side effect |
+| 10 / EP-010 | Quality and Verification | Negative test before approval | Prove forbidden paths are stopped |
+| 11 / EP-011 | Quality and Verification | Release gate on critical assertion | Block promotion despite partial success |
+| 12 / EP-012 | Quality and Verification | Evidence grading and claim status | Separate designed, simulated and deployed |
+| 13 / EP-013 | Cost and Sourcing | No-AI baseline as mandatory option | Make deterministic alternative visible |
+| 14 / EP-014 | Quality and Verification | Independent reviewer replay | Validate outside author context |
+| 15 / EP-015 | Contracts and Runtime | Contract-first API evolution | Reject breaking schema changes before release |
+| 16 / EP-016 | Authority and Security | Fail-closed mutation admission | Deny when policy cannot return a trustworthy result |
+| 17 / EP-017 | Platform Reuse | Isolated ephemeral executor | Reduce per-task credential persistence |
+| 18 / EP-018 | Distributed Systems | Partition key aligned to tenant | Contain cross-tenant data access |
+| 19 / EP-019 | Learning and Practice | Worked incident with reproducible artefacts | Teach consequences not slogans |
+| 20 / EP-020 | Lifecycle and Reliability | Stage-gated autonomy promotion | Tie risk envelope to observed results |
+| 21 / EP-021 | Platform Reuse | Declarative desired-state reconciliation | Detect configuration drift |
+| 22 / EP-022 | Distributed Systems | Consumer group with replayable offsets | Recover event processing independently |
+| 23 / EP-023 | Cost and Sourcing | Conditional model invocation | Call a model only for an ambiguous task |
+| 24 / EP-024 | Governance and Knowledge | Signed baseline manifest | Pin authority to approved file versions |
+| 25 / EP-025 | Learning and Practice | Pre/post competency test | Measure learning rather than attendance |
+| 26 / EP-026 | Lifecycle and Reliability | Continuous requalification trigger | Reassess after material environment change |
+| 27 / EP-027 | Authority and Security | Audience-bound short-lived claims | Check recipient and expiry, not token presence |
+| 28 / EP-028 | Context and Evidence | Canonical entity key with raw ID retention | Keep identity matching reversible and auditable |
+| 29 / EP-029 | Contracts and Runtime | Outbox with durable event delivery | Bridge local commit and asynchronous delivery |
+| 30 / EP-030 | Platform Reuse | Approval before infrastructure apply | Separate plan from irreversible effect |
+| 31 / EP-031 | Distributed Systems | Backpressure at queue boundary | Avoid propagating load spikes |
+| 32 / EP-032 | Cost and Sourcing | Model routing by measured quality budget | Avoid lowest-cost-only routing |
+| 33 / EP-033 | Governance and Knowledge | Stable knowledge ID and alias map | Survive rename and path relocation |
+| 34 / EP-034 | Learning and Practice | Blind peer application of Atlas | Test method usability outside author |
+| 35 / EP-035 | Lifecycle and Reliability | Incident stop-action switch | Contain unsafe actions before analysis |
+| 36 / EP-036 | Context and Evidence | Bitemporal reconciliation | Compare effective and recorded time separately |
+| 37 / EP-037 | Contracts and Runtime | Inbox deduplication on consumer | Tolerate at-least-once message delivery |
+| 38 / EP-038 | Platform Reuse | GitOps signed provenance trail | Tie config deployment to reviewed commit |
+| 39 / EP-039 | Quality and Verification | Offline golden-set regression | Compare candidate against versioned cases |
+| 40 / EP-040 | Distributed Systems | Bulkhead isolation by workload class | Stop one dependency exhausting workers |
+| 41 / EP-041 | Cost and Sourcing | Cache bounded by confidentiality and TTL | Avoid unsafe reuse of sensitive output |
+| 42 / EP-042 | Governance and Knowledge | Claim ledger with contradiction edges | Preserve dissent and negative evidence |
+| 43 / EP-043 | Learning and Practice | Decision guide with no-choice outcome | Prevent forced tool selection |
+| 44 / EP-044 | Lifecycle and Reliability | Audit evidence hold with access control | Preserve investigations without oversharing |
+| 45 / EP-045 | Context and Evidence | Quarantine invalid retrieval | Exclude suspect results before model use |
+| 46 / EP-046 | Contracts and Runtime | Bounded retry with exponential backoff | Prevent retry storms and unbounded spend |
+| 47 / EP-047 | Platform Reuse | Resource quotas and per-tenant limits | Prevent noisy-neighbour exhaustion |
+| 48 / EP-048 | Quality and Verification | Online monitor with sampled calibration | Detect drift while acknowledging sampling |
+| 49 / EP-049 | Distributed Systems | Saga compensation with explicit limits | Avoid assuming automatic undo of effects |
+| 50 / EP-050 | Cost and Sourcing | Per-task token and tool budget | Cap runaway autonomous work |
+| 51 / EP-051 | Governance and Knowledge | Research source expiry and revalidation | Catch vendor documentation drift |
+| 52 / EP-052 | Learning and Practice | Failure injection in safe sandbox | Experience denials without harm |
+| 53 / EP-053 | Lifecycle and Reliability | Retirement inventory of credentials and data | Make teardown auditable |
+| 54 / EP-054 | Authority and Security | Credential isolation per trust zone | Keep high privilege outside broad worker pools |
+| 55 / EP-055 | Context and Evidence | Memory write admission gate | Separate context consumption from persistence |
+| 56 / EP-056 | Contracts and Runtime | Circuit breaker on unstable dependency | Contain downstream failure |
+| 57 / EP-057 | Platform Reuse | Cache-aside with authoritative fallback | Treat cache as acceleration, not truth |
+| 58 / EP-058 | Quality and Verification | Differential deterministic-versus-LLM test | Quantify model value beyond correctness alone |
+| 59 / EP-059 | Distributed Systems | State-machine transition guard | Reject invalid workflow jumps |
+| 60 / EP-060 | Cost and Sourcing | Cost per safe successful task metric | Include failed and human-reviewed work |
+| 61 / EP-061 | Governance and Knowledge | PR reviewer separation of duties | Prevent self-approval of high-risk claims |
+| 62 / EP-062 | Learning and Practice | Role-based learning objective map | Align depth with responsibility |
+| 63 / EP-063 | Lifecycle and Reliability | Identity revocation rehearsal | Prove expired principals lose access |
+| 64 / EP-064 | Authority and Security | Scoped break-glass grant | Expiring exceptional access with review |
+| 65 / EP-065 | Context and Evidence | Memory tombstone propagation | Track derivative deletion and unresolved copies |
+| 66 / EP-066 | Contracts and Runtime | Timeout and cancellation propagation | Stop abandoned execution paths |
+| 67 / EP-067 | Platform Reuse | Durable queue over ephemeral signal | Prevent lost work on worker restart |
+| 68 / EP-068 | Quality and Verification | Canary release with rollback predicate | Limit blast radius of behavioural changes |
+| 69 / EP-069 | Distributed Systems | Deterministic event ordering by key | Document limits of global ordering |
+| 70 / EP-070 | Cost and Sourcing | Build-buy-embed decision record | Surface integration and exit costs |
+| 71 / EP-071 | Governance and Knowledge | AI handover packet pinned to SHA | Make state reconstructable across tools |
+| 72 / EP-072 | Learning and Practice | Cheat sheet generated from canonical article | Avoid independent contradictory short copy |
+| 73 / EP-073 | Lifecycle and Reliability | Data export with integrity manifest | Preserve migration and audit portability |
+| 74 / EP-074 | Authority and Security | Two-party high-risk approval | Prevent unilateral irreversible action |
+| 75 / EP-075 | Context and Evidence | Immutable evidence reference with redaction | Retain integrity without exposing secrets |
+| 76 / EP-076 | Contracts and Runtime | Dead-letter with operator replay | Make poison messages inspectable |
+| 77 / EP-077 | Platform Reuse | Autoscale on useful backlog signal | Avoid scaling on misleading CPU alone |
+| 78 / EP-078 | Quality and Verification | Shadow-mode recommendation only | Observe without authorising mutations |
+| 79 / EP-079 | Distributed Systems | Checkpoint plus external effect ledger | Avoid double effects after restart |
+| 80 / EP-080 | Cost and Sourcing | Sensitivity test on unit economics | Expose changes that reverse sourcing choices |
+| 81 / EP-081 | Governance and Knowledge | Article promotion only with citations | Separate note from approved guidance |
+| 82 / EP-082 | Learning and Practice | Lab reset and cleanup script | Make exercises reproducible |
+| 83 / EP-083 | Lifecycle and Reliability | Backup recovery independent of platform | Avoid circular recovery dependency |
+| 84 / EP-084 | Context and Evidence | Trace-to-case correlation invariant | Reconstruct why an action was attempted |
+| 85 / EP-085 | Contracts and Runtime | Durable workflow checkpoint | Resume from persisted progress |
+| 86 / EP-086 | Platform Reuse | Golden path as tested contract | Reduce variance for common workflows |
+| 87 / EP-087 | Distributed Systems | Timeout budget across service chain | Keep tail latency within contract |
+| 88 / EP-088 | Cost and Sourcing | Shared-service funding threshold | Require funded demand before centralising |
+| 89 / EP-089 | Governance and Knowledge | Deprecation with redirect and withdrawal | Avoid silently breaking readers |
+| 90 / EP-090 | Learning and Practice | Accessibility review for diagrams | Make architecture usable beyond visuals |
+| 91 / EP-091 | Lifecycle and Reliability | Runbook tested from clean environment | Prove restoration outside author memory |
+| 92 / EP-092 | Authority and Security | Policy bundle pinning and drift alert | Tie decisions to reviewed rule versions |
+| 93 / EP-093 | Context and Evidence | Counterevidence linked to claim | Avoid certainty from one supporting record |
+| 94 / EP-094 | Contracts and Runtime | Authority recheck on resume | Do not restore expired delegation |
+| 95 / EP-095 | Platform Reuse | Plugin sandbox with capability manifest | Constrain extension access and upgrade |
 | 96 / EP-096 | Distributed Systems | Disaster-recovery credential rotation | Avoid restoring invalid credentials |
 | 97 / EP-097 | Cost and Sourcing | Exit rehearsal before lock-in | Prove data and identity portability |
 | 98 / EP-098 | Governance and Knowledge | Rights clearance before public export | Protect third-party and employer material |
