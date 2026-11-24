@@ -1,0 +1,19 @@
+pattern_id,pattern,source_refs,existing_chapters,existing_decisions,disposition
+P01,API contract compatibility,RSR-EXT-132;RSR-EXT-133,12;22;39,D-09;D-21,Keep
+P02,Idempotent external effects,RSR-EXT-036;RSR-EXT-054,12;16;36,D-10;D-15,Correct exactly-once claim
+P03,Deterministic rules and triggers,RSR-EXT-120;RSR-EXT-121;RSR-EXT-122;RSR-EXT-123,14;19;39,D-15;D-29,Require durable outbox
+P04,Audit custody,RSR-EXT-026;RSR-EXT-048,17;40;57,D-24,Correct privileged tampering claim
+P05,Tenant source authorization,RSR-EXT-046;RSR-EXT-047,7;13;15,D-04;D-11;D-19,Keep
+P06,Provenance stable IDs,RSR-EXT-033;RSR-EXT-037;RSR-EXT-038,13;40;57,D-11;D-14,Keep
+P07,Persistent disagreement,RSR-EXT-027;RSR-EXT-039,13;18;57,D-14;D-22,Keep
+P08,Read-only MCP adapter,RSR-EXT-043;RSR-EXT-044,12;16;22,D-09;D-21,Modernize legacy SSE
+P09,Declarative UI API parity,RSR-EXT-132;RSR-EXT-133,22;39;42,D-21;D-29,Keep
+P10,Portable export and exit,RSR-EXT-040;RSR-EXT-057;RSR-EXT-060,34;49;50,D-29;D-30,Keep
+P11,Risk-triggered human review,RSR-PROG-028;RSR-PROG-030;RSR-PROG-031,19;35;40,D-06;D-22,Keep
+P12,Static-first governance,RSR-EXT-031;RSR-EXT-035,17;40;51,D-24,Keep
+P13,Controlled claim status,RSR-EXT-027;RSR-EXT-034,13;18;40,D-14;D-24,Keep
+P14,Dependency impact graph,RSR-EXT-013;RSR-EXT-025,14;35;36,D-15;D-27,Supporting
+P15,Release readiness telemetry,RSR-EXT-053;RSR-EXT-055,17;18;36,D-22;D-23;D-24,Keep
+P16,Retention and rights custody,RSR-EXT-049;RSR-EXT-052,21;34;50,D-25;D-30,Keep
+P17,Isolated bounded workers,RSR-EXT-042;RSR-EXT-054,11;14;35,D-07;D-15,Analogy only
+P18,Deterministic first costing,RSR-EXT-001;RSR-EXT-005;SRC-011,8;20;38,D-17;D-26,Derived research recommendation
