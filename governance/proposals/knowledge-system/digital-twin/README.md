@@ -27,3 +27,6 @@ To use an approved checkout in future, the source path mapping must first be upd
 ## Safety & governance
 
 Never promote a derived graph edge to authority; edit the owning source under existing review rules. Public repository output must exclude restricted sources and private participant evidence. Frozen D-IDs and Meridian records are read-only. No graph database, vector runtime, autonomous write access, or new approval chain is implied.
+## Delivery status (24 November 2026)
+
+This GitHub review directory contains the design specification, output schema, and structural test summary. The complete offline executable extractor (`build_twin.py`), its unit tests and generated example reports are included in the downloadable `PROGRAMME-DIGITAL-TWIN-v1.0.zip` attached to the relevant project discussion. They are **not** in this branch yet. Do not mark the GitHub-backed implementation as completed until source, tests and CI integration are committed and verified against a pinned approved baseline.
