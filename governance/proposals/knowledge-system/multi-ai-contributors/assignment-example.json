@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "work_item": "EX-006",
+  "agent_id": "ai-contributor-001",
+  "human_sponsor": "human-task-owner",
+  "repository": "smartnimbus/enterprise-ai-platform-engineering-book",
+  "base_sha": "b38854ba1386b587ad8c31ef007f4bc7bdbe82a1",
+  "allowed_paths": [
+    "automation/tests/**",
+    "examples/synthetic/**"
+  ],
+  "forbidden_paths": [
+    "meridian/fixture/**",
+    "decisions/catalogue/**",
+    "architecture/canonical/**"
+  ],
+  "lease_status": "ACTIVE",
+  "notes": "Illustrative assignment only. Not an actual grant, approval or active lease."
+}
