@@ -61,3 +61,4 @@
 **See also.** Existing catalogue chapter map: 10; 12; 16; 27; 42.
 
 **Teaching/fixture boundary (non-normative assessor note).** `MF-EVT-013`, `MF-EVD-DN-001.negative_bypass_test`. Direct-egress blocked is a synthetic negative test, not exhaustive evidence of deployed network or credential enforcement.
+
