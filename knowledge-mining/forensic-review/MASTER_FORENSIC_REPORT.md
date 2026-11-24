@@ -997,6 +997,7 @@ The register records file-level conceptual evidence. “Code-present” means th
 - What must be independently sourced from primary standards before publication?
 
 
+
 ---
 
 ## Dossier — workshop-2026-05-21-09-50-32
@@ -1061,3 +1062,4 @@ The register records file-level conceptual evidence. “Code-present” means th
 - Which design assertions have corroborating runtime tests and operational records?
 - Does the cited architecture source remain applicable to the frozen book decision, or is it an earlier exploratory taxonomy?
 - What must be independently sourced from primary standards before publication?
+
