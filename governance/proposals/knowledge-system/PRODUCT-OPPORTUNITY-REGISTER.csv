@@ -1,0 +1,13 @@
+id,opportunity,rank,reader_value_1_5,strategic_value_1_5,effort_1_5,guardrail,window,model
+P-01,Open Decision Atlas pack,1,5,5,4,Release frozen reference pages and editable application worksheets; distinguish reference from an applied ADR,Immediately once rights and approval are complete,Open source / download
+P-02,Decision-to-Evidence workshop,2,5,5,3,"Facilitated enterprise case; attendees produce a decision, evidence review and verdict",Before publication after proof review,Training service
+P-03,Applied review and assurance kit,3,5,5,4,"Review rubric, evidence checklist, exception and sign-off templates",Before publication after pilot,Open+paid pack
+P-04,Meridian demonstration pack,4,5,4,4,Synthetic replay and negative controls; never market as production proof,Before publication minimal version,Open source
+P-05,Role-based learning paths,5,4,4,3,"Architect, security, platform, SRE pathways",Around publication,Training
+P-06,Decision Atlas assessment service,6,4,5,4,Independent field study for real adopters with review and limits,After external pilot validation,Professional service
+P-07,Reference implementation starter kits,7,5,4,5,"Small domain-specific runnable specimens, tests and evidence",Before publication one; others later,Open source
+P-08,Open knowledge graph and research index,8,4,4,5,"Trace sources, concepts, chapters and decisions with licensing guardrails",Before publication curated seed,Community asset
+P-09,Live architecture decision workbench,9,5,4,5,"Software to track applied decisions, attestations, evidence and expiry",After repeatable manual use,Software product
+P-10,Evidence correlation tooling,10,5,4,5,"Plugin adapters for traces, receipts, tests; strict data isolation",After validated evidence schemas,Open + enterprise software
+P-11,Formal certification programme,11,3,3,5,"Skills assessment, examination and independent governance",Later only if market validation,Training credential
+P-12,Community and annual benchmark report,12,4,4,5,"Contributions, field survey and publishable findings",Later with data/rights governance,Research / community
