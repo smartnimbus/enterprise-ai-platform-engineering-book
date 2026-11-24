@@ -1,0 +1,21 @@
+<PARSED TEXT FOR SHEET: 1 / 1 TABS
+TAB NAME: CROSS-AUTHOR-SEMANTIC-COMPARISON.csv>
+index,id,dimension,check,participants,verdict,evidence_and_limit,severity_if_failed
+0,R01,Terminology,Context is a structural layer,A/B/C,AGREE,A labels Context structural; B references Context as data input; C does not redefine layers,MINOR
+1,R02,Ownership,Context never authorises external refund,A/B/C,AGREE,A explicit exclusion; B Gateway admission; C D-10 default exact,CRITICAL
+2,R03,Ownership,Gateway does not reconcile source business truth,A/B/C,AGREE,A stewardship; B policy input; C D-14 exact default,CRITICAL
+3,R04,Atlas,D-10 signed scoped receipt required before permitted mutation,B/C,AGREE,B separates normative allowed receipt from synthetic denial; C exact frozen default,CRITICAL
+4,R05,Atlas,D-14 conflict remains explicit unresolved,A/B/C,AGREE,Both manuscript plans preserve UNRESOLVED; C frozen default,CRITICAL
+5,R06,Atlas,D-18 routing/credentials/egress prevent bypass,B/C,AGREE,B distinguishes PEP from egress; C source-exact default,CRITICAL
+6,R07,Evidence,No refund posted or tool call,A/B/C,AGREE,No actor asserts financial side effect,CRITICAL
+7,R08,Evidence,Fixture is synthetic; does not establish deployed security,A/B/C,AGREE,Explicit caveats in all outputs,CRITICAL
+8,R09,Evidence,No signed Context handoff observed,A/C,AGREE,A distinguishes D-13 normative requirement; C silent,MAJOR
+9,R10,Lifecycle,No fabricated completed stage or release,A/B/C,AGREE,Lifecycle mappings labelled editorial; B separates release event,MAJOR
+10,R11,Evidence,No executed durable-memory write,A/B/C,AGREE,A explicitly identifies planned write gate and no observed receipt,CRITICAL
+11,R12,Scope,F6 headings and F7 headings not conflated,A/B,AGREE,"A F6 headings, B F7 headings; outlines not full manuscripts",MAJOR
+12,R13,Provenance,Default quotes copied exactly in chapter outlines,A/B,NOT TESTABLE,Authors defer exact default text to final drafting rather than quoting it within outline,MAJOR
+13,R14,Publishing,Full chapter completion validated,A/B/C,NOT TESTABLE,"Outlines and F1 candidate excerpts, not full finished prose",MAJOR
+14,R15,Independence,Three independent human authors contributed,A/B/C,NOT MET,All outputs are simulated within one assistant environment,CRITICAL
+15,R16,Authority,Atlas F1 specimens have approved human sign-off,C,NOT MET,Author C pages are unapproved candidate excerpts,CRITICAL
+16,R17,Vocabulary,All defined terms match approved glossary in complete prose,A/B/C,NOT TESTABLE,No complete chapters or approved terminology lint in production,MAJOR
+17,R18,Evidence,Cross-author same-claim provenance alignment,A/B/C,AGREE,"D10/D14/D18 link to same frozen fixture records, narrower B operational mapping",CRITICAL

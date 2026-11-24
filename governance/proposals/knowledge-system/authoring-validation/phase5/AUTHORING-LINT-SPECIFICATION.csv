@@ -1,0 +1,18 @@
+<PARSED TEXT FOR SHEET: 1 / 1 TABS
+TAB NAME: AUTHORING-LINT-SPECIFICATION.csv>
+index,rule_id,severity,category,rule,acceptance,mode
+0,L001,CRITICAL,FROZEN_ID,"Use only exact D-01..D-30 IDs, CH-001..058, original Meridian IDs","Reject unknown D-31, fabricated IDs, invented event reference",PARTIAL_AUTOMATION; HUMAN REVIEW FOR SEMANTICS
+1,L002,CRITICAL,WRONG_AUTHORITY,Do not let Context authorize action or Gateway reconcile source disagreements,Block canonical boundary inversion,PARTIAL_AUTOMATION; HUMAN REVIEW FOR SEMANTICS
+2,L003,CRITICAL,FORBIDDEN_SIDE_EFFECT,No text may claim refund posted/execute permitted when describing the Meridian denied case,Block false outcome,PARTIAL_AUTOMATION; HUMAN REVIEW FOR SEMANTICS
+3,L004,CRITICAL,FALSE_VALIDATION,Synthetic fixture cannot substantiate production deployment or cryptographic verification,Block false assurance,PARTIAL_AUTOMATION; HUMAN REVIEW FOR SEMANTICS
+4,L005,CRITICAL,FROZEN_CHANGE,Reject edits to frozen TOC/Atlas/fixture unless separately approved existing exception process,Fail source digest comparison,PARTIAL_AUTOMATION; HUMAN REVIEW FOR SEMANTICS
+5,L006,MAJOR,TERMINOLOGY,Do not use numbered structural layers or ninth security plane as normative,Block legacy taxonomy outside explicit quotations,PARTIAL_AUTOMATION; HUMAN REVIEW FOR SEMANTICS
+6,L007,MAJOR,CROSSWALK,Cite valid decision IDs with typed role and canonical primary owner,Fail invalid decision role and unresolved review status for production,PARTIAL_AUTOMATION; HUMAN REVIEW FOR SEMANTICS
+7,L008,MAJOR,EVIDENCE_STATE,Explicitly grade synthetic/demo/pending/implemented/tested/reproduced/approved,Fail ungraded consequential evidence,PARTIAL_AUTOMATION; HUMAN REVIEW FOR SEMANTICS
+8,L009,MAJOR,CHAPTER_SCOPE,No chapter can redefine another chapter technical authority or Atlas default,Reject scope-boundary violations,PARTIAL_AUTOMATION; HUMAN REVIEW FOR SEMANTICS
+9,L010,MAJOR,PROVENANCE,Every asserted observed event has an exact source file/event/evidence ID,Fail unverifiable material claim,PARTIAL_AUTOMATION; HUMAN REVIEW FOR SEMANTICS
+10,L011,MAJOR,IDEMPOTENCY,Keep authorisation and idempotency distinct from side effect,Flag mutation without permit,PARTIAL_AUTOMATION; HUMAN REVIEW FOR SEMANTICS
+11,L012,MAJOR,RELEASE_CANDIDATE,Distinguish failed release candidate from later revised candidate,Flag collapse of release timeline,PARTIAL_AUTOMATION; HUMAN REVIEW FOR SEMANTICS
+12,L013,WARNING,DUPLICATE_TEACHING,"Use one explanation owner; link, do not replicate material without new reader task",Manual review of similarity,PARTIAL_AUTOMATION; HUMAN REVIEW FOR SEMANTICS
+13,L014,WARNING,NAVIGATION,Resolve old chapter references and glossary destinations,Warn for review unless clearly invalid,PARTIAL_AUTOMATION; HUMAN REVIEW FOR SEMANTICS
+14,L015,WARNING,PILOT_COVERAGE,"D-10/D-14/D-18 have linked source claims, but not independent authoring pass",Visible limitation on pilot results,PARTIAL_AUTOMATION; HUMAN REVIEW FOR SEMANTICS

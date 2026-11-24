@@ -1,0 +1,18 @@
+<PARSED TEXT FOR SHEET: 1 / 1 TABS
+TAB NAME: DEFECT-PREVENTION-MATRIX.csv>
+index,case_id,defect,control,required_metadata,gate,observed_limit
+0,T10,FALSE_SIDE_EFFECT,V2-OUTCOME,Claim card + exact denial event,G2/G3,Known example blocked; paraphrases remain risk
+1,T11,FALSE_CANONICAL_CONFLICT,V2-CONFLICT,Conflict status and steward,G2/G3,Known example blocked; H01 still missed
+2,T12,SILENT_CONTEXT_RECONCILE,V2-CONFLICT,Evidence-bound state transition,G2/G3,Known example blocked; H03/H08 remain risk
+3,T14,FABRICATED_SIGNATURE,V2-EVIDENCE,Signature evidence and cryptographic verification metadata,G2/G3,Known example blocked; H04 remains risk
+4,T15,INVENTED_PLANE,V2-PLANE,Canonical component allowlist,G2/G3,Known example blocked; strict parser needed
+5,T16,SCOPE_REASSIGNMENT,V2-SCOPE,Chapter concept owner and type,G1/G3,Known example blocked; indirect claims may escape
+6,T17,CHAPTER_TITLE,V2-TITLE,Frozen chapter ID/title,G1/G2,Exact wrong title blocked
+7,H01,INDIRECT_RECENCY,NOT_YET_DETECTED,Entity/canonical source state,G3,Human detects until structured claims added
+8,H02,GATEWAY_BYPASS,NOT_YET_DETECTED,PEP bypass assertion and network control claims,G3,Human detects until semantic scope added
+9,H03,CONTEXT_SIDE_EFFECT,NOT_YET_DETECTED,Actor authority and mutation state,G3,Human detects until typed actor/action graph
+10,H04,FABRICATED_JWT,NOT_YET_DETECTED,Cryptographic key/signature proof,G3,Human validates evidence fields
+11,H05,EXPIRED_GRANT_BYPASS,NOT_YET_DETECTED,Expiry/revocation invariant,G3,Human checks permit validity
+12,H06,ATLAS_REINTERPRETATION,NOT_YET_DETECTED,Default span checksum and semantic judgement,G3/G4,Source-exact automated quotes and human paraphrase review
+13,H07,EVENT_SEQUENCE_CORRUPTION,NOT_YET_DETECTED,"Event timeline, release candidate IDs",G3/G4,Human reconstructs timeline
+14,H08,MEMORY_POLLUTION,NOT_YET_DETECTED,Memory write receipt and conflict disposition,G3/G4,Human checks memory-propagation assertions

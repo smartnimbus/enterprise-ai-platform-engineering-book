@@ -1,0 +1,13 @@
+<PARSED TEXT FOR SHEET: 1 / 1 TABS
+TAB NAME: CROSS-AUTHOR-COMPARISON.csv>
+index,check_id,topic,expected,result,reason,evidence_grade
+0,A/B-01,Context owner,Context retains evidence and unresolved semantic state,CONSISTENT,Both attribute reconciliation state to Context; neither claims identity issuance,SIMULATED_NOT_INDEPENDENT
+1,A/B-02,Gateway owner,"Gateway controls action admission, not semantic reconciliation",CONSISTENT,Both authors reserve action enforcement for Gateway,SIMULATED_NOT_INDEPENDENT
+2,A/B-03,Policy and identity,Governance defines policy; Identity constrains delegation,CONSISTENT,B explicitly names both; A does not conflict,SIMULATED_NOT_INDEPENDENT
+3,A/B-04,D-14 result,Product state remains UNRESOLVED,CONSISTENT,Both preserve disagreement,SIMULATED_NOT_INDEPENDENT
+4,A/B-05,D-10 result,DENY; refund:request does not imply refund:execute,CONSISTENT,B uses exact fixture; A refrains from asserting permit,SIMULATED_NOT_INDEPENDENT
+5,A/B-06,D-18 bypass,Simulated direct-egress block; no deployed guarantee,CONSISTENT,B explicitly grades evidence; A does not make egress claims,SIMULATED_NOT_INDEPENDENT
+6,A/B-07,Canonical terms,Context Structural Layer; Gateway Control Plane,CONSISTENT,Correct taxonomy; no numbered layers,SIMULATED_NOT_INDEPENDENT
+7,A/B-08,Cross-chapter navigation,Chapter 13 not authorisation; Chapter 16 not reconciliation,CONSISTENT,Explicit reciprocal handoffs,SIMULATED_NOT_INDEPENDENT
+8,A/B-09,Independent authoring,Authors independently draft from no shared written test script,NOT_DEMONSTRATED,"Both synthetic excerpts authored as a controlled exercise within one assistant, not independent models",SIMULATED_NOT_INDEPENDENT
+9,A/B-10,Full manuscript integration,Complete Chapters 13 and 16 obey all F6/F7 instructions,NOT_DEMONSTRATED,Only short synthetic excerpts tested; Chapter 13 is still a blueprint,SIMULATED_NOT_INDEPENDENT

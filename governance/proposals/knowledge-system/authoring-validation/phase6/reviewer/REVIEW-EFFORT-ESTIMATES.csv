@@ -1,0 +1,6 @@
+<PARSED TEXT FOR SHEET: 1 / 1 TABS
+TAB NAME: REVIEW-EFFORT-ESTIMATES.csv>
+index,chapter_count,base_technical_hours,overlap_count,overlap_hours,editorial_recheck_hours,setup_hours,reviewer_hours,weeks_at_5h_week,evidence_status
+0,2,7.0,3,2.25,3.0,2,14.25,2.85,ASSUMPTION_NOT_MEASURED
+1,5,17.5,8,6.0,7.5,2,33.0,6.6,ASSUMPTION_NOT_MEASURED
+2,10,35.0,20,15.0,15.0,2,67.0,13.4,ASSUMPTION_NOT_MEASURED

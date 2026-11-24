@@ -1,0 +1,17 @@
+<PARSED TEXT FOR SHEET: 1 / 1 TABS
+TAB NAME: SEMANTIC-VALIDATION-CONTROL-MATRIX.csv>
+index,control_id,topic,validation,execution_mode,failure_action,metadata,existing_gate
+0,SV-01,Frozen source integrity,Exact SHA256 and no modified canonical bytes,AUTOMATED,BLOCK on mismatch,Frozen source manifest; source paths; hash map,G0
+1,SV-02,Valid chapter identity,Exact ID and title from frozen chapter register,AUTOMATED,BLOCK missing/wrong full manuscript heading,Chapter contract; TOC digest,G1/G2
+2,SV-03,Canonical plane list,Only 8 named planes allowed in normative technical claims,AUTOMATED + REVIEWER,BLOCK unknown normative plane; review quoted alternatives,Component allowlist; alias status,G1/G2/G3
+3,SV-04,Normative ownership,Actor/plane/layer may assert only contract-authorised responsibility,REVIEWER_ASSISTED,BLOCK unresolved authority reassignment,Typed ownership claim records; chapter owner,G3/G4
+4,SV-05,D-10/D-14/D-18 default fidelity,Exact source-text comparison for verbatim quoted defaults; semantic paraphrases reviewed,AUTOMATED + HUMAN,BLOCK corrupted default; human review paraphrase,Decision ID/hash; quote span; role mapping,G2/G3
+5,SV-06,Meridian facts,"Known event IDs, actor, state, status, dates, side effect truth from frozen fixture",AUTOMATED + HUMAN,BLOCK fabricated event/receipt; humans review narrative,Evidence ID; event ledger digest; claim assertion,G2/G3
+6,SV-07,Evidence grade,Implemented/tested/reproduced/approved cannot be inferred from references,AUTOMATED + HUMAN,BLOCK elevated grade without evidence and authorised signature,"Claim card, grade, source/test run, signer",G3/G5
+7,SV-08,Synthetic to deployed boundary,Demo cannot support production security assurance,AUTOMATED + HUMAN,BLOCK synthetic production claim,"Evidence class, deployment environment, test issuer",G2/G3
+8,SV-09,Conflict state invariants,No autonomous newest-wins or hidden auto-reconciliation of unresolved product state,REVIEWER_ASSISTED,BLOCK observed contradiction to frozen fixture,"Subject IDs, two sources, state and steward",G3/G4
+9,SV-10,Delegation invariants,"No authority widening; expiry, identity and permitted action must be in evidence",REVIEWER_ASSISTED,"BLOCK unsupported permit, bypass or side effect","Actor chain, request, policy decision, PEP, receipt",G3/G4
+10,SV-11,Narrative time integrity,"Do not collapse denied request, egress test or failed release candidate",REVIEWER_ASSISTED,BLOCK contradicted sequence,Event IDs/dates; separate candidate IDs,G3/G4
+11,SV-12,Cross-chapter overlap,Compare overlapping claims for same decision and fixture,REVIEWER_ASSISTED,BLOCK unresolved critical/major mismatches,"Claim IDs, owner chapter, overlap diff",G4
+12,SV-13,Semantically independent authoring,Independent A/B/C evidence checked by non-author reviewer,HUMAN_ONLY,BLOCK missing independence/approval,"Sealed prompt SHA, workspace, reviewer records",G3/G4/G5
+13,SV-14,"Rights, technical accuracy and acceptance","Approve source permissions, citations, pedagogy and release",HUMAN_ONLY,BLOCK unapproved publication,"Qualified reviewer ID, approval SHA, rights record",G5/G6
