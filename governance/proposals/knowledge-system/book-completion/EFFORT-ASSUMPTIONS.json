@@ -1,0 +1,13 @@
+{
+  "planned_manuscript_pages": 448,
+  "proposal_total_estimate_including_front_index": 478,
+  "draft_manuscripts": 1,
+  "authoring_blueprints": 2,
+  "unwritten_standalone_manuscripts": 57,
+  "estimated_direct_human_hours": 831.6,
+  "integration_qa_rights_rework_and_buffer_hours": 258,
+  "estimated_total_human_hours": 1090,
+  "available_single_author_15h_week_26weeks": 390,
+  "full_6month_team_hours_week": 41.9,
+  "assumptions": "2.1 h/page architecture/high-risk, 1.55 h/page others incl technical review and edit; 22% reserve +75 integration; scenario not measurement"
+}
