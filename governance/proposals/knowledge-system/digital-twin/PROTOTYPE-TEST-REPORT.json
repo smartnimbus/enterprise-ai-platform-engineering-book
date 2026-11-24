@@ -1,0 +1,18 @@
+{
+  "test_runner": "python3 -m unittest -v test_twin.py",
+  "tests_passed": 13,
+  "tests_failed": 0,
+  "test_type": "OFFLINE_DETERMINISTIC_STRUCTURAL_ONLY",
+  "observed_nodes": 315,
+  "observed_edges": 2013,
+  "isolated_candidates": 25,
+  "explicit_d10_dependents": 52,
+  "source_scope": "LOCAL_INPUTS_NOT_APPROVED_GITHUB_MAIN",
+  "independent_validation": "NOT_RUN",
+  "claims_not_supported": [
+    "production assurance",
+    "human approval",
+    "runtime implementation",
+    "complete main repository traceability"
+  ]
+}
