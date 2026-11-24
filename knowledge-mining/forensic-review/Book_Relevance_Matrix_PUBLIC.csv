@@ -1,0 +1,387 @@
+concept_id,project,concept,classification,reason,chapter,decision_id,pattern
+IA-001,EP,API-as-Runner Kubernetes Jobs,B,On-demand workers separate the control API from job execution; a transferable operating pattern,11,D-08,ephemeral-worker-execution
+IA-001,EP,API-as-Runner Kubernetes Jobs,B,On-demand workers separate the control API from job execution; a transferable operating pattern,11,D-15,ephemeral-worker-execution
+IA-001,EP,API-as-Runner Kubernetes Jobs,B,On-demand workers separate the control API from job execution; a transferable operating pattern,14,D-08,ephemeral-worker-execution
+IA-001,EP,API-as-Runner Kubernetes Jobs,B,On-demand workers separate the control API from job execution; a transferable operating pattern,14,D-15,ephemeral-worker-execution
+IA-001,EP,API-as-Runner Kubernetes Jobs,B,On-demand workers separate the control API from job execution; a transferable operating pattern,36,D-08,ephemeral-worker-execution
+IA-001,EP,API-as-Runner Kubernetes Jobs,B,On-demand workers separate the control API from job execution; a transferable operating pattern,36,D-15,ephemeral-worker-execution
+IA-002,EP,Manifest auto-discovery of workers,B,Worker metadata reduces central registry edits while creating a manifest trust boundary,12,D-09,declarative-tool-onboarding
+IA-002,EP,Manifest auto-discovery of workers,B,Worker metadata reduces central registry edits while creating a manifest trust boundary,12,D-29,declarative-tool-onboarding
+IA-002,EP,Manifest auto-discovery of workers,B,Worker metadata reduces central registry edits while creating a manifest trust boundary,29,D-09,declarative-tool-onboarding
+IA-002,EP,Manifest auto-discovery of workers,B,Worker metadata reduces central registry edits while creating a manifest trust boundary,29,D-29,declarative-tool-onboarding
+IA-002,EP,Manifest auto-discovery of workers,B,Worker metadata reduces central registry edits while creating a manifest trust boundary,44,D-09,declarative-tool-onboarding
+IA-002,EP,Manifest auto-discovery of workers,B,Worker metadata reduces central registry edits while creating a manifest trust boundary,44,D-29,declarative-tool-onboarding
+IA-003,EP,Hybrid SQL plus JSONB lineage,B,Relational joins and flexible source payloads support provenance without losing raw records,13,D-14,structured-unstructured-provenance
+IA-003,EP,Hybrid SQL plus JSONB lineage,B,Relational joins and flexible source payloads support provenance without losing raw records,13,D-24,structured-unstructured-provenance
+IA-003,EP,Hybrid SQL plus JSONB lineage,B,Relational joins and flexible source payloads support provenance without losing raw records,17,D-14,structured-unstructured-provenance
+IA-003,EP,Hybrid SQL plus JSONB lineage,B,Relational joins and flexible source payloads support provenance without losing raw records,17,D-24,structured-unstructured-provenance
+IA-003,EP,Hybrid SQL plus JSONB lineage,B,Relational joins and flexible source payloads support provenance without losing raw records,57,D-14,structured-unstructured-provenance
+IA-003,EP,Hybrid SQL plus JSONB lineage,B,Relational joins and flexible source payloads support provenance without losing raw records,57,D-24,structured-unstructured-provenance
+IA-004,EP,Federated workload identity ownership,B,Service-account ownership outside a project illustrates least privilege and separation of duties,15,D-19,identity-sovereignty
+IA-004,EP,Federated workload identity ownership,B,Service-account ownership outside a project illustrates least privilege and separation of duties,15,D-20,identity-sovereignty
+IA-004,EP,Federated workload identity ownership,B,Service-account ownership outside a project illustrates least privilege and separation of duties,27,D-19,identity-sovereignty
+IA-004,EP,Federated workload identity ownership,B,Service-account ownership outside a project illustrates least privilege and separation of duties,27,D-20,identity-sovereignty
+IA-004,EP,Federated workload identity ownership,B,Service-account ownership outside a project illustrates least privilege and separation of duties,35,D-19,identity-sovereignty
+IA-004,EP,Federated workload identity ownership,B,Service-account ownership outside a project illustrates least privilege and separation of duties,35,D-20,identity-sovereignty
+IA-005,EP,Infrastructure and platform authority split,B,IaC ownership must preserve accountable delivery and recovery independence,6,D-06,control-ownership-boundaries
+IA-005,EP,Infrastructure and platform authority split,B,IaC ownership must preserve accountable delivery and recovery independence,6,D-29,control-ownership-boundaries
+IA-005,EP,Infrastructure and platform authority split,B,IaC ownership must preserve accountable delivery and recovery independence,35,D-06,control-ownership-boundaries
+IA-005,EP,Infrastructure and platform authority split,B,IaC ownership must preserve accountable delivery and recovery independence,35,D-29,control-ownership-boundaries
+IA-005,EP,Infrastructure and platform authority split,B,IaC ownership must preserve accountable delivery and recovery independence,39,D-06,control-ownership-boundaries
+IA-005,EP,Infrastructure and platform authority split,B,IaC ownership must preserve accountable delivery and recovery independence,39,D-29,control-ownership-boundaries
+IA-006,EP,RVTools and vRLI heterogeneous ingestion,B,Multiple estate sources illustrate source-specific authority and normalisation boundaries,13,D-11,heterogeneous-data-ingestion
+IA-006,EP,RVTools and vRLI heterogeneous ingestion,B,Multiple estate sources illustrate source-specific authority and normalisation boundaries,13,D-14,heterogeneous-data-ingestion
+IA-006,EP,RVTools and vRLI heterogeneous ingestion,B,Multiple estate sources illustrate source-specific authority and normalisation boundaries,28,D-11,heterogeneous-data-ingestion
+IA-006,EP,RVTools and vRLI heterogeneous ingestion,B,Multiple estate sources illustrate source-specific authority and normalisation boundaries,28,D-14,heterogeneous-data-ingestion
+IA-006,EP,RVTools and vRLI heterogeneous ingestion,B,Multiple estate sources illustrate source-specific authority and normalisation boundaries,57,D-11,heterogeneous-data-ingestion
+IA-006,EP,RVTools and vRLI heterogeneous ingestion,B,Multiple estate sources illustrate source-specific authority and normalisation boundaries,57,D-14,heterogeneous-data-ingestion
+IA-007,EP,IPFIX direct collection alternative,D,Direct-flow collection versus a logging-only pipeline is evidence of architectural option appraisal,5,D-02,source-capability-selection
+IA-007,EP,IPFIX direct collection alternative,D,Direct-flow collection versus a logging-only pipeline is evidence of architectural option appraisal,5,D-14,source-capability-selection
+IA-007,EP,IPFIX direct collection alternative,D,Direct-flow collection versus a logging-only pipeline is evidence of architectural option appraisal,13,D-02,source-capability-selection
+IA-007,EP,IPFIX direct collection alternative,D,Direct-flow collection versus a logging-only pipeline is evidence of architectural option appraisal,13,D-14,source-capability-selection
+IA-008,EP,SSE rather than WebSockets for logs,E,"Illustrates selecting interaction protocols to meet observed needs, not maximum generality",17,D-17,right-sized-streaming-contract
+IA-008,EP,SSE rather than WebSockets for logs,E,"Illustrates selecting interaction protocols to meet observed needs, not maximum generality",17,D-24,right-sized-streaming-contract
+IA-008,EP,SSE rather than WebSockets for logs,E,"Illustrates selecting interaction protocols to meet observed needs, not maximum generality",36,D-17,right-sized-streaming-contract
+IA-008,EP,SSE rather than WebSockets for logs,E,"Illustrates selecting interaction protocols to meet observed needs, not maximum generality",36,D-24,right-sized-streaming-contract
+IA-009,EP,GKE stateful database over Cloud SQL,D,"Highlights costs of owning backup, patching and operational recovery; do not reuse decision as universal default",5,D-02,ownership-vs-managed-services
+IA-009,EP,GKE stateful database over Cloud SQL,D,"Highlights costs of owning backup, patching and operational recovery; do not reuse decision as universal default",5,D-27,ownership-vs-managed-services
+IA-009,EP,GKE stateful database over Cloud SQL,D,"Highlights costs of owning backup, patching and operational recovery; do not reuse decision as universal default",36,D-02,ownership-vs-managed-services
+IA-009,EP,GKE stateful database over Cloud SQL,D,"Highlights costs of owning backup, patching and operational recovery; do not reuse decision as universal default",36,D-27,ownership-vs-managed-services
+IA-010,EP,Log retention in relational store,B,Evidence durability and storage lifetime should be explicit rather than assumed,17,D-24,operational-evidence-retention
+IA-010,EP,Log retention in relational store,B,Evidence durability and storage lifetime should be explicit rather than assumed,17,D-25,operational-evidence-retention
+IA-010,EP,Log retention in relational store,B,Evidence durability and storage lifetime should be explicit rather than assumed,40,D-24,operational-evidence-retention
+IA-010,EP,Log retention in relational store,B,Evidence durability and storage lifetime should be explicit rather than assumed,40,D-25,operational-evidence-retention
+IA-011,EP,Worker execution RBAC and status,B,Linking a job to initiator and status supports audit and operational support,15,D-19,workload-identity-traceability
+IA-011,EP,Worker execution RBAC and status,B,Linking a job to initiator and status supports audit and operational support,15,D-24,workload-identity-traceability
+IA-011,EP,Worker execution RBAC and status,B,Linking a job to initiator and status supports audit and operational support,17,D-19,workload-identity-traceability
+IA-011,EP,Worker execution RBAC and status,B,Linking a job to initiator and status supports audit and operational support,17,D-24,workload-identity-traceability
+IA-011,EP,Worker execution RBAC and status,B,Linking a job to initiator and status supports audit and operational support,35,D-19,workload-identity-traceability
+IA-011,EP,Worker execution RBAC and status,B,Linking a job to initiator and status supports audit and operational support,35,D-24,workload-identity-traceability
+IA-012,EP,Self-contained operational context document,E,Living context as a human/machine handover asset; model for companion site,39,D-29,repository-continuity
+IA-012,EP,Self-contained operational context document,E,Living context as a human/machine handover asset; model for companion site,52,D-29,repository-continuity
+IA-013,AE,Interceptable cognition,A,Separates model intent from enforceable action; concept predates current manuscript form,16,D-10,pre-action-governance
+IA-013,AE,Interceptable cognition,A,Separates model intent from enforceable action; concept predates current manuscript form,16,D-18,pre-action-governance
+IA-013,AE,Interceptable cognition,A,Separates model intent from enforceable action; concept predates current manuscript form,19,D-10,pre-action-governance
+IA-013,AE,Interceptable cognition,A,Separates model intent from enforceable action; concept predates current manuscript form,19,D-18,pre-action-governance
+IA-013,AE,Interceptable cognition,A,Separates model intent from enforceable action; concept predates current manuscript form,48,D-10,pre-action-governance
+IA-013,AE,Interceptable cognition,A,Separates model intent from enforceable action; concept predates current manuscript form,48,D-18,pre-action-governance
+IA-014,AE,Executable governance semantics,A,Policy is evaluated during runtime rather than treated as an external document,16,D-10,policy-as-runtime-control
+IA-014,AE,Executable governance semantics,A,Policy is evaluated during runtime rather than treated as an external document,16,D-19,policy-as-runtime-control
+IA-014,AE,Executable governance semantics,A,Policy is evaluated during runtime rather than treated as an external document,19,D-10,policy-as-runtime-control
+IA-014,AE,Executable governance semantics,A,Policy is evaluated during runtime rather than treated as an external document,19,D-19,policy-as-runtime-control
+IA-014,AE,Executable governance semantics,A,Policy is evaluated during runtime rather than treated as an external document,40,D-10,policy-as-runtime-control
+IA-014,AE,Executable governance semantics,A,Policy is evaluated during runtime rather than treated as an external document,40,D-19,policy-as-runtime-control
+IA-015,AE,Append-only cognition spine,A,Operational evidence and memory history need separate persistence and traceable revisions,13,D-12,evidence-lineage-continuity
+IA-015,AE,Append-only cognition spine,A,Operational evidence and memory history need separate persistence and traceable revisions,13,D-24,evidence-lineage-continuity
+IA-015,AE,Append-only cognition spine,A,Operational evidence and memory history need separate persistence and traceable revisions,17,D-12,evidence-lineage-continuity
+IA-015,AE,Append-only cognition spine,A,Operational evidence and memory history need separate persistence and traceable revisions,17,D-24,evidence-lineage-continuity
+IA-015,AE,Append-only cognition spine,A,Operational evidence and memory history need separate persistence and traceable revisions,40,D-12,evidence-lineage-continuity
+IA-015,AE,Append-only cognition spine,A,Operational evidence and memory history need separate persistence and traceable revisions,40,D-24,evidence-lineage-continuity
+IA-015,AE,Append-only cognition spine,A,Operational evidence and memory history need separate persistence and traceable revisions,57,D-12,evidence-lineage-continuity
+IA-015,AE,Append-only cognition spine,A,Operational evidence and memory history need separate persistence and traceable revisions,57,D-24,evidence-lineage-continuity
+IA-016,AE,Persistent disagreement,A,Contradictions should remain explicit until the source authority resolves them,13,D-14,non-silent-reconciliation
+IA-016,AE,Persistent disagreement,A,Contradictions should remain explicit until the source authority resolves them,57,D-14,non-silent-reconciliation
+IA-017,AE,Policy-bounded recall,A,Memory recall should inherit tenant and permission restrictions,13,D-11,retrieval-access-governance
+IA-017,AE,Policy-bounded recall,A,Memory recall should inherit tenant and permission restrictions,13,D-12,retrieval-access-governance
+IA-017,AE,Policy-bounded recall,A,Memory recall should inherit tenant and permission restrictions,21,D-11,retrieval-access-governance
+IA-017,AE,Policy-bounded recall,A,Memory recall should inherit tenant and permission restrictions,21,D-12,retrieval-access-governance
+IA-018,AE,Replayable governance evidence,A,Reconstruct why a runtime decision was allowed or denied,16,D-18,decision-to-evidence-chain
+IA-018,AE,Replayable governance evidence,A,Reconstruct why a runtime decision was allowed or denied,16,D-24,decision-to-evidence-chain
+IA-018,AE,Replayable governance evidence,A,Reconstruct why a runtime decision was allowed or denied,17,D-18,decision-to-evidence-chain
+IA-018,AE,Replayable governance evidence,A,Reconstruct why a runtime decision was allowed or denied,17,D-24,decision-to-evidence-chain
+IA-018,AE,Replayable governance evidence,A,Reconstruct why a runtime decision was allowed or denied,40,D-18,decision-to-evidence-chain
+IA-018,AE,Replayable governance evidence,A,Reconstruct why a runtime decision was allowed or denied,40,D-24,decision-to-evidence-chain
+IA-018,AE,Replayable governance evidence,A,Reconstruct why a runtime decision was allowed or denied,57,D-18,decision-to-evidence-chain
+IA-018,AE,Replayable governance evidence,A,Reconstruct why a runtime decision was allowed or denied,57,D-24,decision-to-evidence-chain
+IA-019,AE,Identity continuity through cognitive handoffs,A,Preserves principal continuity through asynchronous or delegated cognition,15,D-19,delegation-identity-chain
+IA-019,AE,Identity continuity through cognitive handoffs,A,Preserves principal continuity through asynchronous or delegated cognition,15,D-20,delegation-identity-chain
+IA-019,AE,Identity continuity through cognitive handoffs,A,Preserves principal continuity through asynchronous or delegated cognition,16,D-19,delegation-identity-chain
+IA-019,AE,Identity continuity through cognitive handoffs,A,Preserves principal continuity through asynchronous or delegated cognition,16,D-20,delegation-identity-chain
+IA-020,AE,Debate and convergence as bounded reasoning,C,Informs conference discussion of disagreement but outside the frozen book focus,14,D-13,bounded-collaborative-deliberation
+IA-020,AE,Debate and convergence as bounded reasoning,C,Informs conference discussion of disagreement but outside the frozen book focus,14,D-22,bounded-collaborative-deliberation
+IA-020,AE,Debate and convergence as bounded reasoning,C,Informs conference discussion of disagreement but outside the frozen book focus,18,D-13,bounded-collaborative-deliberation
+IA-020,AE,Debate and convergence as bounded reasoning,C,Informs conference discussion of disagreement but outside the frozen book focus,18,D-22,bounded-collaborative-deliberation
+IA-021,AE,AEGIS trust and failure narrative,F,Former fictional world must not be imported into frozen Meridian manuscript,9,D-23,fictional-case-literacy
+IA-021,AE,AEGIS trust and failure narrative,F,Former fictional world must not be imported into frozen Meridian manuscript,18,D-23,fictional-case-literacy
+IA-021,AE,AEGIS trust and failure narrative,F,Former fictional world must not be imported into frozen Meridian manuscript,57,D-23,fictional-case-literacy
+IA-022,AE,Multi-volume cognitive architecture programme,E,"Authorial historical development of reference, field guide and workbook separation",39,D-29,editorial-modularisation
+IA-022,AE,Multi-volume cognitive architecture programme,E,"Authorial historical development of reference, field guide and workbook separation",52,D-29,editorial-modularisation
+IA-023,AE,Cost and reliability as governance constraints,B,Operational budgets and degradation rules interact with runtime policy,20,D-26,economic-reliability-governance
+IA-023,AE,Cost and reliability as governance constraints,B,Operational budgets and degradation rules interact with runtime policy,20,D-27,economic-reliability-governance
+IA-023,AE,Cost and reliability as governance constraints,B,Operational budgets and degradation rules interact with runtime policy,36,D-26,economic-reliability-governance
+IA-023,AE,Cost and reliability as governance constraints,B,Operational budgets and degradation rules interact with runtime policy,36,D-27,economic-reliability-governance
+IA-023,AE,Cost and reliability as governance constraints,B,Operational budgets and degradation rules interact with runtime policy,38,D-26,economic-reliability-governance
+IA-023,AE,Cost and reliability as governance constraints,B,Operational budgets and degradation rules interact with runtime policy,38,D-27,economic-reliability-governance
+IA-024,AE,Canonical runtime sequence templates,E,Sequence-by-sequence visual teaching asset; adapt only after source and rights review,17,D-24,trajectory-as-teaching-evidence
+IA-024,AE,Canonical runtime sequence templates,E,Sequence-by-sequence visual teaching asset; adapt only after source and rights review,57,D-24,trajectory-as-teaching-evidence
+IA-025,KO,Mission Control collaborative workspace,B,Explicit human and agent accountability within shared workspaces,6,D-06,human-agent-shared-workspace
+IA-025,KO,Mission Control collaborative workspace,B,Explicit human and agent accountability within shared workspaces,6,D-15,human-agent-shared-workspace
+IA-025,KO,Mission Control collaborative workspace,B,Explicit human and agent accountability within shared workspaces,14,D-06,human-agent-shared-workspace
+IA-025,KO,Mission Control collaborative workspace,B,Explicit human and agent accountability within shared workspaces,14,D-15,human-agent-shared-workspace
+IA-025,KO,Mission Control collaborative workspace,B,Explicit human and agent accountability within shared workspaces,35,D-06,human-agent-shared-workspace
+IA-025,KO,Mission Control collaborative workspace,B,Explicit human and agent accountability within shared workspaces,35,D-15,human-agent-shared-workspace
+IA-026,KO,Domain-Agnostic Agent Protocol,B,Historical manifest pattern for agent roles and interactions; evaluate interoperability maturity,22,D-21,versioned-agent-contract
+IA-026,KO,Domain-Agnostic Agent Protocol,B,Historical manifest pattern for agent roles and interactions; evaluate interoperability maturity,53,D-21,versioned-agent-contract
+IA-027,KO,Dynamic agent marketplace provisioning,B,"Agent catalogs introduce admission, provenance and retirement concerns",12,D-09,controlled-agent-provisioning
+IA-027,KO,Dynamic agent marketplace provisioning,B,"Agent catalogs introduce admission, provenance and retirement concerns",12,D-29,controlled-agent-provisioning
+IA-027,KO,Dynamic agent marketplace provisioning,B,"Agent catalogs introduce admission, provenance and retirement concerns",29,D-09,controlled-agent-provisioning
+IA-027,KO,Dynamic agent marketplace provisioning,B,"Agent catalogs introduce admission, provenance and retirement concerns",29,D-29,controlled-agent-provisioning
+IA-028,KO,Long-running requests and checkpoints,A,Suspend and resume work with recorded state and recovery boundaries,14,D-15,durable-agent-execution
+IA-028,KO,Long-running requests and checkpoints,A,Suspend and resume work with recorded state and recovery boundaries,14,D-27,durable-agent-execution
+IA-028,KO,Long-running requests and checkpoints,A,Suspend and resume work with recorded state and recovery boundaries,36,D-15,durable-agent-execution
+IA-028,KO,Long-running requests and checkpoints,A,Suspend and resume work with recorded state and recovery boundaries,36,D-27,durable-agent-execution
+IA-029,KO,Lifecycle hooks for agent interception,A,27-event proposed lifecycle hook design; implementation coverage unverified,16,D-10,deterministic-interception
+IA-029,KO,Lifecycle hooks for agent interception,A,27-event proposed lifecycle hook design; implementation coverage unverified,16,D-18,deterministic-interception
+IA-029,KO,Lifecycle hooks for agent interception,A,27-event proposed lifecycle hook design; implementation coverage unverified,21,D-10,deterministic-interception
+IA-029,KO,Lifecycle hooks for agent interception,A,27-event proposed lifecycle hook design; implementation coverage unverified,21,D-18,deterministic-interception
+IA-030,KO,Four-point sensitive data pipeline,B,PII controls should act before model exposure and on subsequent tool paths,13,D-11,multi-stage-data-protection
+IA-030,KO,Four-point sensitive data pipeline,B,PII controls should act before model exposure and on subsequent tool paths,13,D-25,multi-stage-data-protection
+IA-030,KO,Four-point sensitive data pipeline,B,PII controls should act before model exposure and on subsequent tool paths,21,D-11,multi-stage-data-protection
+IA-030,KO,Four-point sensitive data pipeline,B,PII controls should act before model exposure and on subsequent tool paths,21,D-25,multi-stage-data-protection
+IA-031,KO,Multi-hop on-behalf-of identity,A,Principal identity and permissions should survive agent-to-agent delegation,15,D-19,scope-attenuated-delegation
+IA-031,KO,Multi-hop on-behalf-of identity,A,Principal identity and permissions should survive agent-to-agent delegation,15,D-20,scope-attenuated-delegation
+IA-031,KO,Multi-hop on-behalf-of identity,A,Principal identity and permissions should survive agent-to-agent delegation,16,D-19,scope-attenuated-delegation
+IA-031,KO,Multi-hop on-behalf-of identity,A,Principal identity and permissions should survive agent-to-agent delegation,16,D-20,scope-attenuated-delegation
+IA-032,KO,Debate convergence engine,C,Strong conference topic; proposed guarantees require independent verification,14,D-13,bounded-collaborative-deliberation
+IA-032,KO,Debate convergence engine,C,Strong conference topic; proposed guarantees require independent verification,14,D-22,bounded-collaborative-deliberation
+IA-032,KO,Debate convergence engine,C,Strong conference topic; proposed guarantees require independent verification,18,D-13,bounded-collaborative-deliberation
+IA-032,KO,Debate convergence engine,C,Strong conference topic; proposed guarantees require independent verification,18,D-22,bounded-collaborative-deliberation
+IA-033,KO,Evidence citation protocol,B,Evidence attribution should survive collective reasoning,13,D-14,evidence-lineage-continuity
+IA-033,KO,Evidence citation protocol,B,Evidence attribution should survive collective reasoning,13,D-24,evidence-lineage-continuity
+IA-033,KO,Evidence citation protocol,B,Evidence attribution should survive collective reasoning,17,D-14,evidence-lineage-continuity
+IA-033,KO,Evidence citation protocol,B,Evidence attribution should survive collective reasoning,17,D-24,evidence-lineage-continuity
+IA-034,KO,Agent cost attribution ledger,A,"Link tokens and tools to tenant, workspace and outcome",20,D-26,cost-per-task-attribution
+IA-034,KO,Agent cost attribution ledger,A,"Link tokens and tools to tenant, workspace and outcome",38,D-26,cost-per-task-attribution
+IA-034,KO,Agent cost attribution ledger,A,"Link tokens and tools to tenant, workspace and outcome",57,D-26,cost-per-task-attribution
+IA-035,KO,Cost-based runtime circuit breakers,A,Spend budgets should constrain ongoing autonomous work,20,D-26,economic-admission-control
+IA-035,KO,Cost-based runtime circuit breakers,A,Spend budgets should constrain ongoing autonomous work,38,D-26,economic-admission-control
+IA-036,KO,Chaos testing for multi-agent systems,B,"Test injected model, tool and network failures instead of relying on happy paths",18,D-22,failure-injection-verification
+IA-036,KO,Chaos testing for multi-agent systems,B,"Test injected model, tool and network failures instead of relying on happy paths",18,D-27,failure-injection-verification
+IA-036,KO,Chaos testing for multi-agent systems,B,"Test injected model, tool and network failures instead of relying on happy paths",36,D-22,failure-injection-verification
+IA-036,KO,Chaos testing for multi-agent systems,B,"Test injected model, tool and network failures instead of relying on happy paths",36,D-27,failure-injection-verification
+IA-036,KO,Chaos testing for multi-agent systems,B,"Test injected model, tool and network failures instead of relying on happy paths",47,D-22,failure-injection-verification
+IA-036,KO,Chaos testing for multi-agent systems,B,"Test injected model, tool and network failures instead of relying on happy paths",47,D-27,failure-injection-verification
+IA-037,KO,Multi-user tenant memory boundaries,A,Cross-user and cross-tenant memory controls as first-class state,13,D-12,memory-isolation
+IA-037,KO,Multi-user tenant memory boundaries,A,Cross-user and cross-tenant memory controls as first-class state,13,D-13,memory-isolation
+IA-037,KO,Multi-user tenant memory boundaries,A,Cross-user and cross-tenant memory controls as first-class state,21,D-12,memory-isolation
+IA-037,KO,Multi-user tenant memory boundaries,A,Cross-user and cross-tenant memory controls as first-class state,21,D-13,memory-isolation
+IA-038,KO,FinOps outcome unit economics,B,Distinguish token spend from cost and value per completed outcome,20,D-26,cost-per-task-attribution
+IA-038,KO,FinOps outcome unit economics,B,Distinguish token spend from cost and value per completed outcome,38,D-26,cost-per-task-attribution
+IA-039,KO,Deployment profiles and data recovery,B,Multiple deployment profiles force explicit portability and recovery decisions,7,D-04,deployment-sovereignty
+IA-039,KO,Deployment profiles and data recovery,B,Multiple deployment profiles force explicit portability and recovery decisions,7,D-27,deployment-sovereignty
+IA-039,KO,Deployment profiles and data recovery,B,Multiple deployment profiles force explicit portability and recovery decisions,36,D-04,deployment-sovereignty
+IA-039,KO,Deployment profiles and data recovery,B,Multiple deployment profiles force explicit portability and recovery decisions,36,D-27,deployment-sovereignty
+IA-040,UA,One Thread state manager,A,Thread persistence and recovery explicit rather than implicit in framework orchestration,14,D-15,durable-agent-execution
+IA-040,UA,One Thread state manager,A,Thread persistence and recovery explicit rather than implicit in framework orchestration,14,D-27,durable-agent-execution
+IA-040,UA,One Thread state manager,A,Thread persistence and recovery explicit rather than implicit in framework orchestration,36,D-15,durable-agent-execution
+IA-040,UA,One Thread state manager,A,Thread persistence and recovery explicit rather than implicit in framework orchestration,36,D-27,durable-agent-execution
+IA-041,UA,GovernanceGuard mandatory path,A,Strong negative-example pairing with audit-reported implementation bypass risks,16,D-10,pre-action-governance
+IA-041,UA,GovernanceGuard mandatory path,A,Strong negative-example pairing with audit-reported implementation bypass risks,16,D-18,pre-action-governance
+IA-041,UA,GovernanceGuard mandatory path,A,Strong negative-example pairing with audit-reported implementation bypass risks,19,D-10,pre-action-governance
+IA-041,UA,GovernanceGuard mandatory path,A,Strong negative-example pairing with audit-reported implementation bypass risks,19,D-18,pre-action-governance
+IA-042,UA,PII classification and tokenisation,B,"Separate classification, masking, token maps and authorised detokenisation",13,D-11,multi-stage-data-protection
+IA-042,UA,PII classification and tokenisation,B,"Separate classification, masking, token maps and authorised detokenisation",13,D-25,multi-stage-data-protection
+IA-042,UA,PII classification and tokenisation,B,"Separate classification, masking, token maps and authorised detokenisation",21,D-11,multi-stage-data-protection
+IA-042,UA,PII classification and tokenisation,B,"Separate classification, masking, token maps and authorised detokenisation",21,D-25,multi-stage-data-protection
+IA-043,UA,Cache fencing by classification,A,"Prevent sensitive content crossing cache boundaries, independent of retrieval relevance",13,D-11,memory-isolation
+IA-043,UA,Cache fencing by classification,A,"Prevent sensitive content crossing cache boundaries, independent of retrieval relevance",13,D-25,memory-isolation
+IA-043,UA,Cache fencing by classification,A,"Prevent sensitive content crossing cache boundaries, independent of retrieval relevance",21,D-11,memory-isolation
+IA-043,UA,Cache fencing by classification,A,"Prevent sensitive content crossing cache boundaries, independent of retrieval relevance",21,D-25,memory-isolation
+IA-044,UA,LLM Gateway routing and costs,B,Model routing and usage controls; distinguish from mutable-action admission,16,D-17,model-routing-admission
+IA-044,UA,LLM Gateway routing and costs,B,Model routing and usage controls; distinguish from mutable-action admission,16,D-26,model-routing-admission
+IA-044,UA,LLM Gateway routing and costs,B,Model routing and usage controls; distinguish from mutable-action admission,20,D-17,model-routing-admission
+IA-044,UA,LLM Gateway routing and costs,B,Model routing and usage controls; distinguish from mutable-action admission,20,D-26,model-routing-admission
+IA-045,UA,Task graph orchestration,B,"Versioned tasks, requirements and dependencies enable accountable execution",14,D-15,dependency-based-work-execution
+IA-045,UA,Task graph orchestration,B,"Versioned tasks, requirements and dependencies enable accountable execution",14,D-29,dependency-based-work-execution
+IA-045,UA,Task graph orchestration,B,"Versioned tasks, requirements and dependencies enable accountable execution",39,D-15,dependency-based-work-execution
+IA-045,UA,Task graph orchestration,B,"Versioned tasks, requirements and dependencies enable accountable execution",39,D-29,dependency-based-work-execution
+IA-046,UA,Super-agent worker orchestration,B,Coordination patterns require delegation scope and human escalation,14,D-15,bounded-agent-delegation
+IA-046,UA,Super-agent worker orchestration,B,Coordination patterns require delegation scope and human escalation,14,D-20,bounded-agent-delegation
+IA-046,UA,Super-agent worker orchestration,B,Coordination patterns require delegation scope and human escalation,15,D-15,bounded-agent-delegation
+IA-046,UA,Super-agent worker orchestration,B,Coordination patterns require delegation scope and human escalation,15,D-20,bounded-agent-delegation
+IA-047,UA,Connector framework contracts,B,Typed integrations and admission checks must survive provider changes,12,D-09,versioned-agent-contract
+IA-047,UA,Connector framework contracts,B,Typed integrations and admission checks must survive provider changes,12,D-21,versioned-agent-contract
+IA-047,UA,Connector framework contracts,B,Typed integrations and admission checks must survive provider changes,22,D-09,versioned-agent-contract
+IA-047,UA,Connector framework contracts,B,Typed integrations and admission checks must survive provider changes,22,D-21,versioned-agent-contract
+IA-048,UA,Governed lifecycle flow engine,B,Explicit flow transitions and recovery as operational contracts,14,D-15,durable-agent-execution
+IA-048,UA,Governed lifecycle flow engine,B,Explicit flow transitions and recovery as operational contracts,14,D-22,durable-agent-execution
+IA-048,UA,Governed lifecycle flow engine,B,Explicit flow transitions and recovery as operational contracts,18,D-15,durable-agent-execution
+IA-048,UA,Governed lifecycle flow engine,B,Explicit flow transitions and recovery as operational contracts,18,D-22,durable-agent-execution
+IA-049,UA,Tenant separation design,A,Policy and storage boundaries must align at tenant level,7,D-04,memory-isolation
+IA-049,UA,Tenant separation design,A,Policy and storage boundaries must align at tenant level,7,D-11,memory-isolation
+IA-049,UA,Tenant separation design,A,Policy and storage boundaries must align at tenant level,13,D-04,memory-isolation
+IA-049,UA,Tenant separation design,A,Policy and storage boundaries must align at tenant level,13,D-11,memory-isolation
+IA-049,UA,Tenant separation design,A,Policy and storage boundaries must align at tenant level,21,D-04,memory-isolation
+IA-049,UA,Tenant separation design,A,Policy and storage boundaries must align at tenant level,21,D-11,memory-isolation
+IA-050,UA,Admin API test traceability,B,"The test-matrix idea is useful, but a reported coverage percentage can hide critical gaps",18,D-22,decision-to-evidence-chain
+IA-050,UA,Admin API test traceability,B,"The test-matrix idea is useful, but a reported coverage percentage can hide critical gaps",18,D-23,decision-to-evidence-chain
+IA-050,UA,Admin API test traceability,B,"The test-matrix idea is useful, but a reported coverage percentage can hide critical gaps",39,D-22,decision-to-evidence-chain
+IA-050,UA,Admin API test traceability,B,"The test-matrix idea is useful, but a reported coverage percentage can hide critical gaps",39,D-23,decision-to-evidence-chain
+IA-050,UA,Admin API test traceability,B,"The test-matrix idea is useful, but a reported coverage percentage can hide critical gaps",40,D-22,decision-to-evidence-chain
+IA-050,UA,Admin API test traceability,B,"The test-matrix idea is useful, but a reported coverage percentage can hide critical gaps",40,D-23,decision-to-evidence-chain
+IA-051,UA,Restart versus remediate adjudication,D,"Independent challenge, counter-evidence and stopping conditions exemplify defensible change decisions",39,D-29,architecture-challenge-review
+IA-051,UA,Restart versus remediate adjudication,D,"Independent challenge, counter-evidence and stopping conditions exemplify defensible change decisions",40,D-29,architecture-challenge-review
+IA-052,UA,Implementation completeness denominator conflict,A,Tasks complete and epics complete measure different readiness; use as cautionary audit example,18,D-22,evidence-claims-validation
+IA-052,UA,Implementation completeness denominator conflict,A,Tasks complete and epics complete measure different readiness; use as cautionary audit example,18,D-24,evidence-claims-validation
+IA-052,UA,Implementation completeness denominator conflict,A,Tasks complete and epics complete measure different readiness; use as cautionary audit example,40,D-22,evidence-claims-validation
+IA-052,UA,Implementation completeness denominator conflict,A,Tasks complete and epics complete measure different readiness; use as cautionary audit example,40,D-24,evidence-claims-validation
+IA-053,UA,Runtime security fallback findings,D,Reported security gaps demonstrate why architecture claims need executable controls; avoid copying exploit details,16,D-18,security-review-negative-evidence
+IA-053,UA,Runtime security fallback findings,D,Reported security gaps demonstrate why architecture claims need executable controls; avoid copying exploit details,16,D-27,security-review-negative-evidence
+IA-053,UA,Runtime security fallback findings,D,Reported security gaps demonstrate why architecture claims need executable controls; avoid copying exploit details,36,D-18,security-review-negative-evidence
+IA-053,UA,Runtime security fallback findings,D,Reported security gaps demonstrate why architecture claims need executable controls; avoid copying exploit details,36,D-27,security-review-negative-evidence
+IA-053,UA,Runtime security fallback findings,D,Reported security gaps demonstrate why architecture claims need executable controls; avoid copying exploit details,48,D-18,security-review-negative-evidence
+IA-053,UA,Runtime security fallback findings,D,Reported security gaps demonstrate why architecture claims need executable controls; avoid copying exploit details,48,D-27,security-review-negative-evidence
+IA-054,UA,Design-coded tool and model contracts,B,Framework abstractions are more reusable when expressed as contracts rather than vendor SDKs,12,D-09,typed-agent-contract
+IA-054,UA,Design-coded tool and model contracts,B,Framework abstractions are more reusable when expressed as contracts rather than vendor SDKs,12,D-21,typed-agent-contract
+IA-054,UA,Design-coded tool and model contracts,B,Framework abstractions are more reusable when expressed as contracts rather than vendor SDKs,22,D-09,typed-agent-contract
+IA-054,UA,Design-coded tool and model contracts,B,Framework abstractions are more reusable when expressed as contracts rather than vendor SDKs,22,D-21,typed-agent-contract
+IA-055,ME,Bitemporal persistent memory,A,"Distinguish valid time from observation/update time, while avoiding unsupported memory-truth claims",13,D-12,temporal-memory-provenance
+IA-055,ME,Bitemporal persistent memory,A,"Distinguish valid time from observation/update time, while avoiding unsupported memory-truth claims",13,D-14,temporal-memory-provenance
+IA-055,ME,Bitemporal persistent memory,A,"Distinguish valid time from observation/update time, while avoiding unsupported memory-truth claims",57,D-12,temporal-memory-provenance
+IA-055,ME,Bitemporal persistent memory,A,"Distinguish valid time from observation/update time, while avoiding unsupported memory-truth claims",57,D-14,temporal-memory-provenance
+IA-056,ME,Local and cloud memory portability,B,Portable local SQLite and managed cloud Postgres offer different operational obligations,13,D-12,memory-portability
+IA-056,ME,Local and cloud memory portability,B,Portable local SQLite and managed cloud Postgres offer different operational obligations,13,D-27,memory-portability
+IA-056,ME,Local and cloud memory portability,B,Portable local SQLite and managed cloud Postgres offer different operational obligations,36,D-12,memory-portability
+IA-056,ME,Local and cloud memory portability,B,Portable local SQLite and managed cloud Postgres offer different operational obligations,36,D-27,memory-portability
+IA-057,ME,MCP-based memory service interface,B,Externalised memory service should preserve access controls at protocol boundary,22,D-21,versioned-agent-contract
+IA-057,ME,MCP-based memory service interface,B,Externalised memory service should preserve access controls at protocol boundary,53,D-21,versioned-agent-contract
+IA-058,ME,Memory provenance and temporal recall,A,"Proposed memory provenance; maturity report covers developer scaffolding, not completed engine",13,D-12,evidence-lineage-continuity
+IA-058,ME,Memory provenance and temporal recall,A,"Proposed memory provenance; maturity report covers developer scaffolding, not completed engine",13,D-14,evidence-lineage-continuity
+IA-058,ME,Memory provenance and temporal recall,A,"Proposed memory provenance; maturity report covers developer scaffolding, not completed engine",17,D-12,evidence-lineage-continuity
+IA-058,ME,Memory provenance and temporal recall,A,"Proposed memory provenance; maturity report covers developer scaffolding, not completed engine",17,D-14,evidence-lineage-continuity
+IA-059,ME,Multi-agent architecture workshop,C,Reusable facilitated workshop design with human role review,35,D-06,cross-role-design-challenge
+IA-059,ME,Multi-agent architecture workshop,C,Reusable facilitated workshop design with human role review,35,D-29,cross-role-design-challenge
+IA-059,ME,Multi-agent architecture workshop,C,Reusable facilitated workshop design with human role review,41,D-06,cross-role-design-challenge
+IA-059,ME,Multi-agent architecture workshop,C,Reusable facilitated workshop design with human role review,41,D-29,cross-role-design-challenge
+IA-059,ME,Multi-agent architecture workshop,C,Reusable facilitated workshop design with human role review,42,D-06,cross-role-design-challenge
+IA-059,ME,Multi-agent architecture workshop,C,Reusable facilitated workshop design with human role review,42,D-29,cross-role-design-challenge
+IA-060,ME,Architecture challenger personas,D,Challenges assumptions and tracks decisions; do not claim automated independent assurance,35,D-06,architecture-challenge-review
+IA-060,ME,Architecture challenger personas,D,Challenges assumptions and tracks decisions; do not claim automated independent assurance,35,D-22,architecture-challenge-review
+IA-060,ME,Architecture challenger personas,D,Challenges assumptions and tracks decisions; do not claim automated independent assurance,40,D-06,architecture-challenge-review
+IA-060,ME,Architecture challenger personas,D,Challenges assumptions and tracks decisions; do not claim automated independent assurance,40,D-22,architecture-challenge-review
+IA-061,ME,Spec-driven TDD and approval gates,E,Engineering governance transferable to companion authoring/review workflow,18,D-22,gated-authoring-execution
+IA-061,ME,Spec-driven TDD and approval gates,E,Engineering governance transferable to companion authoring/review workflow,18,D-29,gated-authoring-execution
+IA-061,ME,Spec-driven TDD and approval gates,E,Engineering governance transferable to companion authoring/review workflow,39,D-22,gated-authoring-execution
+IA-061,ME,Spec-driven TDD and approval gates,E,Engineering governance transferable to companion authoring/review workflow,39,D-29,gated-authoring-execution
+IA-062,ME,GDPR erasure and key destruction,A,"Deletion claims require key, copy, backup and downstream evidence",13,D-12,memory-erasure-evidence
+IA-062,ME,GDPR erasure and key destruction,A,"Deletion claims require key, copy, backup and downstream evidence",13,D-25,memory-erasure-evidence
+IA-062,ME,GDPR erasure and key destruction,A,"Deletion claims require key, copy, backup and downstream evidence",21,D-12,memory-erasure-evidence
+IA-062,ME,GDPR erasure and key destruction,A,"Deletion claims require key, copy, backup and downstream evidence",21,D-25,memory-erasure-evidence
+IA-062,ME,GDPR erasure and key destruction,A,"Deletion claims require key, copy, backup and downstream evidence",49,D-12,memory-erasure-evidence
+IA-062,ME,GDPR erasure and key destruction,A,"Deletion claims require key, copy, backup and downstream evidence",49,D-25,memory-erasure-evidence
+IA-063,ME,Memory security mesh,B,Memory reads must remain subject to tenant identity and classification,13,D-11,multi-stage-data-protection
+IA-063,ME,Memory security mesh,B,Memory reads must remain subject to tenant identity and classification,13,D-25,multi-stage-data-protection
+IA-063,ME,Memory security mesh,B,Memory reads must remain subject to tenant identity and classification,21,D-11,multi-stage-data-protection
+IA-063,ME,Memory security mesh,B,Memory reads must remain subject to tenant identity and classification,21,D-25,multi-stage-data-protection
+IA-064,ME,Scaffold completeness versus product readiness,D,A high completion score for docs/agents cannot establish completed functionality,18,D-22,evidence-claims-validation
+IA-064,ME,Scaffold completeness versus product readiness,D,A high completion score for docs/agents cannot establish completed functionality,18,D-24,evidence-claims-validation
+IA-064,ME,Scaffold completeness versus product readiness,D,A high completion score for docs/agents cannot establish completed functionality,40,D-22,evidence-claims-validation
+IA-064,ME,Scaffold completeness versus product readiness,D,A high completion score for docs/agents cannot establish completed functionality,40,D-24,evidence-claims-validation
+IA-065,WS,Multi-persona four-hour architecture workshop,C,Workshop-based synthesis yields accountable artefacts if reviewers confirm conclusions,6,D-06,cross-role-design-challenge
+IA-065,WS,Multi-persona four-hour architecture workshop,C,Workshop-based synthesis yields accountable artefacts if reviewers confirm conclusions,6,D-29,cross-role-design-challenge
+IA-065,WS,Multi-persona four-hour architecture workshop,C,Workshop-based synthesis yields accountable artefacts if reviewers confirm conclusions,35,D-06,cross-role-design-challenge
+IA-065,WS,Multi-persona four-hour architecture workshop,C,Workshop-based synthesis yields accountable artefacts if reviewers confirm conclusions,35,D-29,cross-role-design-challenge
+IA-065,WS,Multi-persona four-hour architecture workshop,C,Workshop-based synthesis yields accountable artefacts if reviewers confirm conclusions,42,D-06,cross-role-design-challenge
+IA-065,WS,Multi-persona four-hour architecture workshop,C,Workshop-based synthesis yields accountable artefacts if reviewers confirm conclusions,42,D-29,cross-role-design-challenge
+IA-066,WS,Challenger agent to challenge consensus,C,"Independent challenge role is valuable, but lacks measured verification",18,D-22,architecture-challenge-review
+IA-066,WS,Challenger agent to challenge consensus,C,"Independent challenge role is valuable, but lacks measured verification",18,D-23,architecture-challenge-review
+IA-066,WS,Challenger agent to challenge consensus,C,"Independent challenge role is valuable, but lacks measured verification",35,D-22,architecture-challenge-review
+IA-066,WS,Challenger agent to challenge consensus,C,"Independent challenge role is valuable, but lacks measured verification",35,D-23,architecture-challenge-review
+IA-067,WS,Lifecycle from concept to decommission,A,End-to-end lifecycle thinking explicitly includes retiring systems,24,D-29,lifecycle-to-exit
+IA-067,WS,Lifecycle from concept to decommission,A,End-to-end lifecycle thinking explicitly includes retiring systems,24,D-30,lifecycle-to-exit
+IA-067,WS,Lifecycle from concept to decommission,A,End-to-end lifecycle thinking explicitly includes retiring systems,34,D-29,lifecycle-to-exit
+IA-067,WS,Lifecycle from concept to decommission,A,End-to-end lifecycle thinking explicitly includes retiring systems,34,D-30,lifecycle-to-exit
+IA-067,WS,Lifecycle from concept to decommission,A,End-to-end lifecycle thinking explicitly includes retiring systems,49,D-29,lifecycle-to-exit
+IA-067,WS,Lifecycle from concept to decommission,A,End-to-end lifecycle thinking explicitly includes retiring systems,49,D-30,lifecycle-to-exit
+IA-067,WS,Lifecycle from concept to decommission,A,End-to-end lifecycle thinking explicitly includes retiring systems,50,D-29,lifecycle-to-exit
+IA-067,WS,Lifecycle from concept to decommission,A,End-to-end lifecycle thinking explicitly includes retiring systems,50,D-30,lifecycle-to-exit
+IA-068,WS,Standards cascade and review gates,B,Different kinds of authority flow from enterprise to project and release review,19,D-19,policy-as-runtime-control
+IA-068,WS,Standards cascade and review gates,B,Different kinds of authority flow from enterprise to project and release review,19,D-23,policy-as-runtime-control
+IA-068,WS,Standards cascade and review gates,B,Different kinds of authority flow from enterprise to project and release review,33,D-19,policy-as-runtime-control
+IA-068,WS,Standards cascade and review gates,B,Different kinds of authority flow from enterprise to project and release review,33,D-23,policy-as-runtime-control
+IA-068,WS,Standards cascade and review gates,B,Different kinds of authority flow from enterprise to project and release review,39,D-19,policy-as-runtime-control
+IA-068,WS,Standards cascade and review gates,B,Different kinds of authority flow from enterprise to project and release review,39,D-23,policy-as-runtime-control
+IA-069,WS,Declarative agent profile registry,B,Agent roles and tool privileges specified as governed metadata,12,D-09,declarative-tool-onboarding
+IA-069,WS,Declarative agent profile registry,B,Agent roles and tool privileges specified as governed metadata,12,D-29,declarative-tool-onboarding
+IA-069,WS,Declarative agent profile registry,B,Agent roles and tool privileges specified as governed metadata,29,D-09,declarative-tool-onboarding
+IA-069,WS,Declarative agent profile registry,B,Agent roles and tool privileges specified as governed metadata,29,D-29,declarative-tool-onboarding
+IA-070,WS,Evidence-backed quality gates,A,Challenge and review must write evidence before approval,18,D-22,decision-to-evidence-chain
+IA-070,WS,Evidence-backed quality gates,A,Challenge and review must write evidence before approval,18,D-23,decision-to-evidence-chain
+IA-070,WS,Evidence-backed quality gates,A,Challenge and review must write evidence before approval,40,D-22,decision-to-evidence-chain
+IA-070,WS,Evidence-backed quality gates,A,Challenge and review must write evidence before approval,40,D-23,decision-to-evidence-chain
+IA-071,WS,Workload identity without static keys,A,Shows platform-identity choice and its operational trust boundary,15,D-19,identity-sovereignty
+IA-071,WS,Workload identity without static keys,A,Shows platform-identity choice and its operational trust boundary,15,D-20,identity-sovereignty
+IA-071,WS,Workload identity without static keys,A,Shows platform-identity choice and its operational trust boundary,16,D-19,identity-sovereignty
+IA-071,WS,Workload identity without static keys,A,Shows platform-identity choice and its operational trust boundary,16,D-20,identity-sovereignty
+IA-072,WS,Three-tier file pipeline,B,"Separate raw inputs, derived working objects and controlled outputs",13,D-11,evidence-lineage-continuity
+IA-072,WS,Three-tier file pipeline,B,"Separate raw inputs, derived working objects and controlled outputs",13,D-24,evidence-lineage-continuity
+IA-072,WS,Three-tier file pipeline,B,"Separate raw inputs, derived working objects and controlled outputs",17,D-11,evidence-lineage-continuity
+IA-072,WS,Three-tier file pipeline,B,"Separate raw inputs, derived working objects and controlled outputs",17,D-24,evidence-lineage-continuity
+IA-072,WS,Three-tier file pipeline,B,"Separate raw inputs, derived working objects and controlled outputs",57,D-11,evidence-lineage-continuity
+IA-072,WS,Three-tier file pipeline,B,"Separate raw inputs, derived working objects and controlled outputs",57,D-24,evidence-lineage-continuity
+IA-073,WS,Multi-tenant auth model,A,Separate tenant access and delegated agent permissions,7,D-04,memory-isolation
+IA-073,WS,Multi-tenant auth model,A,Separate tenant access and delegated agent permissions,7,D-19,memory-isolation
+IA-073,WS,Multi-tenant auth model,A,Separate tenant access and delegated agent permissions,15,D-04,memory-isolation
+IA-073,WS,Multi-tenant auth model,A,Separate tenant access and delegated agent permissions,15,D-19,memory-isolation
+IA-073,WS,Multi-tenant auth model,A,Separate tenant access and delegated agent permissions,21,D-04,memory-isolation
+IA-073,WS,Multi-tenant auth model,A,Separate tenant access and delegated agent permissions,21,D-19,memory-isolation
+IA-074,WS,Enterprise support skills model,C,Role/skills decomposition may suit conference or workshop content,6,D-06,team-boundary-operating-model
+IA-074,WS,Enterprise support skills model,C,Role/skills decomposition may suit conference or workshop content,35,D-06,team-boundary-operating-model
+IA-075,WS,Real-world application data sources,F,Potentially sensitive datasets should not become book examples; preserve privacy,13,D-11,structured-unstructured-provenance
+IA-075,WS,Real-world application data sources,F,Potentially sensitive datasets should not become book examples; preserve privacy,13,D-14,structured-unstructured-provenance
+IA-075,WS,Real-world application data sources,F,Potentially sensitive datasets should not become book examples; preserve privacy,57,D-11,structured-unstructured-provenance
+IA-075,WS,Real-world application data sources,F,Potentially sensitive datasets should not become book examples; preserve privacy,57,D-14,structured-unstructured-provenance
+IA-076,RA,Decision tree: whether an agent is needed,A,"Counterexample-first architecture selection, strong commercial decision concept",4,D-01,adopt-or-decline
+IA-076,RA,Decision tree: whether an agent is needed,A,"Counterexample-first architecture selection, strong commercial decision concept",4,D-02,adopt-or-decline
+IA-076,RA,Decision tree: whether an agent is needed,A,"Counterexample-first architecture selection, strong commercial decision concept",5,D-01,adopt-or-decline
+IA-076,RA,Decision tree: whether an agent is needed,A,"Counterexample-first architecture selection, strong commercial decision concept",5,D-02,adopt-or-decline
+IA-076,RA,Decision tree: whether an agent is needed,A,"Counterexample-first architecture selection, strong commercial decision concept",23,D-01,adopt-or-decline
+IA-076,RA,Decision tree: whether an agent is needed,A,"Counterexample-first architecture selection, strong commercial decision concept",23,D-02,adopt-or-decline
+IA-077,RA,Weighted platform selection method,A,"Criteria and trade-offs before procurement, not platform endorsement",5,D-02,weighted-option-appraisal
+IA-077,RA,Weighted platform selection method,A,"Criteria and trade-offs before procurement, not platform endorsement",5,D-03,weighted-option-appraisal
+IA-077,RA,Weighted platform selection method,A,"Criteria and trade-offs before procurement, not platform endorsement",23,D-02,weighted-option-appraisal
+IA-077,RA,Weighted platform selection method,A,"Criteria and trade-offs before procurement, not platform endorsement",23,D-03,weighted-option-appraisal
+IA-077,RA,Weighted platform selection method,A,"Criteria and trade-offs before procurement, not platform endorsement",54,D-02,weighted-option-appraisal
+IA-077,RA,Weighted platform selection method,A,"Criteria and trade-offs before procurement, not platform endorsement",54,D-03,weighted-option-appraisal
+IA-078,RA,Agent capability atlas,B,Compare capabilities against use-case requirements; time-sensitive vendor scores,5,D-02,capability-to-requirement-mapping
+IA-078,RA,Agent capability atlas,B,Compare capabilities against use-case requirements; time-sensitive vendor scores,5,D-21,capability-to-requirement-mapping
+IA-078,RA,Agent capability atlas,B,Compare capabilities against use-case requirements; time-sensitive vendor scores,22,D-02,capability-to-requirement-mapping
+IA-078,RA,Agent capability atlas,B,Compare capabilities against use-case requirements; time-sensitive vendor scores,22,D-21,capability-to-requirement-mapping
+IA-078,RA,Agent capability atlas,B,Compare capabilities against use-case requirements; time-sensitive vendor scores,54,D-02,capability-to-requirement-mapping
+IA-078,RA,Agent capability atlas,B,Compare capabilities against use-case requirements; time-sensitive vendor scores,54,D-21,capability-to-requirement-mapping
+IA-079,RA,Agent autonomy spectrum,A,"Map autonomy to scope, risk and release evidence",2,D-05,earned-autonomy
+IA-079,RA,Agent autonomy spectrum,A,"Map autonomy to scope, risk and release evidence",2,D-23,earned-autonomy
+IA-079,RA,Agent autonomy spectrum,A,"Map autonomy to scope, risk and release evidence",9,D-05,earned-autonomy
+IA-079,RA,Agent autonomy spectrum,A,"Map autonomy to scope, risk and release evidence",9,D-23,earned-autonomy
+IA-079,RA,Agent autonomy spectrum,A,"Map autonomy to scope, risk and release evidence",18,D-05,earned-autonomy
+IA-079,RA,Agent autonomy spectrum,A,"Map autonomy to scope, risk and release evidence",18,D-23,earned-autonomy
+IA-080,RA,Layered runtime anatomy,B,"Historical taxonomy, explicitly not frozen four-layer model",10,D-07,layer-and-control-taxonomy
+IA-080,RA,Layered runtime anatomy,B,"Historical taxonomy, explicitly not frozen four-layer model",10,D-15,layer-and-control-taxonomy
+IA-080,RA,Layered runtime anatomy,B,"Historical taxonomy, explicitly not frozen four-layer model",11,D-07,layer-and-control-taxonomy
+IA-080,RA,Layered runtime anatomy,B,"Historical taxonomy, explicitly not frozen four-layer model",11,D-15,layer-and-control-taxonomy
+IA-080,RA,Layered runtime anatomy,B,"Historical taxonomy, explicitly not frozen four-layer model",14,D-07,layer-and-control-taxonomy
+IA-080,RA,Layered runtime anatomy,B,"Historical taxonomy, explicitly not frozen four-layer model",14,D-15,layer-and-control-taxonomy
+IA-081,RA,AI Agent Trust Chain,B,"Prior conceptual framing of trust, identity and action constraints",15,D-19,delegation-identity-chain
+IA-081,RA,AI Agent Trust Chain,B,"Prior conceptual framing of trust, identity and action constraints",15,D-20,delegation-identity-chain
+IA-081,RA,AI Agent Trust Chain,B,"Prior conceptual framing of trust, identity and action constraints",16,D-19,delegation-identity-chain
+IA-081,RA,AI Agent Trust Chain,B,"Prior conceptual framing of trust, identity and action constraints",16,D-20,delegation-identity-chain
+IA-082,RA,Digital worker operating model,A,Accountable digital workers need human escalation and operational support,35,D-06,team-boundary-operating-model
+IA-082,RA,Digital worker operating model,A,Accountable digital workers need human escalation and operational support,35,D-28,team-boundary-operating-model
+IA-082,RA,Digital worker operating model,A,Accountable digital workers need human escalation and operational support,37,D-06,team-boundary-operating-model
+IA-082,RA,Digital worker operating model,A,Accountable digital workers need human escalation and operational support,37,D-28,team-boundary-operating-model
+IA-083,RA,Decision playbooks,A,Structured decision records evolved toward current frozen 30-decision Atlas,23,D-01,reusable-decision-playbooks
+IA-083,RA,Decision playbooks,A,Structured decision records evolved toward current frozen 30-decision Atlas,23,D-02,reusable-decision-playbooks
+IA-083,RA,Decision playbooks,A,Structured decision records evolved toward current frozen 30-decision Atlas,41,D-01,reusable-decision-playbooks
+IA-083,RA,Decision playbooks,A,Structured decision records evolved toward current frozen 30-decision Atlas,41,D-02,reusable-decision-playbooks
+IA-083,RA,Decision playbooks,A,Structured decision records evolved toward current frozen 30-decision Atlas,42,D-01,reusable-decision-playbooks
+IA-083,RA,Decision playbooks,A,Structured decision records evolved toward current frozen 30-decision Atlas,42,D-02,reusable-decision-playbooks
+IA-084,RA,Production readiness checklist,B,"Use evidence thresholds before release; qualify as checklist, not proof of platform",18,D-22,gated-authoring-execution
+IA-084,RA,Production readiness checklist,B,"Use evidence thresholds before release; qualify as checklist, not proof of platform",18,D-23,gated-authoring-execution
+IA-084,RA,Production readiness checklist,B,"Use evidence thresholds before release; qualify as checklist, not proof of platform",33,D-22,gated-authoring-execution
+IA-084,RA,Production readiness checklist,B,"Use evidence thresholds before release; qualify as checklist, not proof of platform",33,D-23,gated-authoring-execution
+IA-085,RF,Final-v2 changed runtime layer mapping,E,Historical version difference must not change frozen canonical taxonomy,10,D-07,historical-model-reconciliation
+IA-085,RF,Final-v2 changed runtime layer mapping,E,Historical version difference must not change frozen canonical taxonomy,11,D-07,historical-model-reconciliation
+IA-086,RF,Final-v2 source manifest,E,Records source ownership and version drift for historical research,40,D-24,source-provenance-registry
+IA-086,RF,Final-v2 source manifest,E,Records source ownership and version drift for historical research,40,D-29,source-provenance-registry
+IA-086,RF,Final-v2 source manifest,E,Records source ownership and version drift for historical research,52,D-24,source-provenance-registry
+IA-086,RF,Final-v2 source manifest,E,Records source ownership and version drift for historical research,52,D-29,source-provenance-registry
