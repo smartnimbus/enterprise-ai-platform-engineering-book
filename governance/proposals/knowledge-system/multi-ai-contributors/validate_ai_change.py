@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
-"""Offline scope/claim checker; not GitHub authorization or approval.
+"""Small offline gate for proposed AI work claims. Not a GitHub approval check.
+
 Usage: python validate_ai_change.py assignment.json changed-files.txt [active-claims.json]
+Exit 0 iff assigned path-scope passes and no active overlap on changed files.
+Claims and changed file inventory are inputs; CI must derive the latter from `git diff`.
 """
 import fnmatch
 import json
@@ -8,17 +11,19 @@ import re
 import sys
 from pathlib import Path
 
-FROZEN_PREFIXES = ("meridian/fixture/", "architecture/canonical/", "decisions/catalogue/",
-                   "editorial/style/", "editorial/outlines/")
+FROZEN_PREFIXES = (
+    "meridian/fixture/", "architecture/canonical/", "decisions/catalogue/",
+    "editorial/style/", "editorial/outlines/",
+)
 IMMUTABLE_FILES = ("REPOSITORY-GOVERNANCE.md",)
 
 def match(path, pattern):
+    # fnmatch is case-sensitive on POSIX; explicit normalisation here is limited to slash.
     return fnmatch.fnmatchcase(path, pattern)
 
 def check(record, paths, active=None):
     errors = []
-    keys = ("work_item", "agent_id", "human_sponsor", "repository", "base_sha",
-            "allowed_paths", "forbidden_paths", "lease_status")
+    keys = ("work_item", "agent_id", "human_sponsor", "repository", "base_sha", "allowed_paths", "forbidden_paths", "lease_status")
     missing = [k for k in keys if not record.get(k)]
     if missing:
         return ["Missing required: " + ", ".join(missing)]
@@ -53,9 +58,7 @@ def main():
     files = Path(sys.argv[2]).read_text().splitlines()
     claims = json.loads(Path(sys.argv[3]).read_text()) if len(sys.argv) == 4 else []
     errors = check(record, files, claims)
-    print(json.dumps({"status": "BLOCK" if errors else "SCOPE_CHECK_PASS",
-                      "errors": errors, "checked_files": len(files)}, indent=2))
+    print(json.dumps({"status": "BLOCK" if errors else "SCOPE_CHECK_PASS", "errors": errors, "checked_files": len(files)}, indent=2))
     return 1 if errors else 0
-
 if __name__ == "__main__":
     raise SystemExit(main())

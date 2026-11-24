@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "note": "Work item workflow only; separate from artefact authority states and evidence grade. Does not authorise transitions.",
+  "transitions": {
+    "IDEA": ["CANDIDATE", "REJECTED"],
+    "CANDIDATE": ["DRAFT", "REJECTED"],
+    "DRAFT": ["IN_REVIEW", "REJECTED"],
+    "IN_REVIEW": ["DRAFT", "APPROVED", "REJECTED"],
+    "APPROVED": ["PUBLISHED", "IN_REVIEW"],
+    "PUBLISHED": ["MAINTAINED", "DEPRECATED"],
+    "MAINTAINED": ["IN_REVIEW", "DEPRECATED"],
+    "DEPRECATED": ["MAINTAINED", "RETIRED"],
+    "RETIRED": [],
+    "REJECTED": ["CANDIDATE"]
+  },
+  "overlay_flags": ["BLOCKED", "QUARANTINED", "CHALLENGE_OPEN", "EVIDENCE_HOLD", "STALE_REVIEW_REQUIRED", "BLOCKED_REVIEW", "AUTHORITY_CONFLICT"],
+  "exception": "Immediate removal/restriction for privacy, legal or serious security risk is permitted with auditable emergency record; never silently rewrite frozen authority"
+}

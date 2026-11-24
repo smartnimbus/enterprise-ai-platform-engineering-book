@@ -1,0 +1,227 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/book-programme/WORK-ITEM-CONTRACT-v1.schema.json",
+  "title": "Programme work item \u2014 structural contract only",
+  "description": "Proposed schema. A valid record is NOT an approved, rights-cleared or published asset.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "issue_url",
+    "type",
+    "title",
+    "phase",
+    "artifact_state",
+    "authority_tier",
+    "evidence_grade",
+    "priority",
+    "owner_role",
+    "owner_identity",
+    "baseline_sha",
+    "rights_status",
+    "source_refs",
+    "acceptance_tests",
+    "dependency_ids",
+    "last_updated_utc"
+  ],
+  "properties": {
+    "issue_url": {
+      "type": "string",
+      "pattern": "^https://github\\.com/[^/]+/[^/]+/issues/[0-9]+$"
+    },
+    "candidate_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^(EX|KA|EP)-[0-9]{3}$",
+      "description": "Optional: existing ranked-backlog ID. New items use their real GitHub issue number without inventing a candidate ID."
+    },
+    "type": {
+      "enum": [
+        "research-topic",
+        "knowledge-article",
+        "engineering-pattern",
+        "decision-guide",
+        "learning-asset",
+        "reference-implementation",
+        "book-chapter"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "minLength": 8
+    },
+    "phase": {
+      "enum": [
+        "IDEA",
+        "CANDIDATE",
+        "DRAFT",
+        "IN_REVIEW",
+        "APPROVED",
+        "PUBLISHED",
+        "MAINTAINED",
+        "DEPRECATED",
+        "RETIRED",
+        "REJECTED"
+      ]
+    },
+    "artifact_state": {
+      "enum": [
+        "IMPORTED_UNVERIFIED",
+        "DRAFT",
+        "IN_REVIEW",
+        "APPROVED",
+        "FROZEN",
+        "SUBMITTED",
+        "PUBLISHED",
+        "SUPERSEDED",
+        "RETIRED"
+      ]
+    },
+    "authority_tier": {
+      "enum": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5"
+      ]
+    },
+    "evidence_grade": {
+      "enum": [
+        "PRIMARY_VERIFIED",
+        "SECONDARY_CORROBORATED",
+        "INDEPENDENT_TEST",
+        "SYNTHETIC_TEST",
+        "HISTORICAL_DOCUMENTED",
+        "DESIGN_ONLY",
+        "INFERRED",
+        "UNVERIFIED"
+      ]
+    },
+    "priority": {
+      "enum": [
+        "P0",
+        "P1",
+        "P2",
+        "P3"
+      ]
+    },
+    "owner_role": {
+      "type": "string",
+      "minLength": 4
+    },
+    "owner_identity": {
+      "type": "string",
+      "minLength": 3
+    },
+    "baseline_sha": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{40}$"
+    },
+    "rights_status": {
+      "enum": [
+        "PENDING",
+        "CLEARED_PUBLIC",
+        "CLEARED_RESTRICTED",
+        "BLOCKED",
+        "NOT_APPLICABLE"
+      ]
+    },
+    "source_refs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 3
+      },
+      "uniqueItems": true
+    },
+    "acceptance_tests": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 5
+      }
+    },
+    "dependency_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 3
+      },
+      "uniqueItems": true
+    },
+    "reviewer_identities": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 3
+      },
+      "uniqueItems": true
+    },
+    "review_commit_sha": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[0-9a-f]{40}$"
+    },
+    "approved_at_utc": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "next_review_utc": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "last_updated_utc": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "blocked_reason": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "hold_flags": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "BLOCKED",
+          "QUARANTINED",
+          "CHALLENGE_OPEN",
+          "EVIDENCE_HOLD",
+          "STALE_REVIEW_REQUIRED",
+          "BLOCKED_REVIEW",
+          "AUTHORITY_CONFLICT"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "work_branch": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "target_path": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "changelog_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

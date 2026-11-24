@@ -1,0 +1,13 @@
+{
+  "generated_utc": "2026-11-24",
+  "sources": {
+    "completeness-audit/MASTER-GAP-REGISTER.csv": "00ed148fbd4a2783dd5ff7a5f17409ad9e0a25963d22b1c81a9116617b3fa108",
+    "completeness-audit/WORKSTREAM-SCORECARD.csv": "a5845792e95b9d953d5aef811ebb3cac030f5bff0af473b9a5e0d883c0d2d6da",
+    "knowledge-system/RESEARCH-DOSSIER-CATALOGUE.csv": "1ab84a88ff32c896238c985ef091aecde92e76bd0f95b2843643cce0aa6c226b",
+    "research-review/pattern-reuse-matrix.csv": "1c34d401980750d5dd6453e1e157c331a749b5ec2ca52610218f1e6c92cbbc91",
+    "Enterprise_AI_Agent_Fabric_Decision_Catalogue.csv": "22d705952471d0444955f95927ba88a2cbc9a6ccd691a5f1a88d5a0f20c68079",
+    "Enterprise_AI_Agent_Fabric_Revised_TOC.csv": "2866cc73850a55d98d0626c7675f542bae2a38e16a1338d49790d6a49fbafe72"
+  },
+  "frozen_integrity_contract": "no amendments to architecture/4+8/58/30/Meridian",
+  "planning_assumptions": "one architect; 15 hours/week reserved (780h/year); 642h planned plus 138h contingency; external reviewers needed"
+}

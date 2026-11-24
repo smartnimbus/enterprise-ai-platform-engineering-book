@@ -24,14 +24,14 @@ frozen_invariants:
   - style-bible-v1.2
 scope: []
 out_of_scope: []
-sources_read: []
-changes_made: []
-verified_facts: []
+sources_read: []            # {path, commit, sha256, relevant_lines}
+changes_made: []           # {path, before_sha, after_sha}
+verified_facts: []         # {claim, evidence_ref, checked_at}
 assumptions: []
 conflicts: []
 open_questions: []
 known_limitations: []
-tests_passed: []
+tests_passed: []           # {command, outcome, evidence_path}
 tests_failed: []
 tests_not_run: []
 external_actions_completed: []

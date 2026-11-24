@@ -1,21 +1,30 @@
-# Independent validation — proposed, not yet executed
+# Independent validation pack
 
-This directory holds the independent validation protocol. It does **not** establish that any participant test, production security verification or publisher acceptance has been completed.
+This pack implements the **test protocol**, not the controls or the independent participant tests.
 
-The master [protocol](./INDEPENDENT-VALIDATION-PROGRAMME-v1.0.md) covers 12 tests IV-01–IV-12, their prerequisites, scenario prompts, independent grading, four evidence levels, and claim-specific GO/CONDITIONAL GO/NO GO.
+## Distribution split
 
-## Distribution boundaries
+- **Participant-visible:** approved repository + approved Programme Operating System + approved handover; for assigned case, a case brief taken from the master protocol *without* assessor-key sections. Include only permitted fixture source JSON and frozen decisions.
+- **Assessor restricted:** `ASSESSOR-KEY-RESTRICTED.md`, scored rubrics, raw unredacted answers, protocol pre-registration and participant consent information. Do **not** publish these alongside live participant assignments.
+- **Public results:** aggregate redacted results after approvals, with failures, confidence limits and explicit `NOT_RUN/BLOCKED` entries.
 
-- **Public branch:** protocol, case index, scoring rubric, blank run template and structural validator. No participant identities, submitted answers or unreviewed confidential source material.
-- **Restricted examiner:** the answer key, raw participant submissions, consent and individual score sheets; retained outside the public repository in a controlled location.
-- **Public outcomes:** only approved, redacted aggregate result after actual independent trials.
+## Source integrity
 
-## Dependencies
+Meridian test cases refer to existing fixture v1.0 and must never rewrite its data. Every execution records protocol hash, fixture checksum and Git SHA.
 
-EX-001–EX-006 must establish a canonical protected repository, pinned frozen source manifest, and reproducible Meridian tests before IV-01/09/10 can legitimately pass. Chapter 13 F6 blueprint is **not** a completed manuscript and cannot stand in for IV-05. No part of this proposal changes the frozen Atlas, Meridian, chapters or architecture.
+## Running
 
-## Key acceptance rule
+1. Establish approved baseline and recruited independent reviewers.
+2. Copy the run template for each assigned case.
+3. Log raw response, times, mistakes, access and assistance.
+4. Score from pre-registered rubric; adjudicate without overwriting original.
+5. Issue scope-specific GO/CONDITIONAL GO/NO GO/INSUFFICIENT EVIDENCE.
 
-The protocol fails any false refund permit, source-of-truth mutation, synthetic-to-production proof claim, unapproved security change or missing independent review. Lack of prerequisites is BLOCKED/INSUFFICIENT_EVIDENCE, never PASS.
+## Package files
 
-To run the full protocol, use the corresponding downloadable validation package with the assessor key restricted, or copy the same catalogues into the approved test environment before recruiting participants.
+- `INDEPENDENT-VALIDATION-PROGRAMME-v1.0.md` — exact 10-part protocol and criteria.
+- `SCENARIO-CATALOGUE.csv` — 12 cases with roles, inputs, timeboxes and expected limits.
+- `SCORING-RUBRIC.csv` — explicitly weighted dimensions.
+- `VALIDATION-RUN-TEMPLATE.json` — unexecuted evidence record.
+- `ASSESSOR-KEY-RESTRICTED.md` — case key, controlled distribution.
+- `validate_pack.py` — structural consistency validator; *not a substitute for participants*.

@@ -12,11 +12,7 @@
 - `test_work_item.py`: small positive/negative unit tests, not platform or security assurance.
 - `VALIDATION-REPORT.json`: reproducible test snapshot and explicit limitations.
 
-## Review-branch scope
-
-The full source and test harness are contained in the attached ZIP. The GitHub review branch initially contains the operating contract and README; until all harness files are uploaded and the actual repository baseline is ratified, do **not** treat the test commands below as available from a clean checkout of that branch. The commands work after extracting the ZIP to the proposed path.
-
-## Run from a clean checkout or extracted package
+## Run from a clean checkout
 
 ```sh
 python3 governance/proposals/knowledge-system/programme-os/test_work_item.py
@@ -24,7 +20,7 @@ python3 governance/proposals/knowledge-system/programme-os/validate_work_item.py
 python3 governance/proposals/knowledge-system/programme-os/validate_work_item.py --from-phase CANDIDATE governance/proposals/knowledge-system/programme-os/WORK-ITEM-EXAMPLE-DRAFT.json
 ```
 
-The optional `candidate_id` and GitHub example issue link are illustrative. New items may have no `candidate_id`; their real GitHub issue number is the work identity. No source/right/reviewer validation can be inferred from these commands. Human reviewers must verify actual commits, authority and rights. Schema is documentation; stdlib validator deliberately implements only an explicitly described subset rather than pretending to be a complete JSON Schema engine.
+The `candidate_id` and GitHub example issue link are illustrative. No source/right/reviewer validation can be inferred from these commands. Human reviewers must verify actual commits, authority and rights. Schema is documentation; stdlib validator deliberately implements only an explicitly described subset rather than pretending to be a complete JSON Schema engine.
 
 ## Deployment rule
 

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "test_run_utc": "2026-11-24T00:00:00Z",
+  "tests": "11/11 focused tests",
+  "scope": "structural format and normal transition only",
+  "limits": [
+    "No real GitHub approvals, rights, content truth, branch protections, or external security assurance"
+  ],
+  "file_hashes": {
+    "README.md": "5e3e0b342e17345ff98b1eaa2e8b20e548777052c21955a414bfb62a68006bdd",
+    "WORKFLOW-TRANSITIONS-v1.json": "6e951d719bb644c788b650a6e7e0e89172a09aa8bac99bb36d5840d3d61e9939",
+    "test_work_item.py": "e3543202941f80c7280b70134867e53daae1cf27e9b4fa6053fe3350146ae712",
+    "PROGRAMME-OPERATING-SYSTEM-v1.0.md": "8a6e61a13a94fc5c305b1980be6d0215d04fdaf56b458ff3d12b6291db52ba66",
+    "validate_work_item.py": "26a26e379378672c9f5a6f1d5811118ff470f458c0f2393443e2429a73f7a33f",
+    "WORK-ITEM-CONTRACT-v1.schema.json": "7664bb2919043bd33fb03ca108c52a382d0cc9fe20b637cc56281cbff5cc749d",
+    "WORK-ITEM-EXAMPLE-DRAFT.json": "4241ce9b427d4fe011eecd4af6e075a6aaebff7794b5155d8b4ae2bf0d26c4a6"
+  }
+}

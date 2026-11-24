@@ -1,0 +1,21 @@
+{
+  "issue_url": "https://github.com/example/book/issues/1",
+  "candidate_id": "KA-001",
+  "type": "knowledge-article",
+  "title": "Source of truth and evidence authority",
+  "phase": "DRAFT",
+  "artifact_state": "DRAFT",
+  "authority_tier": "T3",
+  "evidence_grade": "UNVERIFIED",
+  "priority": "P1",
+  "owner_role": "Knowledge Steward",
+  "owner_identity": "example-maintainer",
+  "baseline_sha": "b38854ba1386b587ad8c31ef007f4bc7bdbe82a1",
+  "rights_status": "PENDING",
+  "source_refs": ["REPOSITORY-GOVERNANCE.md"],
+  "acceptance_tests": ["Link checker reports no unresolved canonical references"],
+  "dependency_ids": ["EX-003"],
+  "last_updated_utc": "2026-11-24T00:00:00Z",
+  "hold_flags": ["BLOCKED"],
+  "blocked_reason": "Example record only; no verified GitHub issue or approved baseline"
+}

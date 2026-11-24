@@ -1,0 +1,423 @@
+{
+  "changed_asset": "D-10",
+  "dependent_candidates": [
+    {
+      "id": "KA-007",
+      "type": "article",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "KA-008",
+      "type": "article",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "KA-009",
+      "type": "article",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "KA-013",
+      "type": "article",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "KA-014",
+      "type": "article",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "KA-017",
+      "type": "article",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "KA-018",
+      "type": "article",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "KA-021",
+      "type": "article",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "KA-022",
+      "type": "article",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "KA-028",
+      "type": "article",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "KA-029",
+      "type": "article",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "KA-035",
+      "type": "article",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "KA-036",
+      "type": "article",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "KA-041",
+      "type": "article",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "KA-042",
+      "type": "article",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "KA-049",
+      "type": "article",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "KA-051",
+      "type": "article",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "KA-058",
+      "type": "article",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "KA-059",
+      "type": "article",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "KA-060",
+      "type": "article",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "KA-065",
+      "type": "article",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "KA-066",
+      "type": "article",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "KA-073",
+      "type": "article",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "KA-074",
+      "type": "article",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "KA-076",
+      "type": "article",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "KA-083",
+      "type": "article",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "KA-085",
+      "type": "article",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "KA-092",
+      "type": "article",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "KA-093",
+      "type": "article",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "KA-095",
+      "type": "article",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "EP-003",
+      "type": "pattern",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "EP-004",
+      "type": "pattern",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "EP-005",
+      "type": "pattern",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "EP-006",
+      "type": "pattern",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "EP-009",
+      "type": "pattern",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "EP-015",
+      "type": "pattern",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "EP-016",
+      "type": "pattern",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "EP-027",
+      "type": "pattern",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "EP-029",
+      "type": "pattern",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "EP-037",
+      "type": "pattern",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "EP-046",
+      "type": "pattern",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "EP-054",
+      "type": "pattern",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "EP-056",
+      "type": "pattern",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "EP-064",
+      "type": "pattern",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "EP-066",
+      "type": "pattern",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "EP-074",
+      "type": "pattern",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "EP-076",
+      "type": "pattern",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "EP-085",
+      "type": "pattern",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "EP-092",
+      "type": "pattern",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "EP-094",
+      "type": "pattern",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "IV-03",
+      "type": "validation",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    },
+    {
+      "id": "IV-06",
+      "type": "validation",
+      "depth": 1,
+      "via": "D-10",
+      "relation": "references",
+      "impact": "REVIEW_REQUIRED_NOT_AUTOMATIC_INVALIDATION"
+    }
+  ],
+  "count": 52,
+  "release_impact": "UNKNOWN_UNTIL_APPROVED_SOURCE_AND_REVIEW"
+}
