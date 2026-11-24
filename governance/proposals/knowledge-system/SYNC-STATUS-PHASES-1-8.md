@@ -22,3 +22,9 @@ The trial is **NOT EXECUTED**. Pinned local hashes are not ratification; no real
 
 ## Integration
 The current state is a recovery branch for review, not authoritative publication. Verify source permissions, resolve pending editorial approvals, select the approved PR merge plan, and do not expose private answer keys via a public branch.
+
+---
+
+## Hash-verified reconciliation — 24 November 2026
+
+The prior count was a file-presence count and is superseded for integrity purposes by `GITHUB-FILE-INTEGRITY-VALIDATION-2026-11-24.md` and its CSV manifest. The Phase 1–8/knowledge/book-completion source map now contains **190 exact byte-for-byte Git blob matches** on this review branch; the research branch contains **18 exact frozen Meridian fixture files** and **48 exact mapped source/preview assets**, with **13 remaining local-vs-curated research differences**. Three PRs remain draft, `main` remains unmerged, and no branch protection is in effect.
