@@ -241,3 +241,4 @@ The delivered validator presently verifies register integrity, identifiers and t
 ## Source integrity and reproducibility
 
 The JSON `VALIDATION-SUMMARY.json` preserves SHA-256 fingerprints of the local frozen/reference inputs and reports fifteen deterministic register-level checks. Source files remain unchanged. A passing structural check demonstrates parseability and referential consistency of the audit output; it does not show independent semantic acceptance.
+
