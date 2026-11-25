@@ -6,7 +6,7 @@ flowchart LR
  X["Insurance policy repository"] -->|indexes item| I
  I -->|returns hits| S["Context retrieval service"]
  S -->|checks sources| C["Source ACL recheck"]
- C -->|admits A/B| M["Context assembler"]
+ C -->|admits A/B| M["Context assembler / consumer recheck"]
  C -.->|rejects insurance| Q["Restricted quarantine"]
  M -->|records decisions| R[("Context Manifest")]
  Q -.->|records denial| R

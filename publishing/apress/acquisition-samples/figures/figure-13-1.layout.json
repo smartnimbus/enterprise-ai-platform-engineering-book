@@ -2,7 +2,7 @@
   "id": "13-1",
   "title": "Context Manifest Assembly",
   "w": 720,
-  "h": 406,
+  "h": 449,
   "items": [
     {
       "t": "box",
@@ -82,7 +82,8 @@
       "w": 150,
       "h": 45,
       "lines": [
-        "Context assembler"
+        "Context assembler",
+        "Consumer recheck"
       ],
       "kind": "normal"
     },
@@ -258,8 +259,8 @@
         ]
       ],
       "label": "rejects insurance",
-      "x": 410,
-      "y": 294,
+      "x": 438,
+      "y": 301,
       "kind": "dash"
     },
     {
@@ -334,7 +335,7 @@
       "t": "text",
       "x": 12,
       "y": 382,
-      "s": "Manifest: MF-EVD-CM-001 | Source ACL DENY for insurance | No signature applied",
+      "s": "MF-EVD-CM-001 | A/B consumer recheck ALLOW | Insurance source ACL DENY",
       "size": 13,
       "align": "left",
       "bold": false
@@ -347,8 +348,32 @@
       "size": 13,
       "align": "left",
       "bold": false
+    },
+    {
+      "t": "text",
+      "x": 12,
+      "y": 413,
+      "s": "cryptographic_signature=NOT_APPLIED_SYNTHETIC_FIXTURE",
+      "size": 13,
+      "align": "left"
+    },
+    {
+      "t": "text",
+      "x": 12,
+      "y": 429,
+      "s": "Context retrieval: MF-SVC-CTX-001 | Consumer: MF-AGT-RET-004",
+      "size": 13,
+      "align": "left"
+    },
+    {
+      "t": "text",
+      "x": 12,
+      "y": 444,
+      "s": "Quarantine records denial metadata; no insurance payload reaches the consumer.",
+      "size": 13,
+      "align": "left"
     }
   ],
-  "mmd": "%% Figure 13-1 — Context Manifest Assembly\n%% Retail records A and B pass source and consumer checks and enter context. The incorrectly tagged insurance result fails the source check and follows a quarantine path that cannot deliver its payload to the agent.\nflowchart LR\n A[\"Retail product registry\"] -->|indexes A| I[\"Retrieval index\"]\n B[\"Retail CRM\"] -->|indexes B| I\n X[\"Insurance policy repository\"] -->|indexes item| I\n I -->|returns hits| S[\"Context retrieval service\"]\n S -->|checks sources| C[\"Source ACL recheck\"]\n C -->|admits A/B| M[\"Context assembler\"]\n C -.->|rejects insurance| Q[\"Restricted quarantine\"]\n M -->|records decisions| R[(\"Context Manifest\")]\n Q -.->|records denial| R\n M -->|delivers A/B| U[\"Context consumer\"]\n",
+  "mmd": "%% Figure 13-1 — Context Manifest Assembly\n%% Retail records A and B pass source and consumer checks and enter context. The incorrectly tagged insurance result fails the source check and follows a quarantine path that cannot deliver its payload to the agent.\nflowchart LR\n A[\"Retail product registry\"] -->|indexes A| I[\"Retrieval index\"]\n B[\"Retail CRM\"] -->|indexes B| I\n X[\"Insurance policy repository\"] -->|indexes item| I\n I -->|returns hits| S[\"Context retrieval service\"]\n S -->|checks sources| C[\"Source ACL recheck\"]\n C -->|admits A/B| M[\"Context assembler / consumer recheck\"]\n C -.->|rejects insurance| Q[\"Restricted quarantine\"]\n M -->|records decisions| R[(\"Context Manifest\")]\n Q -.->|records denial| R\n M -->|delivers A/B| U[\"Context consumer\"]\n",
   "alt": "Retail records A and B pass source and consumer checks and enter context. The incorrectly tagged insurance result fails the source check and follows a quarantine path that cannot deliver its payload to the agent."
 }
