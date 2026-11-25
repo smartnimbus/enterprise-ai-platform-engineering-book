@@ -1,0 +1,21 @@
+{
+  "frozen_chapters": 58,
+  "planned_chapter_pages": 448.0,
+  "standalone_draft_chapters": 1,
+  "frozen_decision_rows": 30,
+  "standalone_f1_page_drafts": 2,
+  "standalone_chapters_pub_ready": 0,
+  "ch16_draft_words_approx": 2561,
+  "existing_prose_equivalent_share_band_pct": [
+    0.58,
+    1.16
+  ],
+  "source_ingredient_recoverability_weighted_estimate_pct": 31.2,
+  "new_ingredient_creation_estimate_pct": 68.8,
+  "chapter_production_base_hours": 831.6,
+  "chapter_production_after_assembly_hours": 739.8,
+  "chapter_hours_saved_estimate": 91.8,
+  "human_integrated_review_and_rework_reserve_hours": 240,
+  "total_remaining_human_hours_estimate": 979.8,
+  "calibration": "scenario assumptions, NOT observed labour or verified manuscript-equivalent pages"
+}

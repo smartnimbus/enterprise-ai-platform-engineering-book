@@ -1,0 +1,59 @@
+chapter_id,title,ease_score,reader_value,dependency_score,reuse_ingredient_pct_estimate,estimated_remaining_hours,proposed_priority_class,ease_score_rank,reader_value_rank,dependency_score_rank
+CH-001,The Case for a Shared Fabric,4,5,1.0,23,12.9,CORE,14,14,50
+CH-002,"Agent Capability, Autonomy and Risk",4,4,1.0,23,12.9,CORE,15,41,51
+CH-003,"Fabric, Product, Use Case and Tenant",4,4,1.0,23,12.9,CORE,16,42,52
+CH-004,When Not to Build a Fabric,4,5,1.0,23,12.9,CORE,17,15,53
+CH-005,"Build, Buy, Embed or Partner",2,4,1.0,23,15.7,CORE,54,43,54
+CH-006,"Central, Federated or Hybrid Ownership",2,4,1.0,23,15.7,CORE,55,44,55
+CH-007,Tenant Isolation and Sovereignty,2,4,1.0,23,15.7,CORE,56,45,56
+CH-008,Model Strategy and Unit Economics,2,4,1.0,23,15.7,CORE,57,46,57
+CH-009,Earned Autonomy and Sponsorship,2,4,1.0,23,15.7,CORE,58,47,58
+CH-010,The Canonical Fabric Architecture,2,5,5,30,15.0,CORE,41,8,2
+CH-011,Execution Environment,2,4,1.0,30,15.0,CORE,42,25,22
+CH-012,Tooling,2,4,1.0,30,15.0,CORE,43,26,23
+CH-013,Context,3,5,1.0,40,10.3,PILOT,19,4,19
+CH-014,Lifecycle,3,4,1.0,30,15.0,CORE,27,27,24
+CH-015,Identity Control Plane,2,4,1.0,30,12.3,CORE,44,28,25
+CH-016,Gateway Control Plane,4,5,1.0,43,10.2,PILOT,7,3,17
+CH-017,Observability Control Plane,3,4,1.0,30,12.3,CORE,28,29,26
+CH-018,Verification Control Plane,3,4,1.0,30,12.3,CORE,29,30,27
+CH-019,Governance Control Plane,2,4,1.0,30,12.3,CORE,45,31,28
+CH-020,FinOps Control Plane,3,4,1.0,30,12.3,CORE,30,32,29
+CH-021,Data Protection Control Plane,2,4,1.0,30,12.3,CORE,46,33,30
+CH-022,Interoperability Control Plane,3,4,1.0,30,12.3,CORE,31,34,31
+CH-023,The Fabric Decision Atlas,3,5,5,52,51.5,PILOT,18,1,1
+CH-024,Stage 0: Strategic Intent,4,4,2.2,33,6.9,DEPENDENT,8,18,3
+CH-025,Stage 1: Fabric Vision,4,4,2.2,33,6.9,DEPENDENT,9,19,4
+CH-026,Stage 2: Reference Architecture,3,5,2.2,33,6.9,DEPENDENT,20,5,5
+CH-027,Stage 3: Trust Chain and Security,2,5,2.2,33,9.3,DEPENDENT,40,6,6
+CH-028,Stage 4: Tenant Substrate,3,4,2.2,33,9.3,DEPENDENT,21,20,7
+CH-029,Stage 5: Shared Services Bootstrap,3,4,2.2,33,6.9,DEPENDENT,22,21,8
+CH-030,Stage 6: First Use Case,3,5,2.2,33,9.3,DEPENDENT,23,7,9
+CH-031,Stage 7: Scale to Twelve Use Cases,3,3,2.2,33,6.9,DEPENDENT,24,51,10
+CH-032,Stage 8: Operate as a Product,3,4,2.2,33,9.3,DEPENDENT,25,22,11
+CH-033,Stage 9: Continuous Verification,3,4,2.2,33,9.3,DEPENDENT,26,23,12
+CH-034,Stage 10: Retirement,4,4,1.0,33,9.3,DEPENDENT,10,24,21
+CH-035,Team Design and Responsibility Matrix,3,5,1.0,25,12.8,DEPENDENT,37,13,42
+CH-036,"Reliability, Service Levels and Continuity",2,4,1.0,25,17.2,DEPENDENT,49,37,43
+CH-037,Incident Command and Security Response,2,4,1.0,25,17.2,DEPENDENT,50,38,44
+CH-038,"Unit Economics, Showback and Chargeback",3,3,1.0,25,17.2,DEPENDENT,38,56,45
+CH-039,"Release, Change and Version Control",3,4,1.0,25,17.2,DEPENDENT,39,39,46
+CH-040,Audit Evidence and Assurance Reviews,2,4,1.0,25,17.2,DEPENDENT,51,40,47
+CH-041,P1: Build the Business Case,4,5,1.0,29,9.7,DEPENDENT,11,9,32
+CH-042,P2: Design the Reference Architecture,3,5,1.0,29,13.2,DEPENDENT,32,10,33
+CH-043,P3: Stand Up the Tenant Substrate,3,4,1.0,29,13.2,DEPENDENT,33,35,34
+CH-044,P4: Onboard the First Use Case,3,5,1.0,29,13.2,DEPENDENT,34,11,35
+CH-045,P5: Scale from One to Ten Use Cases,3,3,1.0,29,9.7,DEPENDENT,35,52,36
+CH-046,P6: Plan for Ten to One Hundred-Plus,2,3,1.0,29,9.7,DEPENDENT,47,53,37
+CH-047,P7: Execute a Model Upgrade,3,4,1.0,29,13.2,DEPENDENT,36,36,38
+CH-048,P8: Handle a Security Incident,2,5,1.0,29,13.2,DEPENDENT,48,12,39
+CH-049,P9: Retire a Use Case,4,3,1.0,29,13.2,DEPENDENT,12,54,40
+CH-050,P10: Retire or Replace the Fabric,4,3,1.0,29,13.2,DEPENDENT,13,55,41
+CH-051,Layer and Control-Plane Checklists,5,3,1.0,45,9.1,DEPENDENT,3,48,15
+CH-052,Architecture Decision and Risk Records,5,4,1.0,48,12.2,DEPENDENT,2,17,14
+CH-053,Protocol and Boundary Reference,5,3,1.0,42,9.2,DEPENDENT,5,49,18
+CH-054,Technology Decision Matrix,5,3,1.0,38,9.4,DEPENDENT,6,50,20
+CH-055,Standards and Regulatory Map,2,3,1.0,25,9.9,DEPENDENT,52,57,48
+CH-056,Glossary and Controlled Vocabulary,5,4,1.0,50,8.9,DEPENDENT,1,16,13
+CH-057,Worked Evidence and Delivery Artefacts,5,5,1.0,45,12.4,DEPENDENT,4,2,16
+CH-058,Industry Adoption Overlays,2,3,1.0,25,9.9,DEPENDENT,53,58,49
