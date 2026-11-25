@@ -35,3 +35,12 @@ PRs [7](https://github.com/smartnimbus/enterprise-ai-platform-engineering-book/p
 
 ## Rights
 [Permissions and rights register](permissions-and-rights-register.csv). Author confirmation required; no confidential personal information in Git.
+
+## Publisher-facing editorial additions (draft)
+
+- [Author credibility drafts](author-credibility-drafts.md) — factual confirmation required; private details excluded.
+- [Why Another Enterprise AI Book Needs To Exist](why-another-enterprise-ai-book-needs-to-exist.md) — differentiation draft.
+- [Chapter 1 editorial recommendations](chapter-01-editorial-recommendations.md) — internal authoring input.
+- [Five commissioning evidence priorities](commissioning-evidence-priorities.md) — outstanding commercial evidence.
+
+These are working additions, not an approved release or changes to the historical 50-entry pinned source manifest.
