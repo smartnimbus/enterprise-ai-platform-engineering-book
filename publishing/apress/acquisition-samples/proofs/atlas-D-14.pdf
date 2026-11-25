@@ -1,0 +1,90 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R /Lang (en-GB) >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 1 /Kids [6 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 3177 >>
+stream
+0.3 g
+BT /F2 8 Tf 1 0 0 1 65 633 Tm (PART IV  /  DECISION ATLAS) Tj ET
+BT /F3 8 Tf 1 0 0 1 407.32 633 Tm (ACQUISITION PROOF) Tj ET
+0.65 G 0.5 w 65 624 m 490 624 l S
+0.1 g
+BT /F2 18 Tf 1 0 0 1 65 602 Tm (D-14: Reconcile semantic identities) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 576 Tm (Context.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 109.919 576 Tm (Different sources may name the same entity or disagree on its status.) Tj ET
+0.95 g 65 535 425 35 re f
+0.35 g 65 535 3 35 re f
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 74 556 Tm (Default.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 115.4225 556 Tm (Default to canonical IDs with source lineage and explicit unresolved-conflict states;) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 74 542 Tm (never silently choose the newest record as truth.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 522 Tm (Why.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 93.0035 522 Tm (Context owns the entity match and conflict record; the domain data owner defines) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 508 Tm (precedence. In synthetic Meridian, MF-REC-A-001 reports ACTIVE and MF-REC-B-001 reports) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 494 Tm (CLOSED for MF-PROD-0091, both effective 2027-02-22 at 00:00 UTC. MF-EVD-RC-001 records) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 480 Tm (UNRESOLVED and escalation to the Retail Data Steward; a later recording time does not establish) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 466 Tm (authority. Verification tests whether a blocked conflict leads to a side effect.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 446 Tm (Trade-off.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 116.33449999999999 446 Tm (This buys consistent meaning at the cost of stewardship and escalations.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 426 Tm (When to deviate.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 75 412 Tm (- Authoritative source has published precedence rules.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 75 398 Tm (- A disposable unlinked context item needs no canonical entity.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 384 Tm (Reversibility.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 133.2815 384 Tm (Two-way door.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 364 Tm (Artefact.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 110.507 364 Tm (semantic-reconciliation-record.json.) Tj ET
+0.96 g 65 250 425 99 re f
+0.12 g
+BT /F2 9 Tf 1 0 0 1 75 339 Tm (Illustration - synthetic claim comparison.) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 325 Tm (- A: ACTIVE at 09:00 | B: CLOSED at 09:10 \(recorded UTC\)) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 313 Tm (- Common effective time: 2027-02-22 00:00 UTC) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 301 Tm (- MF-EVD-RC-001: UNRESOLVED | MF-TASK-STEWARDSHIP-001) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 289 Tm (- Option: retain conflict | Owner: MF-HUM-RET-OWN-001) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 277 Tm (- Approver: none recorded | Verify: no unsafe side effect) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 265 Tm (- Evidence: reconciliation record | Recheck: published precedence or new evidence.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 244 Tm (See also.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 113.447 244 Tm (Chapter 13; Chapter 18; Chapter 22; Chapter 28.) Tj ET
+0.65 G 0.5 w 65 45 m 490 45 l S
+0.35 g
+BT /F3 8 Tf 1 0 0 1 65 30 Tm (The Enterprise AI Agent Fabric) Tj ET
+BT /F3 8 Tf 1 0 0 1 417.664 30 Tm (D-14  |  Author proof) Tj ET
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000072 00000 n 
+0000000129 00000 n 
+0000000228 00000 n 
+0000000330 00000 n 
+0000000427 00000 n 
+0000000573 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+3801
+%%EOF

@@ -40,7 +40,7 @@ The original [book baseline PR #1](https://github.com/smartnimbus/enterprise-ai-
 ### One-click document sections on `main`
 
 - **Manuscript:** [Drafts](manuscript/), [TOC](editorial/outlines/Enterprise_AI_Agent_Fabric_Revised_TOC.csv) and [development blueprint](editorial/outlines/Enterprise_AI_Agent_Fabric_Development_Blueprint.md).
-- **Atlas:** [D-01–D-30 catalogue](decisions/catalogue/Enterprise_AI_Agent_Fabric_Decision_Catalogue.csv), [F1 production pages](decisions/pages/).
+- **Atlas:** [D-01–D-30 catalogue](decisions/catalogue/Enterprise_AI_Agent_Fabric_Decision_Catalogue.csv), [F1 production pages and acquisition sampler](decisions/pages/README.md).
 - **Meridian:** [Dossier and machine-readable evidence](meridian/fixture/).
 - **Editorial:** [Style Bible](editorial/style/style-v1.2.md), [authoring blueprints](editorial/authoring-blueprints/) and [reviews](editorial/reviews/).
 - **Research:** [Forensic and provenance review](knowledge-mining/forensic-review/), [cross-project research](knowledge-mining/cross-project-analysis/).

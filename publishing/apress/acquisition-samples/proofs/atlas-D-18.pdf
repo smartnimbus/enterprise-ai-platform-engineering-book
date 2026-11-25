@@ -1,0 +1,90 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R /Lang (en-GB) >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 1 /Kids [6 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 3210 >>
+stream
+0.3 g
+BT /F2 8 Tf 1 0 0 1 65 633 Tm (PART IV  /  DECISION ATLAS) Tj ET
+BT /F3 8 Tf 1 0 0 1 407.32 633 Tm (ACQUISITION PROOF) Tj ET
+0.65 G 0.5 w 65 624 m 490 624 l S
+0.1 g
+BT /F2 18 Tf 1 0 0 1 65 602 Tm (D-18: Prove Gateway non-bypassability) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 576 Tm (Context.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 109.919 576 Tm (A gateway control plane is ineffective if tools can call external targets directly.) Tj ET
+0.95 g 65 535 425 35 re f
+0.35 g 65 535 3 35 re f
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 74 556 Tm (Default.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 115.4225 556 Tm (Default to mandatory PEP checks on mutable external actions, enforced by) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 74 542 Tm (credentials, routing policy and egress controls.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 522 Tm (Why.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 93.0035 522 Tm (Architecture diagrams are insufficient proof. A policy enforcement point \(PEP\) denial and) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 508 Tm (direct-bypass negative test must show that unapproved side effects cannot succeed. In synthetic) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 494 Tm (Meridian, MF-EVD-DN-001 records Gateway denial, then MF-EVT-013 separately tests the direct) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 480 Tm (service-to-ledger route without the PEP. Egress blocks that simulated route; this is not evidence of a) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 466 Tm (deployed firewall or every possible bypass.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 446 Tm (Trade-off.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 116.33449999999999 446 Tm (This buys enforceable admission at the cost of proxy dependencies and outage planning.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 426 Tm (When to deviate.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 75 412 Tm (- Restricted offline worker cannot reach external systems.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 75 398 Tm (- An explicitly approved trusted path implements equivalent PEP controls.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 384 Tm (Reversibility.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 133.2815 384 Tm (One-way door.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 364 Tm (Artefact.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 110.507 364 Tm (gateway-bypass-proof.md.) Tj ET
+0.96 g 65 250 425 99 re f
+0.12 g
+BT /F2 9 Tf 1 0 0 1 75 339 Tm (Illustration - separate synthetic negative outcomes.) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 325 Tm (- Gateway path: DENY | MF-EVD-DN-001) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 313 Tm (- Direct route: MF-EVT-013 | DENIED_BY_NETWORK_EGRESS) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 301 Tm (- target_received_request = false | financial_mutation_count = 0) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 289 Tm (- Option: mandatory PEP | Owner / approver: assign for deployment) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 277 Tm (- Verify: normal denial and blocked direct route | Evidence: receipt + event) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 265 Tm (- Re-evaluate: credential, routing, or egress change.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 244 Tm (See also.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 113.447 244 Tm (Chapter 10; Chapter 12; Chapter 16; Chapter 27; Chapter 42.) Tj ET
+0.65 G 0.5 w 65 45 m 490 45 l S
+0.35 g
+BT /F3 8 Tf 1 0 0 1 65 30 Tm (The Enterprise AI Agent Fabric) Tj ET
+BT /F3 8 Tf 1 0 0 1 417.664 30 Tm (D-18  |  Author proof) Tj ET
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000072 00000 n 
+0000000129 00000 n 
+0000000228 00000 n 
+0000000330 00000 n 
+0000000427 00000 n 
+0000000573 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+3834
+%%EOF
