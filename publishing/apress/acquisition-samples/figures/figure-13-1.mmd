@@ -1,0 +1,13 @@
+%% Figure 13-1 — Context Manifest Assembly
+%% Retail records A and B pass source and consumer checks and enter context. The incorrectly tagged insurance result fails the source check and follows a quarantine path that cannot deliver its payload to the agent.
+flowchart LR
+ A["Retail product registry"] -->|indexes A| I["Retrieval index"]
+ B["Retail CRM"] -->|indexes B| I
+ X["Insurance policy repository"] -->|indexes item| I
+ I -->|returns hits| S["Context retrieval service"]
+ S -->|checks sources| C["Source ACL recheck"]
+ C -->|admits A/B| M["Context assembler"]
+ C -.->|rejects insurance| Q["Restricted quarantine"]
+ M -->|records decisions| R[("Context Manifest")]
+ Q -.->|records denial| R
+ M -->|delivers A/B| U["Context consumer"]

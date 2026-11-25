@@ -1,0 +1,293 @@
+{
+  "id": "13-3",
+  "title": "Governed Memory Write Decision",
+  "w": 720,
+  "h": 359,
+  "items": [
+    {
+      "t": "box",
+      "x": 12,
+      "y": 42,
+      "w": 106,
+      "h": 36,
+      "lines": [
+        "Agent"
+      ],
+      "kind": "actor"
+    },
+    {
+      "t": "line",
+      "points": [
+        [
+          65,
+          78
+        ],
+        [
+          65,
+          300
+        ]
+      ],
+      "kind": "dash"
+    },
+    {
+      "t": "box",
+      "x": 130,
+      "y": 42,
+      "w": 106,
+      "h": 36,
+      "lines": [
+        "Write gate"
+      ],
+      "kind": "actor"
+    },
+    {
+      "t": "line",
+      "points": [
+        [
+          183,
+          78
+        ],
+        [
+          183,
+          300
+        ]
+      ],
+      "kind": "dash"
+    },
+    {
+      "t": "box",
+      "x": 248,
+      "y": 42,
+      "w": 106,
+      "h": 36,
+      "lines": [
+        "Provenance",
+        "verifier"
+      ],
+      "kind": "actor"
+    },
+    {
+      "t": "line",
+      "points": [
+        [
+          301,
+          78
+        ],
+        [
+          301,
+          300
+        ]
+      ],
+      "kind": "dash"
+    },
+    {
+      "t": "box",
+      "x": 366,
+      "y": 42,
+      "w": 106,
+      "h": 36,
+      "lines": [
+        "Policy",
+        "checks"
+      ],
+      "kind": "actor"
+    },
+    {
+      "t": "line",
+      "points": [
+        [
+          419,
+          78
+        ],
+        [
+          419,
+          300
+        ]
+      ],
+      "kind": "dash"
+    },
+    {
+      "t": "box",
+      "x": 484,
+      "y": 42,
+      "w": 106,
+      "h": 36,
+      "lines": [
+        "Reconciliation",
+        "checker"
+      ],
+      "kind": "actor"
+    },
+    {
+      "t": "line",
+      "points": [
+        [
+          537,
+          78
+        ],
+        [
+          537,
+          300
+        ]
+      ],
+      "kind": "dash"
+    },
+    {
+      "t": "box",
+      "x": 602,
+      "y": 42,
+      "w": 106,
+      "h": 36,
+      "lines": [
+        "Durable",
+        "memory"
+      ],
+      "kind": "actor"
+    },
+    {
+      "t": "line",
+      "points": [
+        [
+          655,
+          78
+        ],
+        [
+          655,
+          300
+        ]
+      ],
+      "kind": "dash"
+    },
+    {
+      "t": "edge",
+      "points": [
+        [
+          65,
+          105
+        ],
+        [
+          183,
+          105
+        ]
+      ],
+      "label": "proposes claim",
+      "x": 124,
+      "y": 97,
+      "kind": "solid"
+    },
+    {
+      "t": "edge",
+      "points": [
+        [
+          183,
+          143
+        ],
+        [
+          301,
+          143
+        ]
+      ],
+      "label": "checks lineage",
+      "x": 242,
+      "y": 135,
+      "kind": "solid"
+    },
+    {
+      "t": "edge",
+      "points": [
+        [
+          183,
+          179
+        ],
+        [
+          419,
+          179
+        ]
+      ],
+      "label": "checks owner / class / retention",
+      "x": 301,
+      "y": 171,
+      "kind": "solid"
+    },
+    {
+      "t": "edge",
+      "points": [
+        [
+          183,
+          215
+        ],
+        [
+          537,
+          215
+        ]
+      ],
+      "label": "checks conflict",
+      "x": 360,
+      "y": 207,
+      "kind": "solid"
+    },
+    {
+      "t": "edge",
+      "points": [
+        [
+          537,
+          251
+        ],
+        [
+          183,
+          251
+        ]
+      ],
+      "label": "returns UNRESOLVED",
+      "x": 360,
+      "y": 243,
+      "kind": "dash"
+    },
+    {
+      "t": "edge",
+      "points": [
+        [
+          183,
+          287
+        ],
+        [
+          65,
+          287
+        ]
+      ],
+      "label": "holds assertion",
+      "x": 124,
+      "y": 279,
+      "kind": "dash"
+    },
+    {
+      "t": "text",
+      "x": 655,
+      "y": 320,
+      "s": "No write",
+      "size": 14,
+      "align": "center",
+      "bold": true
+    },
+    {
+      "t": "text",
+      "x": 12,
+      "y": 330,
+      "s": "Required design process only | MF-EVD-RC-001 | MF-TASK-STEWARDSHIP-001",
+      "size": 13,
+      "align": "left",
+      "bold": false
+    },
+    {
+      "t": "text",
+      "x": 12,
+      "y": 347,
+      "s": "No durable memory assertion of eligibility; no completed memory transaction.",
+      "size": 13,
+      "align": "left",
+      "bold": false
+    }
+  ],
+  "mmd": "%% Figure 13-3 — Governed Memory Write Decision\n%% A proposed write undergoes provenance, ownership, policy, retention, and contradiction checks. The unresolved eligibility claim follows the hold path; no completed memory write or receipt is shown.\nsequenceDiagram\n participant A as Agent\n participant G as Write gate\n participant V as Provenance verifier\n participant P as Policy checks\n participant R as Reconciliation checker\n participant M as Durable memory\n A->>G: proposes claim\n G->>V: checks lineage\n G->>P: checks owner / class / retention\n G->>R: checks conflict\n R-->>G: returns UNRESOLVED\n G-->>A: holds assertion\n Note over M: No write\n Note over A,G: Required design process only; existing stewardship ticket\n",
+  "alt": "A proposed write undergoes provenance, ownership, policy, retention, and contradiction checks. The unresolved eligibility claim follows the hold path; no completed memory write or receipt is shown."
+}

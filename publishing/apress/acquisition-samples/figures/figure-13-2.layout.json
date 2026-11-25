@@ -1,0 +1,188 @@
+{
+  "id": "13-2",
+  "title": "Semantic Reconciliation Workflow",
+  "w": 720,
+  "h": 270,
+  "items": [
+    {
+      "t": "box",
+      "x": 20,
+      "y": 65,
+      "w": 190,
+      "h": 43,
+      "lines": [
+        "Candidate claims"
+      ],
+      "kind": "normal"
+    },
+    {
+      "t": "box",
+      "x": 260,
+      "y": 65,
+      "w": 190,
+      "h": 43,
+      "lines": [
+        "Identity matched"
+      ],
+      "kind": "normal"
+    },
+    {
+      "t": "box",
+      "x": 500,
+      "y": 65,
+      "w": 190,
+      "h": 43,
+      "lines": [
+        "Time aligned"
+      ],
+      "kind": "normal"
+    },
+    {
+      "t": "box",
+      "x": 500,
+      "y": 157,
+      "w": 190,
+      "h": 43,
+      "lines": [
+        "Conflict detected"
+      ],
+      "kind": "normal"
+    },
+    {
+      "t": "box",
+      "x": 260,
+      "y": 157,
+      "w": 190,
+      "h": 43,
+      "lines": [
+        "UNRESOLVED"
+      ],
+      "kind": "hold"
+    },
+    {
+      "t": "box",
+      "x": 20,
+      "y": 157,
+      "w": 190,
+      "h": 43,
+      "lines": [
+        "Steward escalation"
+      ],
+      "kind": "actor"
+    },
+    {
+      "t": "edge",
+      "points": [
+        [
+          210,
+          86
+        ],
+        [
+          260,
+          86
+        ]
+      ],
+      "label": "match ID",
+      "x": 235,
+      "y": 55,
+      "kind": "solid"
+    },
+    {
+      "t": "edge",
+      "points": [
+        [
+          450,
+          86
+        ],
+        [
+          500,
+          86
+        ]
+      ],
+      "label": "align time",
+      "x": 475,
+      "y": 55,
+      "kind": "solid"
+    },
+    {
+      "t": "edge",
+      "points": [
+        [
+          595,
+          108
+        ],
+        [
+          595,
+          157
+        ]
+      ],
+      "label": "compare status",
+      "x": 645,
+      "y": 135,
+      "kind": "solid"
+    },
+    {
+      "t": "edge",
+      "points": [
+        [
+          500,
+          178
+        ],
+        [
+          450,
+          178
+        ]
+      ],
+      "label": "retain conflict",
+      "x": 475,
+      "y": 147,
+      "kind": "solid"
+    },
+    {
+      "t": "edge",
+      "points": [
+        [
+          260,
+          178
+        ],
+        [
+          210,
+          178
+        ]
+      ],
+      "label": "escalate",
+      "x": 235,
+      "y": 147,
+      "kind": "solid"
+    },
+    {
+      "t": "text",
+      "x": 20,
+      "y": 219,
+      "s": "MF-PROD-0091 | Same effective time: 2027-02-22 00:00 UTC | ACTIVE / CLOSED",
+      "size": 13,
+      "align": "left",
+      "bold": false
+    },
+    {
+      "t": "text",
+      "x": 20,
+      "y": 236,
+      "s": "No precedence defined | MF-EVD-RC-001 | MF-EVT-007 / MF-EVT-008",
+      "size": 13,
+      "align": "left",
+      "bold": false
+    },
+    {
+      "t": "text",
+      "x": 20,
+      "y": 253,
+      "s": "Retail Data Steward: MF-HUM-RET-OWN-001 | No durable eligibility assertion",
+      "size": 13,
+      "align": true,
+      "bold": false
+    }
+  ],
+  "mmd": "%% Figure 13-2 — Semantic Reconciliation Workflow\n%% Two authorised records match the same product and effective time but disagree on status. The reconciliation workflow retains UNRESOLVED and escalates to the Retail Data Steward without selecting either value.\nstateDiagram-v2\n direction LR\n state \"Candidate claims\" as A\n state \"Identity matched\" as B\n state \"Time aligned\" as C\n state \"Conflict detected\" as D\n state \"UNRESOLVED\" as E\n state \"Steward escalation\" as F\n A --> B: match ID\n B --> C: align time\n C --> D: compare status\n D --> E: retain conflict\n E --> F: escalate\n",
+  "alt": "Two authorised records match the same product and effective time but disagree on status. The reconciliation workflow retains UNRESOLVED and escalates to the Retail Data Steward without selecting either value."
+}

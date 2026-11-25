@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="406" viewBox="0 0 720 406" role="img" aria-labelledby="title desc"><title id="title">Figure 13-1. Context Manifest Assembly</title><desc id="desc">Retail records A and B pass source and consumer checks and enter context. The incorrectly tagged insurance result fails the source check and follows a quarantine path that cannot deliver its payload to the agent.</desc><defs><marker id="a" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 Z" fill="#333"/></marker></defs><rect width="100%" height="100%" fill="#fff"/><g font-family="Arial, sans-serif" fill="#171717">
+<text x="12" y="24" font-size="17" text-anchor="start" font-weight="bold">Figure 13-1  |  Context Manifest Assembly</text>
+<rect x="12" y="48" width="155" height="43" rx="1" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="89.5" y="67" font-size="14" text-anchor="middle">Retail product</text>
+<text x="89.5" y="82" font-size="14" text-anchor="middle">registry</text>
+<rect x="12" y="113" width="155" height="43" rx="1" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="89.5" y="139.5" font-size="14" text-anchor="middle">Retail CRM</text>
+<rect x="12" y="178" width="155" height="43" rx="1" fill="#fff" stroke="#333" stroke-width="1.5" stroke-dasharray="5 3"/>
+<text x="89.5" y="197" font-size="14" text-anchor="middle">Insurance policy</text>
+<text x="89.5" y="212" font-size="14" text-anchor="middle">repository</text>
+<rect x="205" y="112" width="110" height="48" rx="1" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="260" y="133.5" font-size="14" text-anchor="middle">Retrieval</text>
+<text x="260" y="148.5" font-size="14" text-anchor="middle">index</text>
+<rect x="355" y="112" width="116" height="48" rx="1" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="413" y="133.5" font-size="14" text-anchor="middle">Context retrieval</text>
+<text x="413" y="148.5" font-size="14" text-anchor="middle">service</text>
+<rect x="515" y="112" width="150" height="48" rx="1" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="590" y="133.5" font-size="14" text-anchor="middle">Source ACL</text>
+<text x="590" y="148.5" font-size="14" text-anchor="middle">recheck</text>
+<rect x="515" y="225" width="150" height="45" rx="1" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="590" y="252.5" font-size="14" text-anchor="middle">Context assembler</text>
+<rect x="515" y="304" width="150" height="43" rx="7" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="590" y="330.5" font-size="14" text-anchor="middle">Context consumer</text>
+<rect x="285" y="225" width="155" height="45" rx="1" fill="#f0f0f0" stroke="#333" stroke-width="1.5"/>
+<text x="362.5" y="252.5" font-size="14" text-anchor="middle">Context Manifest</text>
+<rect x="285" y="304" width="155" height="43" rx="1" fill="#e6e6e6" stroke="#333" stroke-width="1.5"/>
+<text x="362.5" y="330.5" font-size="14" text-anchor="middle" font-weight="bold">Restricted quarantine</text>
+<polyline points="167,69 188,69 188,125 205,125" fill="none" stroke="#333" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="187" y="58" font-size="12" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="3" stroke-linejoin="round">indexes A</text>
+<polyline points="167,134 205,134" fill="none" stroke="#333" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="185" y="104" font-size="12" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="3" stroke-linejoin="round">indexes B</text>
+<polyline points="167,199 190,199 190,148 205,148" fill="none" stroke="#333" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="196" y="216" font-size="12" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="3" stroke-linejoin="round">indexes item</text>
+<polyline points="315,136 355,136" fill="none" stroke="#333" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="335" y="101" font-size="12" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="3" stroke-linejoin="round">returns hits</text>
+<polyline points="471,136 515,136" fill="none" stroke="#333" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="493" y="101" font-size="12" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="3" stroke-linejoin="round">checks sources</text>
+<polyline points="590,160 590,225" fill="none" stroke="#333" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="642" y="198" font-size="12" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="3" stroke-linejoin="round">admits A/B</text>
+<polyline points="515,146 480,146 480,325 440,325" fill="none" stroke="#333" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#a)"/>
+<text x="410" y="294" font-size="12" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="3" stroke-linejoin="round">rejects insurance</text>
+<polyline points="515,247 440,247" fill="none" stroke="#333" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="477" y="236" font-size="12" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="3" stroke-linejoin="round">records decisions</text>
+<polyline points="440,314 460,314 460,258 440,258" fill="none" stroke="#333" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#a)"/>
+<text x="373" y="287" font-size="12" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="3" stroke-linejoin="round">records denial</text>
+<polyline points="590,270 590,304" fill="none" stroke="#333" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="645" y="291" font-size="12" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="3" stroke-linejoin="round">delivers A/B</text>
+<text x="12" y="366" font-size="13" text-anchor="start">A/B: MF-REC-A-001 / MF-REC-B-001 | Excluded: MF-REC-INS-LEAK-001</text>
+<text x="12" y="382" font-size="13" text-anchor="start">Manifest: MF-EVD-CM-001 | Source ACL DENY for insurance | No signature applied</text>
+<text x="12" y="397" font-size="13" text-anchor="start">Policies: MF-POL-RET-ACCESS-v1.0 / MF-POL-TENANT-v1.0</text></g></svg>
