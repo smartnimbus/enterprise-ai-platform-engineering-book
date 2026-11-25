@@ -1,0 +1,410 @@
+from,to,relationship,source,confidence
+CH-001,CH-004,see_also_editorial,Development Blueprint Phase 4 Chapter 1 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-001,CH-005,see_also_editorial,Development Blueprint Phase 4 Chapter 1 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-001,CH-024,see_also_editorial,Development Blueprint Phase 4 Chapter 1 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-001,CH-041,see_also_editorial,Development Blueprint Phase 4 Chapter 1 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-002,CH-009,see_also_editorial,Development Blueprint Phase 4 Chapter 2 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-002,CH-015,see_also_editorial,Development Blueprint Phase 4 Chapter 2 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-002,CH-018,see_also_editorial,Development Blueprint Phase 4 Chapter 2 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-002,CH-030,see_also_editorial,Development Blueprint Phase 4 Chapter 2 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-003,CH-006,see_also_editorial,Development Blueprint Phase 4 Chapter 3 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-003,CH-007,see_also_editorial,Development Blueprint Phase 4 Chapter 3 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-003,CH-035,see_also_editorial,Development Blueprint Phase 4 Chapter 3 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-003,CH-044,see_also_editorial,Development Blueprint Phase 4 Chapter 3 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-004,CH-001,see_also_editorial,Development Blueprint Phase 4 Chapter 4 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-004,CH-005,see_also_editorial,Development Blueprint Phase 4 Chapter 4 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-004,CH-023,see_also_editorial,Development Blueprint Phase 4 Chapter 4 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-004,CH-041,see_also_editorial,Development Blueprint Phase 4 Chapter 4 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-005,CH-004,see_also_editorial,Development Blueprint Phase 4 Chapter 5 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-005,CH-008,see_also_editorial,Development Blueprint Phase 4 Chapter 5 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-005,CH-022,see_also_editorial,Development Blueprint Phase 4 Chapter 5 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-005,CH-054,see_also_editorial,Development Blueprint Phase 4 Chapter 5 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-006,CH-003,see_also_editorial,Development Blueprint Phase 4 Chapter 6 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-006,CH-019,see_also_editorial,Development Blueprint Phase 4 Chapter 6 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-006,CH-035,see_also_editorial,Development Blueprint Phase 4 Chapter 6 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-006,CH-045,see_also_editorial,Development Blueprint Phase 4 Chapter 6 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-007,CH-011,see_also_editorial,Development Blueprint Phase 4 Chapter 7 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-007,CH-013,see_also_editorial,Development Blueprint Phase 4 Chapter 7 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-007,CH-021,see_also_editorial,Development Blueprint Phase 4 Chapter 7 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-007,CH-028,see_also_editorial,Development Blueprint Phase 4 Chapter 7 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-008,CH-016,see_also_editorial,Development Blueprint Phase 4 Chapter 8 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-008,CH-020,see_also_editorial,Development Blueprint Phase 4 Chapter 8 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-008,CH-038,see_also_editorial,Development Blueprint Phase 4 Chapter 8 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-008,CH-047,see_also_editorial,Development Blueprint Phase 4 Chapter 8 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-009,CH-002,see_also_editorial,Development Blueprint Phase 4 Chapter 9 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-009,CH-018,see_also_editorial,Development Blueprint Phase 4 Chapter 9 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-009,CH-019,see_also_editorial,Development Blueprint Phase 4 Chapter 9 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-009,CH-033,see_also_editorial,Development Blueprint Phase 4 Chapter 9 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-010,CH-011,see_also_editorial,Development Blueprint Phase 4 Chapter 10 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-010,CH-012,see_also_editorial,Development Blueprint Phase 4 Chapter 10 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-010,CH-013,see_also_editorial,Development Blueprint Phase 4 Chapter 10 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-010,CH-014,see_also_editorial,Development Blueprint Phase 4 Chapter 10 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-010,CH-015,see_also_editorial,Development Blueprint Phase 4 Chapter 10 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-010,CH-016,see_also_editorial,Development Blueprint Phase 4 Chapter 10 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-010,CH-017,see_also_editorial,Development Blueprint Phase 4 Chapter 10 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-010,CH-018,see_also_editorial,Development Blueprint Phase 4 Chapter 10 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-010,CH-019,see_also_editorial,Development Blueprint Phase 4 Chapter 10 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-010,CH-020,see_also_editorial,Development Blueprint Phase 4 Chapter 10 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-010,CH-021,see_also_editorial,Development Blueprint Phase 4 Chapter 10 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-010,CH-022,see_also_editorial,Development Blueprint Phase 4 Chapter 10 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-010,CH-023,see_also_editorial,Development Blueprint Phase 4 Chapter 10 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-011,CH-014,see_also_editorial,Development Blueprint Phase 4 Chapter 11 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-011,CH-016,see_also_editorial,Development Blueprint Phase 4 Chapter 11 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-011,CH-021,see_also_editorial,Development Blueprint Phase 4 Chapter 11 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-011,CH-036,see_also_editorial,Development Blueprint Phase 4 Chapter 11 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-011,CH-010,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-012,CH-016,see_also_editorial,Development Blueprint Phase 4 Chapter 12 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-012,CH-018,see_also_editorial,Development Blueprint Phase 4 Chapter 12 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-012,CH-022,see_also_editorial,Development Blueprint Phase 4 Chapter 12 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-012,CH-039,see_also_editorial,Development Blueprint Phase 4 Chapter 12 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-012,CH-010,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-013,CH-015,see_also_editorial,Development Blueprint Phase 4 Chapter 13 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-013,CH-018,see_also_editorial,Development Blueprint Phase 4 Chapter 13 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-013,CH-021,see_also_editorial,Development Blueprint Phase 4 Chapter 13 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-013,CH-028,see_also_editorial,Development Blueprint Phase 4 Chapter 13 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-013,CH-010,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-014,CH-011,see_also_editorial,Development Blueprint Phase 4 Chapter 14 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-014,CH-012,see_also_editorial,Development Blueprint Phase 4 Chapter 14 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-014,CH-015,see_also_editorial,Development Blueprint Phase 4 Chapter 14 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-014,CH-016,see_also_editorial,Development Blueprint Phase 4 Chapter 14 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-014,CH-036,see_also_editorial,Development Blueprint Phase 4 Chapter 14 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-014,CH-010,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-015,CH-016,see_also_editorial,Development Blueprint Phase 4 Chapter 15 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-015,CH-019,see_also_editorial,Development Blueprint Phase 4 Chapter 15 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-015,CH-027,see_also_editorial,Development Blueprint Phase 4 Chapter 15 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-015,CH-040,see_also_editorial,Development Blueprint Phase 4 Chapter 15 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-015,CH-010,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-016,CH-012,see_also_editorial,Development Blueprint Phase 4 Chapter 16 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-016,CH-015,see_also_editorial,Development Blueprint Phase 4 Chapter 16 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-016,CH-019,see_also_editorial,Development Blueprint Phase 4 Chapter 16 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-016,CH-027,see_also_editorial,Development Blueprint Phase 4 Chapter 16 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-016,CH-010,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-017,CH-018,see_also_editorial,Development Blueprint Phase 4 Chapter 17 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-017,CH-020,see_also_editorial,Development Blueprint Phase 4 Chapter 17 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-017,CH-021,see_also_editorial,Development Blueprint Phase 4 Chapter 17 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-017,CH-036,see_also_editorial,Development Blueprint Phase 4 Chapter 17 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-017,CH-037,see_also_editorial,Development Blueprint Phase 4 Chapter 17 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-017,CH-038,see_also_editorial,Development Blueprint Phase 4 Chapter 17 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-017,CH-039,see_also_editorial,Development Blueprint Phase 4 Chapter 17 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-017,CH-040,see_also_editorial,Development Blueprint Phase 4 Chapter 17 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-017,CH-010,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-018,CH-009,see_also_editorial,Development Blueprint Phase 4 Chapter 18 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-018,CH-012,see_also_editorial,Development Blueprint Phase 4 Chapter 18 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-018,CH-013,see_also_editorial,Development Blueprint Phase 4 Chapter 18 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-018,CH-033,see_also_editorial,Development Blueprint Phase 4 Chapter 18 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-018,CH-047,see_also_editorial,Development Blueprint Phase 4 Chapter 18 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-018,CH-010,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-019,CH-006,see_also_editorial,Development Blueprint Phase 4 Chapter 19 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-019,CH-009,see_also_editorial,Development Blueprint Phase 4 Chapter 19 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-019,CH-015,see_also_editorial,Development Blueprint Phase 4 Chapter 19 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-019,CH-035,see_also_editorial,Development Blueprint Phase 4 Chapter 19 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-019,CH-010,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-020,CH-008,see_also_editorial,Development Blueprint Phase 4 Chapter 20 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-020,CH-017,see_also_editorial,Development Blueprint Phase 4 Chapter 20 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-020,CH-032,see_also_editorial,Development Blueprint Phase 4 Chapter 20 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-020,CH-038,see_also_editorial,Development Blueprint Phase 4 Chapter 20 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-020,CH-010,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-021,CH-007,see_also_editorial,Development Blueprint Phase 4 Chapter 21 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-021,CH-013,see_also_editorial,Development Blueprint Phase 4 Chapter 21 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-021,CH-034,see_also_editorial,Development Blueprint Phase 4 Chapter 21 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-021,CH-049,see_also_editorial,Development Blueprint Phase 4 Chapter 21 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-021,CH-010,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-022,CH-012,see_also_editorial,Development Blueprint Phase 4 Chapter 22 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-022,CH-013,see_also_editorial,Development Blueprint Phase 4 Chapter 22 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-022,CH-015,see_also_editorial,Development Blueprint Phase 4 Chapter 22 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-022,CH-016,see_also_editorial,Development Blueprint Phase 4 Chapter 22 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-022,CH-053,see_also_editorial,Development Blueprint Phase 4 Chapter 22 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-022,CH-010,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-023,CH-001,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-002,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-003,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-004,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-005,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-006,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-007,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-008,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-009,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-010,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-011,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-012,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-013,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-014,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-015,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-016,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-017,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-018,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-019,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-020,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-021,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-022,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-024,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-025,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-026,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-027,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-028,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-029,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-030,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-031,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-032,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-033,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-034,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-035,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-036,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-037,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-038,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-039,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-040,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-041,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-042,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-043,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-044,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-045,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-046,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-047,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-048,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-049,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-050,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-051,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-052,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-053,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-054,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-055,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-056,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-057,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-023,CH-058,see_also_editorial,Development Blueprint Phase 4 Chapter 23 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-024,CH-001,see_also_editorial,Development Blueprint Phase 4 Chapter 24 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-024,CH-004,see_also_editorial,Development Blueprint Phase 4 Chapter 24 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-024,CH-005,see_also_editorial,Development Blueprint Phase 4 Chapter 24 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-024,CH-006,see_also_editorial,Development Blueprint Phase 4 Chapter 24 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-024,CH-041,see_also_editorial,Development Blueprint Phase 4 Chapter 24 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-024,CH-023,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-025,CH-002,see_also_editorial,Development Blueprint Phase 4 Chapter 25 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-025,CH-003,see_also_editorial,Development Blueprint Phase 4 Chapter 25 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-025,CH-006,see_also_editorial,Development Blueprint Phase 4 Chapter 25 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-025,CH-035,see_also_editorial,Development Blueprint Phase 4 Chapter 25 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-025,CH-023,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-025,CH-024,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-026,CH-010,see_also_editorial,Development Blueprint Phase 4 Chapter 26 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-026,CH-011,see_also_editorial,Development Blueprint Phase 4 Chapter 26 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-026,CH-012,see_also_editorial,Development Blueprint Phase 4 Chapter 26 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-026,CH-013,see_also_editorial,Development Blueprint Phase 4 Chapter 26 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-026,CH-014,see_also_editorial,Development Blueprint Phase 4 Chapter 26 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-026,CH-015,see_also_editorial,Development Blueprint Phase 4 Chapter 26 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-026,CH-016,see_also_editorial,Development Blueprint Phase 4 Chapter 26 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-026,CH-017,see_also_editorial,Development Blueprint Phase 4 Chapter 26 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-026,CH-018,see_also_editorial,Development Blueprint Phase 4 Chapter 26 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-026,CH-019,see_also_editorial,Development Blueprint Phase 4 Chapter 26 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-026,CH-020,see_also_editorial,Development Blueprint Phase 4 Chapter 26 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-026,CH-021,see_also_editorial,Development Blueprint Phase 4 Chapter 26 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-026,CH-022,see_also_editorial,Development Blueprint Phase 4 Chapter 26 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-026,CH-042,see_also_editorial,Development Blueprint Phase 4 Chapter 26 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-026,CH-052,see_also_editorial,Development Blueprint Phase 4 Chapter 26 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-026,CH-023,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-026,CH-025,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-027,CH-015,see_also_editorial,Development Blueprint Phase 4 Chapter 27 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-027,CH-016,see_also_editorial,Development Blueprint Phase 4 Chapter 27 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-027,CH-019,see_also_editorial,Development Blueprint Phase 4 Chapter 27 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-027,CH-021,see_also_editorial,Development Blueprint Phase 4 Chapter 27 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-027,CH-048,see_also_editorial,Development Blueprint Phase 4 Chapter 27 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-027,CH-023,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-027,CH-026,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-028,CH-007,see_also_editorial,Development Blueprint Phase 4 Chapter 28 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-028,CH-013,see_also_editorial,Development Blueprint Phase 4 Chapter 28 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-028,CH-021,see_also_editorial,Development Blueprint Phase 4 Chapter 28 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-028,CH-043,see_also_editorial,Development Blueprint Phase 4 Chapter 28 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-028,CH-023,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-028,CH-027,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-029,CH-016,see_also_editorial,Development Blueprint Phase 4 Chapter 29 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-029,CH-017,see_also_editorial,Development Blueprint Phase 4 Chapter 29 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-029,CH-018,see_also_editorial,Development Blueprint Phase 4 Chapter 29 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-029,CH-020,see_also_editorial,Development Blueprint Phase 4 Chapter 29 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-029,CH-042,see_also_editorial,Development Blueprint Phase 4 Chapter 29 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-029,CH-023,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-029,CH-028,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-030,CH-009,see_also_editorial,Development Blueprint Phase 4 Chapter 30 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-030,CH-018,see_also_editorial,Development Blueprint Phase 4 Chapter 30 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-030,CH-044,see_also_editorial,Development Blueprint Phase 4 Chapter 30 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-030,CH-047,see_also_editorial,Development Blueprint Phase 4 Chapter 30 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-030,CH-023,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-030,CH-029,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-031,CH-006,see_also_editorial,Development Blueprint Phase 4 Chapter 31 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-031,CH-035,see_also_editorial,Development Blueprint Phase 4 Chapter 31 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-031,CH-045,see_also_editorial,Development Blueprint Phase 4 Chapter 31 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-031,CH-046,see_also_editorial,Development Blueprint Phase 4 Chapter 31 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-031,CH-023,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-031,CH-030,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-032,CH-017,see_also_editorial,Development Blueprint Phase 4 Chapter 32 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-032,CH-020,see_also_editorial,Development Blueprint Phase 4 Chapter 32 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-032,CH-036,see_also_editorial,Development Blueprint Phase 4 Chapter 32 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-032,CH-037,see_also_editorial,Development Blueprint Phase 4 Chapter 32 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-032,CH-038,see_also_editorial,Development Blueprint Phase 4 Chapter 32 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-032,CH-023,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-032,CH-031,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-033,CH-018,see_also_editorial,Development Blueprint Phase 4 Chapter 33 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-033,CH-039,see_also_editorial,Development Blueprint Phase 4 Chapter 33 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-033,CH-047,see_also_editorial,Development Blueprint Phase 4 Chapter 33 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-033,CH-023,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-033,CH-032,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-034,CH-021,see_also_editorial,Development Blueprint Phase 4 Chapter 34 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-034,CH-040,see_also_editorial,Development Blueprint Phase 4 Chapter 34 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-034,CH-049,see_also_editorial,Development Blueprint Phase 4 Chapter 34 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-034,CH-050,see_also_editorial,Development Blueprint Phase 4 Chapter 34 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-034,CH-023,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-034,CH-033,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-035,CH-006,see_also_editorial,Development Blueprint Phase 4 Chapter 35 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-035,CH-019,see_also_editorial,Development Blueprint Phase 4 Chapter 35 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-035,CH-031,see_also_editorial,Development Blueprint Phase 4 Chapter 35 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-035,CH-040,see_also_editorial,Development Blueprint Phase 4 Chapter 35 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-036,CH-011,see_also_editorial,Development Blueprint Phase 4 Chapter 36 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-036,CH-014,see_also_editorial,Development Blueprint Phase 4 Chapter 36 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-036,CH-017,see_also_editorial,Development Blueprint Phase 4 Chapter 36 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-036,CH-032,see_also_editorial,Development Blueprint Phase 4 Chapter 36 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-037,CH-016,see_also_editorial,Development Blueprint Phase 4 Chapter 37 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-037,CH-017,see_also_editorial,Development Blueprint Phase 4 Chapter 37 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-037,CH-018,see_also_editorial,Development Blueprint Phase 4 Chapter 37 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-037,CH-021,see_also_editorial,Development Blueprint Phase 4 Chapter 37 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-037,CH-048,see_also_editorial,Development Blueprint Phase 4 Chapter 37 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-038,CH-008,see_also_editorial,Development Blueprint Phase 4 Chapter 38 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-038,CH-020,see_also_editorial,Development Blueprint Phase 4 Chapter 38 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-038,CH-032,see_also_editorial,Development Blueprint Phase 4 Chapter 38 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-038,CH-041,see_also_editorial,Development Blueprint Phase 4 Chapter 38 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-039,CH-012,see_also_editorial,Development Blueprint Phase 4 Chapter 39 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-039,CH-018,see_also_editorial,Development Blueprint Phase 4 Chapter 39 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-039,CH-022,see_also_editorial,Development Blueprint Phase 4 Chapter 39 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-039,CH-047,see_also_editorial,Development Blueprint Phase 4 Chapter 39 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-040,CH-015,see_also_editorial,Development Blueprint Phase 4 Chapter 40 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-040,CH-016,see_also_editorial,Development Blueprint Phase 4 Chapter 40 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-040,CH-017,see_also_editorial,Development Blueprint Phase 4 Chapter 40 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-040,CH-018,see_also_editorial,Development Blueprint Phase 4 Chapter 40 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-040,CH-021,see_also_editorial,Development Blueprint Phase 4 Chapter 40 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-040,CH-052,see_also_editorial,Development Blueprint Phase 4 Chapter 40 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-040,CH-057,see_also_editorial,Development Blueprint Phase 4 Chapter 40 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-041,CH-001,see_also_editorial,Development Blueprint Phase 4 Chapter 41 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-041,CH-005,see_also_editorial,Development Blueprint Phase 4 Chapter 41 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-041,CH-008,see_also_editorial,Development Blueprint Phase 4 Chapter 41 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-041,CH-024,see_also_editorial,Development Blueprint Phase 4 Chapter 41 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-041,CH-023,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-042,CH-010,see_also_editorial,Development Blueprint Phase 4 Chapter 42 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-042,CH-011,see_also_editorial,Development Blueprint Phase 4 Chapter 42 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-042,CH-012,see_also_editorial,Development Blueprint Phase 4 Chapter 42 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-042,CH-013,see_also_editorial,Development Blueprint Phase 4 Chapter 42 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-042,CH-014,see_also_editorial,Development Blueprint Phase 4 Chapter 42 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-042,CH-015,see_also_editorial,Development Blueprint Phase 4 Chapter 42 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-042,CH-016,see_also_editorial,Development Blueprint Phase 4 Chapter 42 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-042,CH-017,see_also_editorial,Development Blueprint Phase 4 Chapter 42 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-042,CH-018,see_also_editorial,Development Blueprint Phase 4 Chapter 42 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-042,CH-019,see_also_editorial,Development Blueprint Phase 4 Chapter 42 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-042,CH-020,see_also_editorial,Development Blueprint Phase 4 Chapter 42 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-042,CH-021,see_also_editorial,Development Blueprint Phase 4 Chapter 42 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-042,CH-022,see_also_editorial,Development Blueprint Phase 4 Chapter 42 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-042,CH-026,see_also_editorial,Development Blueprint Phase 4 Chapter 42 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-042,CH-023,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-043,CH-007,see_also_editorial,Development Blueprint Phase 4 Chapter 43 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-043,CH-013,see_also_editorial,Development Blueprint Phase 4 Chapter 43 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-043,CH-021,see_also_editorial,Development Blueprint Phase 4 Chapter 43 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-043,CH-028,see_also_editorial,Development Blueprint Phase 4 Chapter 43 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-043,CH-023,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-044,CH-009,see_also_editorial,Development Blueprint Phase 4 Chapter 44 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-044,CH-018,see_also_editorial,Development Blueprint Phase 4 Chapter 44 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-044,CH-030,see_also_editorial,Development Blueprint Phase 4 Chapter 44 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-044,CH-023,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-045,CH-006,see_also_editorial,Development Blueprint Phase 4 Chapter 45 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-045,CH-019,see_also_editorial,Development Blueprint Phase 4 Chapter 45 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-045,CH-031,see_also_editorial,Development Blueprint Phase 4 Chapter 45 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-045,CH-035,see_also_editorial,Development Blueprint Phase 4 Chapter 45 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-045,CH-023,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-046,CH-011,see_also_editorial,Development Blueprint Phase 4 Chapter 46 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-046,CH-017,see_also_editorial,Development Blueprint Phase 4 Chapter 46 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-046,CH-031,see_also_editorial,Development Blueprint Phase 4 Chapter 46 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-046,CH-036,see_also_editorial,Development Blueprint Phase 4 Chapter 46 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-046,CH-023,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-047,CH-008,see_also_editorial,Development Blueprint Phase 4 Chapter 47 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-047,CH-018,see_also_editorial,Development Blueprint Phase 4 Chapter 47 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-047,CH-033,see_also_editorial,Development Blueprint Phase 4 Chapter 47 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-047,CH-039,see_also_editorial,Development Blueprint Phase 4 Chapter 47 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-047,CH-023,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-048,CH-016,see_also_editorial,Development Blueprint Phase 4 Chapter 48 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-048,CH-021,see_also_editorial,Development Blueprint Phase 4 Chapter 48 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-048,CH-037,see_also_editorial,Development Blueprint Phase 4 Chapter 48 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-048,CH-040,see_also_editorial,Development Blueprint Phase 4 Chapter 48 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-048,CH-023,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-049,CH-021,see_also_editorial,Development Blueprint Phase 4 Chapter 49 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-049,CH-034,see_also_editorial,Development Blueprint Phase 4 Chapter 49 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-049,CH-040,see_also_editorial,Development Blueprint Phase 4 Chapter 49 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-049,CH-023,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-050,CH-005,see_also_editorial,Development Blueprint Phase 4 Chapter 50 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-050,CH-022,see_also_editorial,Development Blueprint Phase 4 Chapter 50 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-050,CH-034,see_also_editorial,Development Blueprint Phase 4 Chapter 50 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-050,CH-036,see_also_editorial,Development Blueprint Phase 4 Chapter 50 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-050,CH-023,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-051,CH-010,see_also_editorial,Development Blueprint Phase 4 Chapter 51 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-051,CH-011,see_also_editorial,Development Blueprint Phase 4 Chapter 51 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-051,CH-012,see_also_editorial,Development Blueprint Phase 4 Chapter 51 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-051,CH-013,see_also_editorial,Development Blueprint Phase 4 Chapter 51 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-051,CH-014,see_also_editorial,Development Blueprint Phase 4 Chapter 51 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-051,CH-015,see_also_editorial,Development Blueprint Phase 4 Chapter 51 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-051,CH-016,see_also_editorial,Development Blueprint Phase 4 Chapter 51 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-051,CH-017,see_also_editorial,Development Blueprint Phase 4 Chapter 51 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-051,CH-018,see_also_editorial,Development Blueprint Phase 4 Chapter 51 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-051,CH-019,see_also_editorial,Development Blueprint Phase 4 Chapter 51 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-051,CH-020,see_also_editorial,Development Blueprint Phase 4 Chapter 51 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-051,CH-021,see_also_editorial,Development Blueprint Phase 4 Chapter 51 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-051,CH-022,see_also_editorial,Development Blueprint Phase 4 Chapter 51 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-051,CH-040,see_also_editorial,Development Blueprint Phase 4 Chapter 51 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-051,CH-023,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-052,CH-023,see_also_editorial,Development Blueprint Phase 4 Chapter 52 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-052,CH-035,see_also_editorial,Development Blueprint Phase 4 Chapter 52 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-052,CH-040,see_also_editorial,Development Blueprint Phase 4 Chapter 52 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-052,CH-023,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-053,CH-012,see_also_editorial,Development Blueprint Phase 4 Chapter 53 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-053,CH-015,see_also_editorial,Development Blueprint Phase 4 Chapter 53 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-053,CH-016,see_also_editorial,Development Blueprint Phase 4 Chapter 53 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-053,CH-022,see_also_editorial,Development Blueprint Phase 4 Chapter 53 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-053,CH-023,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-054,CH-005,see_also_editorial,Development Blueprint Phase 4 Chapter 54 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-054,CH-008,see_also_editorial,Development Blueprint Phase 4 Chapter 54 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-054,CH-011,see_also_editorial,Development Blueprint Phase 4 Chapter 54 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-054,CH-022,see_also_editorial,Development Blueprint Phase 4 Chapter 54 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-054,CH-023,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-055,CH-015,see_also_editorial,Development Blueprint Phase 4 Chapter 55 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-055,CH-016,see_also_editorial,Development Blueprint Phase 4 Chapter 55 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-055,CH-017,see_also_editorial,Development Blueprint Phase 4 Chapter 55 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-055,CH-018,see_also_editorial,Development Blueprint Phase 4 Chapter 55 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-055,CH-019,see_also_editorial,Development Blueprint Phase 4 Chapter 55 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-055,CH-020,see_also_editorial,Development Blueprint Phase 4 Chapter 55 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-055,CH-021,see_also_editorial,Development Blueprint Phase 4 Chapter 55 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-055,CH-027,see_also_editorial,Development Blueprint Phase 4 Chapter 55 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-055,CH-040,see_also_editorial,Development Blueprint Phase 4 Chapter 55 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-055,CH-023,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-056,CH-010,see_also_editorial,Development Blueprint Phase 4 Chapter 56 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-056,CH-011,see_also_editorial,Development Blueprint Phase 4 Chapter 56 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-056,CH-012,see_also_editorial,Development Blueprint Phase 4 Chapter 56 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-056,CH-013,see_also_editorial,Development Blueprint Phase 4 Chapter 56 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-056,CH-014,see_also_editorial,Development Blueprint Phase 4 Chapter 56 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-056,CH-015,see_also_editorial,Development Blueprint Phase 4 Chapter 56 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-056,CH-016,see_also_editorial,Development Blueprint Phase 4 Chapter 56 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-056,CH-017,see_also_editorial,Development Blueprint Phase 4 Chapter 56 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-056,CH-018,see_also_editorial,Development Blueprint Phase 4 Chapter 56 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-056,CH-019,see_also_editorial,Development Blueprint Phase 4 Chapter 56 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-056,CH-020,see_also_editorial,Development Blueprint Phase 4 Chapter 56 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-056,CH-021,see_also_editorial,Development Blueprint Phase 4 Chapter 56 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-056,CH-022,see_also_editorial,Development Blueprint Phase 4 Chapter 56 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-056,CH-023,see_also_editorial,Development Blueprint Phase 4 Chapter 56 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-056,CH-053,see_also_editorial,Development Blueprint Phase 4 Chapter 56 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-056,CH-023,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-057,CH-013,see_also_editorial,Development Blueprint Phase 4 Chapter 57 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-057,CH-014,see_also_editorial,Development Blueprint Phase 4 Chapter 57 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-057,CH-015,see_also_editorial,Development Blueprint Phase 4 Chapter 57 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-057,CH-016,see_also_editorial,Development Blueprint Phase 4 Chapter 57 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-057,CH-017,see_also_editorial,Development Blueprint Phase 4 Chapter 57 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-057,CH-018,see_also_editorial,Development Blueprint Phase 4 Chapter 57 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-057,CH-040,see_also_editorial,Development Blueprint Phase 4 Chapter 57 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-057,CH-047,see_also_editorial,Development Blueprint Phase 4 Chapter 57 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-057,CH-048,see_also_editorial,Development Blueprint Phase 4 Chapter 57 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-057,CH-049,see_also_editorial,Development Blueprint Phase 4 Chapter 57 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-057,CH-023,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE
+CH-058,CH-004,see_also_editorial,Development Blueprint Phase 4 Chapter 58 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-058,CH-007,see_also_editorial,Development Blueprint Phase 4 Chapter 58 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-058,CH-019,see_also_editorial,Development Blueprint Phase 4 Chapter 58 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-058,CH-055,see_also_editorial,Development Blueprint Phase 4 Chapter 58 Artefacts/links,DIRECT_MENTION; NOT PREREQUISITE
+CH-058,CH-023,proposed_teaching_prerequisite,Phase 3 assessor inference from fixed chapter sequence,PROPOSED; NOT AUTHORITATIVE

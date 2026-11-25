@@ -1,0 +1,59 @@
+chapter_no,title,template,planned_pages,decision_ids,has_outline,has_blueprint,has_standalone_manuscript,manuscript_status,manuscript_readiness_pct,preparation_index_pct,independent_technical_review,production_edit,publication_ready,heatmap,next_gate
+1,I. The Case for a Shared Fabric,O,9,D-01,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+2,"I. Agent Capability, Autonomy and Risk",O,9,D-05;D-16,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+3,"I. Fabric, Product, Use Case and Tenant",O,9,D-06;D-04,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+4,I. When Not to Build a Fabric,O,9,D-01;D-02,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+5,"II. Build, Buy, Embed or Partner",S,11,D-02,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+6,"II. Central, Federated or Hybrid Ownership",S,11,D-03;D-06,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+7,II. Tenant Isolation and Sovereignty,S,11,D-04;D-25,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+8,II. Model Strategy and Unit Economics,S,11,D-17;D-26,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+9,II. Earned Autonomy and Sponsorship,S,11,D-05;D-16;D-23,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+10,III. The Canonical Fabric Architecture,Architecture overview/E1,8,D-07;D-18,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+11,III. Execution Environment,Structural/F6,8,D-07;D-08,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+12,III. Tooling,Structural/F6,8,D-09;D-10,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+13,III. Context,Structural/F6,8,D-11;D-12;D-13;D-14,YES,YES,NO,Authoring blueprint only,0,35,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Full F6 manuscript + review
+14,III. Lifecycle,Structural/F6,8,D-15;D-16,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+15,III. Identity Control Plane,Control/F7,6.5,D-19;D-20,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+16,III. Gateway Control Plane,Control/F7,6.5,D-10;D-18,YES,YES,YES,Draft manuscript,45,60,NOT EVIDENCED,NOT EVIDENCED,NO,████░░░░░░,"Technical, editorial, Meridian, F7, rights and layout review"
+17,III. Observability Control Plane,Control/F7,6.5,D-24,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+18,III. Verification Control Plane,Control/F7,6.5,D-22;D-23,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+19,III. Governance Control Plane,Control/F7,6.5,D-05;D-29,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+20,III. FinOps Control Plane,Control/F7,6.5,D-26,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+21,III. Data Protection Control Plane,Control/F7,6.5,D-25;D-30,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+22,III. Interoperability Control Plane,Control/F7,6.5,D-21,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+23,IV. The Fabric Decision Atlas,F1×30,30,D-01;D-02;D-03;D-04;D-05;D-06;D-07;D-08;D-09;D-10;D-11;D-12;D-13;D-14;D-15;D-16;D-17;D-18;D-19;D-20;D-21;D-22;D-23;D-24;D-25;D-26;D-27;D-28;D-29;D-30,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+24,V. Stage 0: Strategic Intent,Lifecycle/L,5,D-01;D-02;D-03,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+25,V. Stage 1: Fabric Vision,Lifecycle/L,5,D-05;D-06,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+26,V. Stage 2: Reference Architecture,Lifecycle/L,5,D-07;D-08;D-09;D-10;D-11;D-12;D-13;D-14;D-15;D-18,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+27,V. Stage 3: Trust Chain and Security,Lifecycle/L,5,D-10;D-19;D-20;D-21;D-25,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+28,V. Stage 4: Tenant Substrate,Lifecycle/L,5,D-04;D-11;D-12;D-13;D-14,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+29,V. Stage 5: Shared Services Bootstrap,Lifecycle/L,5,D-17;D-18;D-22;D-24,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+30,V. Stage 6: First Use Case,Lifecycle/L,5,D-05;D-16;D-23,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+31,V. Stage 7: Scale to Twelve Use Cases,Lifecycle/L,5,D-04;D-29,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+32,V. Stage 8: Operate as a Product,Lifecycle/L,5,D-26;D-27;D-28,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+33,V. Stage 9: Continuous Verification,Lifecycle/L,5,D-22;D-23,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+34,V. Stage 10: Retirement,Lifecycle/L,5,D-30,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+35,VI. Team Design and Responsibility Matrix,Operational/OP,9,D-03;D-06;D-29,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+36,"VI. Reliability, Service Levels and Continuity",Operational/OP,9,D-27,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+37,VI. Incident Command and Security Response,Operational/OP,9,D-28,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+38,"VI. Unit Economics, Showback and Chargeback",Operational/OP,9,D-26,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+39,"VI. Release, Change and Version Control",Operational/OP,9,D-21;D-22;D-23;D-29,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+40,VI. Audit Evidence and Assurance Reviews,Operational/OP,9,D-20;D-24;D-30,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+41,VII. P1: Build the Business Case,F2/F5,7,D-01;D-02;D-03;D-26,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+42,VII. P2: Design the Reference Architecture,F2/F5,7,D-07;D-08;D-09;D-10;D-11;D-12;D-13;D-14;D-15;D-16;D-17;D-18;D-19;D-20;D-21;D-22,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+43,VII. P3: Stand Up the Tenant Substrate,F2/F5,7,D-04;D-11;D-12;D-13;D-14;D-25,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+44,VII. P4: Onboard the First Use Case,F2/F5,7,D-05;D-16;D-23,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+45,VII. P5: Scale from One to Ten Use Cases,F2/F5,7,D-06;D-26;D-29,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+46,VII. P6: Plan for Ten to One Hundred-Plus,F2/F5,7,D-08;D-27;D-29,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+47,VII. P7: Execute a Model Upgrade,F2/F5,7,D-17;D-22;D-23,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+48,VII. P8: Handle a Security Incident,F2/F5,7,D-10;D-20;D-28,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+49,VII. P9: Retire a Use Case,F2/F5,7,D-30,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+50,VII. P10: Retire or Replace the Fabric,F2/F5,7,D-02;D-27;D-30,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+51,VIII. Layer and Control-Plane Checklists,Reference/F3,7,D-07;D-08;D-09;D-10;D-11;D-12;D-13;D-14;D-15;D-16;D-17;D-18;D-19;D-20;D-21;D-22;D-23;D-24;D-25,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+52,VIII. Architecture Decision and Risk Records,Reference/F8,7,D-01;D-02;D-03;D-04;D-05;D-06;D-07;D-08;D-09;D-10;D-11;D-12;D-13;D-14;D-15;D-16;D-17;D-18;D-19;D-20;D-21;D-22;D-23;D-24;D-25;D-26;D-27;D-28;D-29;D-30,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+53,VIII. Protocol and Boundary Reference,Reference/F10,7,D-09;D-21,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+54,VIII. Technology Decision Matrix,Reference/matrix,7,D-02;D-07;D-17,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+55,VIII. Standards and Regulatory Map,Reference/F11,7,D-19;D-25;D-28,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+56,VIII. Glossary and Controlled Vocabulary,Reference/F9,7,,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+57,VIII. Worked Evidence and Delivery Artefacts,Reference/specimens,7,D-20;D-23;D-30,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript
+58,VIII. Industry Adoption Overlays,Reference/overlay,7,D-01;D-04;D-25,YES,NO,NO,Outline only,0,10,NOT EVIDENCED,NOT EVIDENCED,NO,░░░░░░░░░░,Author and independently review full manuscript

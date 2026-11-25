@@ -1,0 +1,68 @@
+{
+  "phase": "PHASE-6",
+  "run_kind": "single-environment role-isolated source-pack simulation; NOT independent human validation",
+  "source_files": {
+    "Enterprise_AI_Agent_Fabric_Decision_Catalogue.csv": "22d705952471d0444955f95927ba88a2cbc9a6ccd691a5f1a88d5a0f20c68079",
+    "style-v1.2.md": "e74e928e0824ea1131553af96c66728931b878f11f401e933dc8aa42287db15f",
+    "Chapter_13_Authoring_Blueprint_v1.0.md": "cefc1752a6ed16d01e61d3c604a8705f305ffffe8912481c01ade9c6ed4738cd",
+    "Chapter_16_Authoring_Blueprint_v1.0.md": "9f8d6904bc3ece032ed9fa659d02ccc449ef84e054c3af15fa24c1af06e087d7",
+    "Meridian_Evidence_Fixture_v1.0.zip": "39e403a98b4ebff48a4cc6d0a1a3ede8b9aa7b78277ff0fef577631689606d5c",
+    "CHAPTER-AUTHORING-CONTRACTS-58.csv": "de6f4e312dcde5ce5cee1f79ae4a535b45093c4967b5195a8369d5373d5e9ac9",
+    "RECONCILED-ATLAS-TOC-LINKS.csv": "5895d98707d9ac80b46fcacd4b1ce5a19fea6386c7948592ded6fddb420a3417"
+  },
+  "comparison": {
+    "AGREE": 13,
+    "NOT TESTABLE": 3,
+    "NOT MET": 2
+  },
+  "pilot": {
+    "A": "OUTLINE_ONLY",
+    "B": "OUTLINE_ONLY",
+    "C": "F1_SOURCE_EXACT_CANDIDATE"
+  },
+  "lint": {
+    "positive_cases": 18,
+    "detected": 11,
+    "missed": 7,
+    "negative_cases": 4,
+    "true_negative": 4,
+    "false_blocks": 0,
+    "recall_percent": 61.1,
+    "specificity_percent": 100.0
+  },
+  "reference_source_integrity": {
+    "D-10": {
+      "default_exact_in_c": true,
+      "label_in_a": true,
+      "label_in_b": true
+    },
+    "D-11": {
+      "default_exact_in_c": false,
+      "label_in_a": true,
+      "label_in_b": false
+    },
+    "D-12": {
+      "default_exact_in_c": false,
+      "label_in_a": true,
+      "label_in_b": false
+    },
+    "D-13": {
+      "default_exact_in_c": false,
+      "label_in_a": true,
+      "label_in_b": false
+    },
+    "D-14": {
+      "default_exact_in_c": true,
+      "label_in_a": true,
+      "label_in_b": false
+    },
+    "D-18": {
+      "default_exact_in_c": true,
+      "label_in_a": false,
+      "label_in_b": true
+    }
+  },
+  "original_phase5_unit_test_total": 18,
+  "no_actual_independent_authors": true,
+  "no_actual_human_review": true
+}

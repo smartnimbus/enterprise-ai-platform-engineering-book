@@ -1,0 +1,19 @@
+{
+  "baseline_test_source": "phase6_trial/reviewer/run_review.py",
+  "baseline_source_sha256": "be43460226c8a4125cdd225d770207725c49fc6ba3d8652ac0823e34473e257a",
+  "counts": {
+    "true_positive": 18,
+    "false_negative": 0,
+    "false_positive": 0,
+    "true_negative": 4
+  },
+  "unsafe_detection_percent": 100.0,
+  "safe_nonblocking_percent": 100.0,
+  "failed_cases": [],
+  "limitations": [
+    "Curated in-sample mutation set",
+    "No independently held-out examples",
+    "No approved real chapter or human assessment",
+    "Pattern-specific false positive risk remains"
+  ]
+}

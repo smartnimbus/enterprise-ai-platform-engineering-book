@@ -1,0 +1,15 @@
+{
+  "decision_records": 30,
+  "phase3_discrepant_decisions": 26,
+  "classified_links": 309,
+  "crosswalk_link_variants": {
+    "BOTH": 101,
+    "CATALOGUE_ONLY": 46,
+    "TOC_ONLY": 162
+  },
+  "style_candidates": 20,
+  "style_confirmed_occurrences": 10,
+  "lint_rules": 15,
+  "pilot_consistent": 8,
+  "pilot_not_demonstrated": 2
+}

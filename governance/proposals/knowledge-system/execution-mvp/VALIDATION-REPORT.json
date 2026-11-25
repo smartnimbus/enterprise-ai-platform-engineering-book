@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "article_candidates": 100,
+  "pattern_candidates": 100,
+  "execution_tasks": 32,
+  "year_one_tasks": 28,
+  "year_one_hours": 642,
+  "capacity_hours": 780,
+  "reserve_hours": 138,
+  "critical_dependency_chain": [
+    "EX-001",
+    "EX-002",
+    "EX-003",
+    "EX-005",
+    "EX-006",
+    "EX-015",
+    "EX-016",
+    "EX-017",
+    "EX-018",
+    "EX-022",
+    "EX-026",
+    "EX-027",
+    "EX-028"
+  ],
+  "month_hours": {
+    "M1": 46.0,
+    "M2": 60.0,
+    "M3": 52.0,
+    "M4": 66.0,
+    "M5": 62.0,
+    "M6": 59.0,
+    "M7": 61.0,
+    "M8": 60.0,
+    "M9": 59.0,
+    "M10": 59.0,
+    "M11": 30.0,
+    "M12": 28.0
+  },
+  "source_gap_links_verified": true,
+  "status_claim": "planned only"
+}

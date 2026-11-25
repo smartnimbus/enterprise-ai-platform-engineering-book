@@ -1,0 +1,11 @@
+dimension,score_out_of_5,evidence_basis,status
+Structural taxonomy integrity,4.5,"Explicit E/T/C/L, eight-planes taxonomy; legacy style example remains",ASSESSED_NOT_CERTIFIED
+Layer/control ownership boundaries,4.0,Single accountable responsibilities specified; proof not independently tested,ASSESSED_NOT_CERTIFIED
+Decision/TOC traceability,2.0,26/30 decision crosswalks not symmetrical,ASSESSED_NOT_CERTIFIED
+Lifecycle stage integrity,3.0,11 stages have mechanisms/artefacts; entry/exit evidence predicates inconsistent,ASSESSED_NOT_CERTIFIED
+Meridian internal consistency,4.0,Frozen fixture validates 27/27; broader storyline claims require grades,ASSESSED_NOT_CERTIFIED
+Meridian actor/event/case semantics,3.5,Synthetic actor chain and IDs present; spanning correlation scope needs caption,ASSESSED_NOT_CERTIFIED
+Terminology and reader navigation,2.5,Ratified style references stale numbering and legacy plane labels,ASSESSED_NOT_CERTIFIED
+Chapter dependency integrity,2.0,"See-also mentions exist, no authoritative prerequisite typed DAG",ASSESSED_NOT_CERTIFIED
+Knowledge graph semantic integrity,1.5,Reference graph not trustworthy evidence of implements/validates/approved_by,ASSESSED_NOT_CERTIFIED
+Mass-authoring stability,2.0,"Crosswalks, evidence grades and terminology correction not completed",ASSESSED_NOT_CERTIFIED

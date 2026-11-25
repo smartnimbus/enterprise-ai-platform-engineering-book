@@ -1,0 +1,21 @@
+id,asset,priority,effort,strategic_value,why_missing_matters
+M-01,Source-of-truth artefact register and baseline manifest,P0,M,Critical,Blocks credible imports and frozen authority verification
+M-02,Complete governed import of book baseline and Meridian JSON,P0,L,Critical,Only root governance file on main; draft PR outstanding
+M-03,"Branch protection, CODEOWNERS and required checks",P0,M,Critical,Main unprotected at inspection; no enforceable review gate
+M-04,"Contributor, author, reviewer and AI playbooks",P0,M,High,No cross-tool bootstrap that can be trusted
+M-05,Session handover schema and durable task ledger,P0,S,High,Chat context cannot serve as authoritative execution state
+M-06,Glossary canonical registry and term redirects,P0,M,High,Controlled vocabulary currently embedded in Style Bible
+M-07,Research dossier catalogue and evidence-status ledger,P0,M,High,Forensic corpus exists but not unified with research quality gates
+M-08,Public/restricted rights classification and publishing clearance,P0,L,Critical,Historical archives may contain proprietary sensitive data
+M-09,Knowledge graph validation and canonical ID resolver,P1,L,High,"Existing graph is historical research; needs approved, maintained production version"
+M-10,Decision application record templates,P0,S,High,"F1 is advice, not evidence of an actual enterprise decision"
+M-11,Chapter/figure/decision automated cross-reference tests,P0,M,High,Critical editorial consistency must be machine checked
+M-12,Research version/claim freshness process,P1,M,High,"Protocols, model APIs and regulations evolve"
+M-13,Figure source/render registry and accessibility tests,P1,M,High,Print and web diagrams otherwise diverge
+M-14,Implementation and demo catalogues,P1,M,High,Avoid untracked prototype maturity claims
+M-15,Reproducible Meridian demonstration harness,P1,L,High,"Test actual code against synthetic fixture, no real payment"
+M-16,Independent field validation protocol,P1,M,High,Method not proven across organisations
+M-17,Evaluation benchmark pack with licences and datasets,P1,L,High,"Existing fixture checks consistency, not agent quality"
+M-18,"Release provenance, SBOM, attestations and restore drill",P1,L,Medium,Five-year continuity requires tested restoration
+M-19,Contributor community governance and code of conduct,P2,M,Medium,Needed before an open contribution programme
+M-20,Product demand and sustainability model,P2,M,Medium,Avoid certification/software before user demand

@@ -1,0 +1,26 @@
+gap_id,missing_teaching_element,existing_chapter_placement,acceptance_example,structural_change
+C-G01,Business-capability value stream and change impacts,"Ch1,3,24,35,41",Introduce business architecture and capability ownership as linked decision evidence,No new chapter
+C-G02,Deterministic-first selection benchmark,"Ch2,4,5,8,54",When not to use LLM/agent; compare deterministic rules and evidence/total cost,No new chapter
+C-G03,Information stewardship and provenance authority model,"Ch13,21,40,57","Information entity status, source precedence (or explicit lack thereof), lineage and dispute owners",No new chapter
+C-G04,Physical deployment and data-zone specimen,"Ch10,11,21,26,42","Optional concrete cloud-neutral deployment blueprint, zones, secrets, routes and limits",No new chapter
+C-G05,Cryptographic token and workload identity walk-through,"Ch15,16,27","Signatures, keys, expiry, audience binding, rotation, revocation and test limits",No new chapter
+C-G06,PEP and egress negative test matrix,"Ch11,12,16,18,42",Allow/deny/bypass direct and alternative routes with observed enforcement evidence,No new chapter
+C-G07,State / context / memory boundary teaching,"Ch13,14,17,56","Clarify lifecycle state, retrieval context, durable memory and evidence records",No new chapter
+C-G08,Conflict dispute escalation and resolution pathway,"Ch13,18,35,40","Include unresolved, adjudicated and contested states without rewriting Meridian conflict",No new chapter
+C-G09,"Durable execution, crash, retry and re-authorisation example","Ch11,14,15,36",Expiry/revocation during paused work; safe retries and idempotency caveats,No new chapter
+C-G10,MCP/A2A hostile tool and delegation flow,"Ch12,15,16,22,53","Version-scoped contracts, adversarial server/tool, trust boundary and negative tests",No new chapter
+C-G11,Evaluation dataset stewardship and online/offline tests,"Ch18,22,33,47","Gold set, scoring, confidence, regression, production shadow checks, rollback",No new chapter
+C-G12,Runtime trace hierarchy and forensic reconstruction,"Ch17,40,57","Run vs thread vs trace vs action vs receipt, correlation and missing-span handling",No new chapter
+C-G13,Task-based model routing and fallback sensitivity,"Ch8,16,20,47","Confidence, safety, residency, latency, fallback cost and measured effectiveness",No new chapter
+C-G14,"Data disposal, legal hold and cache/backup propagation","Ch13,21,34,49,50","Records, copies, snapshots and retention exceptions; synthetic demonstration",No new chapter
+C-G15,Explicit human approval SLA and unavailability behavior,"Ch9,14,16,19,35",Approval expiry/reversal and queue timeout with no silent elevation,No new chapter
+C-G16,Platform service operations with SLO and DR,"Ch29,32,36,37,46","Backlog, error budgets, runbook, failover, restore and continuity exercises",No new chapter
+C-G17,Cost per safe successful task with full allocation,"Ch8,20,38,41,54","Compute, orchestration, support, tokens and failed/retried task sensitivity",No new chapter
+C-G18,Five-to-ten use-case scaling economics and control drift,"Ch31,35,45,46",Separate onboarding checklist from portfolio test and capacity consequences,No new chapter
+C-G19,End-to-end example from approval through retirement,"Ch23,24–34,41–50,57","One case thread, cross-references and evidence boundaries; without new canonical MF events",No new chapter
+C-G20,Reader prerequisites and teaching transitions,"Ch1,10,23,24,35,41,51","Navigation/reading paths; prerequisites for protocol, identity, evaluation and method",No new chapter
+C-G21,Balanced early-career and practitioner exercises,"Ch12–22,41–50,57","Reader tasks, failure prompts, expected outputs and assessor keys external to book",No new chapter
+C-G22,Industry regulation scoped evidence and date references,"Ch21,55,58",Separate binding law from illustrative guidance; jurisdiction and as-of qualifiers,No new chapter
+C-G23,"Reference asset rights, permissions and accessibility","Ch51–58,front matter","Diagram rights, alt text, style, non-proprietary sources and copy permissions",No new chapter
+C-G24,Worked positive-path read-only release,"Ch18,30,33,44,57",Use Week12 narrative accurately; external teaching example if required,No new chapter
+C-G25,Independent usability/technical reviewer evidence,"Ch13,16,23,41–50,57","Blind tests, defects, rubric, editor decisions; no fictional endorsements",No new chapter

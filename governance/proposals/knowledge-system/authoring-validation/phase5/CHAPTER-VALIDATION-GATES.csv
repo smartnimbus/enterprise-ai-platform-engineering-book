@@ -1,0 +1,8 @@
+gate,name,entry_requirement,responsible_review,exit_criteria,current_status
+G0,SOURCE_PIN,Frozen fixture/Atlas/TOC hashes and candidate crosswalk pinned,Human editorial owner verifies source manifest; provenance,BLOCKED until reviewer accepts candidate authoring baseline,NOT_EXECUTED_ON_PRODUCTION_MANUSCRIPTS
+G1,SCOPE,Chapter scope/contract and typed references complete,Validator + human owner,Reject missing chapter owner and known map contradictions,NOT_EXECUTED_ON_PRODUCTION_MANUSCRIPTS
+G2,AUTOMATED_LINT,Critical and major mechanical checks pass,CI / local deterministic run,0 critical; 0 unwaived major,NOT_EXECUTED_ON_PRODUCTION_MANUSCRIPTS
+G3,SEMANTIC_REVIEW,"Security, authority, claim grade and fixture narrative independently checked",Qualified technical reviewer,0 material authority or evidence contradictions,NOT_EXECUTED_ON_PRODUCTION_MANUSCRIPTS
+G4,CROSS_CHAPTER,Paired authors compare overlapping concepts and explicitly record deltas,"Two reviewers, one independent",No unexplained semantic divergence,NOT_EXECUTED_ON_PRODUCTION_MANUSCRIPTS
+G5,EDITORIAL,"Template, teaching uniqueness, figures, citations and rights accepted",Human editorial reviewer,Chapter acceptance signed under existing operating system,NOT_EXECUTED_ON_PRODUCTION_MANUSCRIPTS
+G6,PUBLICATION,"Reproducible evidence package, immutable source versions and approved release",Existing publication gate / human approval,Never approve from AI-to-AI consensus,NOT_EXECUTED_ON_PRODUCTION_MANUSCRIPTS

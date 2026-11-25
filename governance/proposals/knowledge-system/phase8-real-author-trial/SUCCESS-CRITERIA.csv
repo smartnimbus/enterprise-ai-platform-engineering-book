@@ -1,0 +1,5 @@
+role,scope,pass_condition,evidence
+Author A,Chapter 13,0 critical on original; 0 unresolved major; >=90/100; 100% consequential evidence cited; correct F6/D-11–D-14,"Original hashed output, structured claims, source references, blind review minutes"
+Author B,Chapter 16,0 critical on original; 0 unresolved major; >=90/100; 100% consequential evidence cited; correct F7/D-10/D-18,"Original hashed output, structured claims, source references, blind review minutes"
+Author C,D-10/D-14/D-18 F1,0 critical; >=95/100; all quoted defaults byte-exact; all F1 fields; no claimed approval,"Original hashed output, structured claims, source references, blind review minutes"
+Independent reviewer,Blind calibrations and A/B/C,100% critical found; >=90% major found; >=80% minor found; <=10% safe-case false positive; no ungrounded severity; measured active hours,"Original hashed output, structured claims, source references, blind review minutes"

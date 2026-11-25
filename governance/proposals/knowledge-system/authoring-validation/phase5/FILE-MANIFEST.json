@@ -1,0 +1,82 @@
+{
+  "ATLAS-TOC-RECONCILIATION-30.csv": {
+    "sha256": "ae92616b73d1141d941fdb94fcf9582619f475cae3cc46e6892e5ca4b008213d",
+    "bytes": 5145
+  },
+  "AUTHORING-LINT-SPECIFICATION.csv": {
+    "sha256": "e7b27422f9f53f9765f9e2741032befead1c0ca66480475dc365d3f9f4f2f3eb",
+    "bytes": 2873
+  },
+  "CH16-EXISTING-DRAFT-LINT.json": {
+    "sha256": "134b4edced7f99f3e161376c586ddc306658edfd10dfcc87f96c4f585f570aaf",
+    "bytes": 331
+  },
+  "CHAPTER-VALIDATION-GATES.csv": {
+    "sha256": "d85de8468075d214e58ef4f3aafa4758ee18ab1b8f3f575039a43c92ea28a04d",
+    "bytes": 1492
+  },
+  "CROSS-AUTHOR-COMPARISON.csv": {
+    "sha256": "62c69479ba08cb54ba222edc4da305efeb8fcdff79d56bda5a0937722193946b",
+    "bytes": 1794
+  },
+  "EDITORIAL-ERRATA-APPROVAL-RECORD.md": {
+    "sha256": "cda511c79841773b26a0b29ab87c57574796e40b736af950ccd642c0ce8c44a9",
+    "bytes": 742
+  },
+  "EXECUTED-LINT-TEST-REPORT.txt": {
+    "sha256": "8ae147aac2bbdd7c88250429abe23d8d918c1fc18353d6790e1534b47b012caa",
+    "bytes": 118
+  },
+  "PILOT-A-CH13-D14.md": {
+    "sha256": "e26e7dcc09eb87cb76c65554ff6412c0c2b6780fb890cbe5414bc95f96628023",
+    "bytes": 1041
+  },
+  "PILOT-B-CH16-D10-D18.md": {
+    "sha256": "63dadba8d2a20326cce545ba49175c6eee637e78da512c2cf180fb28093a3e26",
+    "bytes": 1110
+  },
+  "PRODUCTION-READINESS-VALIDATION-SPRINT-v1.0.md": {
+    "sha256": "8797746f5aa5ac123f3842edfc33834f15fe8f8dd4113d00b552b8b71d342d10",
+    "bytes": 16558
+  },
+  "README.md": {
+    "sha256": "972e3d0f92e26286bd81dfb576b23d1c550f021bc12aa323b9fdfe999a38b080",
+    "bytes": 1096
+  },
+  "RECONCILED-ATLAS-TOC-LINKS.csv": {
+    "sha256": "5895d98707d9ac80b46fcacd4b1ce5a19fea6386c7948592ded6fddb420a3417",
+    "bytes": 87879
+  },
+  "SOURCE-FINGERPRINTS.json": {
+    "sha256": "fa606a85e1ef0aaefcef76945c198580931f6a012ff02cb71063e01978d76c9b",
+    "bytes": 1735
+  },
+  "SPRINT-METRICS.json": {
+    "sha256": "87f8ba51bdbbdb58dfb9e237567136e1500df76f697c2b5f84cae49f3cd623d3",
+    "bytes": 331
+  },
+  "SPRINT-VALIDATION-RESULTS.json": {
+    "sha256": "3a0790542fc1689d9222b4b962bb888e14a3c17716f09aeb9ba077f0d0e8bc02",
+    "bytes": 1014
+  },
+  "STYLE-BIBLE-ALL-CANDIDATE-REFERENCES.csv": {
+    "sha256": "f76c4f40684c19fc11b27334ebf901a3a35c95865cca110e73b8dd10c1df7325",
+    "bytes": 6078
+  },
+  "STYLE-BIBLE-PROPOSED-ERRATA.csv": {
+    "sha256": "c839c9e8877bd1205aaf554909cce9d7bf4aeebdcea0bd4b9c7fccd9af0e5ae2",
+    "bytes": 3650
+  },
+  "build.py": {
+    "sha256": "82d20f79c92ecef4f75675c962cef0d8536c3c158c4804afd49d0b4f30b9fbf8",
+    "bytes": 16706
+  },
+  "lint_manuscript.py": {
+    "sha256": "a00ed6abf545a0deba70a761afdd4c6a9485179eff92b1e62b0a3d8709f071b4",
+    "bytes": 5394
+  },
+  "test_lint.py": {
+    "sha256": "0096a236a535ad792d5bebfe56e2d56f0433795b85362a2a6c61182a2bd0f244",
+    "bytes": 2241
+  }
+}

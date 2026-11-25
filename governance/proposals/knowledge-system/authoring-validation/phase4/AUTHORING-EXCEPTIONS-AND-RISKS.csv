@@ -1,0 +1,15 @@
+id,priority,risk,observation,required_action,exit_test,status
+CW-01,P0,Atlas catalogue versus TOC mapping mismatch,26 records need primary/reference/index classification,Source says catalog chapters versus TOC index; no change to D defaults,Human signoff for 30 decisions,OPEN_PENDING_INDEPENDENT_REVIEW
+CW-02,P0,Style Bible chapter misreferences,Older Ch16/Ch23/FinOps routing,Issue editorial erratum against Style Bible; no silent edit,Resolved navigation in pilot,OPEN_PENDING_INDEPENDENT_REVIEW
+CW-03,P0,Legacy layer vocabulary,"Layer 0, 6, security/evaluation planes in historical examples",Qualify historical context and link to canonical 4+8,No normative ninth plane,OPEN_PENDING_INDEPENDENT_REVIEW
+CW-04,P0,Unverified source-to-proof links,"References are not test executions, approvals or production results",Implement evidence grading in each chapter contract,No claim promotion by reference,OPEN_PENDING_INDEPENDENT_REVIEW
+CW-05,P0,Context vs Governance vs Identity vs Gateway,Cross-plane policy/permission ownership drift,Enforce owner matrix and per-action PEP distinction,D-10/14/18 pilot accurate,OPEN_PENDING_INDEPENDENT_REVIEW
+CW-06,P1,Lifecycle layer vs Stage 0–10,Homonym causes ownership confusion,Consistent qualified term and glossary,No ambiguous lifecycle heading,OPEN_PENDING_INDEPENDENT_REVIEW
+CW-07,P1,Duplicated teaching across part III/V/VII,Repeated architecture/lifecycle/playbook prose,Use lane-specific chapter contract,No conflicting defaults,OPEN_PENDING_INDEPENDENT_REVIEW
+CW-08,P1,Meridian narrative overclaim,Simulated data may be described as observed production results,Evidence captions and stable original IDs,No invented signed proof,OPEN_PENDING_INDEPENDENT_REVIEW
+CW-09,P1,Human approval vs model review,AI agreement can be mistaken for approval,Human-only signed reviewer trail,No model auto-approval,OPEN_PENDING_INDEPENDENT_REVIEW
+CW-10,P1,Crosswalk subjectivity,Ownership proposals inferred from chapter titles,Independent reconcile with frozen F6/F7 and Atlas,Human approval required,OPEN_PENDING_INDEPENDENT_REVIEW
+CW-11,P1,Undefined article/pattern candidate status,Ranked KA/EP lists not published proof,Label candidate consistently,No candidate is called production ready,OPEN_PENDING_INDEPENDENT_REVIEW
+CW-12,P1,Circular teaching chains,Inferred prerequisite DAG can drift,Acyclic check at each accepted revision,No cycle in approved subset,OPEN_PENDING_INDEPENDENT_REVIEW
+CW-13,P1,Reference appendix redefines canonical topic,Ch51-58 repeats rather than indexes definitions,Reference-only rule,Single responsible explanation,OPEN_PENDING_INDEPENDENT_REVIEW
+CW-14,P0,Absence of independent authoring dry run,CH13 blueprint and CH16 draft not evaluated together,Run IV-05/06 + cross-author D-10/14/18 scenario,Conditional status until observed,OPEN_PENDING_INDEPENDENT_REVIEW

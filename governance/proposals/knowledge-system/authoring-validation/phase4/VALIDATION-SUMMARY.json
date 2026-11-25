@@ -1,0 +1,81 @@
+{
+  "date_utc": "2026-11-24",
+  "status": "DERIVED_AUTHORING_MODEL_NOT_RATIFIED",
+  "sources": {
+    "Enterprise_AI_Agent_Fabric_Revised_TOC.csv": {
+      "sha256": "2866cc73850a55d98d0626c7675f542bae2a38e16a1338d49790d6a49fbafe72",
+      "size": 10032
+    },
+    "Enterprise_AI_Agent_Fabric_Decision_Catalogue.csv": {
+      "sha256": "22d705952471d0444955f95927ba88a2cbc9a6ccd691a5f1a88d5a0f20c68079",
+      "size": 20134
+    },
+    "Enterprise_AI_Agent_Fabric_Development_Blueprint.md": {
+      "sha256": "3d928bdf0f1dc0e523fd91f2478fc03f75b148e26ad60201504d26b5cd0a28f8",
+      "size": 170653
+    },
+    "style-v1.2.md": {
+      "sha256": "e74e928e0824ea1131553af96c66728931b878f11f401e933dc8aa42287db15f",
+      "size": 71011
+    },
+    "phase3_integrity/DECISION-TRACEABILITY-30.csv": {
+      "sha256": "ff1aafd825e6b1f45c83efa40a83581078341cd9607958e2d610b047f4b3447b",
+      "size": 13464
+    },
+    "phase3_integrity/CHAPTER-DEPENDENCY-58.csv": {
+      "sha256": "215d7c1375e8a32323f2b1cb7014624a10db85176f8f985fdadb54fe8e66df09",
+      "size": 17419
+    },
+    "phase3_integrity/LAYER-CONTROL-CONSISTENCY-12.csv": {
+      "sha256": "c34ba59c1c4346df133d604e2ddde40bcae4a1c4cbe13a14740bb819299982e8",
+      "size": 6567
+    },
+    "phase3_integrity/LIFECYCLE-CONSISTENCY-11.csv": {
+      "sha256": "19d57ed5709d9013ab4b6674d5cf8a9b756e952a7ccb5361a346eab7ed2ffa3d",
+      "size": 7549
+    },
+    "phase3_integrity/TERMINOLOGY-AUDIT.csv": {
+      "sha256": "4cff29846ad2395bd26d834c8b7391996ef1782d017ed43e123cc2eefa9589f0",
+      "size": 3220
+    },
+    "phase3_integrity/MERIDIAN-EVENT-INTEGRITY-15.csv": {
+      "sha256": "862f5d20bdf7fe050ddde1e1857de0f6f0306ac9ac5634ac5ea1bc79e672a8d5",
+      "size": 5186
+    }
+  },
+  "counts": {
+    "chapters": 58,
+    "decisions": 30,
+    "concepts": 150,
+    "vocabulary_terms": 24,
+    "evidence_types": 15,
+    "crosswalk_links": 868,
+    "decision_chapter_links": 309,
+    "open_risks": 14,
+    "crosswalk_needing_review": 26
+  },
+  "checks": {
+    "58_unique_chapters": true,
+    "30_unique_decisions": true,
+    "12_layers_planes": true,
+    "11_lifecycle_stages": true,
+    "15_meridian_fixture_events": true,
+    "unique_concepts": true,
+    "every_decision_has_thematic_home": true,
+    "every_concept_has_chapter": true,
+    "chapter_decisions_resolve": true,
+    "chapter_dependencies_resolve": true,
+    "crosswalk_source_target_chapter_ids": true,
+    "no_frozen_atlas_edits": true,
+    "source_fingerprint_manifest": true,
+    "no_unapproved_validation_claim": true,
+    "proposed_dependency_DAG_acyclic": true
+  },
+  "limitations": [
+    "Proposed editor-assigned topic homes are not a frozen source fact",
+    "Chapter prerequisites are Phase3 inference, not ratified dependency graph",
+    "Meridian event/decision crosswalks are editorial inference, not fixture claims",
+    "Existing F1, Style Bible, manuscript and decision default files were not modified",
+    "Schema/ID checks do not establish human approval, readiness, peer review, or publication acceptance"
+  ]
+}

@@ -1,0 +1,7 @@
+chapters,control_state,verdict,risk_basis,release_constraint
+2,Existing,CONDITIONAL GO for isolated non-publishable pilot,Known unsafe mutations escape and no independent author trial,Full manual semantic review; no publication
+2,Hardened prototype,"CONDITIONAL GO for independent trial, NOT release",Known set repaired; novel challenge 8/8 missed,"Execute sealed human trial, G3/G4, exact revision approval"
+5,Existing,NO GO,No evidence of author or reviewer throughput,Not permitted
+5,Hardened prototype,NO GO,Reviewers and semantic checks unproven,First independently pass 2 authors and measured review
+10,Existing,NO GO,Excess unobserved overlap and low human review capacity,Not permitted
+10,Hardened prototype,NO GO,Cannot infer scale reliability from 2-author simulated check,"Demonstrate 5 chapter cohort, measure escaped defects and backlog"

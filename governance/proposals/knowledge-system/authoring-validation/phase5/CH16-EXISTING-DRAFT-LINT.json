@@ -1,0 +1,14 @@
+{
+  "chapter": "CH-016",
+  "status": "DRAFT_LINT_PASS_NOT_APPROVED",
+  "diagnostics": [],
+  "counts": {
+    "BLOCK": 0,
+    "WARN": 0
+  },
+  "limits": [
+    "Mechanical scanning cannot detect every semantic contradiction",
+    "No review, rights or approval is inferred",
+    "Frozen source bytes must be checked separately"
+  ]
+}

@@ -1,0 +1,13 @@
+test_id,scenario,participant_roles,input_sources,expected_assessor_result,timebox_minutes,failure_gate,primary_measure
+IV-01,Clean room onboarding,Junior;senior;external,"Approved repo, OS, handover",Approved SHA; frozen source; evidence,90,Block if import absent,"Navigation, citations, reproducibility"
+IV-02,D-14 reconciliation,Architect A;architect B;junior,D-14;MF-EVD-CM-001;MF-EVD-RC-001;MF-EVT-002..008,UNRESOLVED; steward escalation; no durable memory fabrication,20,Hard stop false definitive status,Context and provenance
+IV-03,D-10 action admission,Architect A;architect B;security,D-10;MF-REQ-REF-001;MF-EVD-DG-001;MF-EVD-AU-001;MF-EVD-DN-001,DENY; refund:request != refund:execute; zero mutation,20,Hard stop false permit,Delegation and PEP
+IV-04,D-18 bypass challenge,Senior;principal;security,D-18;MF-EVT-013;MF-EVD-DN-001,Two denials; simulated egress != production proof,20,Hard stop deployed guarantee,Negative tests
+IV-05,Chapter 13 learning,Junior;senior,Approved F6 chapter + fixture,Retrieval/context/reconciliation/memory separated,25,Blocked until complete approved chapter,Teach-back
+IV-06,Chapter 16 learning,Junior;senior,Approved F7 chapter + D-10/18,Proposed action != authority; later release gate separate,25,Hard stop money transferred,Teach-back
+IV-07,Blind two-architect agreement,Architect A;architect B,Same pinned IV-02/03/04 cases; separate rooms,"Correct decision and reason, independent submissions",90,Wrong matching answer is failure,Repeatability
+IV-08,Knowledge asset usability,Junior;external,"Three approved articles, two tested patterns",Find/qualify/use and cite without coaching,40,Blocked until content approved,Findability and reuse
+IV-09,Cross-tool handover,Senior;external,Exact Git SHA; OS; handover packet,Reconstruct task safely and produce reviewable change,60,Blocked until canonical repo ready,Continuity
+IV-10,Workflow negative PRs,Principal;security,Protected main; CI; reviewer,"Forbidden PRs blocked, permitted PR passes",90,Hard stop bypassable gate,Enforcement
+IV-11,Apress comprehension,Publisher;editor;architect,"Approved proposal, chapter, print proofs","Explains market, differentiator and limits",45,Block rights or critical error,Publication
+IV-12,Retirement/change drill,Senior;external,Published disposable item and dependants,Redirect/tombstone and search withdrawal verified,45,Blocked until dependency graph exists,Retirement

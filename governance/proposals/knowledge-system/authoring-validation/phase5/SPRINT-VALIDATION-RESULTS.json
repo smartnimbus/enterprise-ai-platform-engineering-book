@@ -1,0 +1,41 @@
+{
+  "source_snapshot": "2026-11-24",
+  "machine_reconciliation": {
+    "all_30_decisions_typed": true,
+    "all_26_discrepant_decisions_classified": true,
+    "human_ratified": false,
+    "total_typed_links": 309,
+    "link_role_distribution": {
+      "primary explanation": 30,
+      "supporting explanation": 68,
+      "reference-only": 124,
+      "lifecycle application": 41,
+      "playbook implementation": 46
+    }
+  },
+  "style_scan": {
+    "candidates": 20,
+    "proposed_errata_occurrences": 10,
+    "approved": false
+  },
+  "lint_test_suite": {
+    "passed": 18,
+    "failed": 0,
+    "execution_status": "EXECUTED_LOCAL"
+  },
+  "author_A_B": {
+    "mechanical_draft_checks_passed": 2,
+    "manual_comparison_consistent": 8,
+    "independent_authors": false,
+    "full_draft_pair": false
+  },
+  "chapter16_current_draft": {
+    "mechanical_status": "DRAFT_LINT_PASS_NOT_APPROVED",
+    "counts": {
+      "BLOCK": 0,
+      "WARN": 0
+    },
+    "human_approved": false
+  },
+  "mass_authoring_ready": false
+}

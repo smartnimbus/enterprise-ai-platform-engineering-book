@@ -1,0 +1,57 @@
+{
+  "status": "role-scoped simulation only",
+  "files": {
+    "generate_author_c.py": {
+      "sha256": "4d4552d33f90dc9ec4c4c8274c9820782ddaeb863281bcb4c3cd3979c5ea0f1e",
+      "size_bytes": 2152
+    },
+    "PHASE-6-INDEPENDENT-AUTHOR-REPRODUCIBILITY-TRIAL-v1.0.md": {
+      "sha256": "eec47c0f8dc92fa3075ac7faa9e37adff338abdaada6db9de0454c324ad8a475",
+      "size_bytes": 18845
+    },
+    "author-c/F1-D10-D14-D18-SPECIMENS.md": {
+      "sha256": "dd4cb7d49daaea470f4dda7b4c6ed763a8b3b71719071ad553b5266dfd5efcb5",
+      "size_bytes": 3693
+    },
+    "author-c/FROZEN-DEFAULTS.json": {
+      "sha256": "9affbe56a039d944b0a403c1c28bef2afad96a95dcaf1a3f9e5c06136e5d6962",
+      "size_bytes": 856
+    },
+    "author-b/CH16-INDEPENDENT-OUTLINE.md": {
+      "sha256": "cff75b10357f30eb2a33a22f64258ecb3414bf6599a885adca8ad98888ea9f78",
+      "size_bytes": 7273
+    },
+    "author-a/CH13-INDEPENDENT-OUTLINE.md": {
+      "sha256": "c09c4a2565daef1ed1c7a43495e1bd5b3f202c95e020121d9b47fb3340a1b133",
+      "size_bytes": 8317
+    },
+    "reviewer/LINT-A.json": {
+      "sha256": "90c2c14d08bfc07fa6adb97e24e38a4459b6e5032b63baeecb90710ad9c5928f",
+      "size_bytes": 331
+    },
+    "reviewer/REVIEW-EFFORT-ESTIMATES.csv": {
+      "sha256": "0c35e696a3566d357f1de16a56bce6b513847f6d9241be26e6890c610eb44b63",
+      "size_bytes": 314
+    },
+    "reviewer/TRIAL-RESULTS.json": {
+      "sha256": "57c8d21ba7831502d94be554748893eb466b13380dcb284f16b05263b4080db8",
+      "size_bytes": 2120
+    },
+    "reviewer/LINT-MUTATION-BENCHMARK.csv": {
+      "sha256": "308b5ce6bd999e9f90507c96798fa1048bcd59df1eb534979f17e29906e024e2",
+      "size_bytes": 1402
+    },
+    "reviewer/run_review.py": {
+      "sha256": "be43460226c8a4125cdd225d770207725c49fc6ba3d8652ac0823e34473e257a",
+      "size_bytes": 8468
+    },
+    "reviewer/LINT-B.json": {
+      "sha256": "9188ca29567371c617123e1117c687dcc68db4fae76ea5526ea89d1ffa08531d",
+      "size_bytes": 672
+    },
+    "reviewer/CROSS-AUTHOR-SEMANTIC-COMPARISON.csv": {
+      "sha256": "ad3c3e60c621016e3eb5a5d7492b8773177fff19af692daafe307ee5c3b87971",
+      "size_bytes": 2627
+    }
+  }
+}

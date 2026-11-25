@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:enterprise-ai-fabric:derived-twin:1.0",
+  "title": "Derived non-authoritative programme twin",
+  "type": "object", "additionalProperties": false,
+  "required": ["schema_version", "generation_mode", "authority", "snapshot_scope", "sources", "nodes", "edges"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "generation_mode": {"const": "offline_explicit_crosswalk"},
+    "authority": {"const": "DERIVED_NON_AUTHORITATIVE"},
+    "snapshot_scope": {"type":"string","minLength":1},
+    "sources": {"type":"object", "additionalProperties":{"type":"object","required":["path","sha256","authority"],"properties":{"path":{"type":"string"},"sha256":{"$ref":"#/$defs/sha256"},"authority":{"type":"string"}}}},
+    "nodes": {"type":"array","items":{"$ref":"#/$defs/node"}},
+    "edges": {"type":"array","items":{"$ref":"#/$defs/edge"}}
+  },
+  "$defs": {
+    "sha256":{"type":"string","pattern":"^[a-f0-9]{64}$"},
+    "node":{"type":"object","required":["id","type","title","status","source_path","source_sha256","metadata"],"additionalProperties":false,"properties":{"id":{"type":"string","minLength":1},"type":{"enum":["decision","chapter","article","pattern","validation","meridian_event"]},"title":{"type":"string"},"status":{"type":"string"},"source_path":{"type":"string"},"source_sha256":{"$ref":"#/$defs/sha256"},"metadata":{"type":"object"}}},
+    "edge":{"type":"object","required":["from","to","type","source_path","source_sha256","basis","evidence_state","review_state"],"additionalProperties":false,"properties":{"from":{"type":"string"},"to":{"type":"string"},"type":{"enum":["references","depends_on","implements","validates","challenges","supersedes","approved_by","tested_by","published_in","retired_by","teaches","maps_to","uses_evidence","produced_by","derived_from","reviews","blocks","has_source","affects"]},"source_path":{"type":"string"},"source_sha256":{"$ref":"#/$defs/sha256"},"basis":{"type":"string"},"evidence_state":{"type":"string"},"review_state":{"type":"string"}}}
+  }
+}
