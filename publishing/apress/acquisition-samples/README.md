@@ -8,4 +8,12 @@ Chapter 13 author-final bounded editorial closure (pending independent acceptanc
 - [Final focused editorial upgrade plan](chapter-13-editorial-upgrade-plan.md) — executed in the current author-final revision; prior prose remains at [79c550d3](https://github.com/smartnimbus/enterprise-ai-platform-engineering-book/commit/79c550d32f724a630bd507530190bb3e65792a81).
 - [Production contract](production-plan/ACQUISITION-SAMPLE-MANUSCRIPT-ASSEMBLY-PLAN-v1.md).
 
-Formal repository lint, figure exports, independent acceptance and print proof pending. Chapter 16 and other specimens are outside this PR. Frozen source snapshot and historical manifests are unchanged.
+Formal repository lint, independent acceptance and final print approval pending. Chapter 16 and other specimens are outside this PR. Frozen source snapshot and historical manifests are unchanged.
+
+## Chapter 13 production files
+
+- Figure 13-1: [editable Mermaid](figures/figure-13-1.mmd) · [SVG](figures/figure-13-1.svg)
+- Figure 13-2: [editable Mermaid](figures/figure-13-2.mmd) · [SVG](figures/figure-13-2.svg)
+- Figure 13-3: [editable Mermaid](figures/figure-13-3.mmd) · [SVG](figures/figure-13-3.svg)
+- [Complete author proof](proofs/chapter-13.pdf)
+- [Proof production identity](proofs/chapter-13-proof-manifest.md)

@@ -3,7 +3,7 @@
 << /Type /Catalog /Pages 2 0 R /Lang (en-GB) >>
 endobj
 2 0 obj
-<< /Type /Pages /Count 13 /Kids [9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R] >>
+<< /Type /Pages /Count 12 /Kids [11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R] >>
 endobj
 3 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Times-Roman /Encoding /WinAnsiEncoding >>
@@ -21,7 +21,13 @@ endobj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding >>
 endobj
 8 0 obj
-<< /Length 4159 >>
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Bold /Encoding /WinAnsiEncoding >>
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Italic /Encoding /WinAnsiEncoding >>
+endobj
+10 0 obj
+<< /Length 4750 >>
 stream
 0.35 g BT /F2 8 Tf 1 0 0 1 64.8 638 Tm (CHAPTER 13 / CONTEXT) Tj ET
 0.35 g BT /F3 8 Tf 1 0 0 1 379.78 638 Tm (The Enterprise AI Agent Fabric) Tj ET
@@ -30,60 +36,71 @@ stream
 0.3 g BT /F2 9 Tf 1 0 0 1 484.6 29 Tm (1) Tj ET
 0.4 g BT /F3 8 Tf 1 0 0 1 64.8 29 Tm (AUTHOR PROOF) Tj ET
 0.1 g BT /F2 25 Tf 1 0 0 1 64.8 582 Tm (Chapter 13: Context) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 538 Tm (On 22 February 2027, the retail agent at fictional Meridian Financial had two records for a GBP 125) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 524 Tm (refund review and no established basis for deciding eligibility. The Retail Product Registry reported) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 510 Tm (the product as ACTIVE. The customer relationship management \(CRM\) system reported it as) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 496 Tm (CLOSED. Both described the same effective date.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 476 Tm (Six days earlier, an insurance record had appeared among retail search results but failed the source) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 462 Tm (access check. The agent could not consume it. The retail records presented a different problem: both) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 448 Tm (could be read, but neither settled the decision. The synthetic Meridian fixture preserves that) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 434 Tm (disagreement in the Semantic Reconciliation Record, MF-EVD-RC-001.) Tj ET
-0.1 g BT /F2 17 Tf 1 0 0 1 64.8 409 Tm (What this layer decides) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 381 Tm (The mechanism. Context determines which information an agent may consume, how source claims) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 367 Tm (retain their identity and authority, and whether assertions qualify for durable reuse under the) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 353 Tm (governing policies.) Tj ET
-0.1 g BT /F2 17 Tf 1 0 0 1 64.8 328 Tm (The mechanism) Tj ET
-0.1 g BT /F2 13.5 Tf 1 0 0 1 64.8 297 Tm (From retrieved information to usable evidence) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 275 Tm (The insurance record fails admission. The retail records pass admission but disagree. Neither) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 261 Tm (admission nor a generated interpretation justifies retaining an eligibility conclusion. Context, a) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 247 Tm (Structural Layer, records separate decisions for admission, reconciliation, and durable reuse.) Tj ET
-0.3 g BT /F5 8.5 Tf 1 0 0 1 64.8 227 Tm (Table 13-1. Context responsibilities and inspectable outputs.) Tj ET
-.25 g 64.8 196 424.8 20 re f
-1 g BT /F2 9 Tf 1 0 0 1 68.8 206 Tm (Component group) Tj ET
-1 g BT /F2 9 Tf 1 0 0 1 196.24 206 Tm (Responsibility) Tj ET
-1 g BT /F2 9 Tf 1 0 0 1 344.92 206 Tm (Output) Tj ET
-0.72 G 0.5 w 64.8 196 m 489.6 196 l S
-.96 g 64.8 164 424.8 32 re f
-0.1 g BT /F3 9 Tf 1 0 0 1 68.8 186 Tm (Retrieval) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 196.24 186 Tm (Find candidates and check source) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 196.24 174 Tm (access) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 344.92 186 Tm (Authorised observations) Tj ET
-0.72 G 0.5 w 64.8 164 m 489.6 164 l S
-1 g 64.8 132 424.8 32 re f
-0.1 g BT /F3 9 Tf 1 0 0 1 68.8 154 Tm (Assembly) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 196.24 154 Tm (Bound inputs to the consumer and) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 196.24 142 Tm (purpose) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 344.92 154 Tm (Context Manifest) Tj ET
-0.72 G 0.5 w 64.8 132 m 489.6 132 l S
-.96 g 64.8 100 424.8 32 re f
-0.1 g BT /F3 9 Tf 1 0 0 1 68.8 122 Tm (Reconciliation) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 196.24 122 Tm (Match entities and preserve) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 196.24 110 Tm (disagreements) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 344.92 122 Tm (Reconciliation Record) Tj ET
-0.72 G 0.5 w 64.8 100 m 489.6 100 l S
-1 g 64.8 68 424.8 32 re f
-0.1 g BT /F3 9 Tf 1 0 0 1 68.8 90 Tm (Memory) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 196.24 90 Tm (Evaluate proposed retention and) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 196.24 78 Tm (reuse) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 344.92 90 Tm (Write disposition) Tj ET
-0.72 G 0.5 w 64.8 68 m 489.6 68 l S
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 542 Tm (On 22 February 2027, the retail agent at fictional Meridian Financial had two records for a GBP 125) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 528 Tm (refund review and no established basis for deciding eligibility. The Retail Product Registry reported) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 514 Tm (the product as ACTIVE. The customer relationship management \(CRM\) system reported it as) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 500 Tm (CLOSED. Both described the same effective date.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 482 Tm (Six days earlier, an insurance record had appeared among retail search results but failed the source) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 468 Tm (access check. The agent could not consume it. The retail records presented a different problem: both) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 454 Tm (could be read, but neither settled the decision. The synthetic Meridian fixture preserves that) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 440 Tm (disagreement in the Semantic Reconciliation Record, ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 290.81 440 Tm (MF-EVD-RC-001) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 361.01 440 Tm (.) Tj ET
+0.1 g BT /F2 17 Tf 1 0 0 1 64.8 418 Tm (What this layer decides) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 64.8 392 Tm (The) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 82.3 392 Tm ( ) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 84.93 392 Tm (mechanism.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 138.3 392 Tm ( Context determines which information an agent may consume, how source claims) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 378 Tm (retain their identity and authority, and whether assertions qualify for durable reuse under the) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 364 Tm (governing policies.) Tj ET
+0.1 g BT /F2 17 Tf 1 0 0 1 64.8 342 Tm (The mechanism) Tj ET
+0.1 g BT /F2 13.5 Tf 1 0 0 1 64.8 314 Tm (From retrieved information to usable evidence) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 293 Tm (The insurance record fails admission. The retail records pass admission but disagree. Neither) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 279 Tm (admission nor a generated interpretation justifies retaining an eligibility conclusion. Context, a) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 265 Tm (Structural Layer, records separate decisions for admission, reconciliation, and durable reuse.) Tj ET
+0.3 g BT /F5 8.5 Tf 1 0 0 1 64.8 247 Tm (Table 13-1. Context responsibilities and inspectable outputs.) Tj ET
+.25 g 64.8 220 424.8 17 re f
+1 g BT /F2 9 Tf 1 0 0 1 68.8 228 Tm (Component group) Tj ET
+1 g BT /F2 9 Tf 1 0 0 1 196.24 228 Tm (Responsibility) Tj ET
+1 g BT /F2 9 Tf 1 0 0 1 344.92 228 Tm (Output) Tj ET
+0.72 G 0.5 w 64.8 220 m 489.6 220 l S
+.96 g 64.8 191 424.8 29 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 68.8 211 Tm (Retrieval) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 196.24 211 Tm (Find candidates and check source) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 196.24 199 Tm (access) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 344.92 211 Tm (Authorised observations) Tj ET
+0.72 G 0.5 w 64.8 191 m 489.6 191 l S
+1 g 64.8 162 424.8 29 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 68.8 182 Tm (Assembly) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 196.24 182 Tm (Bound inputs to the consumer and) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 196.24 170 Tm (purpose) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 344.92 182 Tm (Context Manifest) Tj ET
+0.72 G 0.5 w 64.8 162 m 489.6 162 l S
+.96 g 64.8 133 424.8 29 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 68.8 153 Tm (Reconciliation) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 196.24 153 Tm (Match entities and preserve) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 196.24 141 Tm (disagreements) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 344.92 153 Tm (Reconciliation Record) Tj ET
+0.72 G 0.5 w 64.8 133 m 489.6 133 l S
+1 g 64.8 104 424.8 29 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 68.8 124 Tm (Memory) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 196.24 124 Tm (Evaluate proposed retention and) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 196.24 112 Tm (reuse) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 344.92 124 Tm (Write disposition) Tj ET
+0.72 G 0.5 w 64.8 104 m 489.6 104 l S
+.96 g 64.8 75 424.8 29 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 68.8 95 Tm (Handoff) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 196.24 95 Tm (Broker information sharing under) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 196.24 83 Tm (receiving policy) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 344.92 95 Tm (Bounded context packet) Tj ET
+0.72 G 0.5 w 64.8 75 m 489.6 75 l S
 endstream
 endobj
-9 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> /Contents 8 0 R >>
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R /F6 8 0 R /F7 9 0 R >> >> /Contents 10 0 R >>
 endobj
-10 0 obj
-<< /Length 4718 >>
+12 0 obj
+<< /Length 7883 >>
 stream
 0.35 g BT /F2 8 Tf 1 0 0 1 50.4 638 Tm (CHAPTER 13 / CONTEXT) Tj ET
 0.35 g BT /F3 8 Tf 1 0 0 1 365.38 638 Tm (The Enterprise AI Agent Fabric) Tj ET
@@ -91,53 +108,117 @@ stream
 0.65 G 0.5 w 50.4 43 m 475.2 43 l S
 0.3 g BT /F2 9 Tf 1 0 0 1 50.4 29 Tm (2) Tj ET
 0.4 g BT /F3 8 Tf 1 0 0 1 410.75 29 Tm (AUTHOR PROOF) Tj ET
-0.3 g BT /F5 8.5 Tf 1 0 0 1 50.4 602 Tm (Table 13-1. Context responsibilities and inspectable outputs. \(continued\)) Tj ET
-.25 g 50.4 571 424.8 20 re f
-1 g BT /F2 9 Tf 1 0 0 1 54.4 581 Tm (Component group) Tj ET
-1 g BT /F2 9 Tf 1 0 0 1 181.84 581 Tm (Responsibility) Tj ET
-1 g BT /F2 9 Tf 1 0 0 1 330.52 581 Tm (Output) Tj ET
-0.72 G 0.5 w 50.4 571 m 475.2 571 l S
-.96 g 50.4 539 424.8 32 re f
-0.1 g BT /F3 9 Tf 1 0 0 1 54.4 561 Tm (Handoff) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 181.84 561 Tm (Broker information sharing under) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 181.84 549 Tm (receiving policy) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 330.52 561 Tm (Bounded context packet) Tj ET
-0.72 G 0.5 w 50.4 539 m 475.2 539 l S
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 526 Tm (A product identifier alone cannot reconstruct the inputs to the refund review. In a proposed Context) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 512 Tm (schema, context_id identifies the assembly; source_id and source_version identify the observation it) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 498 Tm (used. The tenant_id, subject_id, and data_class delimit who and what it concerns.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 478 Tm (The pair valid_from and observed_at prevents a later observation from masquerading as a later) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 464 Tm (business state. Separate authority and confidence fields preserve the difference between precedence) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 450 Tm (and uncertainty. A retention_class governs disposition; a provenance_hash supports an integrity) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 436 Tm (check, not a truth determination.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 416 Tm (These proposed fields are not Meridian's JSON. The fixture uses id, source_system, classification,) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 402 Tm (recorded_at, and effective_as_of. Its first question is whether a returned record enters the assembly) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 388 Tm (at all.) Tj ET
-0.1 g BT /F2 13.5 Tf 1 0 0 1 50.4 365 Tm (Admission, consumption, and the Context Manifest) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 343 Tm (D-11 treats preliminary index filtering as candidate selection, not final authorisation. Identity) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 329 Tm (supplies verified actor and tenant assertions. Retrieval ranks candidates and applies access control) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 315 Tm (list \(ACL\) filters; Context checks applicable source permissions and classification before assembly.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 295 Tm (An indexing service may read a collection that the consuming agent cannot read in full. Its credential) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 281 Tm (cannot answer the consumer's permission question. Source admission checks source permissions.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 267 Tm (Consumer rechecks evaluate the assembled input for its actual recipient and purpose.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 247 Tm (A cached ALLOW result can outlive the permission it records. A later assembly must recheck that) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 233 Tm (permission, not inherit the previous manifest's decision. If access cannot be established, Context) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 219 Tm (excludes the material and reports insufficient evidence when the remaining inputs cannot support the) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 205 Tm (task.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 185 Tm (Request MF-REQ-REF-001 permits review and preparation, not refund execution. On 16 February) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 171 Tm (2027, the index returns MF-REC-INS-LEAK-001 under the incorrect retail tenant tag) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 157 Tm (MF-TEN-RET-001. The actual tenant is MF-TEN-INS-001.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 137 Tm (The source check rejects the item with reason SOURCE_TENANT_MISMATCH. Events) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 123 Tm (MF-EVT-002 and MF-EVT-003 record detection and quarantine; MF-EVT-004 records the passing) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 109 Tm (synthetic negative test. The fixture records no insurance payload in the retail agent's Context.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 95 Tm (Filtering a generated answer would occur after disclosure to the model.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 602 Tm (A product identifier alone cannot reconstruct the inputs to the refund review. In a proposed Context) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 588 Tm (schema, ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 87.14 588 Tm (context_id) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 141.14 588 Tm ( identifies the assembly; ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 245.55 588 Tm (source_id) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 294.15 588 Tm ( and ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 314.56 588 Tm (source_version) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 390.16 588 Tm ( identify the) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 574 Tm (observation it used. The ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 153.93 574 Tm (tenant_id) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 202.53 574 Tm (, ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 207.78 574 Tm (subject_id) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 261.78 574 Tm (, and ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 284.82 574 Tm (data_class) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 338.82 574 Tm ( delimit who and what it) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 560 Tm (concerns.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 542 Tm (The pair ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 88.3 542 Tm (valid_from) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 142.31 542 Tm ( and ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 162.72 542 Tm (observed_at) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 222.12 542 Tm ( prevents a later observation from masquerading as a later) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 528 Tm (business state. Separate ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 151.88 528 Tm (authority) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 200.48 528 Tm ( and ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 220.89 528 Tm (confidence) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 274.89 528 Tm ( fields preserve the difference between) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 514 Tm (precedence and uncertainty. A ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 180.73 514 Tm (retention_class) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 261.73 514 Tm ( governs disposition; a ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 359.14 514 Tm (provenance_hash) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 500 Tm (supports an integrity check, not a truth determination.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 482 Tm (These proposed fields are not Meridian's JSON. The fixture uses ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 324.37 482 Tm (id) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 335.17 482 Tm (, ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 340.42 482 Tm (source_system) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 410.62 482 Tm (,) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 50.4 468 Tm (classification) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 126 468 Tm (, ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 131.25 468 Tm (recorded_at) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 190.65 468 Tm (, and ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 213.69 468 Tm (effective_as_of) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 294.69 468 Tm (. Its first question is whether a returned) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 454 Tm (record enters the assembly at all.) Tj ET
+0.1 g BT /F2 13.5 Tf 1 0 0 1 50.4 434 Tm (Admission, consumption, and the Context Manifest) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 413 Tm (D-11 treats preliminary index filtering as candidate selection, not final authorisation. Identity) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 399 Tm (supplies verified actor and tenant assertions. Retrieval ranks candidates and applies access control) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 385 Tm (list \(ACL\) filters; Context checks applicable source permissions and classification before assembly.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 367 Tm (An indexing service may read a collection that the consuming agent cannot read in full. Its credential) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 353 Tm (cannot answer the consumer's permission question. Source admission checks source permissions.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 339 Tm (Consumer rechecks evaluate the assembled input for its actual recipient and purpose.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 321 Tm (A cached ALLOW result can outlive the permission it records. A later assembly must recheck that) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 307 Tm (permission, not inherit the previous manifest's decision. If access cannot be established, Context) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 293 Tm (excludes the material and reports insufficient evidence when the remaining inputs cannot support the) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 279 Tm (task.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 261 Tm (Request ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 86.86 261 Tm (MF-REQ-REF-001) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 162.46 261 Tm ( permits review and preparation, not refund execution. On 16 February) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 247 Tm (2027, the index returns ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 149.85 247 Tm (MF-REC-INS-LEAK-001) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 252.45 247 Tm ( under the incorrect retail tenant tag) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 50.4 233 Tm (MF-TEN-RET-001) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 126 233 Tm (. The actual tenant is ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 215.82 233 Tm (MF-TEN-INS-001) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 291.42 233 Tm (.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 215 Tm (The source check rejects the item with reason ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 244.6 215 Tm (SOURCE_TENANT_MISMATCH) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 363.4 215 Tm (. Events ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 399.85 215 Tm (MF-EVT-002) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 453.85 215 Tm ( and) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 50.4 201 Tm (MF-EVT-003) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 104.4 201 Tm ( record detection and quarantine; ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 245.24 201 Tm (MF-EVT-004) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 299.24 201 Tm ( records the passing synthetic negative) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 187 Tm (test. The fixture records no insurance payload in the retail agent's Context. Filtering a generated) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 173 Tm (answer would occur after disclosure to the model.) Tj ET
+0.3 g BT /F5 8.5 Tf 1 0 0 1 50.4 155 Tm (Table 13-2. Inclusion decisions from synthetic Context Manifest MF-EVD-CM-001.) Tj ET
+.25 g 50.4 128 424.8 17 re f
+1 g BT /F2 9 Tf 1 0 0 1 54.4 136 Tm (Record) Tj ET
+1 g BT /F2 9 Tf 1 0 0 1 169.1 136 Tm (Source) Tj ET
+1 g BT /F2 9 Tf 1 0 0 1 271.05 136 Tm (ACL) Tj ET
+1 g BT /F2 9 Tf 1 0 0 1 330.52 136 Tm (Consumer recheck) Tj ET
+1 g BT /F2 9 Tf 1 0 0 1 423.98 136 Tm (Included) Tj ET
+0.72 G 0.5 w 50.4 128 m 475.2 128 l S
+.96 g 50.4 111 424.8 17 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 119 Tm (MF-REC-A-001) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 169.1 119 Tm (MF-SYS-PROD-001) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 271.05 119 Tm (ALLOW) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 330.52 119 Tm (ALLOW) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 423.98 119 Tm (true) Tj ET
+0.72 G 0.5 w 50.4 111 m 475.2 111 l S
+1 g 50.4 94 424.8 17 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 102 Tm (MF-REC-B-001) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 169.1 102 Tm (MF-SYS-CRM-001) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 271.05 102 Tm (ALLOW) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 330.52 102 Tm (ALLOW) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 423.98 102 Tm (true) Tj ET
+0.72 G 0.5 w 50.4 94 m 475.2 94 l S
+.96 g 50.4 77 424.8 17 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 85 Tm (MF-REC-INS-LEAK-001) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 169.1 85 Tm (MF-SYS-INS-001) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 271.05 85 Tm (DENY) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 330.52 85 Tm (Not recorded) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 423.98 85 Tm (false) Tj ET
+0.72 G 0.5 w 50.4 77 m 475.2 77 l S
 endstream
 endobj
-11 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> /Contents 10 0 R >>
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R /F6 8 0 R /F7 9 0 R >> >> /Contents 12 0 R >>
 endobj
-12 0 obj
-<< /Length 8410 >>
+14 0 obj
+<< /Length 8870 >>
 stream
 0.35 g BT /F2 8 Tf 1 0 0 1 64.8 638 Tm (CHAPTER 13 / CONTEXT) Tj ET
 0.35 g BT /F3 8 Tf 1 0 0 1 379.78 638 Tm (The Enterprise AI Agent Fabric) Tj ET
@@ -145,128 +226,127 @@ stream
 0.65 G 0.5 w 64.8 43 m 489.6 43 l S
 0.3 g BT /F2 9 Tf 1 0 0 1 484.6 29 Tm (3) Tj ET
 0.4 g BT /F3 8 Tf 1 0 0 1 64.8 29 Tm (AUTHOR PROOF) Tj ET
-0.3 g BT /F5 8.5 Tf 1 0 0 1 64.8 602 Tm (Table 13-2. Inclusion decisions from synthetic Context Manifest MF-EVD-CM-001.) Tj ET
-.25 g 64.8 571 424.8 20 re f
-1 g BT /F2 9 Tf 1 0 0 1 68.8 581 Tm (Record) Tj ET
-1 g BT /F2 9 Tf 1 0 0 1 183.5 581 Tm (Source) Tj ET
-1 g BT /F2 9 Tf 1 0 0 1 285.45 581 Tm (ACL) Tj ET
-1 g BT /F2 9 Tf 1 0 0 1 344.92 581 Tm (Consumer recheck) Tj ET
-1 g BT /F2 9 Tf 1 0 0 1 438.38 581 Tm (Included) Tj ET
-0.72 G 0.5 w 64.8 571 m 489.6 571 l S
-.96 g 64.8 551 424.8 20 re f
-0.1 g BT /F3 9 Tf 1 0 0 1 68.8 561 Tm (MF-REC-A-001) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 183.5 561 Tm (MF-SYS-PROD-001) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 285.45 561 Tm (ALLOW) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 344.92 561 Tm (ALLOW) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 438.38 561 Tm (true) Tj ET
-0.72 G 0.5 w 64.8 551 m 489.6 551 l S
-1 g 64.8 531 424.8 20 re f
-0.1 g BT /F3 9 Tf 1 0 0 1 68.8 541 Tm (MF-REC-B-001) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 183.5 541 Tm (MF-SYS-CRM-001) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 285.45 541 Tm (ALLOW) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 344.92 541 Tm (ALLOW) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 438.38 541 Tm (true) Tj ET
-0.72 G 0.5 w 64.8 531 m 489.6 531 l S
-.96 g 64.8 511 424.8 20 re f
-0.1 g BT /F3 9 Tf 1 0 0 1 68.8 521 Tm (MF-REC-INS-LEAK-001) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 183.5 521 Tm (MF-SYS-INS-001) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 285.45 521 Tm (DENY) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 344.92 521 Tm (Not recorded) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 438.38 521 Tm (false) Tj ET
-0.72 G 0.5 w 64.8 511 m 489.6 511 l S
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 498 Tm (For the retail records, the ACL column represents acl_check; for the insurance result, it represents) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 484 Tm (source_acl_check. The quarantined result has index_returned=true and context_included=false.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 602 Tm (For the retail records, the ACL column represents ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 276.22 602 Tm (acl_check) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 324.82 602 Tm (; for the insurance result, it represents) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 64.8 588 Tm (source_acl_check) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 151.2 588 Tm (. The quarantined result has ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 270.18 588 Tm (index_returned=true) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 372.78 588 Tm ( and) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 64.8 574 Tm (context_included=false) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 183.6 574 Tm (.) Tj ET
 /Figure << /Alt (Retail records A and B pass source and consumer checks and enter context. The incorrectly tagged insurance result fails the source check and follows a quarantine path that cannot deliver its payload to the agent.) >> BDC
-0.1 g BT /F2 10.03 Tf 1 0 0 1 71.88 454.84 Tm (Figure 13-1  |  Context Manifest Assembly) Tj ET
-1 g 0.2 G 0.89 w [] 0 d 71.88 415.31 91.45 25.37 re B [] 0 d
-0.1 g BT /F3 8.26 Tf 1 0 0 1 92.13 429.47 Tm (Retail product) Tj ET
-0.1 g BT /F3 8.26 Tf 1 0 0 1 104.07 420.62 Tm (registry) Tj ET
-1 g 0.2 G 0.89 w [] 0 d 71.88 376.96 91.45 25.37 re B [] 0 d
-0.1 g BT /F3 8.26 Tf 1 0 0 1 96.5 386.69 Tm (Retail CRM) Tj ET
-1 g 0.2 G 0.89 w [3 2] 0 d 71.88 338.61 91.45 25.37 re B [] 0 d
-0.1 g BT /F3 8.26 Tf 1 0 0 1 87.77 352.77 Tm (Insurance policy) Tj ET
-0.1 g BT /F3 8.26 Tf 1 0 0 1 99.47 343.92 Tm (repository) Tj ET
-1 g 0.2 G 0.89 w [] 0 d 185.75 374.6 64.9 28.32 re B [] 0 d
-0.1 g BT /F3 8.26 Tf 1 0 0 1 201.91 390.24 Tm (Retrieval) Tj ET
-0.1 g BT /F3 8.26 Tf 1 0 0 1 208.33 381.38 Tm (index) Tj ET
-1 g 0.2 G 0.89 w [] 0 d 274.25 374.6 68.44 28.32 re B [] 0 d
-0.1 g BT /F3 8.26 Tf 1 0 0 1 278.4 390.24 Tm (Context retrieval) Tj ET
-0.1 g BT /F3 8.26 Tf 1 0 0 1 295.39 381.38 Tm (service) Tj ET
-1 g 0.2 G 0.89 w [] 0 d 368.65 374.6 88.5 28.32 re B [] 0 d
-0.1 g BT /F3 8.26 Tf 1 0 0 1 390.64 390.24 Tm (Source ACL) Tj ET
-0.1 g BT /F3 8.26 Tf 1 0 0 1 398.44 381.38 Tm (recheck) Tj ET
-1 g 0.2 G 0.89 w [] 0 d 368.65 309.7 88.5 26.55 re B [] 0 d
-0.1 g BT /F3 8.26 Tf 1 0 0 1 378.47 324.45 Tm (Context assembler) Tj ET
-0.1 g BT /F3 8.26 Tf 1 0 0 1 378.25 315.6 Tm (Consumer recheck) Tj ET
-1 g 0.2 G 0.89 w [] 0 d 368.65 264.27 88.5 25.37 re B [] 0 d
-0.1 g BT /F3 8.26 Tf 1 0 0 1 379.39 274 Tm (Context consumer) Tj ET
-0.94 g 0.2 G 0.89 w [] 0 d 232.95 309.7 91.45 26.55 re B [] 0 d
-0.1 g BT /F3 8.26 Tf 1 0 0 1 247.69 320.02 Tm (Context Manifest) Tj ET
-0.9 g 0.2 G 0.89 w [] 0 d 232.95 264.27 91.45 25.37 re B [] 0 d
-0.1 g BT /F2 8.26 Tf 1 0 0 1 236.22 274 Tm (Restricted quarantine) Tj ET
-.2 G 0.89 w [] 0 d 163.33 428.29 m 175.72 428.29 l 175.72 395.25 l 185.75 395.25 l S [] 0 d
-.2 g 185.75 395.25 m 182.33 397.13 l 182.33 393.37 l h f
-1 g 158.59 433.78 33.09 9.08 re f
-0.1 g BT /F3 7.08 Tf 1 0 0 1 159.59 434.78 Tm (indexes A) Tj ET
-.2 G 0.89 w [] 0 d 163.33 389.94 m 185.75 389.94 l S [] 0 d
-.2 g 185.75 389.94 m 182.33 391.82 l 182.33 388.06 l h f
-1 g 157.41 406.64 33.09 9.08 re f
-0.1 g BT /F3 7.08 Tf 1 0 0 1 158.41 407.64 Tm (indexes B) Tj ET
-.2 G 0.89 w [] 0 d 163.33 351.59 m 176.9 351.59 l 176.9 381.68 l 185.75 381.68 l S [] 0 d
-.2 g 185.75 381.68 m 182.33 383.56 l 182.33 379.8 l h f
-1 g 159.57 340.56 41.74 9.08 re f
-0.1 g BT /F3 7.08 Tf 1 0 0 1 160.57 341.56 Tm (indexes item) Tj ET
-.2 G 0.89 w [] 0 d 250.65 388.76 m 274.25 388.76 l S [] 0 d
-.2 g 274.25 388.76 m 270.83 390.64 l 270.83 386.88 l h f
-1 g 243.94 408.41 37.02 9.08 re f
-0.1 g BT /F3 7.08 Tf 1 0 0 1 244.94 409.41 Tm (returns hits) Tj ET
-.2 G 0.89 w [] 0 d 342.69 388.76 m 368.65 388.76 l S [] 0 d
-.2 g 368.65 388.76 m 365.23 390.64 l 365.23 386.88 l h f
-1 g 330.28 408.41 50.79 9.08 re f
-0.1 g BT /F3 7.08 Tf 1 0 0 1 331.28 409.41 Tm (checks sources) Tj ET
-.2 G 0.89 w [] 0 d 412.9 374.6 m 412.9 336.25 l S [] 0 d
-.2 g 412.9 336.25 m 414.78 339.67 l 411.02 339.67 l h f
-1 g 425.46 351.18 36.23 9.08 re f
-0.1 g BT /F3 7.08 Tf 1 0 0 1 426.46 352.18 Tm (admits A/B) Tj ET
-.2 G 0.89 w [3 2] 0 d 368.65 382.86 m 348 382.86 l 348 277.25 l 324.4 277.25 l S [] 0 d
-.2 g 324.4 277.25 m 327.82 275.37 l 327.82 279.13 l h f
-1 g 295.46 290.41 55.51 9.08 re f
-0.1 g BT /F3 7.08 Tf 1 0 0 1 296.46 291.41 Tm (rejects insurance) Tj ET
-.2 G 0.89 w [] 0 d 368.65 323.27 m 324.4 323.27 l S [] 0 d
-.2 g 324.4 323.27 m 327.82 321.39 l 327.82 325.15 l h f
-1 g 317.69 328.76 57.08 9.08 re f
-0.1 g BT /F3 7.08 Tf 1 0 0 1 318.69 329.76 Tm (records decisions) Tj ET
-.2 G 0.89 w [3 2] 0 d 324.4 283.74 m 336.2 283.74 l 336.2 316.78 l 324.4 316.78 l S [] 0 d
-.2 g 324.4 316.78 m 327.82 314.9 l 327.82 318.66 l h f
-1 g 261.64 298.67 46.46 9.08 re f
-0.1 g BT /F3 7.08 Tf 1 0 0 1 262.64 299.67 Tm (records denial) Tj ET
-.2 G 0.89 w [] 0 d 412.9 309.7 m 412.9 289.64 l S [] 0 d
-.2 g 412.9 289.64 m 414.78 293.06 l 411.02 293.06 l h f
-1 g 425.46 296.31 39.77 9.08 re f
-0.1 g BT /F3 7.08 Tf 1 0 0 1 426.46 297.31 Tm (delivers A/B) Tj ET
-0.1 g BT /F3 7.67 Tf 1 0 0 1 71.88 253.06 Tm (A/B: MF-REC-A-001 / MF-REC-B-001 | Excluded: MF-REC-INS-LEAK-001) Tj ET
-0.1 g BT /F3 7.67 Tf 1 0 0 1 71.88 243.62 Tm (MF-EVD-CM-001 | A/B consumer recheck ALLOW | Insurance source ACL DENY) Tj ET
-0.1 g BT /F3 7.67 Tf 1 0 0 1 71.88 234.77 Tm (Policies: MF-POL-RET-ACCESS-v1.0 / MF-POL-TENANT-v1.0) Tj ET
-0.1 g BT /F3 7.67 Tf 1 0 0 1 71.88 225.33 Tm (cryptographic_signature=NOT_APPLIED_SYNTHETIC_FIXTURE) Tj ET
-0.1 g BT /F3 7.67 Tf 1 0 0 1 71.88 215.89 Tm (Context retrieval: MF-SVC-CTX-001 | Consumer: MF-AGT-RET-004) Tj ET
-0.1 g BT /F3 7.67 Tf 1 0 0 1 71.88 207.04 Tm (Quarantine records denial metadata; no insurance payload reaches the consumer.) Tj ET
+0.1 g BT /F2 10.03 Tf 1 0 0 1 71.88 545.84 Tm (Figure 13-1  |  Context Manifest Assembly) Tj ET
+1 g 0.2 G 0.89 w [] 0 d 71.88 506.31 91.45 25.37 re B [] 0 d
+0.1 g BT /F3 8.26 Tf 1 0 0 1 92.13 520.47 Tm (Retail product) Tj ET
+0.1 g BT /F3 8.26 Tf 1 0 0 1 104.07 511.62 Tm (registry) Tj ET
+1 g 0.2 G 0.89 w [] 0 d 71.88 467.96 91.45 25.37 re B [] 0 d
+0.1 g BT /F3 8.26 Tf 1 0 0 1 96.5 477.69 Tm (Retail CRM) Tj ET
+1 g 0.2 G 0.89 w [3 2] 0 d 71.88 429.61 91.45 25.37 re B [] 0 d
+0.1 g BT /F3 8.26 Tf 1 0 0 1 87.77 443.77 Tm (Insurance policy) Tj ET
+0.1 g BT /F3 8.26 Tf 1 0 0 1 99.47 434.92 Tm (repository) Tj ET
+1 g 0.2 G 0.89 w [] 0 d 185.75 465.6 64.9 28.32 re B [] 0 d
+0.1 g BT /F3 8.26 Tf 1 0 0 1 201.91 481.24 Tm (Retrieval) Tj ET
+0.1 g BT /F3 8.26 Tf 1 0 0 1 208.33 472.38 Tm (index) Tj ET
+1 g 0.2 G 0.89 w [] 0 d 274.25 465.6 68.44 28.32 re B [] 0 d
+0.1 g BT /F3 8.26 Tf 1 0 0 1 278.4 481.24 Tm (Context retrieval) Tj ET
+0.1 g BT /F3 8.26 Tf 1 0 0 1 295.39 472.38 Tm (service) Tj ET
+1 g 0.2 G 0.89 w [] 0 d 368.65 465.6 88.5 28.32 re B [] 0 d
+0.1 g BT /F3 8.26 Tf 1 0 0 1 390.64 481.24 Tm (Source ACL) Tj ET
+0.1 g BT /F3 8.26 Tf 1 0 0 1 398.44 472.38 Tm (recheck) Tj ET
+1 g 0.2 G 0.89 w [] 0 d 368.65 400.7 88.5 26.55 re B [] 0 d
+0.1 g BT /F3 8.26 Tf 1 0 0 1 378.47 415.45 Tm (Context assembler) Tj ET
+0.1 g BT /F3 8.26 Tf 1 0 0 1 378.25 406.6 Tm (Consumer recheck) Tj ET
+1 g 0.2 G 0.89 w [] 0 d 368.65 355.27 88.5 25.37 re B [] 0 d
+0.1 g BT /F3 8.26 Tf 1 0 0 1 379.39 365 Tm (Context consumer) Tj ET
+0.94 g 0.2 G 0.89 w [] 0 d 232.95 400.7 91.45 26.55 re B [] 0 d
+0.1 g BT /F3 8.26 Tf 1 0 0 1 247.69 411.02 Tm (Context Manifest) Tj ET
+0.9 g 0.2 G 0.89 w [] 0 d 232.95 355.27 91.45 25.37 re B [] 0 d
+0.1 g BT /F2 8.26 Tf 1 0 0 1 236.22 365 Tm (Restricted quarantine) Tj ET
+.2 G 0.89 w [] 0 d 163.33 519.29 m 175.72 519.29 l 175.72 486.25 l 185.75 486.25 l S [] 0 d
+.2 g 185.75 486.25 m 182.33 488.13 l 182.33 484.37 l h f
+1 g 158.59 524.78 33.09 9.08 re f
+0.1 g BT /F3 7.08 Tf 1 0 0 1 159.59 525.78 Tm (indexes A) Tj ET
+.2 G 0.89 w [] 0 d 163.33 480.94 m 185.75 480.94 l S [] 0 d
+.2 g 185.75 480.94 m 182.33 482.82 l 182.33 479.06 l h f
+1 g 157.41 497.64 33.09 9.08 re f
+0.1 g BT /F3 7.08 Tf 1 0 0 1 158.41 498.64 Tm (indexes B) Tj ET
+.2 G 0.89 w [] 0 d 163.33 442.59 m 176.9 442.59 l 176.9 472.68 l 185.75 472.68 l S [] 0 d
+.2 g 185.75 472.68 m 182.33 474.56 l 182.33 470.8 l h f
+1 g 159.57 431.56 41.74 9.08 re f
+0.1 g BT /F3 7.08 Tf 1 0 0 1 160.57 432.56 Tm (indexes item) Tj ET
+.2 G 0.89 w [] 0 d 250.65 479.76 m 274.25 479.76 l S [] 0 d
+.2 g 274.25 479.76 m 270.83 481.64 l 270.83 477.88 l h f
+1 g 243.94 499.41 37.02 9.08 re f
+0.1 g BT /F3 7.08 Tf 1 0 0 1 244.94 500.41 Tm (returns hits) Tj ET
+.2 G 0.89 w [] 0 d 342.69 479.76 m 368.65 479.76 l S [] 0 d
+.2 g 368.65 479.76 m 365.23 481.64 l 365.23 477.88 l h f
+1 g 330.28 499.41 50.79 9.08 re f
+0.1 g BT /F3 7.08 Tf 1 0 0 1 331.28 500.41 Tm (checks sources) Tj ET
+.2 G 0.89 w [] 0 d 412.9 465.6 m 412.9 427.25 l S [] 0 d
+.2 g 412.9 427.25 m 414.78 430.67 l 411.02 430.67 l h f
+1 g 425.46 442.18 36.23 9.08 re f
+0.1 g BT /F3 7.08 Tf 1 0 0 1 426.46 443.18 Tm (admits A/B) Tj ET
+.2 G 0.89 w [3 2] 0 d 368.65 473.86 m 348 473.86 l 348 368.25 l 324.4 368.25 l S [] 0 d
+.2 g 324.4 368.25 m 327.82 366.37 l 327.82 370.13 l h f
+1 g 295.46 381.41 55.51 9.08 re f
+0.1 g BT /F3 7.08 Tf 1 0 0 1 296.46 382.41 Tm (rejects insurance) Tj ET
+.2 G 0.89 w [] 0 d 368.65 414.27 m 324.4 414.27 l S [] 0 d
+.2 g 324.4 414.27 m 327.82 412.39 l 327.82 416.15 l h f
+1 g 317.69 419.76 57.08 9.08 re f
+0.1 g BT /F3 7.08 Tf 1 0 0 1 318.69 420.76 Tm (records decisions) Tj ET
+.2 G 0.89 w [3 2] 0 d 324.4 374.74 m 336.2 374.74 l 336.2 407.78 l 324.4 407.78 l S [] 0 d
+.2 g 324.4 407.78 m 327.82 405.9 l 327.82 409.66 l h f
+1 g 261.64 389.67 46.46 9.08 re f
+0.1 g BT /F3 7.08 Tf 1 0 0 1 262.64 390.67 Tm (records denial) Tj ET
+.2 G 0.89 w [] 0 d 412.9 400.7 m 412.9 380.64 l S [] 0 d
+.2 g 412.9 380.64 m 414.78 384.06 l 411.02 384.06 l h f
+1 g 425.46 387.31 39.77 9.08 re f
+0.1 g BT /F3 7.08 Tf 1 0 0 1 426.46 388.31 Tm (delivers A/B) Tj ET
+0.1 g BT /F3 7.67 Tf 1 0 0 1 71.88 344.06 Tm (A/B: MF-REC-A-001 / MF-REC-B-001 | Excluded: MF-REC-INS-LEAK-001) Tj ET
+0.1 g BT /F3 7.67 Tf 1 0 0 1 71.88 334.62 Tm (MF-EVD-CM-001 | A/B consumer recheck ALLOW | Insurance source ACL DENY) Tj ET
+0.1 g BT /F3 7.67 Tf 1 0 0 1 71.88 325.77 Tm (Policies: MF-POL-RET-ACCESS-v1.0 / MF-POL-TENANT-v1.0) Tj ET
+0.1 g BT /F3 7.67 Tf 1 0 0 1 71.88 316.33 Tm (cryptographic_signature=NOT_APPLIED_SYNTHETIC_FIXTURE) Tj ET
+0.1 g BT /F3 7.67 Tf 1 0 0 1 71.88 306.89 Tm (Context retrieval: MF-SVC-CTX-001 | Consumer: MF-AGT-RET-004) Tj ET
+0.1 g BT /F3 7.67 Tf 1 0 0 1 71.88 298.04 Tm (Quarantine records denial metadata; no insurance payload reaches the consumer.) Tj ET
 EMC
-0.3 g BT /F5 8.5 Tf 1 0 0 1 64.8 195.09 Tm (Figure 13-1. A source-level access recheck admits two retail claims but excludes an incorrectly tagged insurance) Tj ET
-0.3 g BT /F5 8.5 Tf 1 0 0 1 64.8 184.09 Tm (result \(v1.0; synthetic MF-EVD-CM-001\).) Tj ET
-0.35 g BT /F5 8.5 Tf 1 0 0 1 64.8 169.09 Tm (Alt text: Retail records A and B pass source and consumer checks and enter context. The incorrectly tagged) Tj ET
-0.35 g BT /F5 8.5 Tf 1 0 0 1 64.8 158.09 Tm (insurance result fails the source check and follows a quarantine path that cannot deliver its payload to the agent.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 139.09 Tm (An investigator starts with the Context Manifest, not the generated answer. Manifest) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 125.09 Tm (MF-EVD-CM-001 identifies agent MF-AGT-RET-004, retail tenant MF-TEN-RET-001, retrieval) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 111.09 Tm (request MF-RETR-001, and trajectory MF-TRJ-001. It references policies) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 97.09 Tm (MF-POL-RET-ACCESS-v1.0 and MF-POL-TENANT-v1.0. These anchors identify the assembly) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 83.09 Tm (under examination rather than all information the retrieval service could access.) Tj ET
+0.3 g BT /F5 8.5 Tf 1 0 0 1 64.8 288.09 Tm (Figure 13-1. A source-level access recheck admits two retail claims but excludes an incorrectly tagged insurance) Tj ET
+0.3 g BT /F5 8.5 Tf 1 0 0 1 64.8 277.09 Tm (result \(v1.0; synthetic MF-EVD-CM-001\).) Tj ET
+0.35 g BT /F5 8.5 Tf 1 0 0 1 64.8 263.09 Tm (Alt text: Retail records A and B pass source and consumer checks and enter context. The incorrectly tagged) Tj ET
+0.35 g BT /F5 8.5 Tf 1 0 0 1 64.8 252.09 Tm (insurance result fails the source check and follows a quarantine path that cannot deliver its payload to the agent.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 237.09 Tm (An investigator starts with the Context Manifest, not the generated answer. Manifest) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 64.8 223.09 Tm (MF-EVD-CM-001) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 135 223.09 Tm ( identifies agent ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 204.7 223.09 Tm (MF-AGT-RET-004) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 280.3 223.09 Tm (, retail tenant ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 338.04 223.09 Tm (MF-TEN-RET-001) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 413.64 223.09 Tm (, retrieval request) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 64.8 209.09 Tm (MF-RETR-001) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 124.2 209.09 Tm (, and trajectory ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 190.1 209.09 Tm (MF-TRJ-001) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 244.1 209.09 Tm (. It references policies ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 339.44 209.09 Tm (MF-POL-RET-ACCESS-v1.0) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 458.24 209.09 Tm ( and) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 64.8 195.09 Tm (MF-POL-TENANT-v1.0) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 162 195.09 Tm (. These anchors identify the assembly under examination rather than all) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 181.09 Tm (information the retrieval service could access.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 163.09 Tm (The investigator follows the admitted record IDs to their source observations and the quarantine) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 149.09 Tm (reference to the exclusion reason. The ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 227.2 149.09 Tm (allowed_use) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 286.6 149.09 Tm ( field restricts the assembly to review, and) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 64.8 135.09 Tm (conflict_ref) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 129.6 135.09 Tm ( leads to the disputed status. Two ALLOW results establish recorded admission, not) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 121.09 Tm (eligibility.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 103.09 Tm (The manifest and the negative-test event answer different questions. One records admission; the) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 89.09 Tm (other records a passing synthetic exclusion test. Neither independently demonstrates that every) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 75.09 Tm (component of a deployed system prevented disclosure.) Tj ET
 endstream
 endobj
-13 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> /Contents 12 0 R >>
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R /F6 8 0 R /F7 9 0 R >> >> /Contents 14 0 R >>
 endobj
-14 0 obj
-<< /Length 4228 >>
+16 0 obj
+<< /Length 5931 >>
 stream
 0.35 g BT /F2 8 Tf 1 0 0 1 50.4 638 Tm (CHAPTER 13 / CONTEXT) Tj ET
 0.35 g BT /F3 8 Tf 1 0 0 1 365.38 638 Tm (The Enterprise AI Agent Fabric) Tj ET
@@ -274,44 +354,89 @@ stream
 0.65 G 0.5 w 50.4 43 m 475.2 43 l S
 0.3 g BT /F2 9 Tf 1 0 0 1 50.4 29 Tm (4) Tj ET
 0.4 g BT /F3 8 Tf 1 0 0 1 410.75 29 Tm (AUTHOR PROOF) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 602 Tm (The investigator follows the admitted record IDs to their source observations and the quarantine) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 588 Tm (reference to the exclusion reason. The allowed_use field restricts the assembly to review, and) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 574 Tm (conflict_ref leads to the disputed status. Two ALLOW results establish recorded admission, not) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 560 Tm (eligibility.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 540 Tm (The manifest and the negative-test event answer different questions. One records admission; the) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 526 Tm (other records a passing synthetic exclusion test. Neither independently demonstrates that every) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 512 Tm (component of a deployed system prevented disclosure.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 492 Tm (Quarantine metadata supports investigation without exposing the rejected payload; the manifest) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 478 Tm (itself requires controlled access. Its SHA-256 digest covers canonical JSON containing included) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 464 Tm (record IDs and event references. The field cryptographic_signature reads) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 450 Tm (NOT_APPLIED_SYNTHETIC_FIXTURE; the digest neither authenticates the record's origin nor) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 436 Tm (verifies the entire source payload.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 416 Tm (D-11 incurs additional source checks, filtering, and possible missed matches. The relevant) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 402 Tm (performance measure is authorised retrieval, not unrestricted recall. A higher recall score achieved) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 388 Tm (by exposing another tenant's documents measures the wrong outcome.) Tj ET
-0.1 g BT /F2 13.5 Tf 1 0 0 1 50.4 365 Tm (Semantic identity, authority, and reconciliation) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 343 Tm (Both retail records are relevant and accessible. Neither property establishes which status governs) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 329 Tm (eligibility. Relevance ranks evidence; confidence expresses uncertainty. Authority identifies who) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 315 Tm (may establish the business attribute, while precedence identifies the governing source under an) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 301 Tm (applicable rule. A more confident interpretation cannot replace that rule or establish verified truth) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 287 Tm (without sufficient evidence.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 267 Tm (Context first establishes whether the claims concern the same entity. The canonical product) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 253 Tm (identifier establishes their common referent; separate source record IDs let the steward inspect both) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 239 Tm (observations instead of an aggregated value. An ambiguous match warrants investigation rather than) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 225 Tm (a merge.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 205 Tm (ACTIVE followed by CLOSED may describe a legitimate transition. In Meridian, both sources) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 191 Tm (describe the product at the same effective instant. The comparison therefore needs business-effective) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 177 Tm (time as well as source recording time.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 157 Tm (The records identify customer MF-CUST-SYN-0042, product MF-PROD-0091, and retail tenant) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 143 Tm (MF-TEN-RET-001. Both carry classification CONFIDENTIAL_CUSTOMER and owner) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 129 Tm (MF-HUM-RET-OWN-001.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 602 Tm (Quarantine metadata supports investigation without exposing the rejected payload; the manifest) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 588 Tm (itself requires controlled access. Its SHA-256 digest covers canonical JSON containing included) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 574 Tm (record IDs and event references. The field ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 229.99 574 Tm (cryptographic_signature) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 354.19 574 Tm ( reads) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 50.4 560 Tm (NOT_APPLIED_SYNTHETIC_FIXTURE) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 207 560 Tm (; the digest neither authenticates the record's origin nor verifies) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 546 Tm (the entire source payload.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 528 Tm (D-11 incurs additional source checks, filtering, and possible missed matches. The relevant) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 514 Tm (performance measure is authorised retrieval, not unrestricted recall. A higher recall score achieved) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 500 Tm (by exposing another tenant's documents measures the wrong outcome.) Tj ET
+0.1 g BT /F2 13.5 Tf 1 0 0 1 50.4 480 Tm (Semantic identity, authority, and reconciliation) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 459 Tm (Both retail records are relevant and accessible. Neither property establishes which status governs) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 445 Tm (eligibility. Relevance ranks evidence; confidence expresses uncertainty. Authority identifies who) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 431 Tm (may establish the business attribute, while precedence identifies the governing source under an) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 417 Tm (applicable rule. A more confident interpretation cannot replace that rule or establish verified truth) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 403 Tm (without sufficient evidence.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 385 Tm (Context first establishes whether the claims concern the same entity. The canonical product) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 371 Tm (identifier establishes their common referent; separate source record IDs let the steward inspect both) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 357 Tm (observations instead of an aggregated value. An ambiguous match warrants investigation rather than) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 343 Tm (a merge.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 325 Tm (ACTIVE followed by CLOSED may describe a legitimate transition. In Meridian, both sources) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 311 Tm (describe the product at the same effective instant. The comparison therefore needs business-effective) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 297 Tm (time as well as source recording time.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 279 Tm (The records identify customer ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 179.29 279 Tm (MF-CUST-SYN-0042) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 265.69 279 Tm (, product ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 305.64 279 Tm (MF-PROD-0091) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 370.44 279 Tm (, and retail tenant) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 50.4 265 Tm (MF-TEN-RET-001) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 126 265 Tm (. Both carry classification ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 236.52 265 Tm (CONFIDENTIAL_CUSTOMER) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 349.92 265 Tm ( and owner) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 50.4 251 Tm (MF-HUM-RET-OWN-001) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 147.6 251 Tm (.) Tj ET
+0.3 g BT /F5 8.5 Tf 1 0 0 1 50.4 233 Tm (Table 13-3. Source claims from context-records.json; times in UTC.) Tj ET
+.25 g 50.4 206 424.8 17 re f
+1 g BT /F2 9 Tf 1 0 0 1 54.4 214 Tm (Field) Tj ET
+1 g BT /F2 9 Tf 1 0 0 1 181.84 214 Tm (Record A) Tj ET
+1 g BT /F2 9 Tf 1 0 0 1 330.52 214 Tm (Record B) Tj ET
+0.72 G 0.5 w 50.4 206 m 475.2 206 l S
+.96 g 50.4 189 424.8 17 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 197 Tm (Record ID) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 181.84 197 Tm (MF-REC-A-001) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 330.52 197 Tm (MF-REC-B-001) Tj ET
+0.72 G 0.5 w 50.4 189 m 475.2 189 l S
+1 g 50.4 172 424.8 17 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 180 Tm (Source) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 181.84 180 Tm (Retail Product Registry) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 330.52 180 Tm (Retail CRM) Tj ET
+0.72 G 0.5 w 50.4 172 m 475.2 172 l S
+.96 g 50.4 155 424.8 17 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 163 Tm (Recorded at \(2027-02-22\)) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 181.84 163 Tm (09:00) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 330.52 163 Tm (09:10) Tj ET
+0.72 G 0.5 w 50.4 155 m 475.2 155 l S
+1 g 50.4 138 424.8 17 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 146 Tm (Effective as of \(2027-02-22\)) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 181.84 146 Tm (00:00) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 330.52 146 Tm (00:00) Tj ET
+0.72 G 0.5 w 50.4 138 m 475.2 138 l S
+.96 g 50.4 121 424.8 17 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 129 Tm (product_status) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 181.84 129 Tm (ACTIVE) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 330.52 129 Tm (CLOSED) Tj ET
+0.72 G 0.5 w 50.4 121 m 475.2 121 l S
+1 g 50.4 104 424.8 17 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 112 Tm (eligible_for_refund_review) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 181.84 112 Tm (true) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 330.52 112 Tm (false) Tj ET
+0.72 G 0.5 w 50.4 104 m 475.2 104 l S
+.96 g 50.4 87 424.8 17 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 95 Tm (verified_truth) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 181.84 95 Tm (false) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 330.52 95 Tm (false) Tj ET
+0.72 G 0.5 w 50.4 87 m 475.2 87 l S
 endstream
 endobj
-15 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> /Contents 14 0 R >>
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R /F6 8 0 R /F7 9 0 R >> >> /Contents 16 0 R >>
 endobj
-16 0 obj
-<< /Length 4351 >>
+18 0 obj
+<< /Length 7052 >>
 stream
 0.35 g BT /F2 8 Tf 1 0 0 1 64.8 638 Tm (CHAPTER 13 / CONTEXT) Tj ET
 0.35 g BT /F3 8 Tf 1 0 0 1 379.78 638 Tm (The Enterprise AI Agent Fabric) Tj ET
@@ -319,70 +444,99 @@ stream
 0.65 G 0.5 w 64.8 43 m 489.6 43 l S
 0.3 g BT /F2 9 Tf 1 0 0 1 484.6 29 Tm (5) Tj ET
 0.4 g BT /F3 8 Tf 1 0 0 1 64.8 29 Tm (AUTHOR PROOF) Tj ET
-0.3 g BT /F5 8.5 Tf 1 0 0 1 64.8 602 Tm (Table 13-3. Source claims from context-records.json; times in UTC.) Tj ET
-.25 g 64.8 571 424.8 20 re f
-1 g BT /F2 9 Tf 1 0 0 1 68.8 581 Tm (Field) Tj ET
-1 g BT /F2 9 Tf 1 0 0 1 196.24 581 Tm (Record A) Tj ET
-1 g BT /F2 9 Tf 1 0 0 1 344.92 581 Tm (Record B) Tj ET
-0.72 G 0.5 w 64.8 571 m 489.6 571 l S
-.96 g 64.8 551 424.8 20 re f
-0.1 g BT /F3 9 Tf 1 0 0 1 68.8 561 Tm (Record ID) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 196.24 561 Tm (MF-REC-A-001) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 344.92 561 Tm (MF-REC-B-001) Tj ET
-0.72 G 0.5 w 64.8 551 m 489.6 551 l S
-1 g 64.8 531 424.8 20 re f
-0.1 g BT /F3 9 Tf 1 0 0 1 68.8 541 Tm (Source) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 196.24 541 Tm (Retail Product Registry) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 344.92 541 Tm (Retail CRM) Tj ET
-0.72 G 0.5 w 64.8 531 m 489.6 531 l S
-.96 g 64.8 511 424.8 20 re f
-0.1 g BT /F3 9 Tf 1 0 0 1 68.8 521 Tm (Recorded at \(2027-02-22\)) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 196.24 521 Tm (09:00) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 344.92 521 Tm (09:10) Tj ET
-0.72 G 0.5 w 64.8 511 m 489.6 511 l S
-1 g 64.8 491 424.8 20 re f
-0.1 g BT /F3 9 Tf 1 0 0 1 68.8 501 Tm (Effective as of \(2027-02-22\)) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 196.24 501 Tm (00:00) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 344.92 501 Tm (00:00) Tj ET
-0.72 G 0.5 w 64.8 491 m 489.6 491 l S
-.96 g 64.8 471 424.8 20 re f
-0.1 g BT /F3 9 Tf 1 0 0 1 68.8 481 Tm (product_status) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 196.24 481 Tm (ACTIVE) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 344.92 481 Tm (CLOSED) Tj ET
-0.72 G 0.5 w 64.8 471 m 489.6 471 l S
-1 g 64.8 451 424.8 20 re f
-0.1 g BT /F3 9 Tf 1 0 0 1 68.8 461 Tm (eligible_for_refund_review) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 196.24 461 Tm (true) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 344.92 461 Tm (false) Tj ET
-0.72 G 0.5 w 64.8 451 m 489.6 451 l S
-.96 g 64.8 431 424.8 20 re f
-0.1 g BT /F3 9 Tf 1 0 0 1 68.8 441 Tm (verified_truth) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 196.24 441 Tm (false) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 344.92 441 Tm (false) Tj ET
-0.72 G 0.5 w 64.8 431 m 489.6 431 l S
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 418 Tm (The CRM recording time is ten minutes later, but neither record describes a later effective state.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 404 Tm (Choosing CRM on recency would manufacture a business transition that the evidence does not) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 390 Tm (establish. Choosing the Product Registry on its name would make an equally unsupported authority) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 376 Tm (decision.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 356 Tm (Under D-14, the domain data owner defines applicable precedence. A published rule can identify a) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 342 Tm (governing source for a specific attribute and effective period. Context applies that rule and retains its) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 328 Tm (reference; absent an applicable rule, it preserves the incompatible claims. A model's confidence) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 314 Tm (cannot replace the owner's decision.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 294 Tm (On 22 February 2027, events MF-EVT-005 and MF-EVT-006 record allowed retrieval at 09:12:00) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 280 Tm (and 09:12:01 UTC. Event MF-EVT-007 records BLOCKED at 09:12:02; MF-EVT-008 records) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 266 Tm (escalation at 09:12:03.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 246 Tm (The manifest and reconciliation record share the creation time 09:12:03 UTC. Under policy) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 232 Tm (MF-POL-CTX-CONFLICT-v1.0, the latter records UNRESOLVED and) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 218 Tm (ESCALATE_TO_DOMAIN_DATA_OWNER. Its precedence field reads NONE_DEFINED;) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 204 Tm (explicit unresolved state retained. The Retail Data Steward, MF-HUM-RET-OWN-001, receives) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 190 Tm (follow-up ticket MF-TASK-STEWARDSHIP-001.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 602 Tm (The CRM recording time is ten minutes later, but neither record describes a later effective state.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 588 Tm (Choosing CRM on recency would manufacture a business transition that the evidence does not) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 574 Tm (establish. Choosing the Product Registry on its name would make an equally unsupported authority) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 560 Tm (decision.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 542 Tm (Under D-14, the domain data owner defines applicable precedence. A published rule can identify a) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 528 Tm (governing source for a specific attribute and effective period. Context applies that rule and retains its) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 514 Tm (reference; absent an applicable rule, it preserves the incompatible claims. A model's confidence) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 500 Tm (cannot replace the owner's decision.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 482 Tm (On 22 February 2027, events ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 189.61 482 Tm (MF-EVT-005) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 243.61 482 Tm ( and ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 264.03 482 Tm (MF-EVT-006) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 318.03 482 Tm ( record allowed retrieval at 09:12:00 and) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 468 Tm (09:12:01 UTC. Event ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 158.13 468 Tm (MF-EVT-007) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 212.13 468 Tm ( records BLOCKED at 09:12:02; ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 353.58 468 Tm (MF-EVT-008) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 407.58 468 Tm ( records escalation) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 454 Tm (at 09:12:03.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 436 Tm (The manifest and reconciliation record share the creation time 09:12:03 UTC. Under policy) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 64.8 422 Tm (MF-POL-CTX-CONFLICT-v1.0) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 194.4 422 Tm (, the latter records ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 272.83 422 Tm (UNRESOLVED) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 326.83 422 Tm ( and) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 64.8 408 Tm (ESCALATE_TO_DOMAIN_DATA_OWNER) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 221.4 408 Tm (. Its precedence field reads ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 336.27 408 Tm (NONE_DEFINED;) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 406.47 408 Tm ( ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 409.09 408 Tm (explicit) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 64.8 394 Tm (unresolved) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 118.8 394 Tm ( ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 121.42 394 Tm (state) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 148.43 394 Tm ( ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 151.05 394 Tm (retained) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 194.25 394 Tm (. The Retail Data Steward, ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 308.27 394 Tm (MF-HUM-RET-OWN-001) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 405.47 394 Tm (, receives follow-up) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 380 Tm (ticket ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 90.76 380 Tm (MF-TASK-STEWARDSHIP-001) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 214.96 380 Tm (.) Tj ET
+/Figure << /Alt (Two authorised records match the same product and effective time but disagree on status. The reconciliation workflow retains UNRESOLVED and escalates to the Retail Data Steward without selecting either value.) >> BDC
+0.1 g BT /F2 10.03 Tf 1 0 0 1 71.88 351.84 Tm (Figure 13-2  |  Semantic Reconciliation Workflow) Tj ET
+1 g 0.2 G 0.89 w [] 0 d 76.6 302.28 112.1 25.37 re B [] 0 d
+0.1 g BT /F3 8.26 Tf 1 0 0 1 100.98 312.01 Tm (Candidate claims) Tj ET
+1 g 0.2 G 0.89 w [] 0 d 218.2 302.28 112.1 25.37 re B [] 0 d
+0.1 g BT /F3 8.26 Tf 1 0 0 1 243.95 312.01 Tm (Identity matched) Tj ET
+1 g 0.2 G 0.89 w [] 0 d 359.8 302.28 112.1 25.37 re B [] 0 d
+0.1 g BT /F3 8.26 Tf 1 0 0 1 392.21 312.01 Tm (Time aligned) Tj ET
+1 g 0.2 G 0.89 w [] 0 d 359.8 248 112.1 25.37 re B [] 0 d
+0.1 g BT /F3 8.26 Tf 1 0 0 1 385.09 257.74 Tm (Conflict detected) Tj ET
+0.9 g 0.2 G 0.89 w [] 0 d 218.2 248 112.1 25.37 re B [] 0 d
+0.1 g BT /F2 8.26 Tf 1 0 0 1 245.57 257.74 Tm (UNRESOLVED) Tj ET
+1 g 0.2 G 0.89 w [] 0 d 76.6 248 112.1 25.37 re B [] 0 d
+0.1 g BT /F3 8.26 Tf 1 0 0 1 97.76 257.74 Tm (Steward escalation) Tj ET
+.2 G 0.89 w [] 0 d 188.7 315.26 m 218.2 315.26 l S [] 0 d
+.2 g 218.2 315.26 m 214.78 317.14 l 214.78 313.38 l h f
+1 g 188.29 332.55 30.33 9.08 re f
+0.1 g BT /F3 7.08 Tf 1 0 0 1 189.29 333.55 Tm (match ID) Tj ET
+.2 G 0.89 w [] 0 d 330.3 315.26 m 359.8 315.26 l S [] 0 d
+.2 g 359.8 315.26 m 356.38 317.14 l 356.38 313.38 l h f
+1 g 328.9 332.55 32.3 9.08 re f
+0.1 g BT /F3 7.08 Tf 1 0 0 1 329.9 333.55 Tm (align time) Tj ET
+.2 G 0.89 w [] 0 d 415.85 302.28 m 415.85 273.37 l S [] 0 d
+.2 g 415.85 273.37 m 417.73 276.79 l 413.97 276.79 l h f
+1 g 420.15 285.35 50.4 9.08 re f
+0.1 g BT /F3 7.08 Tf 1 0 0 1 421.15 286.35 Tm (compare status) Tj ET
+.2 G 0.89 w [] 0 d 359.8 260.98 m 330.3 260.98 l S [] 0 d
+.2 g 330.3 260.98 m 333.72 259.1 l 333.72 262.86 l h f
+1 g 323.2 278.27 43.71 9.08 re f
+0.1 g BT /F3 7.08 Tf 1 0 0 1 324.2 279.27 Tm (retain conflict) Tj ET
+.2 G 0.89 w [] 0 d 218.2 260.98 m 188.7 260.98 l S [] 0 d
+.2 g 188.7 260.98 m 192.12 259.1 l 192.12 262.86 l h f
+1 g 189.27 278.27 28.37 9.08 re f
+0.1 g BT /F3 7.08 Tf 1 0 0 1 190.27 279.27 Tm (escalate) Tj ET
+0.1 g BT /F3 7.67 Tf 1 0 0 1 76.6 236.79 Tm (MF-PROD-0091 | Same effective time: 2027-02-22 00:00 UTC | ACTIVE / CLOSED) Tj ET
+0.1 g BT /F3 7.67 Tf 1 0 0 1 76.6 226.76 Tm (No precedence defined | MF-EVD-RC-001 | MF-EVT-007 / MF-EVT-008) Tj ET
+0.1 g BT /F3 7.67 Tf 1 0 0 1 76.6 216.73 Tm (Retail Data Steward: MF-HUM-RET-OWN-001 | No durable eligibility assertion) Tj ET
+EMC
+0.3 g BT /F5 8.5 Tf 1 0 0 1 64.8 199.7 Tm (Figure 13-2. Both retail claims remain available as evidence while their incompatible product statuses are) Tj ET
+0.3 g BT /F5 8.5 Tf 1 0 0 1 64.8 188.7 Tm (preserved as unresolved \(v1.0; MF-EVD-RC-001\).) Tj ET
+0.35 g BT /F5 8.5 Tf 1 0 0 1 64.8 174.7 Tm (Alt text: Two authorised records match the same product and effective time but disagree on status. The) Tj ET
+0.35 g BT /F5 8.5 Tf 1 0 0 1 64.8 163.7 Tm (reconciliation workflow retains UNRESOLVED and escalates to the Retail Data Steward without selecting either) Tj ET
+0.35 g BT /F5 8.5 Tf 1 0 0 1 64.8 152.7 Tm (value.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 137.7 Tm (The record permits presentation of conflicting evidence to a human reviewer. It does not settle) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 123.7 Tm (eligibility. D-14 leaves the dispute visible and incurs stewardship work rather than concealing it) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 109.7 Tm (behind a guessed status.) Tj ET
 endstream
 endobj
-17 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> /Contents 16 0 R >>
+19 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R /F6 8 0 R /F7 9 0 R >> >> /Contents 18 0 R >>
 endobj
-18 0 obj
-<< /Length 6089 >>
+20 0 obj
+<< /Length 4999 >>
 stream
 0.35 g BT /F2 8 Tf 1 0 0 1 50.4 638 Tm (CHAPTER 13 / CONTEXT) Tj ET
 0.35 g BT /F3 8 Tf 1 0 0 1 365.38 638 Tm (The Enterprise AI Agent Fabric) Tj ET
@@ -390,75 +544,49 @@ stream
 0.65 G 0.5 w 50.4 43 m 475.2 43 l S
 0.3 g BT /F2 9 Tf 1 0 0 1 50.4 29 Tm (6) Tj ET
 0.4 g BT /F3 8 Tf 1 0 0 1 410.75 29 Tm (AUTHOR PROOF) Tj ET
-/Figure << /Alt (Two authorised records match the same product and effective time but disagree on status. The reconciliation workflow retains UNRESOLVED and escalates to the Retail Data Steward without selecting either value.) >> BDC
-0.1 g BT /F2 10.03 Tf 1 0 0 1 57.48 592.84 Tm (Figure 13-2  |  Semantic Reconciliation Workflow) Tj ET
-1 g 0.2 G 0.89 w [] 0 d 62.2 543.28 112.1 25.37 re B [] 0 d
-0.1 g BT /F3 8.26 Tf 1 0 0 1 86.58 553.01 Tm (Candidate claims) Tj ET
-1 g 0.2 G 0.89 w [] 0 d 203.8 543.28 112.1 25.37 re B [] 0 d
-0.1 g BT /F3 8.26 Tf 1 0 0 1 229.55 553.01 Tm (Identity matched) Tj ET
-1 g 0.2 G 0.89 w [] 0 d 345.4 543.28 112.1 25.37 re B [] 0 d
-0.1 g BT /F3 8.26 Tf 1 0 0 1 377.81 553.01 Tm (Time aligned) Tj ET
-1 g 0.2 G 0.89 w [] 0 d 345.4 489 112.1 25.37 re B [] 0 d
-0.1 g BT /F3 8.26 Tf 1 0 0 1 370.69 498.74 Tm (Conflict detected) Tj ET
-0.9 g 0.2 G 0.89 w [] 0 d 203.8 489 112.1 25.37 re B [] 0 d
-0.1 g BT /F2 8.26 Tf 1 0 0 1 231.17 498.74 Tm (UNRESOLVED) Tj ET
-1 g 0.2 G 0.89 w [] 0 d 62.2 489 112.1 25.37 re B [] 0 d
-0.1 g BT /F3 8.26 Tf 1 0 0 1 83.36 498.74 Tm (Steward escalation) Tj ET
-.2 G 0.89 w [] 0 d 174.3 556.26 m 203.8 556.26 l S [] 0 d
-.2 g 203.8 556.26 m 200.38 558.14 l 200.38 554.38 l h f
-1 g 173.89 573.55 30.33 9.08 re f
-0.1 g BT /F3 7.08 Tf 1 0 0 1 174.89 574.55 Tm (match ID) Tj ET
-.2 G 0.89 w [] 0 d 315.9 556.26 m 345.4 556.26 l S [] 0 d
-.2 g 345.4 556.26 m 341.98 558.14 l 341.98 554.38 l h f
-1 g 314.5 573.55 32.3 9.08 re f
-0.1 g BT /F3 7.08 Tf 1 0 0 1 315.5 574.55 Tm (align time) Tj ET
-.2 G 0.89 w [] 0 d 401.45 543.28 m 401.45 514.37 l S [] 0 d
-.2 g 401.45 514.37 m 403.33 517.79 l 399.57 517.79 l h f
-1 g 405.75 526.35 50.4 9.08 re f
-0.1 g BT /F3 7.08 Tf 1 0 0 1 406.75 527.35 Tm (compare status) Tj ET
-.2 G 0.89 w [] 0 d 345.4 501.98 m 315.9 501.98 l S [] 0 d
-.2 g 315.9 501.98 m 319.32 500.1 l 319.32 503.86 l h f
-1 g 308.8 519.27 43.71 9.08 re f
-0.1 g BT /F3 7.08 Tf 1 0 0 1 309.8 520.27 Tm (retain conflict) Tj ET
-.2 G 0.89 w [] 0 d 203.8 501.98 m 174.3 501.98 l S [] 0 d
-.2 g 174.3 501.98 m 177.72 500.1 l 177.72 503.86 l h f
-1 g 174.87 519.27 28.37 9.08 re f
-0.1 g BT /F3 7.08 Tf 1 0 0 1 175.87 520.27 Tm (escalate) Tj ET
-0.1 g BT /F3 7.67 Tf 1 0 0 1 62.2 477.79 Tm (MF-PROD-0091 | Same effective time: 2027-02-22 00:00 UTC | ACTIVE / CLOSED) Tj ET
-0.1 g BT /F3 7.67 Tf 1 0 0 1 62.2 467.76 Tm (No precedence defined | MF-EVD-RC-001 | MF-EVT-007 / MF-EVT-008) Tj ET
-0.1 g BT /F3 7.67 Tf 1 0 0 1 62.2 457.73 Tm (Retail Data Steward: MF-HUM-RET-OWN-001 | No durable eligibility assertion) Tj ET
-EMC
-0.3 g BT /F5 8.5 Tf 1 0 0 1 50.4 438.7 Tm (Figure 13-2. Both retail claims remain available as evidence while their incompatible product statuses are) Tj ET
-0.3 g BT /F5 8.5 Tf 1 0 0 1 50.4 427.7 Tm (preserved as unresolved \(v1.0; MF-EVD-RC-001\).) Tj ET
-0.35 g BT /F5 8.5 Tf 1 0 0 1 50.4 412.7 Tm (Alt text: Two authorised records match the same product and effective time but disagree on status. The) Tj ET
-0.35 g BT /F5 8.5 Tf 1 0 0 1 50.4 401.7 Tm (reconciliation workflow retains UNRESOLVED and escalates to the Retail Data Steward without selecting either) Tj ET
-0.35 g BT /F5 8.5 Tf 1 0 0 1 50.4 390.7 Tm (value.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 371.7 Tm (The record permits presentation of conflicting evidence to a human reviewer. It does not settle) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 357.7 Tm (eligibility. D-14 leaves the dispute visible and incurs stewardship work rather than concealing it) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 343.7 Tm (behind a guessed status.) Tj ET
-0.1 g BT /F2 13.5 Tf 1 0 0 1 50.4 320.7 Tm (Working context, memory, and evidence) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 298.7 Tm (An unresolved claim does not acquire authority when the task ends. The working Context supplies) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 284.7 Tm (the observations for the refund review. Task-local state preserves progress for resumption. A) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 270.7 Tm (checkpoint can retain the outstanding review without qualifying its provisional conclusions for) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 256.7 Tm (durable reuse. The hot or working tier serves this active task.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 236.7 Tm (Episodic memory could preserve the experience of escalating a dispute. Semantic memory would) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 222.7 Tm (retain an assertion intended for reuse as knowledge. The distinction changes the next trajectory:) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 208.7 Tm (recalling that a dispute occurred supports investigation, whereas recalling that the customer qualifies) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 194.7 Tm (for a refund could affect a financial recommendation.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 174.7 Tm (Neither memory tier bypasses access, provenance, effective-time, or verification checks on recall.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 160.7 Tm (Embedding proximity cannot establish that a previous claim remains applicable. Later recall could) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 146.7 Tm (propagate unsupported eligibility without either source observation.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 126.7 Tm (The Reconciliation Record serves a different purpose. Immutable audit evidence preserves the) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 112.7 Tm (disagreement, its attribution, and the decision to escalate, including failed or rejected actions where) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 98.7 Tm (relevant. Retaining that evidence for authorised investigation does not make either status established) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 84.7 Tm (knowledge. These are conceptual storage obligations, not deployed Meridian memory services.) Tj ET
+0.1 g BT /F2 13.5 Tf 1 0 0 1 50.4 602 Tm (Working context, memory, and evidence) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 581 Tm (An unresolved claim does not acquire authority when the task ends. The working Context supplies) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 567 Tm (the observations for the refund review. Task-local state preserves progress for resumption. A) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 553 Tm (checkpoint can retain the outstanding review without qualifying its provisional conclusions for) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 539 Tm (durable reuse. The hot or working tier serves this active task.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 521 Tm (Episodic memory could preserve the experience of escalating a dispute. Semantic memory would) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 507 Tm (retain an assertion intended for reuse as knowledge. The distinction changes the next trajectory:) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 493 Tm (recalling that a dispute occurred supports investigation, whereas recalling that the customer qualifies) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 479 Tm (for a refund could affect a financial recommendation.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 461 Tm (Neither memory tier bypasses access, provenance, effective-time, or verification checks on recall.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 447 Tm (Embedding proximity cannot establish that a previous claim remains applicable. Later recall could) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 433 Tm (propagate unsupported eligibility without either source observation.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 415 Tm (The Reconciliation Record serves a different purpose. Immutable audit evidence preserves the) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 401 Tm (disagreement, its attribution, and the decision to escalate, including failed or rejected actions where) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 387 Tm (relevant. Retaining that evidence for authorised investigation does not make either status established) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 373 Tm (knowledge. These are conceptual storage obligations, not deployed Meridian memory services.) Tj ET
+0.1 g BT /F2 13.5 Tf 1 0 0 1 50.4 353 Tm (Governed memory writes) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 332 Tm (A memory assertion can satisfy its schema and still fail its write policy. Both retail observations) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 318 Tm (carry ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 74.59 318 Tm (verified_truth=false) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 182.59 318 Tm (. A proposed assertion that the customer qualifies for a refund would) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 304 Tm (need evidence sufficient for that intended reuse, not merely a recorded verification status.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 286 Tm (D-12 requires a justified write. The writer actor chain, tenant, and owner identify who proposes and) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 272 Tm (owns the claim. Source lineage, effective time, and verification status identify the justification;) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 258 Tm (policy classification and retention conditions constrain use. The memory owner applies the) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 244 Tm (governing verification policy and records the disposition. Consent or legal-class restrictions apply) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 230 Tm (where required.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 212 Tm (A hold or rejection preserves the difference between review evidence and reusable eligibility. A) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 198 Tm (write contract must expose the justification, not just metadata completeness.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 180 Tm (Retries introduce a separate problem. Idempotency distinguishes repeated submission from a new) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 166 Tm (assertion; it cannot make an invalid claim valid. Suppose a writer validates a claim against one) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 152 Tm (reconciliation version, then the source changes before commitment. Reusing the earlier validation) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 138 Tm (could publish an obsolete claim even if duplicate detection works.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 120 Tm (A conditional write can bind commitment to the validated version. Atomic version validation or) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 106 Tm (equivalent consistency protection prevents publication under obsolete validation. Dependency) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 92 Tm (references allow correction or invalidation when the source changes.) Tj ET
 endstream
 endobj
-19 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> /Contents 18 0 R >>
+21 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R /F6 8 0 R /F7 9 0 R >> >> /Contents 20 0 R >>
 endobj
-20 0 obj
-<< /Length 2989 >>
+22 0 obj
+<< /Length 6973 >>
 stream
 0.35 g BT /F2 8 Tf 1 0 0 1 64.8 638 Tm (CHAPTER 13 / CONTEXT) Tj ET
 0.35 g BT /F3 8 Tf 1 0 0 1 379.78 638 Tm (The Enterprise AI Agent Fabric) Tj ET
@@ -466,33 +594,93 @@ stream
 0.65 G 0.5 w 64.8 43 m 489.6 43 l S
 0.3 g BT /F2 9 Tf 1 0 0 1 484.6 29 Tm (7) Tj ET
 0.4 g BT /F3 8 Tf 1 0 0 1 64.8 29 Tm (AUTHOR PROOF) Tj ET
-0.1 g BT /F2 13.5 Tf 1 0 0 1 64.8 602 Tm (Governed memory writes) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 580 Tm (A memory assertion can satisfy its schema and still fail its write policy. Both retail observations) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 566 Tm (carry verified_truth=false. A proposed assertion that the customer qualifies for a refund would need) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 552 Tm (evidence sufficient for that intended reuse, not merely a recorded verification status.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 532 Tm (D-12 requires a justified write. The writer actor chain, tenant, and owner identify who proposes and) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 518 Tm (owns the claim. Source lineage, effective time, and verification status identify the justification;) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 504 Tm (policy classification and retention conditions constrain use. The memory owner applies the) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 490 Tm (governing verification policy and records the disposition. Consent or legal-class restrictions apply) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 476 Tm (where required.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 456 Tm (A hold or rejection preserves the difference between review evidence and reusable eligibility. A) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 442 Tm (write contract must expose the justification, not just metadata completeness.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 422 Tm (Retries introduce a separate problem. Idempotency distinguishes repeated submission from a new) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 408 Tm (assertion; it cannot make an invalid claim valid. Suppose a writer validates a claim against one) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 394 Tm (reconciliation version, then the source changes before commitment. Reusing the earlier validation) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 380 Tm (could publish an obsolete claim even if duplicate detection works.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 360 Tm (A conditional write can bind commitment to the validated version. Atomic version validation or) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 346 Tm (equivalent consistency protection prevents publication under obsolete validation. Dependency) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 332 Tm (references allow correction or invalidation when the source changes.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 312 Tm (Meridian's reconciliation record specifies the blocked effect: "No refund.issue and no durable) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 298 Tm (memory assertion of eligibility". This is a restriction, not a transaction.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 602 Tm (Meridian's reconciliation record specifies the blocked effect: "No refund.issue and no durable) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 588 Tm (memory assertion of eligibility". This is a restriction, not a transaction.) Tj ET
+/Figure << /Alt (A proposed write undergoes provenance, ownership, policy, retention, and contradiction checks. The unresolved eligibility claim follows the hold path; no completed memory write or receipt is shown.) >> BDC
+0.1 g BT /F2 10.03 Tf 1 0 0 1 71.88 559.84 Tm (Figure 13-3  |  Governed Memory Write Decision) Tj ET
+1 g 0.2 G 0.89 w [] 0 d 68.34 527.98 54.28 21.24 re B [] 0 d
+0.1 g BT /F3 8.26 Tf 1 0 0 1 84.69 535.65 Tm (Agent) Tj ET
+.2 G 0.47 w [3 2] 0 d 95.48 527.98 m 95.48 383.43 l S [] 0 d
+1 g 0.2 G 0.89 w [] 0 d 128.81 527.98 54.28 21.24 re B [] 0 d
+0.1 g BT /F3 8.26 Tf 1 0 0 1 137.13 535.65 Tm (Write gate) Tj ET
+.2 G 0.47 w [3 2] 0 d 155.95 527.98 m 155.95 383.43 l S [] 0 d
+1 g 0.2 G 0.89 w [] 0 d 189.29 527.98 54.28 21.24 re B [] 0 d
+0.1 g BT /F3 8.26 Tf 1 0 0 1 194.39 540.08 Tm (Provenance) Tj ET
+0.1 g BT /F3 8.26 Tf 1 0 0 1 204.04 531.23 Tm (verifier) Tj ET
+.2 G 0.47 w [3 2] 0 d 216.43 527.98 m 216.43 383.43 l S [] 0 d
+1 g 0.2 G 0.89 w [] 0 d 249.76 527.98 54.28 21.24 re B [] 0 d
+0.1 g BT /F3 8.26 Tf 1 0 0 1 251.89 535.65 Tm (Policy checks) Tj ET
+.2 G 0.47 w [3 2] 0 d 276.9 527.98 m 276.9 383.43 l S [] 0 d
+1 g 0.2 G 0.89 w [] 0 d 310.24 527.98 54.28 21.24 re B [] 0 d
+0.1 g BT /F3 8.26 Tf 1 0 0 1 311.67 540.08 Tm (Reconciliation) Tj ET
+0.1 g BT /F3 8.26 Tf 1 0 0 1 322.92 531.23 Tm (checker) Tj ET
+.2 G 0.47 w [3 2] 0 d 337.38 527.98 m 337.38 383.43 l S [] 0 d
+1 g 0.2 G 0.89 w [] 0 d 370.71 527.98 54.28 21.24 re B [] 0 d
+0.1 g BT /F3 8.26 Tf 1 0 0 1 383.4 540.08 Tm (Durable) Tj ET
+0.1 g BT /F3 8.26 Tf 1 0 0 1 382.94 531.23 Tm (memory) Tj ET
+.2 G 0.47 w [3 2] 0 d 397.86 527.98 m 397.86 383.43 l S [] 0 d
+1 g 0.2 G 0.89 w [] 0 d 431.19 527.98 54.28 21.24 re B [] 0 d
+0.1 g BT /F3 8.26 Tf 1 0 0 1 435.61 540.08 Tm (Stewardship) Tj ET
+0.1 g BT /F3 8.26 Tf 1 0 0 1 446.85 531.23 Tm (queue) Tj ET
+.2 G 0.47 w [3 2] 0 d 458.33 527.98 m 458.33 383.43 l S [] 0 d
+.2 G 0.89 w [] 0 d 95.48 512.05 m 155.95 512.05 l S [] 0 d
+.2 g 155.95 512.05 m 152.53 513.93 l 152.53 510.17 l h f
+1 g 100.91 515.77 49.61 9.08 re f
+0.1 g BT /F3 7.08 Tf 1 0 0 1 101.91 516.77 Tm (proposes claim) Tj ET
+.2 G 0.89 w [] 0 d 155.95 491.4 m 216.43 491.4 l S [] 0 d
+.2 g 216.43 491.4 m 213.01 493.28 l 213.01 489.52 l h f
+1 g 161.78 495.12 48.83 9.08 re f
+0.1 g BT /F3 7.08 Tf 1 0 0 1 162.78 496.12 Tm (checks lineage) Tj ET
+.2 G 0.89 w [] 0 d 155.95 470.75 m 276.9 470.75 l S [] 0 d
+.2 g 276.9 470.75 m 273.48 472.63 l 273.48 468.87 l h f
+1 g 166.05 474.47 100.77 9.08 re f
+0.1 g BT /F3 7.08 Tf 1 0 0 1 167.05 475.47 Tm (checks owner / class / retention) Tj ET
+.2 G 0.89 w [] 0 d 155.95 450.1 m 337.38 450.1 l S [] 0 d
+.2 g 337.38 450.1 m 333.96 451.98 l 333.96 448.22 l h f
+1 g 222.65 453.82 48.03 9.08 re f
+0.1 g BT /F3 7.08 Tf 1 0 0 1 223.65 454.82 Tm (checks conflict) Tj ET
+.2 G 0.89 w [3 2] 0 d 337.38 429.45 m 155.95 429.45 l S [] 0 d
+.2 g 155.95 429.45 m 159.38 427.57 l 159.38 431.33 l h f
+1 g 209.28 433.17 74.78 9.08 re f
+0.1 g BT /F3 7.08 Tf 1 0 0 1 210.28 434.17 Tm (returns UNRESOLVED) Tj ET
+.2 G 0.89 w [3 2] 0 d 155.95 408.8 m 458.33 408.8 l S [] 0 d
+.2 g 458.33 408.8 m 454.91 410.68 l 454.91 406.92 l h f
+1 g 267.19 412.52 79.91 9.08 re f
+0.1 g BT /F3 7.08 Tf 1 0 0 1 268.19 413.52 Tm (references existing ticket) Tj ET
+.2 G 0.89 w [3 2] 0 d 155.95 388.15 m 95.48 388.15 l S [] 0 d
+.2 g 95.48 388.15 m 98.9 386.27 l 98.9 390.03 l h f
+1 g 100.91 391.87 49.61 9.08 re f
+0.1 g BT /F3 7.08 Tf 1 0 0 1 101.91 392.87 Tm (holds assertion) Tj ET
+0.1 g BT /F2 8.26 Tf 1 0 0 1 381.56 372.81 Tm (No write) Tj ET
+0.1 g BT /F3 7.67 Tf 1 0 0 1 71.88 359.83 Tm (Required design process only | MF-EVD-RC-001 | MF-TASK-STEWARDSHIP-001) Tj ET
+0.1 g BT /F3 7.67 Tf 1 0 0 1 71.88 349.21 Tm (No durable memory assertion of eligibility; no completed memory transaction.) Tj ET
+0.1 g BT /F3 7.67 Tf 1 0 0 1 71.88 338.59 Tm (Stewardship reference identifies the existing ticket; no new event is asserted.) Tj ET
+EMC
+0.3 g BT /F5 8.5 Tf 1 0 0 1 64.8 325.1 Tm (Figure 13-3. The proposed memory write path holds an eligibility assertion when the source claims remain) Tj ET
+0.3 g BT /F5 8.5 Tf 1 0 0 1 64.8 314.1 Tm (unresolved \(v1.0; required decision process, not a recorded memory transaction\).) Tj ET
+0.35 g BT /F5 8.5 Tf 1 0 0 1 64.8 300.1 Tm (Alt text: A proposed write undergoes provenance, ownership, policy, retention, and contradiction checks. The) Tj ET
+0.35 g BT /F5 8.5 Tf 1 0 0 1 64.8 289.1 Tm (unresolved eligibility claim follows the hold path; no completed memory write or receipt is shown.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 274.1 Tm (No performed durable-memory write appears in the fixture. D-12 incurs write-path verification and) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 260.1 Tm (maintenance rather than transferring the cost of correcting an unsupported assertion to every later) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 246.1 Tm (consumer. A qualified assertion still needs a separate decision before another agent can use it.) Tj ET
+0.1 g BT /F2 13.5 Tf 1 0 0 1 64.8 226.1 Tm (Bounded cross-agent sharing) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 205.1 Tm (A second agent could receive an accurate summary of the retail dispute without possessing the first) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 191.1 Tm (agent's source permissions. Removing UNRESOLVED from that summary would also change the) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 177.1 Tm (claim's meaning. Information transfer establishes neither receiving authority nor truth.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 159.1 Tm (D-13 defaults to signed, policy-brokered handoff packets with bounded sharing. The sender provides) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 145.1 Tm (information or references; the broker evaluates sharing for the recipient's identity, tenant, and) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 131.1 Tm (purpose. Audience and classification delimit the transfer. Lineage and conflict status preserve its) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 117.1 Tm (meaning; expiry and retention delimit continuing use.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 99.1 Tm (The recipient checks the signature and revalidates access. Authentic content does not establish) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 85.1 Tm (business truth or current permission. A receiving-policy denial need not invalidate the sender's) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 71.1 Tm (access.) Tj ET
 endstream
 endobj
-21 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> /Contents 20 0 R >>
+23 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R /F6 8 0 R /F7 9 0 R >> >> /Contents 22 0 R >>
 endobj
-22 0 obj
-<< /Length 6701 >>
+24 0 obj
+<< /Length 5097 >>
 stream
 0.35 g BT /F2 8 Tf 1 0 0 1 50.4 638 Tm (CHAPTER 13 / CONTEXT) Tj ET
 0.35 g BT /F3 8 Tf 1 0 0 1 365.38 638 Tm (The Enterprise AI Agent Fabric) Tj ET
@@ -500,91 +688,52 @@ stream
 0.65 G 0.5 w 50.4 43 m 475.2 43 l S
 0.3 g BT /F2 9 Tf 1 0 0 1 50.4 29 Tm (8) Tj ET
 0.4 g BT /F3 8 Tf 1 0 0 1 410.75 29 Tm (AUTHOR PROOF) Tj ET
-/Figure << /Alt (A proposed write undergoes provenance, ownership, policy, retention, and contradiction checks. The unresolved eligibility claim follows the hold path; no completed memory write or receipt is shown.) >> BDC
-0.1 g BT /F2 10.03 Tf 1 0 0 1 57.48 592.84 Tm (Figure 13-3  |  Governed Memory Write Decision) Tj ET
-1 g 0.2 G 0.89 w [] 0 d 53.94 560.98 54.28 21.24 re B [] 0 d
-0.1 g BT /F3 8.26 Tf 1 0 0 1 70.29 568.65 Tm (Agent) Tj ET
-.2 G 0.47 w [3 2] 0 d 81.08 560.98 m 81.08 416.43 l S [] 0 d
-1 g 0.2 G 0.89 w [] 0 d 114.41 560.98 54.28 21.24 re B [] 0 d
-0.1 g BT /F3 8.26 Tf 1 0 0 1 122.73 568.65 Tm (Write gate) Tj ET
-.2 G 0.47 w [3 2] 0 d 141.56 560.98 m 141.56 416.43 l S [] 0 d
-1 g 0.2 G 0.89 w [] 0 d 174.89 560.98 54.28 21.24 re B [] 0 d
-0.1 g BT /F3 8.26 Tf 1 0 0 1 179.99 573.08 Tm (Provenance) Tj ET
-0.1 g BT /F3 8.26 Tf 1 0 0 1 189.64 564.23 Tm (verifier) Tj ET
-.2 G 0.47 w [3 2] 0 d 202.03 560.98 m 202.03 416.43 l S [] 0 d
-1 g 0.2 G 0.89 w [] 0 d 235.37 560.98 54.28 21.24 re B [] 0 d
-0.1 g BT /F3 8.26 Tf 1 0 0 1 237.49 568.65 Tm (Policy checks) Tj ET
-.2 G 0.47 w [3 2] 0 d 262.5 560.98 m 262.5 416.43 l S [] 0 d
-1 g 0.2 G 0.89 w [] 0 d 295.84 560.98 54.28 21.24 re B [] 0 d
-0.1 g BT /F3 8.26 Tf 1 0 0 1 297.27 573.08 Tm (Reconciliation) Tj ET
-0.1 g BT /F3 8.26 Tf 1 0 0 1 308.52 564.23 Tm (checker) Tj ET
-.2 G 0.47 w [3 2] 0 d 322.98 560.98 m 322.98 416.43 l S [] 0 d
-1 g 0.2 G 0.89 w [] 0 d 356.31 560.98 54.28 21.24 re B [] 0 d
-0.1 g BT /F3 8.26 Tf 1 0 0 1 369 573.08 Tm (Durable) Tj ET
-0.1 g BT /F3 8.26 Tf 1 0 0 1 368.54 564.23 Tm (memory) Tj ET
-.2 G 0.47 w [3 2] 0 d 383.45 560.98 m 383.45 416.43 l S [] 0 d
-1 g 0.2 G 0.89 w [] 0 d 416.79 560.98 54.28 21.24 re B [] 0 d
-0.1 g BT /F3 8.26 Tf 1 0 0 1 421.21 573.08 Tm (Stewardship) Tj ET
-0.1 g BT /F3 8.26 Tf 1 0 0 1 432.45 564.23 Tm (queue) Tj ET
-.2 G 0.47 w [3 2] 0 d 443.93 560.98 m 443.93 416.43 l S [] 0 d
-.2 G 0.89 w [] 0 d 81.08 545.05 m 141.56 545.05 l S [] 0 d
-.2 g 141.56 545.05 m 138.13 546.93 l 138.13 543.17 l h f
-1 g 86.51 548.77 49.61 9.08 re f
-0.1 g BT /F3 7.08 Tf 1 0 0 1 87.51 549.77 Tm (proposes claim) Tj ET
-.2 G 0.89 w [] 0 d 141.56 524.4 m 202.03 524.4 l S [] 0 d
-.2 g 202.03 524.4 m 198.61 526.28 l 198.61 522.52 l h f
-1 g 147.38 528.12 48.83 9.08 re f
-0.1 g BT /F3 7.08 Tf 1 0 0 1 148.38 529.12 Tm (checks lineage) Tj ET
-.2 G 0.89 w [] 0 d 141.56 503.75 m 262.5 503.75 l S [] 0 d
-.2 g 262.5 503.75 m 259.08 505.63 l 259.08 501.87 l h f
-1 g 151.65 507.47 100.77 9.08 re f
-0.1 g BT /F3 7.08 Tf 1 0 0 1 152.65 508.47 Tm (checks owner / class / retention) Tj ET
-.2 G 0.89 w [] 0 d 141.56 483.1 m 322.98 483.1 l S [] 0 d
-.2 g 322.98 483.1 m 319.56 484.98 l 319.56 481.22 l h f
-1 g 208.25 486.82 48.03 9.08 re f
-0.1 g BT /F3 7.08 Tf 1 0 0 1 209.25 487.82 Tm (checks conflict) Tj ET
-.2 G 0.89 w [3 2] 0 d 322.98 462.45 m 141.56 462.45 l S [] 0 d
-.2 g 141.56 462.45 m 144.98 460.57 l 144.98 464.33 l h f
-1 g 194.88 466.17 74.78 9.08 re f
-0.1 g BT /F3 7.08 Tf 1 0 0 1 195.88 467.17 Tm (returns UNRESOLVED) Tj ET
-.2 G 0.89 w [3 2] 0 d 141.56 441.8 m 443.93 441.8 l S [] 0 d
-.2 g 443.93 441.8 m 440.51 443.68 l 440.51 439.92 l h f
-1 g 252.79 445.52 79.91 9.08 re f
-0.1 g BT /F3 7.08 Tf 1 0 0 1 253.79 446.52 Tm (references existing ticket) Tj ET
-.2 G 0.89 w [3 2] 0 d 141.56 421.15 m 81.08 421.15 l S [] 0 d
-.2 g 81.08 421.15 m 84.5 419.27 l 84.5 423.03 l h f
-1 g 86.51 424.87 49.61 9.08 re f
-0.1 g BT /F3 7.08 Tf 1 0 0 1 87.51 425.87 Tm (holds assertion) Tj ET
-0.1 g BT /F2 8.26 Tf 1 0 0 1 367.16 405.81 Tm (No write) Tj ET
-0.1 g BT /F3 7.67 Tf 1 0 0 1 57.48 392.83 Tm (Required design process only | MF-EVD-RC-001 | MF-TASK-STEWARDSHIP-001) Tj ET
-0.1 g BT /F3 7.67 Tf 1 0 0 1 57.48 382.21 Tm (No durable memory assertion of eligibility; no completed memory transaction.) Tj ET
-0.1 g BT /F3 7.67 Tf 1 0 0 1 57.48 371.59 Tm (Stewardship reference identifies the existing ticket; no new event is asserted.) Tj ET
-EMC
-0.3 g BT /F5 8.5 Tf 1 0 0 1 50.4 356.1 Tm (Figure 13-3. The proposed memory write path holds an eligibility assertion when the source claims remain) Tj ET
-0.3 g BT /F5 8.5 Tf 1 0 0 1 50.4 345.1 Tm (unresolved \(v1.0; required decision process, not a recorded memory transaction\).) Tj ET
-0.35 g BT /F5 8.5 Tf 1 0 0 1 50.4 330.1 Tm (Alt text: A proposed write undergoes provenance, ownership, policy, retention, and contradiction checks. The) Tj ET
-0.35 g BT /F5 8.5 Tf 1 0 0 1 50.4 319.1 Tm (unresolved eligibility claim follows the hold path; no completed memory write or receipt is shown.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 300.1 Tm (No performed durable-memory write appears in the fixture. D-12 incurs write-path verification and) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 286.1 Tm (maintenance rather than transferring the cost of correcting an unsupported assertion to every later) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 272.1 Tm (consumer. A qualified assertion still needs a separate decision before another agent can use it.) Tj ET
-0.1 g BT /F2 13.5 Tf 1 0 0 1 50.4 249.1 Tm (Bounded cross-agent sharing) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 227.1 Tm (A second agent could receive an accurate summary of the retail dispute without possessing the first) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 213.1 Tm (agent's source permissions. Removing UNRESOLVED from that summary would also change the) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 199.1 Tm (claim's meaning. Information transfer establishes neither receiving authority nor truth.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 179.1 Tm (D-13 defaults to signed, policy-brokered handoff packets with bounded sharing. The sender provides) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 165.1 Tm (information or references; the broker evaluates sharing for the recipient's identity, tenant, and) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 151.1 Tm (purpose. Audience and classification delimit the transfer. Lineage and conflict status preserve its) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 137.1 Tm (meaning; expiry and retention delimit continuing use.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 117.1 Tm (The recipient checks the signature and revalidates access. Authentic content does not establish) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 103.1 Tm (business truth or current permission. A receiving-policy denial need not invalidate the sender's) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 89.1 Tm (access.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 602 Tm (Expiry alone cannot distinguish a repeated handoff from a new one. Where repeated acceptance) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 588 Tm (could duplicate processing or reintroduce a disputed claim, recipient-bound packet identifiers and) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 574 Tm (replay tracking can supplement expiry checks. Repeated retrieval has a cost, but unrestricted shared) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 560 Tm (memory would obscure whose authority permitted the input.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 542 Tm (Meridian records no signed Context handoff. Its delegation record belongs to Identity.) Tj ET
+0.1 g BT /F2 13.5 Tf 1 0 0 1 50.4 522 Tm (Refresh, retention, and deletion) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 501 Tm (Restoring a backup does not restore permission to consume its contents. Suppose a retained) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 487 Tm (assertion's source changes or access is revoked. Refresh checks whether the evidence still supports) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 473 Tm (the claim. Expiry ends reliance without renewed justification; invalidation stops use while correction) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 459 Tm (or disposition proceeds. A time-to-live cannot renew revoked permission.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 441 Tm (The lineage required by D-12 identifies the representations affected by a deletion decision: primary) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 427 Tm (records, indexes, embeddings, caches, and handoff copies. A deletion receipt identifies addressed) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 413 Tm (representations, verified outcomes, and outstanding exceptions. Lawful retention may require) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 399 Tm (restricted access to a backup rather than immediate removal.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 381 Tm (A receipt and a negative retrieval test answer different questions. The receipt accounts for) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 367 Tm (disposition; the test checks whether a prohibited representation can still enter Context. Recovery) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 353 Tm (reapplies restrictions before exposing restored information to retrieval. Meridian records no deletion) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 339 Tm (or restoration outcome.) Tj ET
+0.1 g BT /F2 13.5 Tf 1 0 0 1 50.4 319 Tm (What the evidence establishes) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 298 Tm (The manifest records admission; reconciliation records the unresolved conflict and referral. Neither) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 284 Tm (establishes eligibility. On 1 March 2027 \(Week 9\), Gateway denies the proposed mutation. On 15) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 270 Tm (March \(Week 11\), Verification's ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 189.62 270 Tm (MF-EVD-RG-001) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 259.82 270 Tm ( records failure of behavioural assertion) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 50.4 256 Tm (MF-ASSERT-CTX-001) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 142.2 256 Tm (. The candidate selected ) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 245.71 256 Tm (refund.issue) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 310.51 256 Tm ( instead of abstaining and escalating.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 238 Tm (Zero side effects do not make that behaviour acceptable. Promotion is blocked; no production) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 224 Tm (deployment occurs. Chapters 16 and 18 explain the separate decisions.) Tj ET
+0.1 g BT /F2 17 Tf 1 0 0 1 50.4 202 Tm (The interface with adjacent layers) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 176 Tm (A typed Tooling response is not yet a Context input. Identity establishes actor and tenant assertions,) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 162 Tm (Governance owns policy approval and exceptions, and Data Protection determines classification,) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 148 Tm (retention, and deletion constraints. Context applies those constraints before assembly and records) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 134 Tm (source lineage. The domain data owner, not Context, establishes business precedence.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 116 Tm (The Harness receives more than retrieved text. It requests information for an actor and task; Context) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 102 Tm (returns the admitted observations, manifest, and unresolved status. Without that status, Lifecycle) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 88 Tm (loses the basis for escalation. Execution Environment isolates the consumer and its task-local state;) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 74 Tm (resumption does not confer durable-memory authority.) Tj ET
 endstream
 endobj
-23 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> /Contents 22 0 R >>
+25 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R /F6 8 0 R /F7 9 0 R >> >> /Contents 24 0 R >>
 endobj
-24 0 obj
-<< /Length 4296 >>
+26 0 obj
+<< /Length 6912 >>
 stream
 0.35 g BT /F2 8 Tf 1 0 0 1 64.8 638 Tm (CHAPTER 13 / CONTEXT) Tj ET
 0.35 g BT /F3 8 Tf 1 0 0 1 379.78 638 Tm (The Enterprise AI Agent Fabric) Tj ET
@@ -592,43 +741,112 @@ stream
 0.65 G 0.5 w 64.8 43 m 489.6 43 l S
 0.3 g BT /F2 9 Tf 1 0 0 1 484.6 29 Tm (9) Tj ET
 0.4 g BT /F3 8 Tf 1 0 0 1 64.8 29 Tm (AUTHOR PROOF) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 602 Tm (Expiry alone cannot distinguish a repeated handoff from a new one. Where repeated acceptance) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 588 Tm (could duplicate processing or reintroduce a disputed claim, recipient-bound packet identifiers and) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 574 Tm (replay tracking can supplement expiry checks. Repeated retrieval has a cost, but unrestricted shared) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 560 Tm (memory would obscure whose authority permitted the input.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 540 Tm (Meridian records no signed Context handoff. Its delegation record belongs to Identity.) Tj ET
-0.1 g BT /F2 13.5 Tf 1 0 0 1 64.8 517 Tm (Refresh, retention, and deletion) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 495 Tm (Restoring a backup does not restore permission to consume its contents. Suppose a retained) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 481 Tm (assertion's source changes or access is revoked. Refresh checks whether the evidence still supports) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 467 Tm (the claim. Expiry ends reliance without renewed justification; invalidation stops use while correction) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 453 Tm (or disposition proceeds. A time-to-live cannot renew revoked permission.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 433 Tm (The lineage required by D-12 identifies the representations affected by a deletion decision: primary) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 419 Tm (records, indexes, embeddings, caches, and handoff copies. A deletion receipt identifies addressed) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 405 Tm (representations, verified outcomes, and outstanding exceptions. Lawful retention may require) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 391 Tm (restricted access to a backup rather than immediate removal.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 371 Tm (A receipt and a negative retrieval test answer different questions. The receipt accounts for) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 357 Tm (disposition; the test checks whether a prohibited representation can still enter Context. Recovery) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 343 Tm (reapplies restrictions before exposing restored information to retrieval. Meridian records no deletion) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 329 Tm (or restoration outcome.) Tj ET
-0.1 g BT /F2 13.5 Tf 1 0 0 1 64.8 306 Tm (What the evidence establishes) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 284 Tm (The manifest records admission; reconciliation records the unresolved conflict and referral. Neither) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 270 Tm (establishes eligibility. On 1 March 2027 \(Week 9\), Gateway denies the proposed mutation. On 15) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 256 Tm (March \(Week 11\), Verification's MF-EVD-RG-001 records failure of behavioural assertion) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 242 Tm (MF-ASSERT-CTX-001. The candidate selected refund.issue instead of abstaining and escalating.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 222 Tm (Zero side effects do not make that behaviour acceptable. Promotion is blocked; no production) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 208 Tm (deployment occurs. Chapters 16 and 18 explain the separate decisions.) Tj ET
-0.1 g BT /F2 17 Tf 1 0 0 1 64.8 183 Tm (The interface with adjacent layers) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 155 Tm (A typed Tooling response is not yet a Context input. Identity establishes actor and tenant assertions,) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 141 Tm (Governance owns policy approval and exceptions, and Data Protection determines classification,) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 127 Tm (retention, and deletion constraints. Context applies those constraints before assembly and records) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 113 Tm (source lineage. The domain data owner, not Context, establishes business precedence.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 602 Tm (Interoperability governs schema and contract versioning; Observability correlates the assembly with) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 588 Tm (its trajectory without unrestricted payload logging. FinOps accounts for retrieval, storage, and) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 574 Tm (verification costs.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 556 Tm (Gateway evaluates mutable action admission using the unresolved precondition and independent) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 542 Tm (authority evidence. Verification evaluates the behaviour that proposed the action. A correctly) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 528 Tm (recorded conflict grants neither execution permission nor release approval.) Tj ET
+0.1 g BT /F2 17 Tf 1 0 0 1 64.8 506 Tm (Failure modes) Tj ET
+0.3 g BT /F5 8.5 Tf 1 0 0 1 64.8 480 Tm (Table 13-4. Context failure modes, diagnostic signals, and controls; design guidance.) Tj ET
+.25 g 64.8 453 424.8 17 re f
+1 g BT /F2 9 Tf 1 0 0 1 68.8 461 Tm (Failure) Tj ET
+1 g BT /F2 9 Tf 1 0 0 1 149.51 461 Tm (Cause) Tj ET
+1 g BT /F2 9 Tf 1 0 0 1 242.97 461 Tm (Observable symptom) Tj ET
+1 g BT /F2 9 Tf 1 0 0 1 357.66 461 Tm (Control) Tj ET
+0.72 G 0.5 w 64.8 453 m 489.6 453 l S
+.96 g 64.8 424 424.8 29 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 68.8 444 Tm (Tenant mislabel) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 149.51 444 Tm (Incorrect index) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 149.51 432 Tm (metadata) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 242.97 444 Tm (Source and index tenants) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 242.97 432 Tm (differ) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 357.66 444 Tm (Quarantine before consumption) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 357.66 432 Tm (\(D-11\)) Tj ET
+0.72 G 0.5 w 64.8 424 m 489.6 424 l S
+1 g 64.8 395 424.8 29 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 68.8 415 Tm (Stale access) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 149.51 415 Tm (Revocation missed) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 149.51 403 Tm (by cache) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 242.97 415 Tm (Formerly allowed payload) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 242.97 403 Tm (remains accessible) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 357.66 415 Tm (Recheck; exclude when) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 357.66 403 Tm (authority is unavailable) Tj ET
+0.72 G 0.5 w 64.8 395 m 489.6 395 l S
+.96 g 64.8 366 424.8 29 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 68.8 386 Tm (Alias collision) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 149.51 386 Tm (Ambiguous) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 149.51 374 Tm (canonical mapping) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 242.97 386 Tm (Unrelated customer) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 242.97 374 Tm (claims merge) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 357.66 386 Tm (Preserve source IDs; defer) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 357.66 374 Tm (uncertain match \(D-14\)) Tj ET
+0.72 G 0.5 w 64.8 366 m 489.6 366 l S
+1 g 64.8 337 424.8 29 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 68.8 357 Tm (Silent) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 68.8 345 Tm (contradiction) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 149.51 357 Tm (Recency substitutes) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 149.51 345 Tm (for precedence) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 242.97 357 Tm (Incompatible value) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 242.97 345 Tm (disappears) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 357.66 357 Tm (Record unresolved status;) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 357.66 345 Tm (escalate) Tj ET
+0.72 G 0.5 w 64.8 337 m 489.6 337 l S
+.96 g 64.8 296 424.8 41 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 68.8 328 Tm (Context) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 68.8 316 Tm (poisoning) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 149.51 328 Tm (Retrieved text) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 149.51 316 Tm (treated as) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 149.51 304 Tm (instructions) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 242.97 328 Tm (Source content changes) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 242.97 316 Tm (tool selection) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 357.66 328 Tm (Separate data from) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 357.66 316 Tm (instructions; enforce authority) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 357.66 304 Tm (independently) Tj ET
+0.72 G 0.5 w 64.8 296 m 489.6 296 l S
+1 g 64.8 255 424.8 41 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 68.8 287 Tm (Unverified) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 68.8 275 Tm (memory) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 149.51 287 Tm (Status recorded) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 149.51 275 Tm (without policy) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 149.51 263 Tm (evaluation) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 242.97 287 Tm (Recalled assertion lacks) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 242.97 275 Tm (eligible evidence) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 357.66 287 Tm (Validate write and reuse) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 357.66 275 Tm (conditions \(D-12\)) Tj ET
+0.72 G 0.5 w 64.8 255 m 489.6 255 l S
+.96 g 64.8 214 424.8 41 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 68.8 246 Tm (Handoff replay) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 149.51 246 Tm (Valid packet) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 149.51 234 Tm (repeatedly submitted) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 242.97 246 Tm (Unexpected duplicate) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 242.97 234 Tm (processing) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 357.66 246 Tm (Check audience, expiry, and) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 357.66 234 Tm (replay constraints where) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 357.66 222 Tm (applicable) Tj ET
+0.72 G 0.5 w 64.8 214 m 489.6 214 l S
+1 g 64.8 185 424.8 29 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 68.8 205 Tm (Incomplete) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 68.8 193 Tm (deletion) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 149.51 205 Tm (Derived or restored) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 149.51 193 Tm (copies omitted) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 242.97 205 Tm (Prohibited result remains) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 242.97 193 Tm (retrievable) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 357.66 205 Tm (Verify disposition across stores) Tj ET
+0.72 G 0.5 w 64.8 185 m 489.6 185 l S
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 175 Tm (Inspect the consumer inputs and side effects, not only the answer. Retrieval operators investigate) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 161 Tm (admission defects; domain stewards investigate disputed attributes, and memory owners investigate) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 147 Tm (invalid retained assertions.) Tj ET
+0.1 g BT /F2 17 Tf 1 0 0 1 64.8 125 Tm (Scaling signal) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 99 Tm (Context capacity depends on both local workers and source dependencies. Consider an illustrative) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 85 Tm (service objective of 800 ms for context assembly, with 200 ms allocated to queue wait. Sustained) Tj ET
 endstream
 endobj
-25 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> /Contents 24 0 R >>
+27 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R /F6 8 0 R /F7 9 0 R >> >> /Contents 26 0 R >>
 endobj
-26 0 obj
-<< /Length 6783 >>
+28 0 obj
+<< /Length 7054 >>
 stream
 0.35 g BT /F2 8 Tf 1 0 0 1 50.4 638 Tm (CHAPTER 13 / CONTEXT) Tj ET
 0.35 g BT /F3 8 Tf 1 0 0 1 365.38 638 Tm (The Enterprise AI Agent Fabric) Tj ET
@@ -636,111 +854,106 @@ stream
 0.65 G 0.5 w 50.4 43 m 475.2 43 l S
 0.3 g BT /F2 9 Tf 1 0 0 1 50.4 29 Tm (10) Tj ET
 0.4 g BT /F3 8 Tf 1 0 0 1 410.75 29 Tm (AUTHOR PROOF) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 602 Tm (The Harness receives more than retrieved text. It requests information for an actor and task; Context) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 588 Tm (returns the admitted observations, manifest, and unresolved status. Without that status, Lifecycle) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 574 Tm (loses the basis for escalation. Execution Environment isolates the consumer and its task-local state;) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 560 Tm (resumption does not confer durable-memory authority.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 540 Tm (Interoperability governs schema and contract versioning; Observability correlates the assembly with) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 526 Tm (its trajectory without unrestricted payload logging. FinOps accounts for retrieval, storage, and) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 512 Tm (verification costs.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 492 Tm (Gateway evaluates mutable action admission using the unresolved precondition and independent) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 478 Tm (authority evidence. Verification evaluates the behaviour that proposed the action. A correctly) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 464 Tm (recorded conflict grants neither execution permission nor release approval.) Tj ET
-0.1 g BT /F2 17 Tf 1 0 0 1 50.4 439 Tm (Failure modes) Tj ET
-0.3 g BT /F5 8.5 Tf 1 0 0 1 50.4 411 Tm (Table 13-4. Context failure modes, diagnostic signals, and controls; design guidance.) Tj ET
-.25 g 50.4 380 424.8 20 re f
-1 g BT /F2 9 Tf 1 0 0 1 54.4 390 Tm (Failure) Tj ET
-1 g BT /F2 9 Tf 1 0 0 1 135.11 390 Tm (Cause) Tj ET
-1 g BT /F2 9 Tf 1 0 0 1 228.57 390 Tm (Observable symptom) Tj ET
-1 g BT /F2 9 Tf 1 0 0 1 343.26 390 Tm (Control) Tj ET
-0.72 G 0.5 w 50.4 380 m 475.2 380 l S
-.96 g 50.4 348 424.8 32 re f
-0.1 g BT /F3 9 Tf 1 0 0 1 54.4 370 Tm (Tenant mislabel) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 135.11 370 Tm (Incorrect index) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 135.11 358 Tm (metadata) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 228.57 370 Tm (Source and index tenants) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 228.57 358 Tm (differ) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 343.26 370 Tm (Quarantine before) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 343.26 358 Tm (consumption \(D-11\)) Tj ET
-0.72 G 0.5 w 50.4 348 m 475.2 348 l S
-1 g 50.4 316 424.8 32 re f
-0.1 g BT /F3 9 Tf 1 0 0 1 54.4 338 Tm (Stale access) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 135.11 338 Tm (Revocation missed) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 135.11 326 Tm (by cache) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 228.57 338 Tm (Formerly allowed payload) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 228.57 326 Tm (remains accessible) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 343.26 338 Tm (Recheck; exclude when) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 343.26 326 Tm (authority is unavailable) Tj ET
-0.72 G 0.5 w 50.4 316 m 475.2 316 l S
-.96 g 50.4 284 424.8 32 re f
-0.1 g BT /F3 9 Tf 1 0 0 1 54.4 306 Tm (Alias collision) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 135.11 306 Tm (Ambiguous) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 135.11 294 Tm (canonical mapping) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 228.57 306 Tm (Unrelated customer) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 228.57 294 Tm (claims merge) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 343.26 306 Tm (Preserve source IDs; defer) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 343.26 294 Tm (uncertain match \(D-14\)) Tj ET
-0.72 G 0.5 w 50.4 284 m 475.2 284 l S
-1 g 50.4 252 424.8 32 re f
-0.1 g BT /F3 9 Tf 1 0 0 1 54.4 274 Tm (Silent) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 54.4 262 Tm (contradiction) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 135.11 274 Tm (Recency substitutes) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 135.11 262 Tm (for precedence) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 228.57 274 Tm (Incompatible value) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 228.57 262 Tm (disappears) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 343.26 274 Tm (Record unresolved status;) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 343.26 262 Tm (escalate) Tj ET
-0.72 G 0.5 w 50.4 252 m 475.2 252 l S
-.96 g 50.4 208 424.8 44 re f
-0.1 g BT /F3 9 Tf 1 0 0 1 54.4 242 Tm (Context) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 54.4 230 Tm (poisoning) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 135.11 242 Tm (Retrieved text) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 135.11 230 Tm (treated as) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 135.11 218 Tm (instructions) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 228.57 242 Tm (Source content changes) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 228.57 230 Tm (tool selection) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 343.26 242 Tm (Separate data from) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 343.26 230 Tm (instructions; enforce authority) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 343.26 218 Tm (independently) Tj ET
-0.72 G 0.5 w 50.4 208 m 475.2 208 l S
-1 g 50.4 164 424.8 44 re f
-0.1 g BT /F3 9 Tf 1 0 0 1 54.4 198 Tm (Unverified) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 54.4 186 Tm (memory) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 135.11 198 Tm (Status recorded) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 135.11 186 Tm (without policy) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 135.11 174 Tm (evaluation) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 228.57 198 Tm (Recalled assertion lacks) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 228.57 186 Tm (eligible evidence) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 343.26 198 Tm (Validate write and reuse) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 343.26 186 Tm (conditions \(D-12\)) Tj ET
-0.72 G 0.5 w 50.4 164 m 475.2 164 l S
-.96 g 50.4 120 424.8 44 re f
-0.1 g BT /F3 9 Tf 1 0 0 1 54.4 154 Tm (Handoff replay) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 135.11 154 Tm (Valid packet) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 135.11 142 Tm (repeatedly) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 135.11 130 Tm (submitted) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 228.57 154 Tm (Unexpected duplicate) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 228.57 142 Tm (processing) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 343.26 154 Tm (Check audience, expiry, and) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 343.26 142 Tm (replay constraints where) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 343.26 130 Tm (applicable) Tj ET
-0.72 G 0.5 w 50.4 120 m 475.2 120 l S
-1 g 50.4 88 424.8 32 re f
-0.1 g BT /F3 9 Tf 1 0 0 1 54.4 110 Tm (Incomplete) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 54.4 98 Tm (deletion) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 135.11 110 Tm (Derived or restored) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 135.11 98 Tm (copies omitted) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 228.57 110 Tm (Prohibited result remains) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 228.57 98 Tm (retrievable) Tj ET
-0.1 g BT /F3 9 Tf 1 0 0 1 343.26 110 Tm (Verify disposition across stores) Tj ET
-0.72 G 0.5 w 50.4 88 m 475.2 88 l S
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 602 Tm (p95 queue delay above that allowance can trigger worker scaling if source capacity remains) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 588 Tm (available. These are example budgets, not Meridian measurements.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 570 Tm (If source checks stall while workers remain idle, adding workers will not restore the budget. Source) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 556 Tm (failures and index freshness help diagnose that constraint. Provenance completeness and cross-tenant) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 542 Tm (exclusions assess admission quality; memory verification backlog, stewardship queue age, and) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 528 Tm (deletion propagation age need separate limits.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 510 Tm (Additional workers cannot settle disputed business facts. Retrieval delay consumes a latency budget;) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 496 Tm (unresolved claims consume stewardship capacity. During access-check failure, Context preserves) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 482 Tm (exclusions and reports insufficient evidence rather than relaxing policy.) Tj ET
+0.1 g BT /F2 17 Tf 1 0 0 1 50.4 460 Tm (Anti-patterns) Tj ET
+0.1 g BT /F2 13.5 Tf 1 0 0 1 50.4 432 Tm (AP-13-01: Similarity equals truth) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 50.4 411 Tm (What) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 75.48 411 Tm ( ) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 78.11 411 Tm (it) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 84.52 411 Tm ( ) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 87.15 411 Tm (looks) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 110.49 411 Tm ( ) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 113.12 411 Tm (like.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 132.08 411 Tm ( The highest-ranked or newest claim becomes the accepted product status.) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 50.4 393 Tm (Why) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 71.99 393 Tm ( ) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 74.61 393 Tm (it) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 81.03 393 Tm ( ) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 83.65 393 Tm (happens.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 123.63 393 Tm ( A team optimises relevance but has no approved precedence rule.) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 50.4 375 Tm (Why) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 71.99 375 Tm ( ) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 74.61 375 Tm (it) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 81.03 375 Tm ( ) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 83.65 375 Tm (fails.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 104.95 375 Tm ( Optimising the ranking cannot supply a missing precedence rule.) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 50.4 357 Tm (The) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 67.9 357 Tm ( ) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 70.53 357 Tm (correct) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 102.58 357 Tm ( ) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 105.21 357 Tm (pattern.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 141.08 357 Tm ( Apply D-14 with canonical identity, explicit precedence, and steward) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 343 Tm (escalation.) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 50.4 325 Tm (Detection) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 92.97 325 Tm ( ) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 95.59 325 Tm (signal.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 124.48 325 Tm ( Incompatible values merge without a Reconciliation Record.) Tj ET
+0.1 g BT /F2 13.5 Tf 1 0 0 1 50.4 305 Tm (AP-13-02: Shared memory by convenience) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 50.4 284 Tm (What) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 75.48 284 Tm ( ) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 78.11 284 Tm (it) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 84.52 284 Tm ( ) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 87.15 284 Tm (looks) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 110.49 284 Tm ( ) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 113.12 284 Tm (like.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 132.08 284 Tm ( A later agent inherits a generated eligibility conclusion without its original) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 270 Tm (evidence.) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 50.4 252 Tm (Why) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 71.99 252 Tm ( ) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 74.61 252 Tm (it) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 81.03 252 Tm ( ) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 83.65 252 Tm (happens.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 123.63 252 Tm ( Reuse substitutes for retrieval and receiving-policy checks.) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 50.4 234 Tm (Why) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 71.99 234 Tm ( ) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 74.61 234 Tm (it) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 81.03 234 Tm ( ) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 83.65 234 Tm (fails.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 104.95 234 Tm ( The recipient inherits an assertion without the evidence needed to establish permission) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 220 Tm (or verification status.) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 50.4 202 Tm (The) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 67.9 202 Tm ( ) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 70.53 202 Tm (correct) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 102.58 202 Tm ( ) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 105.21 202 Tm (pattern.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 141.08 202 Tm ( Apply D-11 admission checks, D-12 write policy, and D-13 bounded) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 188 Tm (handoffs.) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 50.4 170 Tm (Detection) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 92.97 170 Tm ( ) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 95.59 170 Tm (signal.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 124.48 170 Tm ( A recalled claim lacks verification provenance or an unauthorised source enters) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 156 Tm (context.) Tj ET
+0.1 g BT /F2 13.5 Tf 1 0 0 1 50.4 136 Tm (AP-13-03: Delete the row, not the copies) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 50.4 115 Tm (What) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 75.48 115 Tm ( ) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 78.11 115 Tm (it) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 84.52 115 Tm ( ) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 87.15 115 Tm (looks) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 110.49 115 Tm ( ) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 113.12 115 Tm (like.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 132.08 115 Tm ( A primary entry disappears but its derived index remains searchable.) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 50.4 97 Tm (Why) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 71.99 97 Tm ( ) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 74.61 97 Tm (it) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 81.03 97 Tm ( ) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 83.65 97 Tm (happens.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 123.63 97 Tm ( The deletion operation changes one store and leaves derived representations) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 83 Tm (untouched.) Tj ET
 endstream
 endobj
-27 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> /Contents 26 0 R >>
+29 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R /F6 8 0 R /F7 9 0 R >> >> /Contents 28 0 R >>
 endobj
-28 0 obj
-<< /Length 3872 >>
+30 0 obj
+<< /Length 5261 >>
 stream
 0.35 g BT /F2 8 Tf 1 0 0 1 64.8 638 Tm (CHAPTER 13 / CONTEXT) Tj ET
 0.35 g BT /F3 8 Tf 1 0 0 1 379.78 638 Tm (The Enterprise AI Agent Fabric) Tj ET
@@ -748,42 +961,77 @@ stream
 0.65 G 0.5 w 64.8 43 m 489.6 43 l S
 0.3 g BT /F2 9 Tf 1 0 0 1 479.59 29 Tm (11) Tj ET
 0.4 g BT /F3 8 Tf 1 0 0 1 64.8 29 Tm (AUTHOR PROOF) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 602 Tm (Inspect the consumer inputs and side effects, not only the answer. Retrieval operators investigate) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 588 Tm (admission defects; domain stewards investigate disputed attributes, and memory owners investigate) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 574 Tm (invalid retained assertions.) Tj ET
-0.1 g BT /F2 17 Tf 1 0 0 1 64.8 549 Tm (Scaling signal) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 521 Tm (Context capacity depends on both local workers and source dependencies. Consider an illustrative) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 507 Tm (service objective of 800 ms for context assembly, with 200 ms allocated to queue wait. Sustained) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 493 Tm (p95 queue delay above that allowance can trigger worker scaling if source capacity remains) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 479 Tm (available. These are example budgets, not Meridian measurements.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 459 Tm (If source checks stall while workers remain idle, adding workers will not restore the budget. Source) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 445 Tm (failures and index freshness help diagnose that constraint. Provenance completeness and cross-tenant) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 431 Tm (exclusions assess admission quality; memory verification backlog, stewardship queue age, and) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 417 Tm (deletion propagation age need separate limits.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 397 Tm (Additional workers cannot settle disputed business facts. Retrieval delay consumes a latency budget;) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 383 Tm (unresolved claims consume stewardship capacity. During access-check failure, Context preserves) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 369 Tm (exclusions and reports insufficient evidence rather than relaxing policy.) Tj ET
-0.1 g BT /F2 17 Tf 1 0 0 1 64.8 344 Tm (Anti-patterns) Tj ET
-0.1 g BT /F2 13.5 Tf 1 0 0 1 64.8 313 Tm (AP-13-01: Similarity equals truth) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 291 Tm (What it looks like. The highest-ranked or newest claim becomes the accepted product status.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 271 Tm (Why it happens. A team optimises relevance but has no approved precedence rule.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 251 Tm (Why it fails. Optimising the ranking cannot supply a missing precedence rule.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 231 Tm (The correct pattern. Apply D-14 with canonical identity, explicit precedence, and steward escalation.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 211 Tm (Detection signal. Incompatible values merge without a Reconciliation Record.) Tj ET
-0.1 g BT /F2 13.5 Tf 1 0 0 1 64.8 188 Tm (AP-13-02: Shared memory by convenience) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 166 Tm (What it looks like. A later agent inherits a generated eligibility conclusion without its original) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 152 Tm (evidence.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 132 Tm (Why it happens. Reuse substitutes for retrieval and receiving-policy checks.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 112 Tm (Why it fails. The recipient inherits an assertion without the evidence needed to establish permission) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 98 Tm (or verification status.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 78 Tm (The correct pattern. Apply D-11 admission checks, D-12 write policy, and D-13 bounded handoffs.) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 64.8 602 Tm (Why) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 86.39 602 Tm ( ) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 89.01 602 Tm (it) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 95.43 602 Tm ( ) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 98.05 602 Tm (fails.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 119.35 602 Tm ( A later assembly can admit a prohibited copy.) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 64.8 584 Tm (The) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 82.3 584 Tm ( ) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 84.93 584 Tm (correct) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 116.98 584 Tm ( ) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 119.61 584 Tm (pattern.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 155.48 584 Tm ( Apply D-12 disposition requirements and Chapter 21 Data Protection controls) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 570 Tm (across derived stores.) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 64.8 552 Tm (Detection) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 107.37 552 Tm ( ) Tj ET
+0.1 g BT /F6 10.5 Tf 1 0 0 1 109.99 552 Tm (signal.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 138.88 552 Tm ( A negative retrieval test exposes the prohibited representation in actual Context) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 538 Tm (inputs.) Tj ET
+0.1 g BT /F2 17 Tf 1 0 0 1 64.8 516 Tm (Decisions to make) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 69.8 490 Tm (-) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 79.8 490 Tm (D-11: Control retrieval access. Specify source admission and consumer rechecks.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 69.8 474 Tm (-) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 79.8 474 Tm (D-12: Govern durable memory. Establish verification and retention conditions for reuse.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 69.8 458 Tm (-) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 79.8 458 Tm (D-13: Enable cross-agent memory. Define bounded sharing and receiving-side policy checks.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 69.8 442 Tm (-) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 79.8 442 Tm (D-14: Reconcile semantic identities. Establish matching, precedence ownership, and unresolved) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 79.8 428 Tm (escalation.) Tj ET
+0.1 g BT /F2 17 Tf 1 0 0 1 64.8 408 Tm (Defaults) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 69.8 382 Tm (-) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 79.8 382 Tm (D-11: Default to ACL-aware retrieval, source-level provenance and policy rechecks before) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 79.8 368 Tm (context is consumed.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 69.8 352 Tm (-) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 79.8 352 Tm (D-12: Default to no durable memory write without provenance, policy classification, owner,) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 79.8 338 Tm (retention and verification status.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 69.8 322 Tm (-) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 79.8 322 Tm (D-13: Default to signed, policy-brokered handoff packets with bounded sharing; do not share) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 79.8 308 Tm (unrestricted mutable memory.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 69.8 292 Tm (-) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 79.8 292 Tm (D-14: Default to canonical IDs with source lineage and explicit unresolved-conflict states; never) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 79.8 278 Tm (silently choose the newest record as truth.) Tj ET
+0.1 g BT /F2 17 Tf 1 0 0 1 64.8 258 Tm (Artefacts to produce) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 69.8 232 Tm (-) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 79.8 232 Tm (context-manifest-schema.json) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 231 232 Tm (: reconstruct admission and quarantine decisions.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 69.8 216 Tm (-) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 79.8 216 Tm (memory-write-contract.json) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 220.2 216 Tm (: establish eligibility for retention and reuse.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 69.8 200 Tm (-) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 79.8 200 Tm (semantic-claim-reconciliation.json) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 263.4 200 Tm (: preserve incompatible claims and accountable) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 79.8 186 Tm (escalation.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 69.8 170 Tm (-) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 79.8 170 Tm (context-negative-tests.md) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 214.8 170 Tm (: verify exclusion, conflict handling, and unsafe-recall) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 79.8 156 Tm (restrictions.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 69.8 140 Tm (-) Tj ET
+0.1 g BT /F4 9 Tf 1 0 0 1 79.8 140 Tm (context-deletion-receipts.csv) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 236.4 140 Tm (: track verified disposition and exceptions.) Tj ET
+0.1 g BT /F2 17 Tf 1 0 0 1 64.8 120 Tm (See also) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 69.8 94 Tm (-) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 79.8 94 Tm (Chapter 7: Tenant Isolation and Sovereignty \(data boundaries\).) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 69.8 78 Tm (-) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 79.8 78 Tm (Chapter 14: Lifecycle \(Harness consumption and checkpoints\).) Tj ET
 endstream
 endobj
-29 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> /Contents 28 0 R >>
+31 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R /F6 8 0 R /F7 9 0 R >> >> /Contents 30 0 R >>
 endobj
-30 0 obj
-<< /Length 3943 >>
+32 0 obj
+<< /Length 830 >>
 stream
 0.35 g BT /F2 8 Tf 1 0 0 1 50.4 638 Tm (CHAPTER 13 / CONTEXT) Tj ET
 0.35 g BT /F3 8 Tf 1 0 0 1 365.38 638 Tm (The Enterprise AI Agent Fabric) Tj ET
@@ -791,80 +1039,16 @@ stream
 0.65 G 0.5 w 50.4 43 m 475.2 43 l S
 0.3 g BT /F2 9 Tf 1 0 0 1 50.4 29 Tm (12) Tj ET
 0.4 g BT /F3 8 Tf 1 0 0 1 410.75 29 Tm (AUTHOR PROOF) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 602 Tm (Detection signal. A recalled claim lacks verification provenance or an unauthorised source enters) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 588 Tm (context.) Tj ET
-0.1 g BT /F2 13.5 Tf 1 0 0 1 50.4 565 Tm (AP-13-03: Delete the row, not the copies) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 543 Tm (What it looks like. A primary entry disappears but its derived index remains searchable.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 523 Tm (Why it happens. The deletion operation changes one store and leaves derived representations) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 509 Tm (untouched.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 489 Tm (Why it fails. A later assembly can admit a prohibited copy.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 469 Tm (The correct pattern. Apply D-12 disposition requirements and Chapter 21 Data Protection controls) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 455 Tm (across derived stores.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 435 Tm (Detection signal. A negative retrieval test exposes the prohibited representation in actual Context) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 421 Tm (inputs.) Tj ET
-0.1 g BT /F2 17 Tf 1 0 0 1 50.4 396 Tm (Decisions to make) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 55.4 368 Tm (-) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 65.4 368 Tm (D-11: Control retrieval access. Specify source admission and consumer rechecks.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 55.4 351 Tm (-) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 65.4 351 Tm (D-12: Govern durable memory. Establish verification and retention conditions for reuse.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 55.4 334 Tm (-) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 65.4 334 Tm (D-13: Enable cross-agent memory. Define bounded sharing and receiving-side policy checks.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 55.4 317 Tm (-) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 65.4 317 Tm (D-14: Reconcile semantic identities. Establish matching, precedence ownership, and unresolved) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 65.4 303 Tm (escalation.) Tj ET
-0.1 g BT /F2 17 Tf 1 0 0 1 50.4 281 Tm (Defaults) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 55.4 253 Tm (-) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 65.4 253 Tm (D-11: Default to ACL-aware retrieval, source-level provenance and policy rechecks before) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 65.4 239 Tm (context is consumed.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 55.4 222 Tm (-) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 65.4 222 Tm (D-12: Default to no durable memory write without provenance, policy classification, owner,) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 65.4 208 Tm (retention and verification status.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 55.4 191 Tm (-) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 65.4 191 Tm (D-13: Default to signed, policy-brokered handoff packets with bounded sharing; do not share) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 65.4 177 Tm (unrestricted mutable memory.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 55.4 160 Tm (-) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 65.4 160 Tm (D-14: Default to canonical IDs with source lineage and explicit unresolved-conflict states; never) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 65.4 146 Tm (silently choose the newest record as truth.) Tj ET
-0.1 g BT /F2 17 Tf 1 0 0 1 50.4 124 Tm (Artefacts to produce) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 55.4 96 Tm (-) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 65.4 96 Tm (context-manifest-schema.json: reconstruct admission and quarantine decisions.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 55.4 79 Tm (-) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 65.4 79 Tm (memory-write-contract.json: establish eligibility for retention and reuse.) Tj ET
-endstream
-endobj
-31 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> /Contents 30 0 R >>
-endobj
-32 0 obj
-<< /Length 1777 >>
-stream
-0.35 g BT /F2 8 Tf 1 0 0 1 64.8 638 Tm (CHAPTER 13 / CONTEXT) Tj ET
-0.35 g BT /F3 8 Tf 1 0 0 1 379.78 638 Tm (The Enterprise AI Agent Fabric) Tj ET
-0.65 G 0.5 w 64.8 628 m 489.6 628 l S
-0.65 G 0.5 w 64.8 43 m 489.6 43 l S
-0.3 g BT /F2 9 Tf 1 0 0 1 479.59 29 Tm (13) Tj ET
-0.4 g BT /F3 8 Tf 1 0 0 1 64.8 29 Tm (AUTHOR PROOF) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 69.8 602 Tm (-) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 79.8 602 Tm (semantic-claim-reconciliation.json: preserve incompatible claims and accountable escalation.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 69.8 585 Tm (-) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 79.8 585 Tm (context-negative-tests.md: verify exclusion, conflict handling, and unsafe-recall restrictions.) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 69.8 568 Tm (-) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 79.8 568 Tm (context-deletion-receipts.csv: track verified disposition and exceptions.) Tj ET
-0.1 g BT /F2 17 Tf 1 0 0 1 64.8 546 Tm (See also) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 69.8 518 Tm (-) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 79.8 518 Tm (Chapter 7: Tenant Isolation and Sovereignty \(data boundaries\).) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 69.8 501 Tm (-) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 79.8 501 Tm (Chapter 14: Lifecycle \(Harness consumption and checkpoints\).) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 69.8 484 Tm (-) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 79.8 484 Tm (Chapter 15: Identity Control Plane \(actor and tenant claims\).) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 69.8 467 Tm (-) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 79.8 467 Tm (Chapter 18: Verification Control Plane \(behavioural assertions\).) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 69.8 450 Tm (-) Tj ET
-0.1 g BT /F1 10.5 Tf 1 0 0 1 79.8 450 Tm (Chapter 21: Data Protection Control Plane \(retention and erasure\).) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 55.4 602 Tm (-) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 65.4 602 Tm (Chapter 15: Identity Control Plane \(actor and tenant claims\).) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 55.4 586 Tm (-) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 65.4 586 Tm (Chapter 18: Verification Control Plane \(behavioural assertions\).) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 55.4 570 Tm (-) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 65.4 570 Tm (Chapter 21: Data Protection Control Plane \(retention and erasure\).) Tj ET
 endstream
 endobj
 33 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> /Contents 32 0 R >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R /F6 8 0 R /F7 9 0 R >> >> /Contents 32 0 R >>
 endobj
 34 0 obj
 << /Title (Chapter 13 - Context) /Subject (Author proof from pinned manuscript) >>
@@ -874,40 +1058,40 @@ xref
 0000000000 65535 f 
 0000000009 00000 n 
 0000000072 00000 n 
-0000000214 00000 n 
-0000000313 00000 n 
-0000000415 00000 n 
-0000000512 00000 n 
-0000000607 00000 n 
-0000000712 00000 n 
-0000004922 00000 n 
-0000005088 00000 n 
-0000009858 00000 n 
-0000010026 00000 n 
-0000018488 00000 n 
-0000018656 00000 n 
-0000022936 00000 n 
-0000023104 00000 n 
-0000027507 00000 n 
-0000027675 00000 n 
-0000033816 00000 n 
-0000033984 00000 n 
-0000037025 00000 n 
-0000037193 00000 n 
-0000043946 00000 n 
-0000044114 00000 n 
-0000048462 00000 n 
-0000048630 00000 n 
-0000055465 00000 n 
-0000055633 00000 n 
-0000059557 00000 n 
-0000059725 00000 n 
-0000063720 00000 n 
-0000063888 00000 n 
-0000065717 00000 n 
-0000065885 00000 n 
+0000000208 00000 n 
+0000000307 00000 n 
+0000000409 00000 n 
+0000000506 00000 n 
+0000000601 00000 n 
+0000000706 00000 n 
+0000000804 00000 n 
+0000000904 00000 n 
+0000005706 00000 n 
+0000005894 00000 n 
+0000013829 00000 n 
+0000014017 00000 n 
+0000022939 00000 n 
+0000023127 00000 n 
+0000029110 00000 n 
+0000029298 00000 n 
+0000036402 00000 n 
+0000036590 00000 n 
+0000041641 00000 n 
+0000041829 00000 n 
+0000048854 00000 n 
+0000049042 00000 n 
+0000054191 00000 n 
+0000054379 00000 n 
+0000061343 00000 n 
+0000061531 00000 n 
+0000068637 00000 n 
+0000068825 00000 n 
+0000074138 00000 n 
+0000074326 00000 n 
+0000075207 00000 n 
+0000075395 00000 n 
 trailer
 << /Size 35 /Root 1 0 R /Info 34 0 R >>
 startxref
-65984
+75494
 %%EOF
