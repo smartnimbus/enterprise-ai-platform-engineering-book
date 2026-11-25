@@ -1,0 +1,5 @@
+week,author_outputs,evidence_outputs,figure_and_atlas_outputs,review,exit
+1,Source snapshots; Ch13 F6 manuscript v0.1; D-01/D-14 F1 drafts,Ch13 claim crosswalk; source hash register,"13-1,13-2 sources",Editor opening and first-source factual check,Ch13 draft and D01/D14 reviewable
+2,Ch16 edited F7 manuscript v0.1; Ch13 revision,Ch16 claim crosswalk; Ch13 technical review,"13-3,16-1,16-2; D-10/D-18 pages",Ch13 independent technical pass; Ch16 evidence precheck,Two full chapter drafts and four F1 drafts
+3,Revised Ch13/16; D-26/D-30 F1 first copies,Contradiction and fixes log,16-3; all six SVG; all six Atlas first proofs,Ch16 independent technical pass and cross-sample check,Eight samples ready for final proof edits
+4,"Final tracked revisions, frozen submission copies",Final signed technical/editorial acceptance records,"Six final diagrams, two chapter proofs, six Atlas proof pages",All G0–G6 checks with actual names/dates/hash,Apress-ready eight sample files IF all gates passed
