@@ -1,230 +1,244 @@
 # Chapter 13: Context
 
-On 22 February 2027, two systems at fictional Meridian Financial reported different statuses for the same retail product. The Product Registry said ACTIVE. The customer relationship management (CRM) system said CLOSED. Both records were accessible to the retail agent, and both described the product as of the same date. A week earlier, an incorrectly labelled insurance index entry had failed a source access check. This time, access was not the problem. The agent needed to prepare a recommendation concerning a £125.00 refund, but the evidence did not establish eligibility. In the synthetic Meridian fixture, the disagreement was retained and escalated in the Semantic Reconciliation Record, `MF-EVD-RC-001`.
+On 22 February 2027, two systems at fictional Meridian Financial reported incompatible statuses for the same retail product. The Retail Product Registry said ACTIVE. The customer relationship management (CRM) system said CLOSED. Both records described the product as of the same date.
+
+On 16 February, an incorrectly labelled insurance index entry had failed a source access check. The retail records presented a different problem: the agent could read both, but neither established eligibility for the requested GBP 125 refund. The synthetic Meridian fixture preserves the disagreement and records its escalation in the Semantic Reconciliation Record, `MF-EVD-RC-001`.
 
 ### What this layer decides
 
-Context determines which source material may enter an agent's working inputs, how claims retain their provenance and semantic identity, and which information qualifies for governed memory under applicable policies.
+Context determines which information an agent may consume, how source claims retain their identity and authority, and whether assertions qualify for durable reuse under the governing policies.
 
 ### The mechanism
 
-#### Retrieval and the context contract
+#### From retrieved information to usable evidence
 
-A retrieval system can return a document because its contents match a question. That match says nothing about whether the requesting actor may read the document or whether its contents establish a business fact. Context has to preserve these distinctions throughout assembly, consumption and subsequent reuse.
+A retrieval engine ranks candidate information against a query. Context determines which candidates may become inputs to a particular agent. The distinction matters because the retrieval service may possess broader source access than the agent on whose behalf it operates.
 
-*Table 13-1. Context components and their respective outputs.*
+The Context Structural Layer separates admission, interpretation, and persistence. Admission concerns access; interpretation concerns the meaning and authority of claims; persistence concerns their reuse beyond the current task.
+
+*Table 13-1. Context responsibilities and inspectable outputs.*
 
 | Component group | Responsibility | Output |
 |---|---|---|
-| Retrieval | Find candidates and enforce applicable access constraints | Authorised source observations |
-| Assembly | Select and bound inputs for a consumer | Context Manifest |
-| Semantic reconciliation | Match referents and detect incompatible claims | Reconciliation Record |
-| Memory | Validate retention and future reuse | Governed write decision |
-| Handoff | Transfer bounded information under receiving policy | Context packet |
+| Retrieval | Find candidates and check source access | Authorised observations |
+| Assembly | Bound inputs to the consumer and purpose | Context Manifest |
+| Reconciliation | Match entities and preserve disagreements | Reconciliation Record |
+| Memory | Evaluate proposed retention and reuse | Write disposition |
+| Handoff | Broker information sharing under receiving policy | Bounded context packet |
 
-In the four-layer architecture, a Context contract binds information to the task and the actor consuming it. An implementation might use fields such as `context_id`, `source_id`, `source_version`, `tenant_id`, `subject_id`, `data_class`, `valid_from`, `observed_at`, `authority`, `confidence`, `retention_class` and `provenance_hash`. These are proposed schema fields, not a transcription of Meridian's records. The fixture uses names including `id`, `source_system`, `classification`, `recorded_at` and `effective_as_of`.
+A proposed context schema uses `context_id` to identify an assembly and `source_id` with `source_version` to identify its inputs. The `tenant_id`, `subject_id`, and `data_class` delimit their applicability. Fields such as `valid_from` and `observed_at` distinguish business-effective time from observation time. The `authority`, `confidence`, `retention_class`, and `provenance_hash` describe separate properties, not interchangeable measures of trust.
 
-#### Access-aware retrieval and manifest assembly
+These are design fields, not additions to Meridian's JSON. The fixture uses names including `id`, `source_system`, `classification`, `recorded_at`, and `effective_as_of`.
 
-The first failure in Meridian's case occurs before any disagreement about product status. On 16 February 2027, request `MF-REQ-REF-001` permits reading records, assessing eligibility and preparing a recommendation for an authorised human reviewer. It does not permit issuing the refund.
+#### Admission, consumption, and the Context Manifest
 
-The retrieval index returns insurance item `MF-REC-INS-LEAK-001` with the incorrect tenant tag `MF-TEN-RET-001`. Its actual tenant is `MF-TEN-INS-001`. The source access check returns DENY, and the item is quarantined before consumption. Events `MF-EVT-002` and `MF-EVT-003` record detection and exclusion; `MF-EVT-004` records the passing synthetic negative test.
+Under D-11, retrieval begins with verified actor and tenant assertions supplied by Identity. The index applies relevance ranking and preliminary access control list (ACL) filters. Context then checks each candidate against applicable source permissions, tenant constraints, and classification rules before assembly.
 
-An access control list (ACL) attached to an index entry can reduce the candidate set. It cannot be the sole access decision because indexing and source permission changes may occur independently. A document may move between classifications, its reader permissions may change, or the indexing process may associate it with the wrong tenant.
+The retrieval service's credential must not substitute for the consumer's authority. A service account may read an entire collection to maintain an index, while an individual agent may consume only a subset. Source admission establishes access to the record; the consumer recheck establishes whether that record remains permitted in the assembled context for the intended recipient and purpose.
 
-D-11 therefore requires a policy recheck before context is consumed. The Context Retrieval Service, `MF-SVC-CTX-001`, must work within the actor's identity, tenant and applicable source permissions. A candidate that fails the check cannot be passed to the model for summarisation or interpretation. Filtering its generated answer would occur too late.
+A permission change between indexing and consumption can invalidate an earlier decision. Cached payloads therefore require current policy validation before reuse. Where access cannot be established, Context excludes the affected material and reports insufficient evidence if the remaining inputs cannot support the task. It does not treat an unavailable permission service as approval.
 
-The Context Manifest records which candidates survive admission. Meridian's `MF-EVD-CM-001` names the access policies `MF-POL-RET-ACCESS-v1.0` and `MF-POL-TENANT-v1.0`. Its two included records and one quarantined result are shown in Table 13-2.
+Meridian illustrates why both checks matter. Request `MF-REQ-REF-001` permits review and preparation, not refund execution. On 16 February 2027, the index returns `MF-REC-INS-LEAK-001` under the incorrect retail tenant tag `MF-TEN-RET-001`. The actual tenant is `MF-TEN-INS-001`.
 
-*Table 13-2. Synthetic Context Manifest inclusion and exclusion results; source: MF-EVD-CM-001.*
+The source check rejects the item with reason `SOURCE_TENANT_MISMATCH`. Events `MF-EVT-002` and `MF-EVT-003` record detection and quarantine; `MF-EVT-004` records the passing synthetic negative test. The insurance payload never enters the retail agent's context. Filtering a generated answer would occur after disclosure to the model.
 
-| Record | Source | ACL result | Consumer recheck | Included |
+*Table 13-2. Inclusion decisions from synthetic Context Manifest MF-EVD-CM-001.*
+
+| Record | Source | ACL | Consumer recheck | Included |
 |---|---|---|---|---|
 | MF-REC-A-001 | MF-SYS-PROD-001 | ALLOW | ALLOW | true |
 | MF-REC-B-001 | MF-SYS-CRM-001 | ALLOW | ALLOW | true |
 | MF-REC-INS-LEAK-001 | MF-SYS-INS-001 | DENY | Not recorded | false |
 
+For the retail records, the ACL column represents `acl_check`; for the insurance result, it represents `source_acl_check`. The quarantined result has `index_returned=true` and `context_included=false`.
+
 [Place Figure 13-1 here: Context Manifest Assembly.]
 
 *Figure 13-1. A source-level access recheck admits two retail claims but excludes an incorrectly tagged insurance result (v1.0; synthetic MF-EVD-CM-001).*
 
-*Alt text:* Two retail records pass source authorisation and enter the assembled context. An insurance record returned by a mislabelled index fails the source-tenant check and never reaches the agent.
+*Alt text:* Retail records A and B pass source and consumer checks and enter context. The incorrectly tagged insurance result fails the source check and follows a quarantine path that cannot deliver its payload to the agent.
 
-The manifest is evidence of the selection process, not an unrestricted copy of everything encountered. A quarantine reference can identify the reason for exclusion without exposing the rejected document's contents to the consumer. Access to the manifest itself must respect the applicable classification rules.
+An investigator starts with manifest `MF-EVD-CM-001`, rather than reconstructing the agent's inputs from its final answer. The record identifies agent `MF-AGT-RET-004`, retail tenant `MF-TEN-RET-001`, retrieval request `MF-RETR-001`, and trajectory `MF-TRJ-001`. It references policies `MF-POL-RET-ACCESS-v1.0` and `MF-POL-TENANT-v1.0`.
 
-The Meridian manifest contains a SHA-256 digest of canonical JSON comprising included record IDs and event references. Its signature field is `NOT_APPLIED_SYNTHETIC_FIXTURE`. The digest illustrates integrity checking over that defined representation; it neither authenticates the origin of the manifest nor establishes the truth of either included claim.
+The investigator follows the admitted record IDs to their source observations and the quarantine reference to the exclusion reason. The manifest's `conflict_ref` leads to `MF-EVD-RC-001`, which limits the use of the admitted claims. Thus, the record explains both selection and the unresolved condition affecting subsequent decisions.
 
-#### Semantic identity and reconciliation
+The manifest itself requires controlled access. Quarantine metadata can support investigation without exposing the rejected payload to the consumer. Its SHA-256 digest covers canonical JSON containing included record IDs and event references. The field `cryptographic_signature` reads `NOT_APPLIED_SYNTHETIC_FIXTURE`; the digest neither authenticates the record's origin nor verifies the entire source payload.
 
-Access checks establish whether the agent may inspect the two retail records. The next question is whether they refer to the same business entity and describe compatible states.
+D-11 incurs additional source checks, filtering, and possible missed matches. The relevant performance measure is authorised retrieval, not unrestricted recall. A higher recall score achieved by exposing another tenant's documents measures the wrong outcome.
 
-A source identifier identifies a record within a system. A canonical identifier identifies the entity that the record describes across systems. Keeping both allows a reconciliation process to compare claims without discarding their origins. Replacing source identifiers with a canonical identifier alone would make subsequent investigation unnecessarily difficult.
+#### Semantic identity, authority, and reconciliation
 
-Matching also needs a temporal boundary. A product described as ACTIVE yesterday and CLOSED today may have undergone a legitimate transition. A contradiction arises when incompatible claims concern the same referent, attribute and effective time.
+Permission to read a source does not establish its authority over a business attribute. Retrieval relevance ranks potential evidence; confidence estimates uncertainty. Authority identifies who may establish a particular business fact, while precedence determines which applicable source governs a disputed attribute. Verified truth requires evidence meeting the relevant verification conditions.
 
-Meridian's Record A and Record B identify customer `MF-CUST-SYN-0042`, product `MF-PROD-0091` and retail tenant `MF-TEN-RET-001`. Both have classification `CONFIDENTIAL_CUSTOMER` and the same owner, `MF-HUM-RET-OWN-001`.
+A reconciliation mechanism first establishes whether claims concern the same entity. It retains source record identifiers alongside canonical identifiers so that a match remains reversible and investigable. An ambiguous entity match warrants further investigation rather than merging unrelated records.
 
-*Table 13-3. Comparison of the two authorised retail claims; source: context-records.json. All times UTC, 22 February 2027.*
+It then aligns business-effective times and compares the claims. Two different statuses can represent successive valid states. In Meridian, however, both sources describe the same product at the same effective instant.
+
+The records identify customer `MF-CUST-SYN-0042`, product `MF-PROD-0091`, and retail tenant `MF-TEN-RET-001`. Both carry classification `CONFIDENTIAL_CUSTOMER` and owner `MF-HUM-RET-OWN-001`.
+
+*Table 13-3. Source claims from context-records.json; times in UTC.*
 
 | Field | Record A | Record B |
 |---|---|---|
 | Record ID | MF-REC-A-001 | MF-REC-B-001 |
 | Source | Retail Product Registry | Retail CRM |
-| Recorded at | 09:00 | 09:10 |
-| Effective as of | 00:00 | 00:00 |
+| Recorded at (2027-02-22) | 09:00 | 09:10 |
+| Effective as of (2027-02-22) | 00:00 | 00:00 |
 | product_status | ACTIVE | CLOSED |
 | eligible_for_refund_review | true | false |
 | verified_truth | false | false |
 
-The CRM record was recorded ten minutes later. Its business-effective time, however, is identical to that of the Product Registry record. The later timestamp cannot establish that a change of status occurred between the two observations. Nor does the name Product Registry establish precedence without a published rule assigning that authority.
+The CRM recording time is ten minutes later, but neither record describes a later effective state. Choosing CRM on recency would manufacture a business transition that the evidence does not establish. Choosing the Product Registry on its name would make an equally unsupported authority decision.
 
-D-14 separates entity matching from the decision about which claim governs a business process. Context owns the match and records the disagreement. The domain data owner defines any applicable precedence rule. Where a valid rule exists, the reconciliation process can apply it and retain the basis for the decision. Where no rule exists, the conflict remains explicit.
+Under D-14, the domain data owner defines applicable precedence. A published rule can identify a governing source for a specific attribute and effective period. Context applies that rule and retains its reference; absent an applicable rule, it preserves the incompatible claims. A model's confidence cannot replace the owner's decision.
 
-On 22 February 2027 (all times UTC), `MF-EVT-005` at 09:12:00 and `MF-EVT-006` at 09:12:01 record allowed retrieval of A and B. At 09:12:02, `MF-EVT-007` records the conflict with outcome BLOCKED. At 09:12:03, `MF-EVT-008` records escalation to the steward.
+On 22 February 2027, events `MF-EVT-005` and `MF-EVT-006` record allowed retrieval at 09:12:00 and 09:12:01 UTC. Event `MF-EVT-007` records BLOCKED at 09:12:02; `MF-EVT-008` records escalation at 09:12:03.
 
-The reconciliation record and Context Manifest were created at 09:12:03 UTC. The reconciliation references policy `MF-POL-CTX-CONFLICT-v1.0`. Its status is `UNRESOLVED`, its resolution is `ESCALATE_TO_DOMAIN_DATA_OWNER`, and its effective precedence field reads `NONE_DEFINED; explicit unresolved state retained`. The accountable Retail Data Steward is `MF-HUM-RET-OWN-001`; the follow-up ticket is `MF-TASK-STEWARDSHIP-001`.
+The manifest and reconciliation record share the creation time 09:12:03 UTC. Under policy `MF-POL-CTX-CONFLICT-v1.0`, the latter records `UNRESOLVED` and `ESCALATE_TO_DOMAIN_DATA_OWNER`. Its precedence field reads `NONE_DEFINED; explicit unresolved state retained`. The Retail Data Steward, `MF-HUM-RET-OWN-001`, receives follow-up ticket `MF-TASK-STEWARDSHIP-001`.
 
 [Place Figure 13-2 here: Semantic Reconciliation Workflow.]
 
 *Figure 13-2. Both retail claims remain available as evidence while their incompatible product statuses are preserved as unresolved (v1.0; MF-EVD-RC-001).*
 
-*Alt text:* Two authorised records match the same product and effective date but disagree on status. The reconciliation workflow retains the unresolved state and escalates to the Retail Data Steward without selecting either claim.
+*Alt text:* Two authorised records match the same product and effective time but disagree on status. The reconciliation workflow retains UNRESOLVED and escalates to the Retail Data Steward without selecting either value.
 
-A useful result can contain uncertainty. The agent can present the conflicting evidence to a human reviewer, but it cannot report a settled eligibility conclusion. Preserving both records also allows the steward to investigate the systems responsible for the disagreement. The fixture records escalation, not the completion of that investigation.
+The record permits presentation of conflicting evidence to a human reviewer. It does not settle eligibility. D-14 trades automatic completion for accountable interpretation, including the cost of stewardship and outstanding disputes.
 
-#### Working context, memory and evidence
+#### Working context, memory, and evidence
 
-The distinction between a claim and a verified fact becomes more consequential when information survives the current task. A wrong conclusion in working context may affect one recommendation. A wrong conclusion in durable memory may influence many later tasks without repeating the original retrieval checks.
+Working context contains bounded inputs for the present task. Task-local state contains progress and intermediate results; a checkpoint may preserve that state for resumption without making it general-purpose memory. The conceptual hot or working tier supports this active work.
 
-Working context is the bounded set of inputs assembled for a particular consumer and purpose. Task-local state holds intermediate computations and progress. The hot or working tier supports the active task; its existence does not imply permission to retain the information indefinitely.
+Episodic memory retains selected experiences for later tasks. Semantic memory retains assertions intended for reuse as knowledge. Neither tier removes the need to check provenance, current access, effective time, and verification status on recall. Similarity between episodes cannot establish that the earlier circumstances still apply.
 
-Episodic memory represents selected prior experiences or task episodes. Semantic memory retains knowledge intended for reuse across tasks. These are conceptual memory tiers, not evidence that Meridian populated separate stores. Each durable entry needs a retention and verification decision appropriate to its intended use.
+Consider a hypothetical agent that retains a generated eligibility conclusion after completing a disputed case. Later trajectories retrieve that conclusion instead of the underlying source claims. Each reuse can compound the error, even if the original source conflict remains unchanged. D-12 constrains this propagation at the write boundary.
 
-An audit record has a different purpose. It allows an authorised investigator to reconstruct what happened, including unsuccessful actions and rejected claims. It may require retention even when the information is unsuitable for future agent recall. An evidence archive must not become an agent-readable memory store by default.
+Audit evidence has a different purpose. It preserves an attributable account of decisions, including rejected claims and failed actions, for authorised investigation. A retained record of disagreement is not a verified business assertion or an unrestricted memory entry. These distinctions describe conceptual storage obligations, not deployed Meridian memory services.
 
-#### Governed memory write decisions
+#### Governed memory writes
 
-D-12 places a separate gate on durable memory writes. A write contract identifies the proposed claim, its source lineage, tenant, owner, classification, retention period and verification status. It also records the effective time, writer actor chain and an idempotency key where retries could create duplicate entries.
+A proposed durable write requires a claim, source lineage, writer actor chain, tenant, owner, classification, effective time, verification status, and retention conditions. Under D-12, those attributes inform the write decision rather than merely satisfying schema validation.
 
-Verification should be appropriate to the claim. A task outcome might be established by an attributable execution receipt. A customer eligibility assertion requires evidence and authority suitable for that business decision. A generated answer, even one accepted by a user, does not automatically satisfy either requirement.
+Verification status describes the available assurance. Verification policy determines whether that assurance permits the intended reuse. An unverified claim can carry every required field and still be unsuitable for durable retention as knowledge. The memory contract records the disposition and its basis, including a hold or rejection where prerequisites fail.
 
-The write gate evaluates these conditions before persistent storage. It must preserve the link between a retained claim and the evidence supporting it. If the supporting record is corrected, withdrawn or superseded, that link enables the memory owner to identify affected derived entries.
+A retry-safe write uses an idempotency key to distinguish repeated submission from a new claim. That does not prevent a different failure: the source or reconciliation state may change after validation but before commitment.
 
-For Meridian, the reconciliation record's blocked effect is explicit: “No refund.issue and no durable memory assertion of eligibility”. The allowed effect is to show conflicting evidence to a human reviewer. Recording the existence of a dispute as evidence is different from persisting a conclusion that the customer is eligible.
+A conditional write can bind commitment to the validated version. Atomic version validation or an equivalent consistency mechanism prevents an obsolete decision from being committed after a concurrent change. Where the storage boundary cannot provide that guarantee, the design needs an equivalent guard before publishing the claim for reuse.
+
+These are implementation options, not additional Atlas defaults. The memory owner also needs dependency references to invalidate or correct derived entries when supporting evidence changes.
+
+Meridian's reconciliation record specifies the blocked effect: "No refund.issue and no durable memory assertion of eligibility". The recorded dispute may support human review; an eligibility conclusion cannot qualify on that basis.
 
 [Place Figure 13-3 here: Governed Memory Write Decision.]
 
 *Figure 13-3. The proposed memory write path holds an eligibility assertion when the source claims remain unresolved (v1.0; required decision process, not a recorded memory transaction).*
 
-*Alt text:* A proposed memory assertion passes through provenance, classification, ownership, retention and contradiction checks before any durable write. The unresolved Meridian eligibility claim follows the hold path; no completed write or receipt is shown.
+*Alt text:* A proposed write undergoes provenance, ownership, policy, retention, and contradiction checks. The unresolved eligibility claim follows the hold path; no completed memory write or receipt is shown.
 
-A deployed implementation needs to handle concurrent changes between validation and storage. For example, a write request can carry the version of the reconciliation record on which it depends. If that version changes before commitment, the gate can require re-evaluation rather than persist a claim under obsolete conditions. This is a design mechanism, not a recorded Meridian event.
-
-The synthetic case contains no performed durable-memory write. Its evidence establishes the blocked effect, not the operation of a deployed memory service.
+No performed durable-memory write appears in the fixture. The design explains how D-12 would enforce the restriction, at the cost of verification effort, storage management, and correction work.
 
 #### Bounded cross-agent sharing
 
-Agents collaborating on a task often need information produced by another agent. Sharing an unrestricted mutable store makes the receiving agent dependent on every contributor's access checks, retention decisions and interpretation of source claims.
+D-13 defaults to signed, policy-brokered handoff packets. The sender supplies bounded information or source references; the broker evaluates the permitted sharing conditions. The recipient receives only the information allowed for its own identity, tenant, and purpose.
 
-D-13 instead defaults to signed, policy-brokered handoff packets with bounded sharing. A packet identifies its intended audience, tenant, purpose, source references, applicable classification and expiry. The receiving agent revalidates access and relevant policy before consuming the contents. A valid signature supports verification of packet origin and integrity; it does not establish business truth.
+A handoff contract identifies its audience, classification, source lineage, retention limits, expiry, and verification or conflict status. The recipient validates the signature and rechecks applicable access before consumption. A signature authenticates the signed content under the applicable trust assumptions; it does not establish source truth or current permission.
 
-The packet must not transfer the sender's credentials or expand the receiver's delegated authority. If a disputed claim is shared, its unresolved status and lineage must travel with it. A summary that drops those attributes changes the meaning of the handoff.
+The recipient may possess less authority than the sender. Passing a reference enables an independent access decision without copying the sender's credential. A summary of the disputed retail claims must preserve UNRESOLVED and their lineage; dropping either changes the information's permitted interpretation.
 
-This is the prescribed design approach. Meridian records no signed Context handoff. Its later delegation record belongs to the Identity Control Plane and cannot substitute for such a packet.
+Expiry limits the period of use but does not prevent repeated submission inside that period. Where repetition matters, recipient-bound packet identifiers and replay tracking can supplement expiry checks. These are design options. Bounded sharing incurs validation overhead and sometimes repeated retrieval, but avoids unrestricted mutable memory across agents.
 
-#### Refresh, retention and deletion
+Meridian records no signed Context handoff. Its delegation record belongs to Identity and is not evidence of information sharing.
 
-Durable memory does not remain valid simply because a write was permitted. A source may change, an access grant may expire or the business purpose for retention may end. The Context layer needs refresh and invalidation behaviour that respects Data Protection policy.
+#### Refresh, retention, and deletion
 
-A time-to-live can require a claim to be rechecked before reuse. Expiry does not establish that the claim became false; it establishes that continued reliance needs justification. A freshness check must not silently renew a claim whose source is inaccessible.
+Refresh re-evaluates a retained claim against current sources; expiry requires renewed justification for reuse. Invalidation stops use of an affected assertion while correction or deletion proceeds. A time-to-live cannot renew an assertion whose source access has been revoked.
 
-Deletion must account for derived representations, including embeddings, indexes, caches and handoff copies. Removing a primary row while leaving its searchable representation available defeats the intended access restriction. Where lawful retention or backup holds apply, the policy owner determines the permitted disposition and access restrictions.
+Deletion requires lineage across primary records, indexes, embeddings, caches, and handoff copies. A deletion receipt identifies the affected representations, verified outcomes, and outstanding exceptions. Where lawful retention applies, the applicable policy determines restricted retention or disposition rather than promising immediate removal.
 
-A deletion verification procedure should enumerate affected stores, record completion or outstanding exceptions, and test that prohibited retrieval no longer succeeds. Restoration procedures also need to prevent deleted information from becoming accessible again. Meridian records no completed deletion; these are prospective engineering requirements.
+Restoring a backup does not restore permission to consume its contents. Recovery procedures reapply applicable restrictions before exposing restored information to ordinary retrieval. Negative retrieval tests then establish whether prohibited copies remain accessible. The fixture records no deletion or restoration outcome.
 
-The resulting Context contract admits authorised evidence, preserves disagreement and prevents unsupported durable assertions. It supplies unresolved status to downstream consumers. Chapter 16 explains how the Gateway separately enforces external action admission; Chapter 18 explains why a denied action can still accompany a failed behavioural assertion.
+The Context Manifest and Reconciliation Record supply the downstream precondition. In Week 9, Gateway denies the proposed mutation. In Week 11, Verification's `MF-EVD-RG-001` records failure of assertion `MF-ASSERT-CTX-001`: the candidate selected `refund.issue` instead of abstaining and escalating. Zero side effects do not make that behaviour acceptable. Chapters 16 and 18 explain the separate admission and release decisions.
 
 ### The interface with adjacent layers
 
-The Lifecycle Structural Layer owns the Harness and task progression. It requests bounded context for a particular actor and receives the assembled inputs, manifest and uncertainty status. An unresolved result permits escalation or other authorised review work, rather than silently advancing a task that requires settled eligibility. Context does not own workflow transitions or approval state.
+The Lifecycle Structural Layer owns task progression through the Harness. Its request identifies the actor, task, and required information. Context returns scoped inputs, the manifest, and uncertainty or permitted-use conditions. The Harness uses those conditions to continue authorised review or escalate; Context does not own workflow transitions.
 
-The Tooling Structural Layer supplies typed observations from source reads. Context classifies those observations, attaches lineage and determines their suitability for inclusion. A successful tool response does not by itself establish a verified fact or permission for durable retention.
+Tooling supplies typed source observations. Context applies governing classification rules, attaches lineage, and evaluates inclusion. Execution Environment isolates consumption and task-local state; persistence beyond the task requires the appropriate contract.
 
-The Execution Environment provides isolated runtime resources. Workers receive scoped inputs and keep intermediate state within the task boundary. Runtime scratch files and checkpoints require explicit treatment before they become persistent, reusable information.
+Identity supplies verified actor and tenant assertions. Governance governs policy ownership, approval, and exceptions; the domain data owner defines business precedence. Data Protection determines applicable classification, retention, and deletion constraints.
 
-Identity establishes actor and tenant claims. Governance defines policy and accountable owners, while Data Protection determines classification, retention and deletion obligations. Context applies those constraints to its own data operations. Observability preserves correlated evidence without requiring unrestricted logging of confidential payloads. Interoperability maintains exchange contracts rather than determining source precedence.
+Observability correlates Context evidence with trajectories without unrestricted payload logging. Interoperability preserves schema compatibility and the meaning of exchanged claims. FinOps accounts for the cost of retrieval, storage, and verification capacity.
 
-Gateway owns external mutable action admission; Verification owns behavioural assertions and release decisions. Neither responsibility transfers to Context when it reports a conflict.
+Gateway evaluates mutable external action admission using the relevant Context preconditions and independent authority evidence. Verification evaluates behavioural assertions and release suitability. A correctly recorded conflict grants neither execution permission nor release approval.
 
 ### Failure modes
 
-*Table 13-4. Context failure modes and required controls; design guidance, not a production incident inventory.*
+*Table 13-4. Context failure modes, diagnostic signals, and controls; design guidance.*
 
 | Failure | Cause | Observable symptom | Control |
 |---|---|---|---|
-| Tenant mislabel | Incorrect index metadata | Candidate tenant differs from source tenant | Source ACL recheck; quarantine (D-11) |
-| Stale access | Index or cache misses a permission change | Previously permitted record remains retrievable | Revalidate before consumption (D-11) |
-| Alias collision | Different entities mapped to one identifier | Claims combine unrelated customers or products | Preserve source IDs; verify canonical mapping (D-14) |
-| Silent contradiction | Recency used as precedence | One incompatible value disappears | Explicit conflict state and steward escalation (D-14) |
-| Context poisoning | Untrusted content treated as instructions or verified facts | Retrieved text changes task behaviour | Separate data from instructions; test hostile inputs |
-| Unverified memory | Generated conclusion persisted without evidence | Later recall lacks attributable verification | Governed write gate (D-12) |
-| Handoff replay | Expired packet accepted | Old data enters a new task under obsolete policy | Validate audience, expiry and policy (D-13) |
-| Incomplete deletion | Derived stores omitted | Deleted information remains retrievable | Verify propagation across stores (D-12) |
+| Tenant mislabel | Incorrect index metadata | Source and index tenants differ | Quarantine before consumption (D-11) |
+| Stale access | Revocation missed by cache | Formerly allowed payload remains accessible | Recheck; exclude when authority is unavailable |
+| Alias collision | Ambiguous canonical mapping | Unrelated customer claims merge | Preserve source IDs; defer uncertain match (D-14) |
+| Silent contradiction | Recency substitutes for precedence | Incompatible value disappears | Record unresolved status; escalate |
+| Context poisoning | Retrieved text treated as instructions | Source content changes tool selection | Separate data from instructions; enforce authority independently |
+| Unverified memory | Status recorded without policy evaluation | Recalled assertion lacks eligible evidence | Validate write and reuse conditions (D-12) |
+| Handoff replay | Valid packet repeatedly submitted | Unexpected duplicate processing | Check audience, expiry, and replay constraints where applicable |
+| Incomplete deletion | Derived or restored copies omitted | Prohibited result remains retrievable | Verify disposition across stores |
 
-The remediation depends on which contract failed. An index defect belongs with the retrieval operator and relevant source owner. A disputed business attribute belongs with its steward. Adding more retrieval capacity does not resolve either kind of failure.
+Retrieval operators own index defects; domain stewards own disputed business attributes. Memory owners investigate invalid retained assertions with the relevant policy authorities. Negative tests should inspect actual consumer inputs and side effects, not rely on answer wording.
 
 ### Scaling signal
 
-Scale authorised retrieval workers against queue depth and source recheck latency, rather than raw index-hit volume. An illustrative operator-set trigger is p95 queue wait above 200 ms for five minutes, provided the source systems have spare capacity. The Context service owner must calibrate that threshold against workload objectives and source rate limits; it is not a Meridian measurement.
+Context capacity depends on both local workers and source dependencies. Consider an illustrative service objective of 800 ms for context assembly, with 200 ms allocated to queue wait. Sustained p95 queue delay above that allowance can trigger worker scaling if source capacity remains available. These are example budgets, not Meridian measurements.
 
-Quality signals include provenance coverage, source recheck failures, cross-tenant exclusion rate, index freshness lag and unresolved-conflict age. Memory owners also track write rejection, verification backlog and deletion propagation age. The relevant policy and data owners set acceptable limits.
+The service owner monitors recheck latency, source failures, and index freshness. Provenance completeness and cross-tenant exclusions measure different properties from throughput. Stewardship queue age, memory verification backlog, and deletion propagation age require owner-specific limits.
 
-If rechecks become unavailable, the service preserves quarantine and reports insufficient evidence. It does not relax tenant restrictions to meet a latency target. Stewardship backlog requires owner capacity or revised business processes, not simply more retrieval workers.
+Additional workers cannot settle disputed business facts. During permission-service failure, Context preserves exclusions and reports insufficient evidence. It must not relax access controls to recover a latency objective.
 
 ### Anti-patterns
 
 #### AP-13-01: Similarity equals truth
 
-**What it looks like.** The highest-ranked claim, or the most recently recorded claim, becomes the product's accepted status.
+**What it looks like.** The highest-ranked or newest claim becomes the accepted product status.
 
-**Why it happens.** Retrieval relevance and recording time are used as substitutes for business authority.
+**Why it happens.** Retrieval optimisation substitutes for domain authority.
 
-**Why it fails.** Two authorised records can describe the same entity at the same effective time and disagree.
+**Why it fails.** Matching the question does not establish the claim's validity.
 
-**The correct pattern.** Apply D-14, retain source lineage and route unresolved conflicts to the domain data owner.
+**The correct pattern.** Apply D-14 with canonical identity, explicit precedence, and steward escalation.
 
-**Detection signal.** Incompatible claims are merged without a corresponding Reconciliation Record.
+**Detection signal.** Incompatible values merge without a Reconciliation Record.
 
 #### AP-13-02: Shared memory by convenience
 
-**What it looks like.** Agents write retrieved information and generated conclusions into a common mutable store.
+**What it looks like.** Agents write retrieved information and generated assertions into a common mutable store.
 
-**Why it happens.** Reuse avoids repeated retrieval and handoff validation.
+**Why it happens.** Teams avoid repeated retrieval and handoff validation.
 
-**Why it fails.** Readers can acquire information outside their tenant or purpose, and unverified conclusions can survive the originating task.
+**Why it fails.** An agent can inherit information outside its permissions or reuse an unsupported conclusion.
 
-**The correct pattern.** Use D-11 access rechecks, D-12 write controls and D-13 bounded sharing.
+**The correct pattern.** Apply D-11 admission checks, D-12 write policy, and D-13 bounded handoffs.
 
-**Detection signal.** An unauthorised cross-tenant source appears in a consumer manifest, or a recalled claim lacks verification provenance.
+**Detection signal.** A recalled claim lacks verification provenance or an unauthorised source enters context.
 
 #### AP-13-03: Delete the row, not the copies
 
-**What it looks like.** A primary memory entry is removed while its indexed or cached representations remain available.
+**What it looks like.** A primary entry disappears but its derived index remains searchable.
 
-**Why it happens.** Retention is implemented as a single-store operation.
+**Why it happens.** The implementation treats retention as a single-store obligation.
 
-**Why it fails.** A later retrieval can recover information that policy requires to be inaccessible.
+**Why it fails.** Subsequent retrieval can recover information that policy prohibits.
 
-**The correct pattern.** Apply D-12 correction and deletion requirements with the Data Protection controls in Chapter 21.
+**The correct pattern.** Apply D-12 disposition requirements and Chapter 21 Data Protection controls across derived stores.
 
-**Detection signal.** A negative retrieval test returns a prohibited representation after deletion.
+**Detection signal.** A post-deletion negative retrieval test returns the prohibited representation.
 
 ### Decisions to make
 
-- D-11: Control retrieval access. Specify source access and consumer rechecks.
-- D-12: Govern durable memory. Define the evidence and policy requirements for persistence.
-- D-13: Enable cross-agent memory. Define bounded, policy-brokered sharing conditions.
-- D-14: Reconcile semantic identities. Establish canonical matching, precedence ownership and unresolved escalation.
+- D-11: Control retrieval access. Specify source admission and consumer rechecks.
+- D-12: Govern durable memory. Establish verification and retention conditions for reuse.
+- D-13: Enable cross-agent memory. Define bounded sharing and receiving-side policy checks.
+- D-14: Reconcile semantic identities. Establish matching, precedence ownership, and unresolved escalation.
 
 ### Defaults
 
@@ -235,11 +249,11 @@ If rechecks become unavailable, the service preserves quarantine and reports ins
 
 ### Artefacts to produce
 
-- `context-manifest-schema.json`: inclusion and quarantine contract (example: `MF-EVD-CM-001`).
-- `memory-write-contract.json`: durable write and correction requirements.
-- `semantic-claim-reconciliation.json`: explicit conflict representation (example: `MF-EVD-RC-001`).
-- `context-negative-tests.md`: access, conflict and unsafe-recall assertions.
-- `context-deletion-receipts.csv`: deletion verification format.
+- `context-manifest-schema.json`: reconstruct admission and quarantine decisions.
+- `memory-write-contract.json`: establish eligibility for retention and reuse.
+- `semantic-claim-reconciliation.json`: preserve incompatible claims and accountable escalation.
+- `context-negative-tests.md`: verify exclusion, conflict handling, and unsafe-recall restrictions.
+- `context-deletion-receipts.csv`: track verified disposition and exceptions.
 
 ### See also
 
