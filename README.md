@@ -11,6 +11,7 @@ This is the controlled manuscript and editorial workspace for a proposed profess
 - [30-decision catalogue](decisions/catalogue/Enterprise_AI_Agent_Fabric_Decision_Catalogue.csv)
 - [Meridian evidence dossier](meridian/fixture/Meridian_Evidence_Fixture_v1.0.md)
 - [Chapter 16 draft](manuscript/part-03/chapter-16-gateway-control-plane-v1.0.md)
+- [Chapter 13 acquisition sample and review status](publishing/apress/acquisition-samples/README.md)
 - [Chapter 13 authoring blueprint](editorial/authoring-blueprints/Chapter_13_Authoring_Blueprint_v1.0.md)
 - [Chapter 16 authoring blueprint](editorial/authoring-blueprints/Chapter_16_Authoring_Blueprint_v1.0.md)
 - [Apress proposal v2 — current](publishing/apress/v2/Apress_Publisher_Proposal_v2.md)

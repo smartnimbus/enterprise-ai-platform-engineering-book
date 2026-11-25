@@ -1,0 +1,20 @@
+chapter_section,claim,source_path,record_or_field,classification
+Opening,GBP 125 review only,meridian/fixture/original-request.json,MF-REQ-REF-001,synthetic
+13.1,Proposed schema fields,editorial/authoring-blueprints/Chapter_13_Authoring_Blueprint_v1.0.md,13.1,normative
+13.2,Insurance mislabel and exclusion,meridian/fixture/01-context-manifest.json,quarantined_result,synthetic
+13.2,Negative test and chronology,meridian/fixture/event-ledger.csv,MF-EVT-002–004,synthetic
+13.2,Retail admission and consumer recheck,meridian/fixture/01-context-manifest.json,retrieved_records,synthetic
+13.2,Actor tenant request trajectory policy conflict and allowed use,meridian/fixture/01-context-manifest.json,MF-EVD-CM-001,synthetic
+13.2,Digest and unsigned limitation,meridian/fixture/01-context-manifest.json,context_digest_method;cryptographic_signature,synthetic
+13.3,Identity status time owner classification and review eligibility,meridian/fixture/context-records.json,MF-REC-A-001;MF-REC-B-001,synthetic
+13.3,Unresolved precedence and escalation,meridian/fixture/02-reconciliation-record.json,MF-EVD-RC-001,synthetic
+13.3,Event times and outcomes,meridian/fixture/event-ledger.csv,MF-EVT-005–008,synthetic
+13.4,Memory categories and propagation,editorial/authoring-blueprints/Chapter_13_Authoring_Blueprint_v1.0.md,13.4,normative/hypothetical
+13.5,Blocked durable eligibility assertion,meridian/fixture/02-reconciliation-record.json,blocked_effect,synthetic
+13.5,Write policy and conditional commitment,decisions/catalogue/Enterprise_AI_Agent_Fabric_Decision_Catalogue.csv,D-12,normative/implementation option
+13.6,Bounded handoff and revalidation,decisions/catalogue/Enterprise_AI_Agent_Fabric_Decision_Catalogue.csv,D-13,normative
+13.7,Disposition and restoration,editorial/authoring-blueprints/Chapter_13_Authoring_Blueprint_v1.0.md,13.7,normative
+13.8,Gateway denial,meridian/fixture/event-ledger.csv,MF-EVT-009–012,synthetic
+13.8,Behavioural failure and blocked promotion,meridian/fixture/06-release-gate-report.json,MF-EVD-RG-001;MF-ASSERT-CTX-001,synthetic
+Scaling signal,800 ms and 200 ms budget,editorial/authoring-blueprints/Chapter_13_Authoring_Blueprint_v1.0.md,Scaling signal contract,illustrative author example
+Defaults,Frozen exact defaults,decisions/catalogue/Enterprise_AI_Agent_Fabric_Decision_Catalogue.csv,D-11–D-14,normative
