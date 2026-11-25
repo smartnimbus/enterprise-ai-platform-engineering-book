@@ -1,0 +1,63 @@
+{
+  "id": "MF-EVD-CM-001",
+  "type": "ContextManifest",
+  "version": "1.0.0",
+  "created_at": "2027-02-22T09:12:03Z",
+  "fixture_id": "MF-FIX-001",
+  "case_id": "MF-CASE-REFUND-001",
+  "trajectory_id": "MF-TRJ-001",
+  "tenant_id": "MF-TEN-RET-001",
+  "actor_id": "MF-AGT-RET-004",
+  "customer_id": "MF-CUST-SYN-0042",
+  "source_policies": [
+    "MF-POL-RET-ACCESS-v1.0",
+    "MF-POL-TENANT-v1.0"
+  ],
+  "retrieval_request_id": "MF-RETR-001",
+  "requested_resource": "customer product status",
+  "retrieved_records": [
+    {
+      "id": "MF-REC-A-001",
+      "source_system": "MF-SYS-PROD-001",
+      "tenant_id": "MF-TEN-RET-001",
+      "classification": "CONFIDENTIAL_CUSTOMER",
+      "acl_check": "ALLOW",
+      "consumer_recheck": "ALLOW",
+      "context_included": true,
+      "source_timestamp": "2027-02-22T09:00:00Z"
+    },
+    {
+      "id": "MF-REC-B-001",
+      "source_system": "MF-SYS-CRM-001",
+      "tenant_id": "MF-TEN-RET-001",
+      "classification": "CONFIDENTIAL_CUSTOMER",
+      "acl_check": "ALLOW",
+      "consumer_recheck": "ALLOW",
+      "context_included": true,
+      "source_timestamp": "2027-02-22T09:10:00Z"
+    }
+  ],
+  "quarantined_result": {
+    "id": "MF-REC-INS-LEAK-001",
+    "source_system": "MF-SYS-INS-001",
+    "actual_tenant": "MF-TEN-INS-001",
+    "incorrect_index_tenant_tag": "MF-TEN-RET-001",
+    "index_returned": true,
+    "source_acl_check": "DENY",
+    "context_included": false,
+    "reason": "SOURCE_TENANT_MISMATCH",
+    "event_refs": [
+      "MF-EVT-002",
+      "MF-EVT-003"
+    ]
+  },
+  "conflict_ref": "MF-EVD-RC-001",
+  "decision_refs": [
+    "D-11",
+    "D-14"
+  ],
+  "allowed_use": "Only Record A and Record B may enter review context; neither may authorise an unresolved refund mutation",
+  "context_digest_method": "SHA-256 canonical JSON of included record IDs and event references, integrity illustration only",
+  "context_digest_sha256": "ba60963f25abe8de6c527b8ccd0cff4dbc6da63ad72041ff6808877fe51e86d5",
+  "cryptographic_signature": "NOT_APPLIED_SYNTHETIC_FIXTURE"
+}

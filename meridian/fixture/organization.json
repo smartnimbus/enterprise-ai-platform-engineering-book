@@ -1,0 +1,165 @@
+{
+  "id": "MF-ORG-001",
+  "name": "Meridian Financial",
+  "fictional": true,
+  "employees_synthetic": 12000,
+  "jurisdiction": "United Kingdom",
+  "regulatory_context": "FCA/PRA responsibilities and UK GDPR scoped processing; context only, no claim of regulator approvals",
+  "starting_state": "Four fragmented agent pilots; no shared Fabric",
+  "end_state": "One shared Fabric; 12 live use cases; tenant profiles TP-A/TP-B/TP-C; one external SaaS pilot included in the twelve",
+  "business_units": [
+    {
+      "id": "MF-BU-RET",
+      "name": "Retail banking",
+      "data_owner": "MF-HUM-RET-OWN-001"
+    },
+    {
+      "id": "MF-BU-INS",
+      "name": "Insurance",
+      "data_owner": "MF-HUM-INS-OWN-001"
+    },
+    {
+      "id": "MF-BU-WEA",
+      "name": "Wealth management",
+      "data_owner": "MF-HUM-WEA-OWN-001"
+    }
+  ],
+  "tenant_profiles": {
+    "TP-A": "Pooled compute; logically isolated identities, context and evidence",
+    "TP-B": "Pooled compute; separate data, key and audit domains",
+    "TP-C": "Dedicated execution/data boundary; controlled cross-system admission"
+  },
+  "tenants": [
+    {
+      "id": "MF-TEN-RET-001",
+      "unit": "MF-BU-RET",
+      "profile": "TP-B",
+      "owner": "MF-HUM-RET-OWN-001"
+    },
+    {
+      "id": "MF-TEN-INS-001",
+      "unit": "MF-BU-INS",
+      "profile": "TP-B",
+      "owner": "MF-HUM-INS-OWN-001"
+    },
+    {
+      "id": "MF-TEN-WEA-001",
+      "unit": "MF-BU-WEA",
+      "profile": "TP-C",
+      "owner": "MF-HUM-WEA-OWN-001"
+    }
+  ],
+  "scenario_use_case": {
+    "id": "MF-UC01",
+    "domain": "MF-BU-RET",
+    "at_week_9": "Candidate refund assistance; NOT authorised to execute refunds",
+    "at_week_12": "Read-only payment-dispute triage with human-reviewed recommendation; separate narrowed candidate passes later (outside this six-record dossier)"
+  },
+  "systems": [
+    {
+      "id": "MF-SYS-CASE-001",
+      "name": "Retail Case Management",
+      "tenant": "MF-TEN-RET-001",
+      "type": "case management",
+      "classification": "CONFIDENTIAL_CUSTOMER"
+    },
+    {
+      "id": "MF-SYS-PROD-001",
+      "name": "Retail Product Registry",
+      "tenant": "MF-TEN-RET-001",
+      "type": "product status source",
+      "classification": "CONFIDENTIAL_CUSTOMER"
+    },
+    {
+      "id": "MF-SYS-CRM-001",
+      "name": "Retail Customer Service CRM",
+      "tenant": "MF-TEN-RET-001",
+      "type": "customer-facing account view",
+      "classification": "CONFIDENTIAL_CUSTOMER"
+    },
+    {
+      "id": "MF-SYS-INS-001",
+      "name": "Insurance Policy Repository",
+      "tenant": "MF-TEN-INS-001",
+      "type": "policy documents",
+      "classification": "CONFIDENTIAL_CUSTOMER"
+    },
+    {
+      "id": "MF-SYS-FABRIC-001",
+      "name": "Agent Fabric Shared Control Services",
+      "tenant": "MULTI_TENANT_CONTROL",
+      "type": "identity,gateway,context,verification,observability",
+      "classification": "RESTRICTED_OPERATIONAL"
+    },
+    {
+      "id": "MF-SYS-LEDGER-001",
+      "name": "Retail Refund Ledger",
+      "tenant": "MF-TEN-RET-001",
+      "type": "external mutable action target",
+      "classification": "RESTRICTED_FINANCIAL"
+    }
+  ],
+  "services": [
+    {
+      "id": "MF-SVC-REF-002",
+      "name": "Refund Application Service",
+      "identity": "MF-SID-REF-002",
+      "tenant": "MF-TEN-RET-001",
+      "implementation": "mediated service calling registered tools"
+    },
+    {
+      "id": "MF-SVC-CTX-001",
+      "name": "Context Retrieval Service",
+      "identity": "MF-SID-CTX-001",
+      "tenant": "MF-TEN-RET-001"
+    },
+    {
+      "id": "MF-SVC-PEP-001",
+      "name": "Gateway Policy Enforcement Point",
+      "identity": "MF-SID-PEP-001",
+      "tenant": "MULTI_TENANT_CONTROL"
+    },
+    {
+      "id": "MF-SVC-VER-001",
+      "name": "Verification Release Service",
+      "identity": "MF-SID-VER-001",
+      "tenant": "MULTI_TENANT_CONTROL"
+    }
+  ],
+  "tools": [
+    {
+      "id": "MF-TOOL-REF-001",
+      "name": "refund.issue",
+      "target": "MF-SYS-LEDGER-001",
+      "operation": "POST /refunds",
+      "mutates_external_system": true,
+      "required_scope": "refund:execute",
+      "policy_enforcement": "MF-SVC-PEP-001",
+      "credential_mode": "gateway-mediated only; direct service egress denied"
+    },
+    {
+      "id": "MF-TOOL-READ-001",
+      "name": "retail.case.read",
+      "target": "MF-SYS-CASE-001",
+      "operation": "GET /cases/{id}",
+      "mutates_external_system": false,
+      "required_scope": "case:read"
+    }
+  ],
+  "external_tools": [
+    {
+      "id": "MF-EXT-REFUND-API-001",
+      "name": "Synthetic external refund processor API",
+      "target": "MF-SYS-LEDGER-001",
+      "reachable_from": "Gateway PEP mediation only",
+      "actual_payment_provider": "none; simulated only"
+    },
+    {
+      "id": "MF-EXT-SAAS-001",
+      "name": "Unspecified SaaS client-service pilot",
+      "use_case": "MF-UC12",
+      "related_to_refund_case": false,
+      "note": "portfolio context only; no vendor product claim"
+    }
+  ]
+}

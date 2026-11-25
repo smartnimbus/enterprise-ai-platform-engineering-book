@@ -1,0 +1,53 @@
+{
+  "id": "MF-EVD-AU-001",
+  "type": "AuthorisationReceipt",
+  "version": "1.0.0",
+  "created_at": "2027-03-01T11:00:02Z",
+  "fixture_id": "MF-FIX-001",
+  "case_id": "MF-CASE-REFUND-001",
+  "trajectory_id": "MF-TRJ-001",
+  "correlation_id": "MF-TRACE-000001",
+  "request_id": "MF-REQ-REF-001",
+  "action_id": "MF-ACT-REF-001",
+  "attempt_id": "MF-PEP-ATT-001",
+  "idempotency_key": "MF-IDEMP-REF-001",
+  "tenant_id": "MF-TEN-RET-001",
+  "actor_id": "MF-AGT-RET-004",
+  "service_id": "MF-SVC-REF-002",
+  "tool_id": "MF-TOOL-REF-001",
+  "target_system": "MF-SYS-LEDGER-001",
+  "operation": "POST /refunds",
+  "amount_minor": 12500,
+  "currency": "GBP",
+  "requested_scope": "refund:execute",
+  "effective_scopes": [
+    "refund:request"
+  ],
+  "delegation_id": "MF-EVD-DG-001",
+  "context_manifest_id": "MF-EVD-CM-001",
+  "reconciliation_id": "MF-EVD-RC-001",
+  "policy_id": "MF-POL-ACTION-v1.0",
+  "policy_version": "1.0",
+  "policy_evaluation": {
+    "actor_chain": "VALID_STRUCTURE_SIMULATED",
+    "tenant_match": "PASS",
+    "tool_registered": "PASS",
+    "required_scope": "FAIL",
+    "context_conflict_precondition": "FAIL",
+    "human_execution_approval": "ABSENT",
+    "decision": "DENY",
+    "primary_reason": "SCOPE_EXCEEDS_DELEGATION",
+    "secondary_reasons": [
+      "UNRESOLVED_PRODUCT_STATUS",
+      "HUMAN_EXECUTION_APPROVAL_MISSING"
+    ]
+  },
+  "authorised_execution_token": null,
+  "signed_authorisation_status": "NOT_ISSUED_DENIED",
+  "side_effect_permitted": false,
+  "decision_refs": [
+    "D-10",
+    "D-20"
+  ],
+  "denied_receipt_id": "MF-EVD-DN-001"
+}

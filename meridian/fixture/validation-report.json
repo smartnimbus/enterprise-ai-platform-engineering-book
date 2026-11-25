@@ -1,0 +1,130 @@
+{
+  "fixture_version": "1.0.0",
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "12,000 employees and 3 business units",
+      "status": "PASS"
+    },
+    {
+      "check": "profile definitions remain 3",
+      "status": "PASS"
+    },
+    {
+      "check": "six fixed human cast members present",
+      "status": "PASS"
+    },
+    {
+      "check": "six distinct evidence IDs",
+      "status": "PASS"
+    },
+    {
+      "check": "evidence IDs match registry",
+      "status": "PASS"
+    },
+    {
+      "check": "all artifacts share same case ID",
+      "status": "PASS"
+    },
+    {
+      "check": "all artifacts share same fixture ID",
+      "status": "PASS"
+    },
+    {
+      "check": "same tenant throughout action evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "same request through action",
+      "status": "PASS"
+    },
+    {
+      "check": "same action, attempt and idempotency",
+      "status": "PASS"
+    },
+    {
+      "check": "same trace ID for action",
+      "status": "PASS"
+    },
+    {
+      "check": "the two retail product records conflict",
+      "status": "PASS"
+    },
+    {
+      "check": "both records are included and attributed",
+      "status": "PASS"
+    },
+    {
+      "check": "insurance result quarantined and not consumed",
+      "status": "PASS"
+    },
+    {
+      "check": "conflict unresolved and never resolved by timestamp",
+      "status": "PASS"
+    },
+    {
+      "check": "delegation scopes monotonically attenuate",
+      "status": "PASS"
+    },
+    {
+      "check": "refund execute not delegated",
+      "status": "PASS"
+    },
+    {
+      "check": "Gateway denies and issues no permission token",
+      "status": "PASS"
+    },
+    {
+      "check": "zero external side effect",
+      "status": "PASS"
+    },
+    {
+      "check": "direct bypass denied in simulated test",
+      "status": "PASS"
+    },
+    {
+      "check": "critical failed assertion blocks candidate",
+      "status": "PASS"
+    },
+    {
+      "check": "candidate failure is not an executed refund",
+      "status": "PASS"
+    },
+    {
+      "check": "time-ordered events with unique IDs",
+      "status": "PASS"
+    },
+    {
+      "check": "all original event weeks represented",
+      "status": "PASS"
+    },
+    {
+      "check": "decision links frozen",
+      "status": "PASS"
+    },
+    {
+      "check": "refund review is not payment instruction",
+      "status": "PASS"
+    },
+    {
+      "check": "evidence cross-link integrity",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "source_type": "synthetic_consistency_tests_only; not a software or deployed PEP verification",
+  "checked_files": [
+    "organization.json",
+    "identities.json",
+    "original-request.json",
+    "context-records.json",
+    "event-ledger.json",
+    "authoring-registry.json",
+    "01-context-manifest.json",
+    "02-reconciliation-record.json",
+    "03-delegation-record.json",
+    "04-authorisation-receipt.json",
+    "05-denied-action-receipt.json",
+    "06-release-gate-report.json"
+  ]
+}

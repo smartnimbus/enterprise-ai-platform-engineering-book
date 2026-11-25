@@ -1,0 +1,45 @@
+{
+  "id": "MF-EVD-DN-001",
+  "type": "DeniedActionReceipt",
+  "version": "1.0.0",
+  "created_at": "2027-03-01T11:00:03Z",
+  "fixture_id": "MF-FIX-001",
+  "case_id": "MF-CASE-REFUND-001",
+  "trajectory_id": "MF-TRJ-001",
+  "correlation_id": "MF-TRACE-000001",
+  "request_id": "MF-REQ-REF-001",
+  "action_id": "MF-ACT-REF-001",
+  "attempt_id": "MF-PEP-ATT-001",
+  "idempotency_key": "MF-IDEMP-REF-001",
+  "policy_id": "MF-POL-ACTION-v1.0",
+  "authorisation_receipt_id": "MF-EVD-AU-001",
+  "delegation_id": "MF-EVD-DG-001",
+  "context_manifest_id": "MF-EVD-CM-001",
+  "outcome": "DENIED",
+  "reason_code": "SCOPE_EXCEEDS_DELEGATION",
+  "additional_reasons": [
+    "UNRESOLVED_PRODUCT_STATUS",
+    "HUMAN_EXECUTION_APPROVAL_MISSING"
+  ],
+  "enforcement_point": "MF-SVC-PEP-001",
+  "external_tool_called": false,
+  "financial_mutation_count": 0,
+  "postcondition": "No refund executed, issued or posted",
+  "negative_bypass_test": {
+    "event_id": "MF-EVT-013",
+    "source_service_id": "MF-SVC-REF-002",
+    "target_id": "MF-SYS-LEDGER-001",
+    "path": "direct service-to-ledger network route without PEP",
+    "result": "DENIED_BY_NETWORK_EGRESS",
+    "target_received_request": false,
+    "tested_at": "2027-03-01T11:00:04Z",
+    "proof_type": "SIMULATED_CONTROLLED_NEGATIVE_TEST",
+    "limitations": "Does not demonstrate a production deployment or actual firewall configuration"
+  },
+  "decision_refs": [
+    "D-10",
+    "D-18",
+    "D-20"
+  ],
+  "release_report_id": "MF-EVD-RG-001"
+}

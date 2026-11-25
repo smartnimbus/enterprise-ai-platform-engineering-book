@@ -1,0 +1,256 @@
+node_id,type,label
+Project:EP,Project,EP
+Concept:IA-001,Concept,API-as-Runner Kubernetes Jobs
+Pattern:ephemeral-worker-execution,Pattern,Ephemeral Worker Execution
+Decision:D-08,Decision,D-08
+Decision:D-15,Decision,D-15
+Chapter:11,Chapter,Chapter 11
+Chapter:14,Chapter,Chapter 14
+Chapter:36,Chapter,Chapter 36
+Architecture:4L,Architecture,Four Structural Layers
+AtlasPage:D-08,AtlasPage,Decision Atlas D-08
+AtlasPage:D-15,AtlasPage,Decision Atlas D-15
+Concept:IA-002,Concept,Manifest auto-discovery of workers
+Pattern:declarative-tool-onboarding,Pattern,Declarative Tool Onboarding
+Decision:D-09,Decision,D-09
+Decision:D-29,Decision,D-29
+Chapter:12,Chapter,Chapter 12
+Chapter:29,Chapter,Chapter 29
+Chapter:44,Chapter,Chapter 44
+AtlasPage:D-09,AtlasPage,Decision Atlas D-09
+AtlasPage:D-29,AtlasPage,Decision Atlas D-29
+Concept:IA-003,Concept,Hybrid SQL plus JSONB lineage
+Pattern:structured-unstructured-provenance,Pattern,Structured Unstructured Provenance
+Decision:D-14,Decision,D-14
+Decision:D-24,Decision,D-24
+Chapter:13,Chapter,Chapter 13
+Chapter:17,Chapter,Chapter 17
+Chapter:57,Chapter,Chapter 57
+AtlasPage:D-14,AtlasPage,Decision Atlas D-14
+AtlasPage:D-24,AtlasPage,Decision Atlas D-24
+Concept:IA-004,Concept,Federated workload identity ownership
+Pattern:identity-sovereignty,Pattern,Identity Sovereignty
+Decision:D-19,Decision,D-19
+Decision:D-20,Decision,D-20
+Chapter:15,Chapter,Chapter 15
+Chapter:27,Chapter,Chapter 27
+Chapter:35,Chapter,Chapter 35
+Architecture:8P,Architecture,Eight Control Planes
+AtlasPage:D-19,AtlasPage,Decision Atlas D-19
+AtlasPage:D-20,AtlasPage,Decision Atlas D-20
+Concept:IA-005,Concept,Infrastructure and platform authority split
+Pattern:control-ownership-boundaries,Pattern,Control Ownership Boundaries
+Decision:D-06,Decision,D-06
+Chapter:6,Chapter,Chapter 6
+Chapter:39,Chapter,Chapter 39
+AtlasPage:D-06,AtlasPage,Decision Atlas D-06
+Concept:IA-006,Concept,RVTools and vRLI heterogeneous ingestion
+Pattern:heterogeneous-data-ingestion,Pattern,Heterogeneous Data Ingestion
+Decision:D-11,Decision,D-11
+Chapter:28,Chapter,Chapter 28
+AtlasPage:D-11,AtlasPage,Decision Atlas D-11
+Concept:IA-007,Concept,IPFIX direct collection alternative
+Pattern:source-capability-selection,Pattern,Source Capability Selection
+Decision:D-02,Decision,D-02
+Chapter:5,Chapter,Chapter 5
+AtlasPage:D-02,AtlasPage,Decision Atlas D-02
+Concept:IA-008,Concept,SSE rather than WebSockets for logs
+Pattern:right-sized-streaming-contract,Pattern,Right Sized Streaming Contract
+Decision:D-17,Decision,D-17
+AtlasPage:D-17,AtlasPage,Decision Atlas D-17
+Concept:IA-009,Concept,GKE stateful database over Cloud SQL
+Pattern:ownership-vs-managed-services,Pattern,Ownership Vs Managed Services
+Decision:D-27,Decision,D-27
+AtlasPage:D-27,AtlasPage,Decision Atlas D-27
+Concept:IA-010,Concept,Log retention in relational store
+Pattern:operational-evidence-retention,Pattern,Operational Evidence Retention
+Decision:D-25,Decision,D-25
+Chapter:40,Chapter,Chapter 40
+AtlasPage:D-25,AtlasPage,Decision Atlas D-25
+Concept:IA-011,Concept,Worker execution RBAC and status
+Pattern:workload-identity-traceability,Pattern,Workload Identity Traceability
+Concept:IA-012,Concept,Self-contained operational context document
+Pattern:repository-continuity,Pattern,Repository Continuity
+Chapter:52,Chapter,Chapter 52
+Project:AE,Project,AE
+Concept:IA-013,Concept,Interceptable cognition
+Pattern:pre-action-governance,Pattern,Pre Action Governance
+Decision:D-10,Decision,D-10
+Decision:D-18,Decision,D-18
+Chapter:16,Chapter,Chapter 16
+Chapter:19,Chapter,Chapter 19
+Chapter:48,Chapter,Chapter 48
+AtlasPage:D-10,AtlasPage,Decision Atlas D-10
+AtlasPage:D-18,AtlasPage,Decision Atlas D-18
+Concept:IA-014,Concept,Executable governance semantics
+Pattern:policy-as-runtime-control,Pattern,Policy As Runtime Control
+Concept:IA-015,Concept,Append-only cognition spine
+Pattern:evidence-lineage-continuity,Pattern,Evidence Lineage Continuity
+Decision:D-12,Decision,D-12
+AtlasPage:D-12,AtlasPage,Decision Atlas D-12
+Concept:IA-016,Concept,Persistent disagreement
+Pattern:non-silent-reconciliation,Pattern,Non Silent Reconciliation
+Concept:IA-017,Concept,Policy-bounded recall
+Pattern:retrieval-access-governance,Pattern,Retrieval Access Governance
+Chapter:21,Chapter,Chapter 21
+Concept:IA-018,Concept,Replayable governance evidence
+Pattern:decision-to-evidence-chain,Pattern,Decision To Evidence Chain
+Concept:IA-019,Concept,Identity continuity through cognitive handoffs
+Pattern:delegation-identity-chain,Pattern,Delegation Identity Chain
+Concept:IA-020,Concept,Debate and convergence as bounded reasoning
+Pattern:bounded-collaborative-deliberation,Pattern,Bounded Collaborative Deliberation
+Decision:D-13,Decision,D-13
+Decision:D-22,Decision,D-22
+Chapter:18,Chapter,Chapter 18
+AtlasPage:D-13,AtlasPage,Decision Atlas D-13
+AtlasPage:D-22,AtlasPage,Decision Atlas D-22
+Concept:IA-021,Concept,AEGIS trust and failure narrative
+Pattern:fictional-case-literacy,Pattern,Fictional Case Literacy
+Decision:D-23,Decision,D-23
+Chapter:9,Chapter,Chapter 9
+AtlasPage:D-23,AtlasPage,Decision Atlas D-23
+Concept:IA-022,Concept,Multi-volume cognitive architecture programme
+Pattern:editorial-modularisation,Pattern,Editorial Modularisation
+Concept:IA-023,Concept,Cost and reliability as governance constraints
+Pattern:economic-reliability-governance,Pattern,Economic Reliability Governance
+Decision:D-26,Decision,D-26
+Chapter:20,Chapter,Chapter 20
+Chapter:38,Chapter,Chapter 38
+AtlasPage:D-26,AtlasPage,Decision Atlas D-26
+Concept:IA-024,Concept,Canonical runtime sequence templates
+Pattern:trajectory-as-teaching-evidence,Pattern,Trajectory As Teaching Evidence
+Project:KO,Project,KO
+Concept:IA-025,Concept,Mission Control collaborative workspace
+Pattern:human-agent-shared-workspace,Pattern,Human Agent Shared Workspace
+Concept:IA-026,Concept,Domain-Agnostic Agent Protocol
+Pattern:versioned-agent-contract,Pattern,Versioned Agent Contract
+Decision:D-21,Decision,D-21
+Chapter:22,Chapter,Chapter 22
+Chapter:53,Chapter,Chapter 53
+AtlasPage:D-21,AtlasPage,Decision Atlas D-21
+Concept:IA-027,Concept,Dynamic agent marketplace provisioning
+Pattern:controlled-agent-provisioning,Pattern,Controlled Agent Provisioning
+Concept:IA-028,Concept,Long-running requests and checkpoints
+Pattern:durable-agent-execution,Pattern,Durable Agent Execution
+Concept:IA-029,Concept,Lifecycle hooks for agent interception
+Pattern:deterministic-interception,Pattern,Deterministic Interception
+Concept:IA-030,Concept,Four-point sensitive data pipeline
+Pattern:multi-stage-data-protection,Pattern,Multi Stage Data Protection
+Concept:IA-031,Concept,Multi-hop on-behalf-of identity
+Pattern:scope-attenuated-delegation,Pattern,Scope Attenuated Delegation
+Concept:IA-032,Concept,Debate convergence engine
+Concept:IA-033,Concept,Evidence citation protocol
+Concept:IA-034,Concept,Agent cost attribution ledger
+Pattern:cost-per-task-attribution,Pattern,Cost Per Task Attribution
+Concept:IA-035,Concept,Cost-based runtime circuit breakers
+Pattern:economic-admission-control,Pattern,Economic Admission Control
+Concept:IA-036,Concept,Chaos testing for multi-agent systems
+Pattern:failure-injection-verification,Pattern,Failure Injection Verification
+Chapter:47,Chapter,Chapter 47
+Concept:IA-037,Concept,Multi-user tenant memory boundaries
+Pattern:memory-isolation,Pattern,Memory Isolation
+Concept:IA-038,Concept,FinOps outcome unit economics
+Concept:IA-039,Concept,Deployment profiles and data recovery
+Pattern:deployment-sovereignty,Pattern,Deployment Sovereignty
+Decision:D-04,Decision,D-04
+Chapter:7,Chapter,Chapter 7
+AtlasPage:D-04,AtlasPage,Decision Atlas D-04
+Project:UA,Project,UA
+Concept:IA-040,Concept,One Thread state manager
+Concept:IA-041,Concept,GovernanceGuard mandatory path
+Concept:IA-042,Concept,PII classification and tokenisation
+Concept:IA-043,Concept,Cache fencing by classification
+Concept:IA-044,Concept,LLM Gateway routing and costs
+Pattern:model-routing-admission,Pattern,Model Routing Admission
+Concept:IA-045,Concept,Task graph orchestration
+Pattern:dependency-based-work-execution,Pattern,Dependency Based Work Execution
+Concept:IA-046,Concept,Super-agent worker orchestration
+Pattern:bounded-agent-delegation,Pattern,Bounded Agent Delegation
+Concept:IA-047,Concept,Connector framework contracts
+Concept:IA-048,Concept,Governed lifecycle flow engine
+Concept:IA-049,Concept,Tenant separation design
+Concept:IA-050,Concept,Admin API test traceability
+Concept:IA-051,Concept,Restart versus remediate adjudication
+Pattern:architecture-challenge-review,Pattern,Architecture Challenge Review
+Concept:IA-052,Concept,Implementation completeness denominator conflict
+Pattern:evidence-claims-validation,Pattern,Evidence Claims Validation
+Concept:IA-053,Concept,Runtime security fallback findings
+Pattern:security-review-negative-evidence,Pattern,Security Review Negative Evidence
+Concept:IA-054,Concept,Design-coded tool and model contracts
+Pattern:typed-agent-contract,Pattern,Typed Agent Contract
+Project:ME,Project,ME
+Concept:IA-055,Concept,Bitemporal persistent memory
+Pattern:temporal-memory-provenance,Pattern,Temporal Memory Provenance
+Concept:IA-056,Concept,Local and cloud memory portability
+Pattern:memory-portability,Pattern,Memory Portability
+Concept:IA-057,Concept,MCP-based memory service interface
+Concept:IA-058,Concept,Memory provenance and temporal recall
+Concept:IA-059,Concept,Multi-agent architecture workshop
+Pattern:cross-role-design-challenge,Pattern,Cross Role Design Challenge
+Chapter:41,Chapter,Chapter 41
+Chapter:42,Chapter,Chapter 42
+Concept:IA-060,Concept,Architecture challenger personas
+Concept:IA-061,Concept,Spec-driven TDD and approval gates
+Pattern:gated-authoring-execution,Pattern,Gated Authoring Execution
+Concept:IA-062,Concept,GDPR erasure and key destruction
+Pattern:memory-erasure-evidence,Pattern,Memory Erasure Evidence
+Chapter:49,Chapter,Chapter 49
+Concept:IA-063,Concept,Memory security mesh
+Concept:IA-064,Concept,Scaffold completeness versus product readiness
+Project:WS,Project,WS
+Concept:IA-065,Concept,Multi-persona four-hour architecture workshop
+Concept:IA-066,Concept,Challenger agent to challenge consensus
+Concept:IA-067,Concept,Lifecycle from concept to decommission
+Pattern:lifecycle-to-exit,Pattern,Lifecycle To Exit
+Decision:D-30,Decision,D-30
+Chapter:24,Chapter,Chapter 24
+Chapter:34,Chapter,Chapter 34
+Chapter:50,Chapter,Chapter 50
+AtlasPage:D-30,AtlasPage,Decision Atlas D-30
+Concept:IA-068,Concept,Standards cascade and review gates
+Chapter:33,Chapter,Chapter 33
+Concept:IA-069,Concept,Declarative agent profile registry
+Concept:IA-070,Concept,Evidence-backed quality gates
+Concept:IA-071,Concept,Workload identity without static keys
+Concept:IA-072,Concept,Three-tier file pipeline
+Concept:IA-073,Concept,Multi-tenant auth model
+Concept:IA-074,Concept,Enterprise support skills model
+Pattern:team-boundary-operating-model,Pattern,Team Boundary Operating Model
+Concept:IA-075,Concept,Real-world application data sources
+Project:RA,Project,RA
+Concept:IA-076,Concept,Decision tree: whether an agent is needed
+Pattern:adopt-or-decline,Pattern,Adopt Or Decline
+Decision:D-01,Decision,D-01
+Chapter:4,Chapter,Chapter 4
+Chapter:23,Chapter,Chapter 23
+AtlasPage:D-01,AtlasPage,Decision Atlas D-01
+Concept:IA-077,Concept,Weighted platform selection method
+Pattern:weighted-option-appraisal,Pattern,Weighted Option Appraisal
+Decision:D-03,Decision,D-03
+Chapter:54,Chapter,Chapter 54
+AtlasPage:D-03,AtlasPage,Decision Atlas D-03
+Concept:IA-078,Concept,Agent capability atlas
+Pattern:capability-to-requirement-mapping,Pattern,Capability To Requirement Mapping
+Concept:IA-079,Concept,Agent autonomy spectrum
+Pattern:earned-autonomy,Pattern,Earned Autonomy
+Decision:D-05,Decision,D-05
+Chapter:2,Chapter,Chapter 2
+AtlasPage:D-05,AtlasPage,Decision Atlas D-05
+Concept:IA-080,Concept,Layered runtime anatomy
+Pattern:layer-and-control-taxonomy,Pattern,Layer And Control Taxonomy
+Decision:D-07,Decision,D-07
+Chapter:10,Chapter,Chapter 10
+AtlasPage:D-07,AtlasPage,Decision Atlas D-07
+Concept:IA-081,Concept,AI Agent Trust Chain
+Concept:IA-082,Concept,Digital worker operating model
+Decision:D-28,Decision,D-28
+Chapter:37,Chapter,Chapter 37
+AtlasPage:D-28,AtlasPage,Decision Atlas D-28
+Concept:IA-083,Concept,Decision playbooks
+Pattern:reusable-decision-playbooks,Pattern,Reusable Decision Playbooks
+Concept:IA-084,Concept,Production readiness checklist
+Project:RF,Project,RF
+Concept:IA-085,Concept,Final-v2 changed runtime layer mapping
+Pattern:historical-model-reconciliation,Pattern,Historical Model Reconciliation
+Concept:IA-086,Concept,Final-v2 source manifest
+Pattern:source-provenance-registry,Pattern,Source Provenance Registry

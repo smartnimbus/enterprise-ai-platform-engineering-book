@@ -1,0 +1,107 @@
+{
+  "registry_version": "1.0.0",
+  "fixture_id": "MF-FIX-001",
+  "case_id": "MF-CASE-REFUND-001",
+  "immutable_keys": {
+    "tenant": [
+      "MF-TEN-RET-001",
+      "MF-TEN-INS-001",
+      "MF-TEN-WEA-001"
+    ],
+    "human": [
+      "MF-HUM-SPN-001",
+      "MF-HUM-PLT-001",
+      "MF-HUM-SEC-001",
+      "MF-HUM-DOM-001",
+      "MF-HUM-SRE-001",
+      "MF-HUM-FIN-001",
+      "MF-HUM-RET-017",
+      "MF-HUM-RET-OWN-001",
+      "MF-HUM-INS-OWN-001",
+      "MF-HUM-WEA-OWN-001"
+    ],
+    "agent": [
+      "MF-AGT-RET-004"
+    ],
+    "service": [
+      "MF-SVC-REF-002"
+    ],
+    "tool": [
+      "MF-TOOL-REF-001"
+    ],
+    "policy": [
+      "MF-POL-RET-ACCESS-v1.0",
+      "MF-POL-CTX-CONFLICT-v1.0",
+      "MF-POL-DELEGATE-v1.0",
+      "MF-POL-ACTION-v1.0",
+      "MF-POL-RELEASE-v1.0",
+      "MF-POL-TENANT-v1.0"
+    ],
+    "context_record": [
+      "MF-REC-A-001",
+      "MF-REC-B-001"
+    ],
+    "artifact": [
+      "MF-EVD-CM-001",
+      "MF-EVD-RC-001",
+      "MF-EVD-DG-001",
+      "MF-EVD-AU-001",
+      "MF-EVD-DN-001",
+      "MF-EVD-RG-001"
+    ],
+    "request": [
+      "MF-REQ-REF-001"
+    ],
+    "action": [
+      "MF-ACT-REF-001"
+    ],
+    "candidate_release": [
+      "MF-REL-RET-0.2.0-rc1"
+    ]
+  },
+  "naming_standards": {
+    "entities": "MF-<TYPE>-<DOMAIN>-<NNN> (registered exceptions: service/technical identifiers with stable explicit ID)",
+    "evidence": "MF-EVD-<TWO_LETTER_TYPE>-<NNN>",
+    "events": "MF-EVT-<NNN>",
+    "decisions": "D-XX exactly as frozen catalogue",
+    "releases": "MF-REL-<DOMAIN>-<semver>-<release label>",
+    "policy": "MF-POL-<PURPOSE>-vMAJOR.MINOR",
+    "timestamps": "ISO 8601, UTC Z with seconds",
+    "currency": "GBP with integer minor units",
+    "versions": "SemVer; v1.0.0 fixture records are immutable after publication; errata use v1.0.1 or v1.1.0"
+  },
+  "temporal_contract": {
+    "start": "2027-02-16T10:00:00Z",
+    "end": "2027-03-15T14:00:03Z",
+    "week_events": {
+      "7": "retrieval index leak detected and quarantined",
+      "8": "source status conflict escalated",
+      "9": "delegation expansion and refund action denied",
+      "11": "release candidate failed hard behavioural assertion"
+    }
+  },
+  "reference_rules": [
+    "References must use canonical IDs, not copied or invented synonyms",
+    "Only Record A and B are included in context; insurance leak item is quarantine-only",
+    "Do not present timestamps or data as actual Meridian production facts",
+    "Do not state that refund.issue was executed",
+    "A gateway denial is not an agent behavioural assertion pass",
+    "No real JWT signature, external request or network test is asserted",
+    "Never treat Record B as authoritative due to newer recorded_at",
+    "D-10/D-11/D-14/D-18/D-20/D-23 IDs and defaults must remain unchanged",
+    "Meridian Week 12 separate read-only pilot release must not be presented as redemption of Week 11 rc1"
+  ],
+  "immutable_artifact_file_map": {
+    "01-context-manifest.json": "MF-EVD-CM-001",
+    "02-reconciliation-record.json": "MF-EVD-RC-001",
+    "03-delegation-record.json": "MF-EVD-DG-001",
+    "04-authorisation-receipt.json": "MF-EVD-AU-001",
+    "05-denied-action-receipt.json": "MF-EVD-DN-001",
+    "06-release-gate-report.json": "MF-EVD-RG-001"
+  },
+  "source_baseline": {
+    "style": "style-v1.2.md Part J1; F1; H2",
+    "story": "Enterprise_AI_Agent_Fabric_Development_Blueprint.md §3.1–3.2 and §3.2.1",
+    "decisions": "Enterprise_AI_Agent_Fabric_Decision_Catalogue.csv"
+  }
+}

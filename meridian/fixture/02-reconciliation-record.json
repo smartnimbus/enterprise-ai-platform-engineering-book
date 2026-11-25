@@ -1,0 +1,38 @@
+{
+  "id": "MF-EVD-RC-001",
+  "type": "SemanticReconciliationRecord",
+  "version": "1.0.0",
+  "created_at": "2027-02-22T09:12:03Z",
+  "fixture_id": "MF-FIX-001",
+  "case_id": "MF-CASE-REFUND-001",
+  "tenant_id": "MF-TEN-RET-001",
+  "customer_id": "MF-CUST-SYN-0042",
+  "product_id": "MF-PROD-0091",
+  "record_ids": [
+    "MF-REC-A-001",
+    "MF-REC-B-001"
+  ],
+  "context_manifest_id": "MF-EVD-CM-001",
+  "policy_id": "MF-POL-CTX-CONFLICT-v1.0",
+  "conflicting_field": "product_status",
+  "value_a": "ACTIVE",
+  "value_b": "CLOSED",
+  "same_effective_as_of": "2027-02-22T00:00:00Z",
+  "reason": "Both records address the same canonical product and effective date but disagree; source timestamps do not establish authority",
+  "status": "UNRESOLVED",
+  "resolution": "ESCALATE_TO_DOMAIN_DATA_OWNER",
+  "authority_owner_id": "MF-HUM-RET-OWN-001",
+  "followup_ticket": "MF-TASK-STEWARDSHIP-001",
+  "allowed_effect": "Show conflicting evidence to human reviewer",
+  "blocked_effect": "No refund.issue and no durable memory assertion of eligibility",
+  "decision_refs": [
+    "D-11",
+    "D-14",
+    "D-23"
+  ],
+  "event_refs": [
+    "MF-EVT-007",
+    "MF-EVT-008"
+  ],
+  "effective_precedence_rule": "NONE_DEFINED; explicit unresolved state retained"
+}
