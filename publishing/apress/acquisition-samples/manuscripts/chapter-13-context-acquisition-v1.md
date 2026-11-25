@@ -12,8 +12,6 @@ Context determines which source material may enter an agent's working inputs, ho
 
 A retrieval system can return a document because its contents match a question. That match says nothing about whether the requesting actor may read the document or whether its contents establish a business fact. Context has to preserve these distinctions throughout assembly, consumption and subsequent reuse.
 
-The Context Structural Layer has separate contracts for the operations in Table 13-1. Each operation produces information that the next operation can inspect without assuming that a previous check settled a different question.
-
 *Table 13-1. Context components and their respective outputs.*
 
 | Component group | Responsibility | Output |
@@ -24,9 +22,7 @@ The Context Structural Layer has separate contracts for the operations in Table 
 | Memory | Validate retention and future reuse | Governed write decision |
 | Handoff | Transfer bounded information under receiving policy | Context packet |
 
-A context contract binds information to the task and the actor consuming it. An implementation might use fields such as `context_id`, `source_id`, `source_version`, `tenant_id`, `subject_id`, `data_class`, `valid_from`, `observed_at`, `authority`, `confidence`, `retention_class` and `provenance_hash`. These are proposed schema fields, not a transcription of Meridian's records. The fixture uses names including `id`, `source_system`, `classification`, `recorded_at` and `effective_as_of`.
-
-The distinction between source authority and confidence matters. A relevance score expresses how closely a result matches a query; it cannot establish the authority of the system that supplied the result. Provenance makes that authority inspectable. It does not confer it.
+In the four-layer architecture, a Context contract binds information to the task and the actor consuming it. An implementation might use fields such as `context_id`, `source_id`, `source_version`, `tenant_id`, `subject_id`, `data_class`, `valid_from`, `observed_at`, `authority`, `confidence`, `retention_class` and `provenance_hash`. These are proposed schema fields, not a transcription of Meridian's records. The fixture uses names including `id`, `source_system`, `classification`, `recorded_at` and `effective_as_of`.
 
 #### Access-aware retrieval and manifest assembly
 
@@ -84,9 +80,9 @@ The CRM record was recorded ten minutes later. Its business-effective time, howe
 
 D-14 separates entity matching from the decision about which claim governs a business process. Context owns the match and records the disagreement. The domain data owner defines any applicable precedence rule. Where a valid rule exists, the reconciliation process can apply it and retain the basis for the decision. Where no rule exists, the conflict remains explicit.
 
-On 22 February, `MF-EVT-005` at 09:12:00 and `MF-EVT-006` at 09:12:01 record allowed retrieval of A and B. At 09:12:02, `MF-EVT-007` records the conflict with outcome BLOCKED. At 09:12:03, `MF-EVT-008` records escalation to the steward.
+On 22 February 2027 (all times UTC), `MF-EVT-005` at 09:12:00 and `MF-EVT-006` at 09:12:01 record allowed retrieval of A and B. At 09:12:02, `MF-EVT-007` records the conflict with outcome BLOCKED. At 09:12:03, `MF-EVT-008` records escalation to the steward.
 
-The reconciliation record, created at 09:12:03 UTC, references policy `MF-POL-CTX-CONFLICT-v1.0`. Its status is `UNRESOLVED`, its resolution is `ESCALATE_TO_DOMAIN_DATA_OWNER`, and its effective precedence field reads `NONE_DEFINED; explicit unresolved state retained`. The accountable Retail Data Steward is `MF-HUM-RET-OWN-001`; the follow-up ticket is `MF-TASK-STEWARDSHIP-001`.
+The reconciliation record and Context Manifest were created at 09:12:03 UTC. The reconciliation references policy `MF-POL-CTX-CONFLICT-v1.0`. Its status is `UNRESOLVED`, its resolution is `ESCALATE_TO_DOMAIN_DATA_OWNER`, and its effective precedence field reads `NONE_DEFINED; explicit unresolved state retained`. The accountable Retail Data Steward is `MF-HUM-RET-OWN-001`; the follow-up ticket is `MF-TASK-STEWARDSHIP-001`.
 
 [Place Figure 13-2 here: Semantic Reconciliation Workflow.]
 
@@ -105,8 +101,6 @@ Working context is the bounded set of inputs assembled for a particular consumer
 Episodic memory represents selected prior experiences or task episodes. Semantic memory retains knowledge intended for reuse across tasks. These are conceptual memory tiers, not evidence that Meridian populated separate stores. Each durable entry needs a retention and verification decision appropriate to its intended use.
 
 An audit record has a different purpose. It allows an authorised investigator to reconstruct what happened, including unsuccessful actions and rejected claims. It may require retention even when the information is unsuitable for future agent recall. An evidence archive must not become an agent-readable memory store by default.
-
-These distinctions affect retrieval design. A semantic search over previous conversations may return a confident statement about eligibility, although that statement originated in a disputed case. The similarity of the previous and current questions does not establish that the earlier conclusion is valid. Recall requires inspection of provenance, verification status and effective time under current access policy.
 
 #### Governed memory write decisions
 
@@ -163,8 +157,6 @@ Identity establishes actor and tenant claims. Governance defines policy and acco
 Gateway owns external mutable action admission; Verification owns behavioural assertions and release decisions. Neither responsibility transfers to Context when it reports a conflict.
 
 ### Failure modes
-
-Context failures can propagate through caches, model inputs and later tasks. The first visible symptom may therefore occur well after the original retrieval or write. Table 13-4 identifies the failure at the boundary where an operator can investigate it.
 
 *Table 13-4. Context failure modes and required controls; design guidance, not a production incident inventory.*
 
@@ -248,8 +240,6 @@ If rechecks become unavailable, the service preserves quarantine and reports ins
 - `semantic-claim-reconciliation.json`: explicit conflict representation (example: `MF-EVD-RC-001`).
 - `context-negative-tests.md`: access, conflict and unsafe-recall assertions.
 - `context-deletion-receipts.csv`: deletion verification format.
-
-The D-11–D-14 Atlas pages provide the associated retrieval policy, handoff schema and reconciliation specifications.
 
 ### See also
 
