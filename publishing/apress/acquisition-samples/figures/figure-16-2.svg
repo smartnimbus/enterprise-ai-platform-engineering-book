@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="370" viewBox="0 0 720 370" role="img" aria-labelledby="title desc"><title id="title">Figure 16-2. Gateway evaluation and denied decision</title><desc id="desc">The refund service proposes a mutation, but the Gateway enforcement point receives a denial from the policy evaluator and records the decision. No execution token or external ledger request is issued.</desc><defs><marker id="a" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 Z" fill="#333"/></marker></defs><rect width="100%" height="100%" fill="#fff"/><g font-family="Arial, sans-serif" fill="#171717">
+<text x="12" y="24" font-size="17" text-anchor="start" font-weight="bold">Figure 16-2  |  Gateway evaluation and denied decision</text>
+<rect x="12" y="42" width="106" height="36" rx="7" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="65" y="65" font-size="14" text-anchor="middle">Agent</text>
+<polyline points="65,78 65,287" fill="none" stroke="#333" stroke-width="0.8" stroke-dasharray="5 4"/>
+<rect x="130" y="42" width="106" height="36" rx="7" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="183" y="57.5" font-size="14" text-anchor="middle">Refund</text>
+<text x="183" y="72.5" font-size="14" text-anchor="middle">service</text>
+<polyline points="183,78 183,287" fill="none" stroke="#333" stroke-width="0.8" stroke-dasharray="5 4"/>
+<rect x="248" y="42" width="106" height="36" rx="7" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="301" y="57.5" font-size="14" text-anchor="middle">Gateway</text>
+<text x="301" y="72.5" font-size="14" text-anchor="middle">PEP</text>
+<polyline points="301,78 301,287" fill="none" stroke="#333" stroke-width="0.8" stroke-dasharray="5 4"/>
+<rect x="366" y="42" width="106" height="36" rx="7" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="419" y="57.5" font-size="14" text-anchor="middle">Policy</text>
+<text x="419" y="72.5" font-size="14" text-anchor="middle">evaluator</text>
+<polyline points="419,78 419,287" fill="none" stroke="#333" stroke-width="0.8" stroke-dasharray="5 4"/>
+<rect x="484" y="42" width="106" height="36" rx="7" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="537" y="57.5" font-size="14" text-anchor="middle">Evidence</text>
+<text x="537" y="72.5" font-size="14" text-anchor="middle">store</text>
+<polyline points="537,78 537,287" fill="none" stroke="#333" stroke-width="0.8" stroke-dasharray="5 4"/>
+<rect x="602" y="42" width="106" height="36" rx="7" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="655" y="57.5" font-size="14" text-anchor="middle">Refund</text>
+<text x="655" y="72.5" font-size="14" text-anchor="middle">ledger</text>
+<polyline points="655,78 655,287" fill="none" stroke="#333" stroke-width="0.8" stroke-dasharray="5 4"/>
+<polyline points="65,103 183,103" fill="none" stroke="#333" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="124" y="95" font-size="12" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="3" stroke-linejoin="round">proposes refund</text>
+<polyline points="183,136 301,136" fill="none" stroke="#333" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="242" y="128" font-size="12" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="3" stroke-linejoin="round">requests mutation</text>
+<polyline points="301,169 419,169" fill="none" stroke="#333" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="360" y="161" font-size="12" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="3" stroke-linejoin="round">requests decision</text>
+<polyline points="419,202 301,202" fill="none" stroke="#333" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#a)"/>
+<text x="360" y="194" font-size="12" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="3" stroke-linejoin="round">returns DENY</text>
+<polyline points="301,235 537,235" fill="none" stroke="#333" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="419" y="227" font-size="12" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="3" stroke-linejoin="round">records decision</text>
+<polyline points="301,268 183,268" fill="none" stroke="#333" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#a)"/>
+<text x="242" y="260" font-size="12" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="3" stroke-linejoin="round">returns denial</text>
+<text x="655" y="304" font-size="14" text-anchor="middle" font-weight="bold">No call</text>
+<text x="12" y="310" font-size="13" text-anchor="start">Decision: required_scope=FAIL | context_conflict_precondition=FAIL</text>
+<text x="12" y="328" font-size="13" text-anchor="start">human_execution_approval=ABSENT | SCOPE_EXCEEDS_DELEGATION</text>
+<text x="12" y="346" font-size="13" text-anchor="start">MF-EVD-AU-001: token=null | MF-EVD-DN-001: zero financial mutations</text>
+<text x="12" y="362" font-size="13" text-anchor="start">Policy evaluator is a logical responsibility, not a registered service.</text></g></svg>

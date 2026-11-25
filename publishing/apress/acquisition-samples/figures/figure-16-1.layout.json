@@ -1,0 +1,240 @@
+{
+  "id": "16-1",
+  "title": "Scope attenuation before action admission",
+  "w": 720,
+  "h": 312,
+  "items": [
+    {
+      "t": "box",
+      "x": 12,
+      "y": 42,
+      "w": 106,
+      "h": 36,
+      "lines": [
+        "Human"
+      ],
+      "kind": "actor"
+    },
+    {
+      "t": "line",
+      "points": [
+        [
+          65,
+          78
+        ],
+        [
+          65,
+          250
+        ]
+      ],
+      "kind": "dash"
+    },
+    {
+      "t": "box",
+      "x": 159.5,
+      "y": 42,
+      "w": 106,
+      "h": 36,
+      "lines": [
+        "Agent"
+      ],
+      "kind": "actor"
+    },
+    {
+      "t": "line",
+      "points": [
+        [
+          212.5,
+          78
+        ],
+        [
+          212.5,
+          250
+        ]
+      ],
+      "kind": "dash"
+    },
+    {
+      "t": "box",
+      "x": 307,
+      "y": 42,
+      "w": 106,
+      "h": 36,
+      "lines": [
+        "Refund",
+        "service"
+      ],
+      "kind": "actor"
+    },
+    {
+      "t": "line",
+      "points": [
+        [
+          360,
+          78
+        ],
+        [
+          360,
+          250
+        ]
+      ],
+      "kind": "dash"
+    },
+    {
+      "t": "box",
+      "x": 454.5,
+      "y": 42,
+      "w": 106,
+      "h": 36,
+      "lines": [
+        "Gateway PEP"
+      ],
+      "kind": "actor"
+    },
+    {
+      "t": "line",
+      "points": [
+        [
+          507.5,
+          78
+        ],
+        [
+          507.5,
+          250
+        ]
+      ],
+      "kind": "dash"
+    },
+    {
+      "t": "box",
+      "x": 602,
+      "y": 42,
+      "w": 106,
+      "h": 36,
+      "lines": [
+        "Refund tool"
+      ],
+      "kind": "actor"
+    },
+    {
+      "t": "line",
+      "points": [
+        [
+          655,
+          78
+        ],
+        [
+          655,
+          250
+        ]
+      ],
+      "kind": "dash"
+    },
+    {
+      "t": "edge",
+      "points": [
+        [
+          65,
+          105
+        ],
+        [
+          212.5,
+          105
+        ]
+      ],
+      "label": "delegates read/request",
+      "x": 138.75,
+      "y": 97,
+      "kind": "solid"
+    },
+    {
+      "t": "edge",
+      "points": [
+        [
+          212.5,
+          143
+        ],
+        [
+          360,
+          143
+        ]
+      ],
+      "label": "delegates request",
+      "x": 286.25,
+      "y": 135,
+      "kind": "solid"
+    },
+    {
+      "t": "edge",
+      "points": [
+        [
+          360,
+          181
+        ],
+        [
+          507.5,
+          181
+        ]
+      ],
+      "label": "requests action",
+      "x": 433.75,
+      "y": 173,
+      "kind": "solid"
+    },
+    {
+      "t": "text",
+      "x": 507.5,
+      "y": 205,
+      "s": "evaluates scope",
+      "size": 13,
+      "align": "center",
+      "bold": false
+    },
+    {
+      "t": "edge",
+      "points": [
+        [
+          507.5,
+          231
+        ],
+        [
+          360,
+          231
+        ]
+      ],
+      "label": "denies execution",
+      "x": 433.75,
+      "y": 223,
+      "kind": "dash"
+    },
+    {
+      "t": "text",
+      "x": 655,
+      "y": 266,
+      "s": "Not invoked",
+      "size": 14,
+      "align": "center",
+      "bold": true
+    },
+    {
+      "t": "text",
+      "x": 12,
+      "y": 282,
+      "s": "Effective: refund:request | Required: refund:execute | DENY",
+      "size": 15,
+      "align": "left",
+      "bold": true
+    },
+    {
+      "t": "text",
+      "x": 12,
+      "y": 300,
+      "s": "MF-EVD-DG-001 | MF-EVT-009 to MF-EVT-012 | Unsigned synthetic claims",
+      "size": 13,
+      "align": "left",
+      "bold": false
+    }
+  ],
+  "mmd": "%% Figure 16-1 — Scope attenuation before action admission\n%% A human delegates a read-and-request workflow through an agent and refund service to the Gateway enforcement point. The Gateway denies refund execution because the effective permission is narrower than the required action scope.\nsequenceDiagram\n participant H as Human\n participant A as Agent\n participant S as Refund service\n participant P as Gateway PEP\n participant T as Refund tool\n H->>A: delegates read/request\n A->>S: delegates request\n S->>P: requests action\n Note over P: evaluates scope\n P-->>S: denies execution\n Note over T: Not invoked\n Note over H,P: Effective refund:request; required refund:execute\n",
+  "alt": "A human delegates a read-and-request workflow through an agent and refund service to the Gateway enforcement point. The Gateway denies refund execution because the effective permission is narrower than the required action scope."
+}

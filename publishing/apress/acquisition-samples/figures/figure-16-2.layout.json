@@ -1,0 +1,312 @@
+{
+  "id": "16-2",
+  "title": "Gateway evaluation and denied decision",
+  "w": 720,
+  "h": 370,
+  "items": [
+    {
+      "t": "box",
+      "x": 12,
+      "y": 42,
+      "w": 106,
+      "h": 36,
+      "lines": [
+        "Agent"
+      ],
+      "kind": "actor"
+    },
+    {
+      "t": "line",
+      "points": [
+        [
+          65,
+          78
+        ],
+        [
+          65,
+          287
+        ]
+      ],
+      "kind": "dash"
+    },
+    {
+      "t": "box",
+      "x": 130,
+      "y": 42,
+      "w": 106,
+      "h": 36,
+      "lines": [
+        "Refund",
+        "service"
+      ],
+      "kind": "actor"
+    },
+    {
+      "t": "line",
+      "points": [
+        [
+          183,
+          78
+        ],
+        [
+          183,
+          287
+        ]
+      ],
+      "kind": "dash"
+    },
+    {
+      "t": "box",
+      "x": 248,
+      "y": 42,
+      "w": 106,
+      "h": 36,
+      "lines": [
+        "Gateway",
+        "PEP"
+      ],
+      "kind": "actor"
+    },
+    {
+      "t": "line",
+      "points": [
+        [
+          301,
+          78
+        ],
+        [
+          301,
+          287
+        ]
+      ],
+      "kind": "dash"
+    },
+    {
+      "t": "box",
+      "x": 366,
+      "y": 42,
+      "w": 106,
+      "h": 36,
+      "lines": [
+        "Policy",
+        "evaluator"
+      ],
+      "kind": "actor"
+    },
+    {
+      "t": "line",
+      "points": [
+        [
+          419,
+          78
+        ],
+        [
+          419,
+          287
+        ]
+      ],
+      "kind": "dash"
+    },
+    {
+      "t": "box",
+      "x": 484,
+      "y": 42,
+      "w": 106,
+      "h": 36,
+      "lines": [
+        "Evidence",
+        "store"
+      ],
+      "kind": "actor"
+    },
+    {
+      "t": "line",
+      "points": [
+        [
+          537,
+          78
+        ],
+        [
+          537,
+          287
+        ]
+      ],
+      "kind": "dash"
+    },
+    {
+      "t": "box",
+      "x": 602,
+      "y": 42,
+      "w": 106,
+      "h": 36,
+      "lines": [
+        "Refund",
+        "ledger"
+      ],
+      "kind": "actor"
+    },
+    {
+      "t": "line",
+      "points": [
+        [
+          655,
+          78
+        ],
+        [
+          655,
+          287
+        ]
+      ],
+      "kind": "dash"
+    },
+    {
+      "t": "edge",
+      "points": [
+        [
+          65,
+          103
+        ],
+        [
+          183,
+          103
+        ]
+      ],
+      "label": "proposes refund",
+      "x": 124,
+      "y": 95,
+      "kind": "solid"
+    },
+    {
+      "t": "edge",
+      "points": [
+        [
+          183,
+          136
+        ],
+        [
+          301,
+          136
+        ]
+      ],
+      "label": "requests mutation",
+      "x": 242,
+      "y": 128,
+      "kind": "solid"
+    },
+    {
+      "t": "edge",
+      "points": [
+        [
+          301,
+          169
+        ],
+        [
+          419,
+          169
+        ]
+      ],
+      "label": "requests decision",
+      "x": 360,
+      "y": 161,
+      "kind": "solid"
+    },
+    {
+      "t": "edge",
+      "points": [
+        [
+          419,
+          202
+        ],
+        [
+          301,
+          202
+        ]
+      ],
+      "label": "returns DENY",
+      "x": 360,
+      "y": 194,
+      "kind": "dash"
+    },
+    {
+      "t": "edge",
+      "points": [
+        [
+          301,
+          235
+        ],
+        [
+          537,
+          235
+        ]
+      ],
+      "label": "records decision",
+      "x": 419,
+      "y": 227,
+      "kind": "solid"
+    },
+    {
+      "t": "edge",
+      "points": [
+        [
+          301,
+          268
+        ],
+        [
+          183,
+          268
+        ]
+      ],
+      "label": "returns denial",
+      "x": 242,
+      "y": 260,
+      "kind": "dash"
+    },
+    {
+      "t": "text",
+      "x": 655,
+      "y": 304,
+      "s": "No call",
+      "size": 14,
+      "align": "center",
+      "bold": true
+    },
+    {
+      "t": "text",
+      "x": 12,
+      "y": 310,
+      "s": "Decision: required_scope=FAIL | context_conflict_precondition=FAIL",
+      "size": 13,
+      "align": "left",
+      "bold": false
+    },
+    {
+      "t": "text",
+      "x": 12,
+      "y": 328,
+      "s": "human_execution_approval=ABSENT | SCOPE_EXCEEDS_DELEGATION",
+      "size": 13,
+      "align": "left",
+      "bold": false
+    },
+    {
+      "t": "text",
+      "x": 12,
+      "y": 346,
+      "s": "MF-EVD-AU-001: token=null | MF-EVD-DN-001: zero financial mutations",
+      "size": 13,
+      "align": "left",
+      "bold": false
+    },
+    {
+      "t": "text",
+      "x": 12,
+      "y": 362,
+      "s": "Policy evaluator is a logical responsibility, not a registered service.",
+      "size": 13,
+      "align": "left",
+      "bold": false
+    }
+  ],
+  "mmd": "%% Figure 16-2 — Gateway evaluation and denied decision\n%% The refund service proposes a mutation, but the Gateway enforcement point receives a denial from the policy evaluator and records the decision. No execution token or external ledger request is issued.\nsequenceDiagram\n participant A as Agent\n participant S as Refund service\n participant P as Gateway PEP\n participant D as Policy evaluator\n participant E as Evidence store\n participant L as Refund ledger\n A->>S: proposes refund\n S->>P: requests mutation\n P->>D: requests decision\n D-->>P: returns DENY\n P->>E: records decision\n P-->>S: returns denial\n Note over L: No call\n Note over P,D: Scope FAIL; conflict FAIL; approval ABSENT\n",
+  "alt": "The refund service proposes a mutation, but the Gateway enforcement point receives a denial from the policy evaluator and records the decision. No execution token or external ledger request is issued."
+}
