@@ -5,6 +5,7 @@ Chapter 13 author-final teaching revision (pending independent acceptance):
 - [Technical blueprint v1.0](../../../editorial/authoring-blueprints/Chapter_13_Authoring_Blueprint_v1.0.md) remains authoritative; BP13-v2 teaching overlay applied from supplied input, not independently approved.
 - [Evidence crosswalk](evidence/ch13-claim-crosswalk.csv).
 - [Editorial self-review](chapter-13-editorial-self-review.md).
+- [Final focused editorial upgrade plan](chapter-13-editorial-upgrade-plan.md) — proposed revision only; manuscript remains at 79c550d3.
 - [Production contract](production-plan/ACQUISITION-SAMPLE-MANUSCRIPT-ASSEMBLY-PLAN-v1.md).
 
 Figure exports, independent acceptance and print proof pending. Chapter 16 and other specimens are outside this PR. Frozen source snapshot and historical manifests are unchanged.
