@@ -85,8 +85,8 @@
         ]
       ],
       "label": "submits for admission",
-      "x": 270,
-      "y": 68,
+      "x": 365,
+      "y": 51,
       "kind": "solid"
     },
     {
@@ -130,7 +130,7 @@
     {
       "t": "text",
       "x": 419,
-      "y": 101,
+      "y": 128,
       "s": "Approved route design",
       "size": 13,
       "align": "center",

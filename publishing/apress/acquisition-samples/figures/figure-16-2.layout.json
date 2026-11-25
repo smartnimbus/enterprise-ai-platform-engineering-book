@@ -2,7 +2,7 @@
   "id": "16-2",
   "title": "Gateway evaluation and denied decision",
   "w": 720,
-  "h": 370,
+  "h": 404,
   "items": [
     {
       "t": "box",
@@ -305,6 +305,22 @@
       "size": 13,
       "align": "left",
       "bold": false
+    },
+    {
+      "t": "text",
+      "x": 12,
+      "y": 380,
+      "s": "PEP: MF-SVC-PEP-001 | Ledger: MF-SYS-LEDGER-001",
+      "size": 13,
+      "align": "left"
+    },
+    {
+      "t": "text",
+      "x": 12,
+      "y": 396,
+      "s": "signed_authorisation_status=NOT_ISSUED_DENIED",
+      "size": 13,
+      "align": "left"
     }
   ],
   "mmd": "%% Figure 16-2 — Gateway evaluation and denied decision\n%% The refund service proposes a mutation, but the Gateway enforcement point receives a denial from the policy evaluator and records the decision. No execution token or external ledger request is issued.\nsequenceDiagram\n participant A as Agent\n participant S as Refund service\n participant P as Gateway PEP\n participant D as Policy evaluator\n participant E as Evidence store\n participant L as Refund ledger\n A->>S: proposes refund\n S->>P: requests mutation\n P->>D: requests decision\n D-->>P: returns DENY\n P->>E: records decision\n P-->>S: returns denial\n Note over L: No call\n Note over P,D: Scope FAIL; conflict FAIL; approval ABSENT\n",

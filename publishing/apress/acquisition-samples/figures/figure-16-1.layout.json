@@ -2,7 +2,7 @@
   "id": "16-1",
   "title": "Scope attenuation before action admission",
   "w": 720,
-  "h": 312,
+  "h": 346,
   "items": [
     {
       "t": "box",
@@ -233,6 +233,22 @@
       "size": 13,
       "align": "left",
       "bold": false
+    },
+    {
+      "t": "text",
+      "x": 12,
+      "y": 316,
+      "s": "Human: MF-HUM-RET-017 | Agent: MF-AGT-RET-004 | Service: MF-SVC-REF-002",
+      "size": 13,
+      "align": "left"
+    },
+    {
+      "t": "text",
+      "x": 12,
+      "y": 332,
+      "s": "PEP: MF-SVC-PEP-001 | Refund tool: MF-TOOL-REF-001",
+      "size": 13,
+      "align": "left"
     }
   ],
   "mmd": "%% Figure 16-1 — Scope attenuation before action admission\n%% A human delegates a read-and-request workflow through an agent and refund service to the Gateway enforcement point. The Gateway denies refund execution because the effective permission is narrower than the required action scope.\nsequenceDiagram\n participant H as Human\n participant A as Agent\n participant S as Refund service\n participant P as Gateway PEP\n participant T as Refund tool\n H->>A: delegates read/request\n A->>S: delegates request\n S->>P: requests action\n Note over P: evaluates scope\n P-->>S: denies execution\n Note over T: Not invoked\n Note over H,P: Effective refund:request; required refund:execute\n",

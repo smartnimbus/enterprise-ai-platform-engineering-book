@@ -13,13 +13,13 @@
 <rect x="548" y="106" width="130" height="52" rx="1" fill="#fff" stroke="#333" stroke-width="1.5" stroke-dasharray="5 3"/>
 <text x="613" y="137" font-size="14" text-anchor="middle">Refund ledger</text>
 <polyline points="217,119 272,119 272,86 342,86" fill="none" stroke="#333" stroke-width="1.5" marker-end="url(#a)"/>
-<text x="270" y="68" font-size="12" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="3" stroke-linejoin="round">submits for admission</text>
+<text x="365" y="51" font-size="12" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="3" stroke-linejoin="round">submits for admission</text>
 <polyline points="131,158 131,196 240,196" fill="none" stroke="#333" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#a)"/>
 <text x="171" y="186" font-size="12" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="3" stroke-linejoin="round">tries direct route</text>
 <polyline points="390,196 488,196" fill="none" stroke="#333" stroke-width="1.5"/>
 <path d="M488 187V205" stroke="#111" stroke-width="4"/>
 <text x="440" y="184" font-size="12" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="3" stroke-linejoin="round">blocks direct route</text>
-<text x="419" y="101" font-size="13" text-anchor="middle">Approved route design</text>
+<text x="419" y="128" font-size="13" text-anchor="middle">Approved route design</text>
 <text x="613" y="180" font-size="13" text-anchor="middle" font-weight="bold">No request received</text>
 <text x="15" y="253" font-size="13" text-anchor="start">MF-EVT-013 | DENIED_BY_NETWORK_EGRESS | target_received_request=false</text>
 <text x="15" y="270" font-size="13" text-anchor="start">Separate synthetic negative test; no production firewall proof.</text>
