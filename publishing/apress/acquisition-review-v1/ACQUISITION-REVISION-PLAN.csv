@@ -1,0 +1,10 @@
+priority,sequence,deliverable,definition,owner_role,exit_criteria
+P0,01,Author verification and permission,"Bio/CV, 2–3 named personally led engagements, rights to describe, reference contacts",Author,Draft factual bio with evidence; do not invent credentials
+P0,02,Complete two sample chapters,"Chapter 16 edited F7 and Chapter 13 written F6, approximately target pages",Technical author + editor,Independent reviewers explicitly confirm technical quality and publisher suitability
+P0,03,Create six Atlas F1 specimens,"D-10, D-14, D-18 plus three breadth decisions from the frozen catalogue",Atlas editor,Exact defaults cross-checked; print-page readability verified
+P0,04,Full annotated TOC,"58 immutable titles, each 2–4 sentence unique reader outcomes",Development editor,No missing titles and no new chapters
+P0,05,Market and competition refresh,"Top 6–7 direct books, source/date, buyer alternative, precise differentiation",Acquisitions editor,No unsupported absent-topic or unique-first claims
+P0,06,Committable delivery plan,"Named author/writer/reviewer hours, manuscript milestones, figure count",Production director,Feasible schedule given ~980 human hours planning scenario
+P0,07,Publisher form and integrity pack,"Verified Springer form; rights/AI-use statement; contact, originality, sole submission truth",Corresponding author,Every mandatory field confirmed by author
+P1,08,Reader purchase validation,Small structured buyer interviews and independent technical sample feedback,Author + reviewer,Raw responses and quotes attributable with consent
+P1,09,Editor-facing pitch,"2-page synopsis, 1-page competitor grid, 58 chapter synopses, samples",Development editor,Executive clarity; links/appendices outside restricted form fields

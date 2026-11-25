@@ -1,0 +1,15 @@
+id,source_section,claim_or_implication,observed_support,required_correction,priority
+C01,Proposal §1/§3,One-page Decision Atlas as a completed product,"30 catalogue rows exist, two standalone F1 drafts; finished typography/review not verified",Present as planned; attach six approved F1 specimens before formal review,P0
+C02,Proposal §3/§8,58 chapters and 478 pages,58 frozen briefs; 1 standalone chapter draft; 448 chapter-page budget + front matter,Use expected extent and candid manuscript status; never equate TOC with completed work,P0
+C03,Proposal §1/§3,Chapters 13 and 16 as acquisition samples,"Ch13 blueprint only; Ch16 ~2,560 word draft; no accepted samples","Complete, professionally edit, and secure independent technical reviews",P0
+C04,Proposal §4,2025 and 2026 survey adoption statistics,Sources indicated but exact numbers/citations absent in proposal body,"Recheck original survey, date, denominator, region, wording; remove unsupported extrapolation",P0
+C05,Proposal §5 / dossier,Competitor category coverage scores,"28 title survey based on public catalogues, not full-text comparison",Use qualitative direct comparison and a source/date column; avoid pseudo-quantitative precision,P0
+C06,Dossier §3,O’Reilly platform book scheduled 2027 only,O’Reilly has an accessible early-release table of contents,Label early release available and forecast print timing separately,P0
+C07,Proposal §10,Author has enterprise architecture expertise,"A verifiable author CV, named role examples, permissions and endorsements not supplied",Author must substantiate credentials with factual bio and examples,P0
+C08,Proposal §10,Six-month staffed delivery is plausible,979.8-hour recovery scenario; contributors/reviewers not committed,"Provide named capacity, reviewer commitments and dated milestones before offering binding date",P0
+C09,Proposal §1/§3,Meridian demonstrates security/incident/recovery/retirement,"Frozen fixture validates a bounded synthetic denial/conflict sequence, not full runtime history",Label 15-event evidence scope; use separate illustrative specimens for other journeys,P0
+C10,Proposal §2,"Rights, originality and AI-use disclosures",No verified complete rights/AI-use/source permissions statement,Attach rights register and human-reviewed originality declaration,P0
+C11,Proposal §8,Full chapter synopses supplied,Nine anchor synopses; 49 remain to be written,Supply 58 short immutable-title synopses as annex,P0
+C12,Proposal §7,All worked artefacts will be usable,Most are specified rather than typeset or worked through,Show 2–3 complete annotated artefacts attached to samples,P1
+C13,Dossier §5,"Title uniqueness, trademark risk rated precisely","Editorial heuristics, not a legal opinion",Remove numerical legal-risk veneer; request publisher-led title/name check,P1
+C14,Proposal §2,15–20 buyer interviews planned,"Prospective only, not research already performed","Optional market validation: 6–10 focused interviews initially, disclose actual count",P1
