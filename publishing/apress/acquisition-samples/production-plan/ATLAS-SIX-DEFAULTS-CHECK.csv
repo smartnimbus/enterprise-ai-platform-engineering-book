@@ -1,0 +1,7 @@
+decision_id,exact_default,chapter_refs,required_artefact,reversibility,spec_file
+D-01,Default to domain-local delivery until at least two funded production use cases need the same control contracts and a positive shared-cost case is evidenced.,"Ch 1, 4, 5, 24, 41",fabric-adoption-adr.md,Two-way door,ATLAS-D-01-F1-PRODUCTION-SPEC.md
+D-10,"Default to Gateway-enforced action authorisation with a signed, scoped receipt and idempotency key before every external mutation.","Ch 12, 15, 16, 27, 48",action-authorisation-contract.json,Two-way door,ATLAS-D-10-F1-PRODUCTION-SPEC.md
+D-14,Default to canonical IDs with source lineage and explicit unresolved-conflict states; never silently choose the newest record as truth.,"Ch 13, 18, 22, 28",semantic-reconciliation-record.json,Two-way door,ATLAS-D-14-F1-PRODUCTION-SPEC.md
+D-18,"Default to mandatory PEP checks on mutable external actions, enforced by credentials, routing policy and egress controls.","Ch 10, 12, 16, 27, 42",gateway-bypass-proof.md,One-way door,ATLAS-D-18-F1-PRODUCTION-SPEC.md
+D-26,"Default to tenant, use-case and trajectory-level showback based on cost per successful task, with budgets and invoice reconciliation.","Ch 8, 20, 32, 38, 41",cost-allocation-policy.xlsx,Two-way door,ATLAS-D-26-F1-PRODUCTION-SPEC.md
+D-30,"Default to a formal retirement gate proving token revocation, data disposition, preserved obligations and tested export or migration.","Ch 21, 34, 40, 49, 50, 57",retirement-certificate-and-exit-plan.md,One-way door,ATLAS-D-30-F1-PRODUCTION-SPEC.md
