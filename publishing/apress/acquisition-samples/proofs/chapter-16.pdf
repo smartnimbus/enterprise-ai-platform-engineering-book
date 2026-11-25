@@ -1,0 +1,830 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R /Lang (en-GB) >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 12 /Kids [9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 20 0 R 22 0 R 24 0 R 26 0 R 28 0 R 30 0 R 32 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding >>
+endobj
+8 0 obj
+<< /Length 3429 >>
+stream
+0.35 g BT /F2 8 Tf 1 0 0 1 64.8 638 Tm (CHAPTER 16 / GATEWAY CONTROL PLANE) Tj ET
+0.35 g BT /F3 8 Tf 1 0 0 1 379.78 638 Tm (The Enterprise AI Agent Fabric) Tj ET
+0.65 G 0.5 w 64.8 628 m 489.6 628 l S
+0.65 G 0.5 w 64.8 43 m 489.6 43 l S
+0.3 g BT /F2 9 Tf 1 0 0 1 484.6 29 Tm (1) Tj ET
+0.4 g BT /F3 8 Tf 1 0 0 1 64.8 29 Tm (AUTHOR PROOF) Tj ET
+0.1 g BT /F2 25 Tf 1 0 0 1 64.8 582 Tm (Chapter 16: Gateway Control Plane) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 538 Tm (On 1 March 2027, the retail refund agent at fictional Meridian Financial proposed issuing GBP 125.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 524 Tm (The original service-desk request permitted investigation and preparation of a recommendation, not) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 510 Tm (payment. The Gateway denied the mutation before the refund ledger received a call. A separate) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 496 Tm (simulated direct service-to-ledger attempt stopped at network egress.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 476 Tm (The two outcomes in the synthetic Meridian fixture establish different properties. One records) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 462 Tm (enforcement of an admission decision; the other records a blocked alternative route. Neither depends) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 448 Tm (on whether the agent's explanation sounds reasonable.) Tj ET
+0.1 g BT /F2 17 Tf 1 0 0 1 64.8 423 Tm (What this layer decides) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 395 Tm (The Gateway Control Plane governs admission and routing of external actions; it does not originate) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 381 Tm (business approval, create delegated authority, or determine whether the agent's recommendation is) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 367 Tm (correct.) Tj ET
+0.1 g BT /F2 17 Tf 1 0 0 1 64.8 342 Tm (The mechanism) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 314 Tm (A syntactically valid tool invocation is not evidence of authority. The Gateway must distinguish the) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 300 Tm (operation proposed by an agent from the operation the originating actor has authorised.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 280 Tm (At Meridian, request MF-REQ-REF-001 entered the Retail Service Desk Portal on 16 February) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 266 Tm (2027. Alex Morgan \(MF-HUM-RET-017\) asked the retail workflow to examine a duplicate service) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 252 Tm (charge of GBP 125. The request required a product-status check, eligibility assessment, and) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 238 Tm (recommendation for an authorised human reviewer. It explicitly prohibited sending money without) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 224 Tm (further authorisation.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 204 Tm (Two records subsequently disagreed about the relevant product's status. The Retail Product Registry) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 190 Tm (recorded ACTIVE; Retail CRM recorded CLOSED for the same product and effective date. The) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 176 Tm (disagreement remained unresolved in MF-EVD-RC-001. The Gateway does not reconcile those) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 162 Tm (records. It must, however, enforce a policy that treats unresolved eligibility as a failed precondition) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 148 Tm (for payment.) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 5366 >>
+stream
+0.35 g BT /F2 8 Tf 1 0 0 1 50.4 638 Tm (CHAPTER 16 / GATEWAY CONTROL PLANE) Tj ET
+0.35 g BT /F3 8 Tf 1 0 0 1 365.38 638 Tm (The Enterprise AI Agent Fabric) Tj ET
+0.65 G 0.5 w 50.4 628 m 475.2 628 l S
+0.65 G 0.5 w 50.4 43 m 475.2 43 l S
+0.3 g BT /F2 9 Tf 1 0 0 1 50.4 29 Tm (2) Tj ET
+0.4 g BT /F3 8 Tf 1 0 0 1 410.75 29 Tm (AUTHOR PROOF) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 602 Tm (The attempted operation was refund.issue, represented by MF-ACT-REF-001 and the external target) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 588 Tm (operation POST /refunds. Preparing a recommendation and transferring funds are different) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 574 Tm (permissions, even for the same customer and amount. The registered operation requires) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 560 Tm (refund:execute. Mutable actions are classified by their external effects, not their transport method or) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 546 Tm (tool name. Sending a message or updating a record can cross the same boundary.) Tj ET
+0.1 g BT /F2 13.5 Tf 1 0 0 1 50.4 523 Tm (Responsibilities at the boundary) Tj ET
+0.3 g BT /F5 8.5 Tf 1 0 0 1 50.4 501 Tm (Table 16-1. Ownership and enforcement contracts at the action boundary.) Tj ET
+.25 g 50.4 470 424.8 20 re f
+1 g BT /F2 9 Tf 1 0 0 1 54.4 480 Tm (Component or responsibility) Tj ET
+1 g BT /F2 9 Tf 1 0 0 1 198.83 480 Tm (Contract at the boundary) Tj ET
+0.72 G 0.5 w 50.4 470 m 475.2 470 l S
+.96 g 50.4 438 424.8 32 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 460 Tm (Identity Control Plane) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 198.83 460 Tm (Establish the actor, workload identity, and delegation chain; make) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 198.83 448 Tm (scoped claims available for verification.) Tj ET
+0.72 G 0.5 w 50.4 438 m 475.2 438 l S
+1 g 50.4 406 424.8 32 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 428 Tm (Governance Control Plane) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 198.83 428 Tm (Define and version which classes of external action require) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 198.83 416 Tm (approvals and policy checks.) Tj ET
+0.72 G 0.5 w 50.4 406 m 475.2 406 l S
+.96 g 50.4 374 424.8 32 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 396 Tm (Context Structural Layer) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 198.83 396 Tm (Provide provenance and reconciliation state, including unresolved) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 198.83 384 Tm (conflicts.) Tj ET
+0.72 G 0.5 w 50.4 374 m 475.2 374 l S
+1 g 50.4 342 424.8 32 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 364 Tm (Gateway Control Plane) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 198.83 364 Tm (Route requests through mandatory admission, evaluate applicable) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 198.83 352 Tm (constraints, and record decisions.) Tj ET
+0.72 G 0.5 w 50.4 342 m 475.2 342 l S
+.96 g 50.4 310 424.8 32 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 332 Tm (Policy decision point \(PDP\)) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 198.83 332 Tm (Evaluate the policy inputs and return a permit-or-deny decision; it is) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 198.83 320 Tm (a logical responsibility here.) Tj ET
+0.72 G 0.5 w 50.4 310 m 475.2 310 l S
+1 g 50.4 278 424.8 32 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 300 Tm (Policy enforcement point \(PEP\)) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 198.83 300 Tm (Intercept the proposed mutation at MF-SVC-PEP-001 and prevent) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 198.83 288 Tm (execution without a permitted result.) Tj ET
+0.72 G 0.5 w 50.4 278 m 475.2 278 l S
+.96 g 50.4 246 424.8 32 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 268 Tm (Tooling Structural Layer) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 198.83 268 Tm (Invoke the registered tool only after the required authorisation is) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 198.83 256 Tm (validated.) Tj ET
+0.72 G 0.5 w 50.4 246 m 475.2 246 l S
+1 g 50.4 214 424.8 32 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 236 Tm (Observability and Verification) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 224 Tm (Control Planes) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 198.83 236 Tm (Preserve correlated evidence and evaluate whether the agent's) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 198.83 224 Tm (behaviour passes release assertions.) Tj ET
+0.72 G 0.5 w 50.4 214 m 475.2 214 l S
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 201 Tm (The policy decision point and policy enforcement point perform different jobs. A PDP answers) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 187 Tm (whether an action is allowed under a specified policy and supplied facts. A PEP makes that answer) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 173 Tm (effective at the point where the action would otherwise proceed. An evaluator that logs DENY) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 159 Tm (without controlling the invocation is not an enforcement boundary.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 139 Tm (An admission request identifies the tenant, actor chain, target resource, registered operation, material) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 125 Tm (arguments, risk class, and approval evidence. The PEP obtains a decision under the applicable policy) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 111 Tm (version before releasing the request to Tooling. Unavailable authority evidence or an unverifiable) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 97 Tm (mandatory condition prevents mutation. A positive decision must bind the exact invocation, not) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 83 Tm (merely the name of the tool.) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> /Contents 10 0 R >>
+endobj
+12 0 obj
+<< /Length 2250 >>
+stream
+0.35 g BT /F2 8 Tf 1 0 0 1 64.8 638 Tm (CHAPTER 16 / GATEWAY CONTROL PLANE) Tj ET
+0.35 g BT /F3 8 Tf 1 0 0 1 379.78 638 Tm (The Enterprise AI Agent Fabric) Tj ET
+0.65 G 0.5 w 64.8 628 m 489.6 628 l S
+0.65 G 0.5 w 64.8 43 m 489.6 43 l S
+0.3 g BT /F2 9 Tf 1 0 0 1 484.6 29 Tm (3) Tj ET
+0.4 g BT /F3 8 Tf 1 0 0 1 64.8 29 Tm (AUTHOR PROOF) Tj ET
+0.1 g BT /F2 13.5 Tf 1 0 0 1 64.8 602 Tm (Delegation before admission) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 580 Tm (The refund service may possess credentials capable of issuing payment. Those credentials do not) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 566 Tm (widen the permission delegated by the originator. Each hop must preserve or narrow that authority.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 546 Tm (MF-EVD-DG-001 records three hops in chain MF-CHAIN-001. The human delegates case:read,) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 532 Tm (product:read, and refund:request to agent MF-AGT-RET-004. The agent delegates case:read and) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 518 Tm (refund:request to service MF-SVC-REF-002. The service delegates only refund:request towards tool) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 504 Tm (MF-TOOL-REF-001, with the Gateway PEP as the declared audience.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 484 Tm (The effective scope is the intersection of the grants at each hop: refund:request. Requesting review is) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 470 Tm (not permission to execute a refund. The audiences are the agent, the service, and the PEP) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 456 Tm (respectively; expiry narrows from 11:05 through 11:04 to 11:03 UTC on 1 March 2027. The record) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 442 Tm (states scope_does_not_expand=true and) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 428 Tm (signature_status=ILLUSTRATIVE_NOT_CRYPTOGRAPHICALLY_SIGNED.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 408 Tm (These unsigned claims record simulated structural validation, not verification of production tokens.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 394 Tm (In a deployed design, D-20 requires signed, audience-bound, expiring delegation with permissions) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 380 Tm (that narrow at each hop.) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> /Contents 12 0 R >>
+endobj
+14 0 obj
+<< /Length 6434 >>
+stream
+0.35 g BT /F2 8 Tf 1 0 0 1 50.4 638 Tm (CHAPTER 16 / GATEWAY CONTROL PLANE) Tj ET
+0.35 g BT /F3 8 Tf 1 0 0 1 365.38 638 Tm (The Enterprise AI Agent Fabric) Tj ET
+0.65 G 0.5 w 50.4 628 m 475.2 628 l S
+0.65 G 0.5 w 50.4 43 m 475.2 43 l S
+0.3 g BT /F2 9 Tf 1 0 0 1 50.4 29 Tm (4) Tj ET
+0.4 g BT /F3 8 Tf 1 0 0 1 410.75 29 Tm (AUTHOR PROOF) Tj ET
+/Figure << /Alt (A human delegates a read-and-request workflow through an agent and refund service to the Gateway enforcement point. The Gateway denies refund execution because the effective permission is narrower than the required action scope.) >> BDC
+0.1 g BT /F2 10.03 Tf 1 0 0 1 57.48 592.84 Tm (Figure 16-1  |  Scope attenuation before action admission) Tj ET
+1 g 0.2 G 0.89 w [] 0 d 57.48 560.98 62.54 21.24 re B [] 0 d
+0.1 g BT /F3 8.26 Tf 1 0 0 1 75.44 568.65 Tm (Human) Tj ET
+.2 G 0.47 w [3 2] 0 d 88.75 560.98 m 88.75 459.5 l S [] 0 d
+1 g 0.2 G 0.89 w [] 0 d 144.5 560.98 62.54 21.24 re B [] 0 d
+0.1 g BT /F3 8.26 Tf 1 0 0 1 164.98 568.65 Tm (Agent) Tj ET
+.2 G 0.47 w [3 2] 0 d 175.78 560.98 m 175.78 459.5 l S [] 0 d
+1 g 0.2 G 0.89 w [] 0 d 231.53 560.98 62.54 21.24 re B [] 0 d
+0.1 g BT /F3 8.26 Tf 1 0 0 1 249.48 573.08 Tm (Refund) Tj ET
+0.1 g BT /F3 8.26 Tf 1 0 0 1 249.72 564.23 Tm (service) Tj ET
+.2 G 0.47 w [3 2] 0 d 262.8 560.98 m 262.8 459.5 l S [] 0 d
+1 g 0.2 G 0.89 w [] 0 d 318.55 560.98 62.54 21.24 re B [] 0 d
+0.1 g BT /F3 8.26 Tf 1 0 0 1 324.12 568.65 Tm (Gateway PEP) Tj ET
+.2 G 0.47 w [3 2] 0 d 349.82 560.98 m 349.82 459.5 l S [] 0 d
+1 g 0.2 G 0.89 w [] 0 d 405.58 560.98 62.54 21.24 re B [] 0 d
+0.1 g BT /F3 8.26 Tf 1 0 0 1 415.73 568.65 Tm (Refund tool) Tj ET
+.2 G 0.47 w [3 2] 0 d 436.85 560.98 m 436.85 459.5 l S [] 0 d
+.2 G 0.89 w [] 0 d 88.75 545.05 m 175.78 545.05 l S [] 0 d
+.2 g 175.78 545.05 m 172.35 546.93 l 172.35 543.17 l h f
+1 g 95.06 548.77 74.41 9.08 re f
+0.1 g BT /F3 7.08 Tf 1 0 0 1 96.06 549.77 Tm (delegates read/request) Tj ET
+.2 G 0.89 w [] 0 d 175.78 522.63 m 262.8 522.63 l S [] 0 d
+.2 g 262.8 522.63 m 259.38 524.51 l 259.38 520.75 l h f
+1 g 190.15 526.35 58.28 9.08 re f
+0.1 g BT /F3 7.08 Tf 1 0 0 1 191.15 527.35 Tm (delegates request) Tj ET
+.2 G 0.89 w [] 0 d 262.8 500.21 m 349.82 500.21 l S [] 0 d
+.2 g 349.82 500.21 m 346.4 502.09 l 346.4 498.33 l h f
+1 g 281.31 503.93 50.01 9.08 re f
+0.1 g BT /F3 7.08 Tf 1 0 0 1 282.31 504.93 Tm (requests action) Tj ET
+0.1 g BT /F3 7.67 Tf 1 0 0 1 322.11 486.05 Tm (evaluates scope) Tj ET
+.2 G 0.89 w [3 2] 0 d 349.82 470.71 m 262.8 470.71 l S [] 0 d
+.2 g 262.8 470.71 m 266.22 468.83 l 266.22 472.59 l h f
+1 g 278.75 474.43 55.13 9.08 re f
+0.1 g BT /F3 7.08 Tf 1 0 0 1 279.75 475.43 Tm (denies execution) Tj ET
+0.1 g BT /F2 8.26 Tf 1 0 0 1 413.21 450.06 Tm (Not invoked) Tj ET
+0.1 g BT /F2 8.85 Tf 1 0 0 1 57.48 440.62 Tm (Effective: refund:request | Required: refund:execute | DENY) Tj ET
+0.1 g BT /F3 7.67 Tf 1 0 0 1 57.48 430 Tm (MF-EVD-DG-001 | MF-EVT-009 to MF-EVT-012 | Unsigned synthetic claims) Tj ET
+0.1 g BT /F3 7.67 Tf 1 0 0 1 57.48 420.56 Tm (Human: MF-HUM-RET-017 | Agent: MF-AGT-RET-004 | Service: MF-SVC-REF-002) Tj ET
+0.1 g BT /F3 7.67 Tf 1 0 0 1 57.48 411.12 Tm (PEP: MF-SVC-PEP-001 | Refund tool: MF-TOOL-REF-001) Tj ET
+EMC
+0.3 g BT /F5 8.5 Tf 1 0 0 1 50.4 393.86 Tm (Figure 16-1. Delegated scope narrows before Gateway admission; the requested refund mutation exceeds the) Tj ET
+0.3 g BT /F5 8.5 Tf 1 0 0 1 50.4 382.86 Tm (effective grant \(v1.0; synthetic Meridian fixture\). Source: MF-EVD-DG-001, MF-EVT-009\226MF-EVT-012.) Tj ET
+0.3 g BT /F5 8.5 Tf 1 0 0 1 50.4 367.86 Tm (Figure legend: Human = MF-HUM-RET-017; Agent = MF-AGT-RET-004; Refund service = MF-SVC-REF-002;) Tj ET
+0.3 g BT /F5 8.5 Tf 1 0 0 1 50.4 356.86 Tm (Gateway PEP = MF-SVC-PEP-001; Refund tool = MF-TOOL-REF-001.) Tj ET
+0.35 g BT /F5 8.5 Tf 1 0 0 1 50.4 341.86 Tm (Alt text: A human delegates a read-and-request workflow through an agent and refund service to the Gateway) Tj ET
+0.35 g BT /F5 8.5 Tf 1 0 0 1 50.4 330.86 Tm (enforcement point. The Gateway denies refund execution because the effective permission is narrower than the) Tj ET
+0.35 g BT /F5 8.5 Tf 1 0 0 1 50.4 319.86 Tm (required action scope.) Tj ET
+0.1 g BT /F2 13.5 Tf 1 0 0 1 50.4 297.86 Tm (From proposed action to denied decision) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 275.86 Tm (The narrowed grant and unresolved conflict now become inputs to action admission.) Tj ET
+0.3 g BT /F5 8.5 Tf 1 0 0 1 50.4 255.86 Tm (Table 16-2. Synthetic action-admission events on 2027-03-01 \(UTC\).) Tj ET
+.25 g 50.4 224.86 424.8 20 re f
+1 g BT /F2 9 Tf 1 0 0 1 54.4 234.86 Tm (Event) Tj ET
+1 g BT /F2 9 Tf 1 0 0 1 156.35 234.86 Tm (Time) Tj ET
+1 g BT /F2 9 Tf 1 0 0 1 232.82 234.86 Tm (Observed result) Tj ET
+0.72 G 0.5 w 50.4 224.86 m 475.2 224.86 l S
+.96 g 50.4 192.86 424.8 32 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 214.86 Tm (MF-EVT-009) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 156.35 214.86 Tm (11:00:00) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 232.82 214.86 Tm (Delegation scopes attenuated; chain structure accepted in) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 232.82 202.86 Tm (simulation.) Tj ET
+0.72 G 0.5 w 50.4 192.86 m 475.2 192.86 l S
+1 g 50.4 160.86 424.8 32 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 182.86 Tm (MF-EVT-010) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 156.35 182.86 Tm (11:00:01) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 232.82 182.86 Tm (Agent proposed refund.issue; action requested, not) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 232.82 170.86 Tm (authorised.) Tj ET
+0.72 G 0.5 w 50.4 160.86 m 475.2 160.86 l S
+.96 g 50.4 140.86 424.8 20 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 150.86 Tm (MF-EVT-011) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 156.35 150.86 Tm (11:00:02) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 232.82 150.86 Tm (Policy evaluated and returned DENY.) Tj ET
+0.72 G 0.5 w 50.4 140.86 m 475.2 140.86 l S
+1 g 50.4 120.86 424.8 20 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 130.86 Tm (MF-EVT-012) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 156.35 130.86 Tm (11:00:03) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 232.82 130.86 Tm (Gateway PEP denied mutation; no external processor call.) Tj ET
+0.72 G 0.5 w 50.4 120.86 m 475.2 120.86 l S
+.96 g 50.4 88.86 424.8 32 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 110.86 Tm (MF-EVT-013) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 156.35 110.86 Tm (11:00:04) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 232.82 110.86 Tm (Separate simulated direct-route bypass test passed) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 232.82 98.86 Tm (because egress blocked the route.) Tj ET
+0.72 G 0.5 w 50.4 88.86 m 475.2 88.86 l S
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> /Contents 14 0 R >>
+endobj
+16 0 obj
+<< /Length 2921 >>
+stream
+0.35 g BT /F2 8 Tf 1 0 0 1 64.8 638 Tm (CHAPTER 16 / GATEWAY CONTROL PLANE) Tj ET
+0.35 g BT /F3 8 Tf 1 0 0 1 379.78 638 Tm (The Enterprise AI Agent Fabric) Tj ET
+0.65 G 0.5 w 64.8 628 m 489.6 628 l S
+0.65 G 0.5 w 64.8 43 m 489.6 43 l S
+0.3 g BT /F2 9 Tf 1 0 0 1 484.6 29 Tm (5) Tj ET
+0.4 g BT /F3 8 Tf 1 0 0 1 64.8 29 Tm (AUTHOR PROOF) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 602 Tm (In MF-EVD-AU-001, tenant and tool registration checks passed; actor-chain structure passed in) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 588 Tm (simulation. The requested scope was refund:execute; the effective scope was only refund:request.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 568 Tm (Three findings determined that the mutation could not proceed: required_scope=FAIL,) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 554 Tm (context_conflict_precondition=FAIL, and human_execution_approval=ABSENT. The primary) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 540 Tm (denial reason was SCOPE_EXCEEDS_DELEGATION. The additional reasons were) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 526 Tm (UNRESOLVED_PRODUCT_STATUS and HUMAN_EXECUTION_APPROVAL_MISSING.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 506 Tm (The primary reason identifies the decisive privilege failure. The other failures matter because) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 492 Tm (correcting scope alone would not make the action permissible. The unresolved records still require a) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 478 Tm (data-owner decision, and execution still requires approval under the policy.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 458 Tm (D-10 specifies a signed, scoped authorisation receipt and an idempotency key before external) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 444 Tm (mutation. A permitted receipt must bind the intended actor, resource, operation, material arguments,) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 430 Tm (and validity conditions. Tooling rejects a receipt whose binding does not match the invocation. An) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 416 Tm (approval for one refund cannot authorise a different recipient or amount.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 396 Tm (An idempotency key identifies a logical mutation across retries; it is not execution permission. A) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 382 Tm (timeout cannot distinguish an unexecuted request from a committed operation whose response was) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 368 Tm (lost. Duplicate detection must therefore coordinate with the target effect, for example through) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 354 Tm (target-supported idempotency. The recorded Meridian decision was a denial, so its) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 340 Tm (authorised_execution_token is null and signed_authorisation_status is NOT_ISSUED_DENIED.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 326 Tm (There is no signed execution permission to reuse.) Tj ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> /Contents 16 0 R >>
+endobj
+18 0 obj
+<< /Type /Annot /Subtype /Link /Rect [171.4 175.64 334.73 189.14] /Border [0 0 0] /A << /S /URI /URI (https://genai.owasp.org/top-10-for-agentic-applications-2026/) >> >>
+endobj
+19 0 obj
+<< /Length 6453 >>
+stream
+0.35 g BT /F2 8 Tf 1 0 0 1 50.4 638 Tm (CHAPTER 16 / GATEWAY CONTROL PLANE) Tj ET
+0.35 g BT /F3 8 Tf 1 0 0 1 365.38 638 Tm (The Enterprise AI Agent Fabric) Tj ET
+0.65 G 0.5 w 50.4 628 m 475.2 628 l S
+0.65 G 0.5 w 50.4 43 m 475.2 43 l S
+0.3 g BT /F2 9 Tf 1 0 0 1 50.4 29 Tm (6) Tj ET
+0.4 g BT /F3 8 Tf 1 0 0 1 410.75 29 Tm (AUTHOR PROOF) Tj ET
+/Figure << /Alt (The refund service proposes a mutation, but the Gateway enforcement point receives a denial from the policy evaluator and records the decision. No execution token or external ledger request is issued.) >> BDC
+0.1 g BT /F2 10.03 Tf 1 0 0 1 57.48 592.84 Tm (Figure 16-2  |  Gateway evaluation and denied decision) Tj ET
+1 g 0.2 G 0.89 w [] 0 d 57.48 560.98 62.54 21.24 re B [] 0 d
+0.1 g BT /F3 8.26 Tf 1 0 0 1 77.96 568.65 Tm (Agent) Tj ET
+.2 G 0.47 w [3 2] 0 d 88.75 560.98 m 88.75 437.67 l S [] 0 d
+1 g 0.2 G 0.89 w [] 0 d 127.1 560.98 62.54 21.24 re B [] 0 d
+0.1 g BT /F3 8.26 Tf 1 0 0 1 145.05 573.08 Tm (Refund) Tj ET
+0.1 g BT /F3 8.26 Tf 1 0 0 1 145.29 564.23 Tm (service) Tj ET
+.2 G 0.47 w [3 2] 0 d 158.37 560.98 m 158.37 437.67 l S [] 0 d
+1 g 0.2 G 0.89 w [] 0 d 196.72 560.98 62.54 21.24 re B [] 0 d
+0.1 g BT /F3 8.26 Tf 1 0 0 1 211.69 573.08 Tm (Gateway) Tj ET
+0.1 g BT /F3 8.26 Tf 1 0 0 1 219.73 564.23 Tm (PEP) Tj ET
+.2 G 0.47 w [3 2] 0 d 227.99 560.98 m 227.99 437.67 l S [] 0 d
+1 g 0.2 G 0.89 w [] 0 d 266.34 560.98 62.54 21.24 re B [] 0 d
+0.1 g BT /F3 8.26 Tf 1 0 0 1 286.6 573.08 Tm (Policy) Tj ET
+0.1 g BT /F3 8.26 Tf 1 0 0 1 280.62 564.23 Tm (evaluator) Tj ET
+.2 G 0.47 w [3 2] 0 d 297.61 560.98 m 297.61 437.67 l S [] 0 d
+1 g 0.2 G 0.89 w [] 0 d 335.96 560.98 62.54 21.24 re B [] 0 d
+0.1 g BT /F3 8.26 Tf 1 0 0 1 350.24 573.08 Tm (Evidence) Tj ET
+0.1 g BT /F3 8.26 Tf 1 0 0 1 358.05 564.23 Tm (store) Tj ET
+.2 G 0.47 w [3 2] 0 d 367.23 560.98 m 367.23 437.67 l S [] 0 d
+1 g 0.2 G 0.89 w [] 0 d 405.58 560.98 62.54 21.24 re B [] 0 d
+0.1 g BT /F3 8.26 Tf 1 0 0 1 423.53 573.08 Tm (Refund) Tj ET
+0.1 g BT /F3 8.26 Tf 1 0 0 1 425.37 564.23 Tm (ledger) Tj ET
+.2 G 0.47 w [3 2] 0 d 436.85 560.98 m 436.85 437.67 l S [] 0 d
+.2 G 0.89 w [] 0 d 88.75 546.23 m 158.37 546.23 l S [] 0 d
+.2 g 158.37 546.23 m 154.95 548.11 l 154.95 544.35 l h f
+1 g 96.98 549.95 53.16 9.08 re f
+0.1 g BT /F3 7.08 Tf 1 0 0 1 97.98 550.95 Tm (proposes refund) Tj ET
+.2 G 0.89 w [] 0 d 158.37 526.76 m 227.99 526.76 l S [] 0 d
+.2 g 227.99 526.76 m 224.57 528.64 l 224.57 524.88 l h f
+1 g 164.04 530.48 58.27 9.08 re f
+0.1 g BT /F3 7.08 Tf 1 0 0 1 165.04 531.48 Tm (requests mutation) Tj ET
+.2 G 0.89 w [] 0 d 227.99 507.29 m 297.61 507.29 l S [] 0 d
+.2 g 297.61 507.29 m 294.19 509.17 l 294.19 505.41 l h f
+1 g 234.26 511.01 57.09 9.08 re f
+0.1 g BT /F3 7.08 Tf 1 0 0 1 235.26 512.01 Tm (requests decision) Tj ET
+.2 G 0.89 w [3 2] 0 d 297.61 487.82 m 227.99 487.82 l S [] 0 d
+.2 g 227.99 487.82 m 231.41 485.94 l 231.41 489.7 l h f
+1 g 239.97 491.54 45.67 9.08 re f
+0.1 g BT /F3 7.08 Tf 1 0 0 1 240.97 492.54 Tm (returns DENY) Tj ET
+.2 G 0.89 w [] 0 d 227.99 468.35 m 367.23 468.35 l S [] 0 d
+.2 g 367.23 468.35 m 363.81 470.23 l 363.81 466.47 l h f
+1 g 270.84 472.07 53.54 9.08 re f
+0.1 g BT /F3 7.08 Tf 1 0 0 1 271.84 473.07 Tm (records decision) Tj ET
+.2 G 0.89 w [3 2] 0 d 227.99 448.88 m 158.37 448.88 l S [] 0 d
+.2 g 158.37 448.88 m 161.79 447 l 161.79 450.76 l h f
+1 g 170.73 452.6 44.89 9.08 re f
+0.1 g BT /F3 7.08 Tf 1 0 0 1 171.73 453.6 Tm (returns denial) Tj ET
+0.1 g BT /F2 8.26 Tf 1 0 0 1 423.31 427.64 Tm (No call) Tj ET
+0.1 g BT /F3 7.67 Tf 1 0 0 1 57.48 424.1 Tm (Decision: required_scope=FAIL | context_conflict_precondition=FAIL) Tj ET
+0.1 g BT /F3 7.67 Tf 1 0 0 1 57.48 413.48 Tm (human_execution_approval=ABSENT | SCOPE_EXCEEDS_DELEGATION) Tj ET
+0.1 g BT /F3 7.67 Tf 1 0 0 1 57.48 402.86 Tm (MF-EVD-AU-001: token=null | MF-EVD-DN-001: zero financial mutations) Tj ET
+0.1 g BT /F3 7.67 Tf 1 0 0 1 57.48 393.42 Tm (Policy evaluator is a logical responsibility, not a registered service.) Tj ET
+0.1 g BT /F3 7.67 Tf 1 0 0 1 57.48 382.8 Tm (PEP: MF-SVC-PEP-001 | Ledger: MF-SYS-LEDGER-001) Tj ET
+0.1 g BT /F3 7.67 Tf 1 0 0 1 57.48 373.36 Tm (signed_authorisation_status=NOT_ISSUED_DENIED) Tj ET
+EMC
+0.3 g BT /F5 8.5 Tf 1 0 0 1 50.4 359.64 Tm (Figure 16-2. The Gateway PEP records a denied policy decision before any call reaches the refund ledger \(v1.0;) Tj ET
+0.3 g BT /F5 8.5 Tf 1 0 0 1 50.4 348.64 Tm (synthetic Meridian fixture\). Source: MF-EVD-AU-001, MF-EVD-DN-001.) Tj ET
+0.3 g BT /F5 8.5 Tf 1 0 0 1 50.4 333.64 Tm (Figure legend: Agent = MF-AGT-RET-004; Refund service = MF-SVC-REF-002; Gateway PEP =) Tj ET
+0.3 g BT /F5 8.5 Tf 1 0 0 1 50.4 322.64 Tm (MF-SVC-PEP-001; Refund ledger = MF-SYS-LEDGER-001. The policy evaluator represents a logical PDP) Tj ET
+0.3 g BT /F5 8.5 Tf 1 0 0 1 50.4 311.64 Tm (responsibility, not a separately registered Meridian service.) Tj ET
+0.35 g BT /F5 8.5 Tf 1 0 0 1 50.4 296.64 Tm (Alt text: The refund service proposes a mutation, but the Gateway enforcement point receives a denial from the) Tj ET
+0.35 g BT /F5 8.5 Tf 1 0 0 1 50.4 285.64 Tm (policy evaluator and records the decision. No execution token or external ledger request is issued.) Tj ET
+0.1 g BT /F2 17 Tf 1 0 0 1 50.4 261.64 Tm (Threat coverage) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 233.64 Tm (The Gateway protects the service-to-action boundary. OWASP's Top 10 for Agentic Applications) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 219.64 Tm (\(2026\) identifies ASI02: Tool Misuse and Exploitation and ASI03: Identity and Privilege Abuse as) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 205.64 Tm (relevant risks. The proposed refund.issue without execution authority illustrates why tool intent and) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 191.64 Tm (delegated privilege must be checked independently. These are threat mappings, not claims that) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 177.64 Tm (Meridian suffered an attack. OWASP Agentic Top 10, 2026 edition.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 157.64 Tm (The chain crosses five relevant interfaces: originator to agent, agent to service, service to PEP, PEP) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 143.64 Tm (to external target, and PEP to evidence store. Identity owns the delegation claims. Gateway) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 129.64 Tm (evaluates action admission and enforces the result. Observability preserves the corresponding) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 115.64 Tm (trajectory evidence.) Tj ET
+endstream
+endobj
+20 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> /Contents 19 0 R /Annots [18 0 R] >>
+endobj
+21 0 obj
+<< /Length 6068 >>
+stream
+0.35 g BT /F2 8 Tf 1 0 0 1 64.8 638 Tm (CHAPTER 16 / GATEWAY CONTROL PLANE) Tj ET
+0.35 g BT /F3 8 Tf 1 0 0 1 379.78 638 Tm (The Enterprise AI Agent Fabric) Tj ET
+0.65 G 0.5 w 64.8 628 m 489.6 628 l S
+0.65 G 0.5 w 64.8 43 m 489.6 43 l S
+0.3 g BT /F2 9 Tf 1 0 0 1 484.6 29 Tm (7) Tj ET
+0.4 g BT /F3 8 Tf 1 0 0 1 64.8 29 Tm (AUTHOR PROOF) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 602 Tm (ASI01: Agent Goal Hijack and ASI06: Memory & Context Poisoning remain relevant upstream) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 588 Tm (threats. The Gateway cannot repair poisoned records or agent goals. Context preserves unresolved) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 574 Tm (evidence; Verification tests the agent's response. The Gateway's contribution is to prevent a) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 560 Tm (prohibited side effect even when a request reaches its boundary.) Tj ET
+0.1 g BT /F2 17 Tf 1 0 0 1 64.8 535 Tm (Failure modes) Tj ET
+0.3 g BT /F5 8.5 Tf 1 0 0 1 64.8 507 Tm (Table 16-3. Failure modes, observable symptoms, and required controls.) Tj ET
+.25 g 64.8 476 424.8 20 re f
+1 g BT /F2 9 Tf 1 0 0 1 68.8 486 Tm (Failure) Tj ET
+1 g BT /F2 9 Tf 1 0 0 1 149.51 486 Tm (Cause) Tj ET
+1 g BT /F2 9 Tf 1 0 0 1 242.97 486 Tm (Observable symptom) Tj ET
+1 g BT /F2 9 Tf 1 0 0 1 357.66 486 Tm (Required control) Tj ET
+0.72 G 0.5 w 64.8 476 m 489.6 476 l S
+.96 g 64.8 432 424.8 44 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 68.8 466 Tm (Privilege) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 68.8 454 Tm (expansion) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 149.51 466 Tm (Requested scope) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 149.51 454 Tm (exceeds delegated) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 149.51 442 Tm (grant) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 242.97 466 Tm (required_scope=FAIL) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 357.66 466 Tm (Deny at PEP and retain) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 357.66 454 Tm (actor-chain reference.) Tj ET
+0.72 G 0.5 w 64.8 432 m 489.6 432 l S
+1 g 64.8 388 424.8 44 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 68.8 422 Tm (Direct bypass) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 149.51 422 Tm (Service can reach) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 149.51 410 Tm (external target) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 149.51 398 Tm (without mediation) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 242.97 422 Tm (Mutation traffic lacks PEP) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 242.97 410 Tm (decision) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 357.66 422 Tm (Restrict egress and test the) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 357.66 410 Tm (forbidden route.) Tj ET
+0.72 G 0.5 w 64.8 388 m 489.6 388 l S
+.96 g 64.8 344 424.8 44 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 68.8 378 Tm (Stale policy) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 149.51 378 Tm (PEP uses an) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 149.51 366 Tm (obsolete policy) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 149.51 354 Tm (version) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 242.97 378 Tm (Receipt version differs) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 242.97 366 Tm (from approved bundle) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 357.66 378 Tm (Version validation and) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 357.66 366 Tm (controlled policy distribution.) Tj ET
+0.72 G 0.5 w 64.8 344 m 489.6 344 l S
+1 g 64.8 312 424.8 32 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 68.8 334 Tm (PEP unavailable) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 149.51 334 Tm (Admission service or) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 149.51 322 Tm (policy evaluator fails) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 242.97 334 Tm (No trustworthy decision) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 242.97 322 Tm (returned) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 357.66 334 Tm (Fail closed for mutable actions;) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 357.66 322 Tm (define recovery separately.) Tj ET
+0.72 G 0.5 w 64.8 312 m 489.6 312 l S
+.96 g 64.8 268 424.8 44 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 68.8 302 Tm (Replayed) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 68.8 290 Tm (permission) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 149.51 302 Tm (An old approval is) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 149.51 290 Tm (presented again) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 242.97 302 Tm (Duplicate attempt or stale) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 242.97 290 Tm (binding) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 357.66 302 Tm (Validate audience, expiry,) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 357.66 290 Tm (action binding, and applicable) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 357.66 278 Tm (reuse constraints.) Tj ET
+0.72 G 0.5 w 64.8 268 m 489.6 268 l S
+1 g 64.8 224 424.8 44 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 68.8 258 Tm (Duplicate retry) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 149.51 258 Tm (A timed-out request) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 149.51 246 Tm (is submitted twice) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 242.97 258 Tm (Repeated mutation) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 242.97 246 Tm (attempts) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 357.66 258 Tm (Carry an idempotency key) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 357.66 246 Tm (through admission and) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 357.66 234 Tm (execution.) Tj ET
+0.72 G 0.5 w 64.8 224 m 489.6 224 l S
+.96 g 64.8 180 424.8 44 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 68.8 214 Tm (Unresolved) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 68.8 202 Tm (context) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 149.51 214 Tm (Eligibility records) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 149.51 202 Tm (contradict each) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 149.51 190 Tm (other) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 242.97 214 Tm (context_conflict_precondit) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 242.97 202 Tm (ion=FAIL) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 357.66 214 Tm (Block mutation and escalate) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 357.66 202 Tm (reconciliation.) Tj ET
+0.72 G 0.5 w 64.8 180 m 489.6 180 l S
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 167 Tm (The controls add latency, dependencies, and recovery obligations. They also prevent a failure in the) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 153 Tm (agent's planning from becoming an irreversible external operation. Removing the Gateway check) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 139 Tm (may improve the measured response time while transferring risk to the ledger and its operators.) Tj ET
+0.1 g BT /F2 17 Tf 1 0 0 1 64.8 114 Tm (Enforcement point) Tj ET
+endstream
+endobj
+22 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> /Contents 21 0 R >>
+endobj
+23 0 obj
+<< /Length 5705 >>
+stream
+0.35 g BT /F2 8 Tf 1 0 0 1 50.4 638 Tm (CHAPTER 16 / GATEWAY CONTROL PLANE) Tj ET
+0.35 g BT /F3 8 Tf 1 0 0 1 365.38 638 Tm (The Enterprise AI Agent Fabric) Tj ET
+0.65 G 0.5 w 50.4 628 m 475.2 628 l S
+0.65 G 0.5 w 50.4 43 m 475.2 43 l S
+0.3 g BT /F2 9 Tf 1 0 0 1 50.4 29 Tm (8) Tj ET
+0.4 g BT /F3 8 Tf 1 0 0 1 410.75 29 Tm (AUTHOR PROOF) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 602 Tm (At Meridian, MF-SVC-PEP-001 is the named enforcement point for the permitted action route. It) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 588 Tm (must deny before the Tooling Structural Layer invokes MF-TOOL-REF-001 against) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 574 Tm (MF-SYS-LEDGER-001. The recorded MF-EVT-012 outcome is DENIED, not a rollback after) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 560 Tm (execution.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 540 Tm (That alone does not prove non-bypassability. A service with direct credentials and network access) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 526 Tm (could call the ledger without using the approved route. D-18 therefore requires independent controls) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 512 Tm (over credentials, routing, and egress, plus a negative test. Target-side identity restrictions provide) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 498 Tm (another enforcement boundary where supported. The design covers all applicable mutation routes,) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 484 Tm (including alternate integrations and maintenance paths. A credential inventory and a route inventory) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 470 Tm (define the scope of the negative tests.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 450 Tm (MF-EVT-013 records a controlled, synthetic direct-route attempt from MF-SVC-REF-002 to) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 436 Tm (MF-SYS-LEDGER-001. Network egress returned DENIED_BY_NETWORK_EGRESS;) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 422 Tm (target_received_request=false. The result records the intended negative outcome for this simulated) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 408 Tm (route, not proof of a deployed firewall, real payment processor, or every possible bypass.) Tj ET
+/Figure << /Alt (The refund service has an approved architectural route through the Gateway enforcement point and a separately tested direct network route. The direct route terminates at the blocking egress boundary; the external refund ledger receives no request.) >> BDC
+0.1 g BT /F2 10.03 Tf 1 0 0 1 57.48 378.84 Tm (Figure 16-3  |  Direct-route negative bypass test) Tj ET
+0.35 G 0.89 w [3 2] 0 d 59.25 258.48 165.2 106.2 re S [] 0 d
+0.1 g BT /F3 7.67 Tf 1 0 0 1 64.56 354.65 Tm (Agent-workload boundary) Tj ET
+0.35 G 0.89 w [3 2] 0 d 357.2 258.48 109.15 106.2 re S [] 0 d
+0.1 g BT /F3 7.67 Tf 1 0 0 1 362.51 354.65 Tm (External-system boundary) Tj ET
+1 g 0.2 G 0.89 w [] 0 d 76.95 299.78 101.48 30.68 re B [] 0 d
+0.1 g BT /F3 8.26 Tf 1 0 0 1 100.15 312.17 Tm (Refund service) Tj ET
+1 g 0.2 G 0.89 w [] 0 d 252.18 328.1 88.5 28.32 re B [] 0 d
+0.1 g BT /F3 8.26 Tf 1 0 0 1 270.72 339.31 Tm (Gateway PEP) Tj ET
+0.9 g 0.2 G 0.89 w [] 0 d 192 264.38 88.5 26.55 re B [] 0 d
+0.1 g BT /F2 8.26 Tf 1 0 0 1 205.49 274.71 Tm (Network egress) Tj ET
+1 g 0.2 G 0.89 w [3 2] 0 d 373.72 299.78 76.7 30.68 re B [] 0 d
+0.1 g BT /F3 8.26 Tf 1 0 0 1 386.13 312.17 Tm (Refund ledger) Tj ET
+.2 G 0.89 w [] 0 d 178.43 322.79 m 210.88 322.79 l 210.88 342.26 l 252.18 342.26 l S [] 0 d
+.2 g 252.18 342.26 m 248.76 344.14 l 248.76 340.38 l h f
+1 g 230.52 361.91 70.46 9.08 re f
+0.1 g BT /F3 7.08 Tf 1 0 0 1 231.52 362.91 Tm (submits for admission) Tj ET
+.2 G 0.89 w [3 2] 0 d 127.69 299.78 m 127.69 277.36 l 192 277.36 l S [] 0 d
+.2 g 192 277.36 m 188.58 279.24 l 188.58 275.48 l h f
+1 g 124.91 282.26 52.76 9.08 re f
+0.1 g BT /F3 7.08 Tf 1 0 0 1 125.91 283.26 Tm (tries direct route) Tj ET
+.2 G 0.89 w [] 0 d 280.5 277.36 m 338.32 277.36 l S [] 0 d
+0.05 G 1.42 w 338.32 273.23 m 338.32 281.49 l S
+1 g 280.28 283.44 59.45 9.08 re f
+0.1 g BT /F3 7.08 Tf 1 0 0 1 281.28 284.44 Tm (blocks direct route) Tj ET
+0.1 g BT /F3 7.67 Tf 1 0 0 1 259.03 317.48 Tm (Approved route design) Tj ET
+0.1 g BT /F2 7.67 Tf 1 0 0 1 375.41 286.8 Tm (No request received) Tj ET
+0.1 g BT /F3 7.67 Tf 1 0 0 1 59.25 243.73 Tm (MF-EVT-013 | DENIED_BY_NETWORK_EGRESS | target_received_request=false) Tj ET
+0.1 g BT /F3 7.67 Tf 1 0 0 1 59.25 233.7 Tm (Separate synthetic negative test; no production firewall proof.) Tj ET
+0.1 g BT /F3 7.67 Tf 1 0 0 1 59.25 223.67 Tm (Service: MF-SVC-REF-002 | PEP: MF-SVC-PEP-001 | Ledger: MF-SYS-LEDGER-001) Tj ET
+EMC
+0.3 g BT /F5 8.5 Tf 1 0 0 1 50.4 205.82 Tm (Figure 16-3. The synthetic direct service-to-ledger bypass test is blocked at network egress \(v1.0; not production) Tj ET
+0.3 g BT /F5 8.5 Tf 1 0 0 1 50.4 194.82 Tm (control evidence\). Source: MF-EVT-013, MF-EVD-DN-001.) Tj ET
+0.3 g BT /F5 8.5 Tf 1 0 0 1 50.4 179.82 Tm (Figure legend: Refund service = MF-SVC-REF-002; Gateway PEP = MF-SVC-PEP-001; Refund ledger =) Tj ET
+0.3 g BT /F5 8.5 Tf 1 0 0 1 50.4 168.82 Tm (MF-SYS-LEDGER-001; direct-route result = DENIED_BY_NETWORK_EGRESS. There is deliberately no) Tj ET
+0.3 g BT /F5 8.5 Tf 1 0 0 1 50.4 157.82 Tm (connection into the ledger: the simulated direct-route attempt stops at the blocking boundary.) Tj ET
+0.35 g BT /F5 8.5 Tf 1 0 0 1 50.4 142.82 Tm (Alt text: The refund service has an approved architectural route through the Gateway enforcement point and a) Tj ET
+0.35 g BT /F5 8.5 Tf 1 0 0 1 50.4 131.82 Tm (separately tested direct network route. The direct route terminates at the blocking egress boundary; the external) Tj ET
+0.35 g BT /F5 8.5 Tf 1 0 0 1 50.4 120.82 Tm (refund ledger receives no request.) Tj ET
+endstream
+endobj
+24 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> /Contents 23 0 R >>
+endobj
+25 0 obj
+<< /Length 3554 >>
+stream
+0.35 g BT /F2 8 Tf 1 0 0 1 64.8 638 Tm (CHAPTER 16 / GATEWAY CONTROL PLANE) Tj ET
+0.35 g BT /F3 8 Tf 1 0 0 1 379.78 638 Tm (The Enterprise AI Agent Fabric) Tj ET
+0.65 G 0.5 w 64.8 628 m 489.6 628 l S
+0.65 G 0.5 w 64.8 43 m 489.6 43 l S
+0.3 g BT /F2 9 Tf 1 0 0 1 484.6 29 Tm (9) Tj ET
+0.4 g BT /F3 8 Tf 1 0 0 1 64.8 29 Tm (AUTHOR PROOF) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 602 Tm (Non-bypassability requires renewed evidence after routing, credential, or deployment changes.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 588 Tm (Target-side observations should corroborate the negative tests. D-18 trades enforceable admission) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 574 Tm (for mediation dependencies and outage planning; recovery must restore enforcement rather than) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 560 Tm (open an unreviewed direct path.) Tj ET
+0.1 g BT /F2 17 Tf 1 0 0 1 64.8 535 Tm (Anti-patterns) Tj ET
+0.1 g BT /F2 13.5 Tf 1 0 0 1 64.8 504 Tm (Gateway drawn, not enforced) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 482 Tm (What it looks like. Every architecture arrow passes through the Gateway, but service credentials still) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 468 Tm (reach the ledger directly.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 448 Tm (Why it happens. Teams treat the documented route as proof of exclusivity.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 428 Tm (Why it fails. An unmediated call avoids policy admission.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 408 Tm (The correct pattern. Apply mandatory PEP checks and independent egress enforcement as defined in) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 394 Tm (D-18 and Chapter 12.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 374 Tm (Detection signal. A direct-route negative test reaches the target or produces an external mutation.) Tj ET
+0.1 g BT /F2 13.5 Tf 1 0 0 1 64.8 351 Tm (Shared execution credential) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 329 Tm (What it looks like. Agents with different delegated scopes share a credential that can issue refunds.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 309 Tm (Why it happens. A single integration credential simplifies initial onboarding.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 289 Tm (Why it fails. Effective privilege exceeds the actor's delegated rights.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 269 Tm (The correct pattern. Bind identity, audience, scope, and permitted action as described in Chapter 15) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 255 Tm (and D-20.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 235 Tm (Detection signal. The tool accepts refund:execute without a matching actor-chain permission.) Tj ET
+0.1 g BT /F2 13.5 Tf 1 0 0 1 64.8 212 Tm (Decision receipt as execution permission) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 190 Tm (What it looks like. An application interprets any authorisation receipt as evidence that the action was) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 176 Tm (approved.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 156 Tm (Why it happens. Decision logging and execution authorisation are collapsed into one field.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 136 Tm (Why it fails. A receipt containing DENY can be mistaken for a permit.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 116 Tm (The correct pattern. Require an explicit permit, valid scoped execution authority, and bound action) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 102 Tm (attributes under D-10.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 82 Tm (Detection signal. A denied receipt produces an execution token or target call.) Tj ET
+endstream
+endobj
+26 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> /Contents 25 0 R >>
+endobj
+27 0 obj
+<< /Length 4979 >>
+stream
+0.35 g BT /F2 8 Tf 1 0 0 1 50.4 638 Tm (CHAPTER 16 / GATEWAY CONTROL PLANE) Tj ET
+0.35 g BT /F3 8 Tf 1 0 0 1 365.38 638 Tm (The Enterprise AI Agent Fabric) Tj ET
+0.65 G 0.5 w 50.4 628 m 475.2 628 l S
+0.65 G 0.5 w 50.4 43 m 475.2 43 l S
+0.3 g BT /F2 9 Tf 1 0 0 1 50.4 29 Tm (10) Tj ET
+0.4 g BT /F3 8 Tf 1 0 0 1 410.75 29 Tm (AUTHOR PROOF) Tj ET
+0.1 g BT /F2 17 Tf 1 0 0 1 50.4 602 Tm (Evidence artefact) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 574 Tm (MF-EVD-AU-001 records the policy decision. MF-EVD-DN-001 records the enforcement outcome) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 560 Tm (and links the separate bypass test. The distinction is operationally important: a PDP decision does) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 546 Tm (not independently prove that a PEP stopped the side effect.) Tj ET
+0.3 g BT /F5 8.5 Tf 1 0 0 1 50.4 526 Tm (Table 16-4. Linked decision and enforcement receipt fields \(synthetic fixture\).) Tj ET
+.25 g 50.4 495 424.8 20 re f
+1 g BT /F2 9 Tf 1 0 0 1 54.4 505 Tm (Evidence field) Tj ET
+1 g BT /F2 9 Tf 1 0 0 1 275.3 505 Tm (Recorded value) Tj ET
+0.72 G 0.5 w 50.4 495 m 475.2 495 l S
+.96 g 50.4 475 424.8 20 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 485 Tm (Request / action) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 275.3 485 Tm (MF-REQ-REF-001 / MF-ACT-REF-001) Tj ET
+0.72 G 0.5 w 50.4 475 m 475.2 475 l S
+1 g 50.4 455 424.8 20 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 465 Tm (Correlation) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 275.3 465 Tm (MF-TRACE-000001) Tj ET
+0.72 G 0.5 w 50.4 455 m 475.2 455 l S
+.96 g 50.4 435 424.8 20 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 445 Tm (Attempt / idempotency) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 275.3 445 Tm (MF-PEP-ATT-001 / MF-IDEMP-REF-001) Tj ET
+0.72 G 0.5 w 50.4 435 m 475.2 435 l S
+1 g 50.4 415 424.8 20 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 425 Tm (Delegation) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 275.3 425 Tm (MF-EVD-DG-001) Tj ET
+0.72 G 0.5 w 50.4 415 m 475.2 415 l S
+.96 g 50.4 395 424.8 20 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 405 Tm (Policy) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 275.3 405 Tm (MF-POL-ACTION-v1.0) Tj ET
+0.72 G 0.5 w 50.4 395 m 475.2 395 l S
+1 g 50.4 375 424.8 20 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 385 Tm (policy_evaluation.decision) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 275.3 385 Tm (DENY) Tj ET
+0.72 G 0.5 w 50.4 375 m 475.2 375 l S
+.96 g 50.4 355 424.8 20 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 365 Tm (policy_evaluation.primary_reason) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 275.3 365 Tm (SCOPE_EXCEEDS_DELEGATION) Tj ET
+0.72 G 0.5 w 50.4 355 m 475.2 355 l S
+1 g 50.4 335 424.8 20 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 345 Tm (policy_evaluation.required_scope) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 275.3 345 Tm (FAIL) Tj ET
+0.72 G 0.5 w 50.4 335 m 475.2 335 l S
+.96 g 50.4 315 424.8 20 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 325 Tm (policy_evaluation.context_conflict_precondition) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 275.3 325 Tm (FAIL) Tj ET
+0.72 G 0.5 w 50.4 315 m 475.2 315 l S
+1 g 50.4 295 424.8 20 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 305 Tm (policy_evaluation.human_execution_approval) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 275.3 305 Tm (ABSENT) Tj ET
+0.72 G 0.5 w 50.4 295 m 475.2 295 l S
+.96 g 50.4 275 424.8 20 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 285 Tm (authorised_execution_token) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 275.3 285 Tm (null) Tj ET
+0.72 G 0.5 w 50.4 275 m 475.2 275 l S
+1 g 50.4 255 424.8 20 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 265 Tm (signed_authorisation_status) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 275.3 265 Tm (NOT_ISSUED_DENIED) Tj ET
+0.72 G 0.5 w 50.4 255 m 475.2 255 l S
+.96 g 50.4 235 424.8 20 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 245 Tm (reason_code) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 275.3 245 Tm (SCOPE_EXCEEDS_DELEGATION) Tj ET
+0.72 G 0.5 w 50.4 235 m 475.2 235 l S
+1 g 50.4 215 424.8 20 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 225 Tm (enforcement_point) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 275.3 225 Tm (MF-SVC-PEP-001) Tj ET
+0.72 G 0.5 w 50.4 215 m 475.2 215 l S
+.96 g 50.4 195 424.8 20 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 205 Tm (external_tool_called) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 275.3 205 Tm (false) Tj ET
+0.72 G 0.5 w 50.4 195 m 475.2 195 l S
+1 g 50.4 175 424.8 20 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 185 Tm (financial_mutation_count) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 275.3 185 Tm (0) Tj ET
+0.72 G 0.5 w 50.4 175 m 475.2 175 l S
+.96 g 50.4 155 424.8 20 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 165 Tm (negative_bypass_test.result) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 275.3 165 Tm (DENIED_BY_NETWORK_EGRESS) Tj ET
+0.72 G 0.5 w 50.4 155 m 475.2 155 l S
+1 g 50.4 135 424.8 20 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 145 Tm (negative_bypass_test.target_received_request) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 275.3 145 Tm (false) Tj ET
+0.72 G 0.5 w 50.4 135 m 475.2 135 l S
+.96 g 50.4 103 424.8 32 re f
+0.1 g BT /F3 9 Tf 1 0 0 1 54.4 125 Tm (negative_bypass_test.proof_type) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 275.3 125 Tm (SIMULATED_CONTROLLED_NEGATIVE_TES) Tj ET
+0.1 g BT /F3 9 Tf 1 0 0 1 275.3 113 Tm (T) Tj ET
+0.72 G 0.5 w 50.4 103 m 475.2 103 l S
+endstream
+endobj
+28 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> /Contents 27 0 R >>
+endobj
+29 0 obj
+<< /Length 4368 >>
+stream
+0.35 g BT /F2 8 Tf 1 0 0 1 64.8 638 Tm (CHAPTER 16 / GATEWAY CONTROL PLANE) Tj ET
+0.35 g BT /F3 8 Tf 1 0 0 1 379.78 638 Tm (The Enterprise AI Agent Fabric) Tj ET
+0.65 G 0.5 w 64.8 628 m 489.6 628 l S
+0.65 G 0.5 w 64.8 43 m 489.6 43 l S
+0.3 g BT /F2 9 Tf 1 0 0 1 479.59 29 Tm (11) Tj ET
+0.4 g BT /F3 8 Tf 1 0 0 1 64.8 29 Tm (AUTHOR PROOF) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 602 Tm (Both receipts belong to MF-FIX-001, case MF-CASE-REFUND-001, tenant MF-TEN-RET-001,) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 588 Tm (and trajectory MF-TRJ-001. An investigator follows delegation_id to the original scope grants,) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 574 Tm (reconciliation_id in the authorisation receipt to the disputed claims, and authorisation_receipt_id in) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 560 Tm (the denial receipt back to the policy decision. The bypass record identifies a separate test. Neither) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 546 Tm (receipt independently establishes production enforcement; invocation telemetry and target-side) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 532 Tm (evidence must corroborate the no-effect claim. See Chapter 57 for the full specimen.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 512 Tm (The operational response is to retain the denial, expose it to the responsible support and security) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 498 Tm (processes, and escalate the unresolved eligibility record. These are different obligations: denial) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 484 Tm (protects the financial boundary, while reconciliation addresses the underlying business-data conflict.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 464 Tm (A later candidate, MF-REL-RET-0.2.0-rc1, exposed a separate defect. On 15 March 2027,) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 450 Tm (MF-EVT-014 recorded a failed behavioural assertion because the candidate selected refund.issue) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 436 Tm (despite unresolved context. MF-EVT-015 blocked promotion. The Gateway denied the simulated) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 422 Tm (mutation, but the candidate failed MF-ASSERT-CTX-001, which expects abstention and escalation.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 408 Tm (A stopped action is not a correct action selection. Report MF-EVD-RG-001 records) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 394 Tm (assertion.assertion_result=FAIL, gate_verdict=BLOCK_PROMOTION, and) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 380 Tm (production_deployment=false. No retest outcome appears in the fixture. Chapter 18 develops that) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 366 Tm (release-gate distinction.) Tj ET
+0.1 g BT /F2 17 Tf 1 0 0 1 64.8 341 Tm (Decisions to make) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 69.8 313 Tm (-) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 79.8 313 Tm (D-10 \227 Authorise mutable tool actions: determine the mandatory authorisation contract before) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 79.8 299 Tm (an external mutation.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 69.8 282 Tm (-) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 79.8 282 Tm (D-18 \227 Prove Gateway non-bypassability: determine which independent controls and tests) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 79.8 268 Tm (prevent unmediated actions.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 251 Tm (D-20 remains the Identity-owned dependency for the actor and scope evidence.) Tj ET
+0.1 g BT /F2 17 Tf 1 0 0 1 64.8 226 Tm (Defaults) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 69.8 198 Tm (-) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 79.8 198 Tm (D-10: Default to Gateway-enforced action authorisation with a signed, scoped receipt and) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 79.8 184 Tm (idempotency key before every external mutation.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 69.8 167 Tm (-) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 79.8 167 Tm (D-18: Default to mandatory PEP checks on mutable external actions, enforced by credentials,) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 79.8 153 Tm (routing policy and egress controls.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 136 Tm (D-20 dependency: Default to signed, audience-bound, expiring delegation with monotonically) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 122 Tm (narrowing permissions at each hop. The Meridian example does not claim production signature) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 64.8 108 Tm (verification.) Tj ET
+endstream
+endobj
+30 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> /Contents 29 0 R >>
+endobj
+31 0 obj
+<< /Length 2677 >>
+stream
+0.35 g BT /F2 8 Tf 1 0 0 1 50.4 638 Tm (CHAPTER 16 / GATEWAY CONTROL PLANE) Tj ET
+0.35 g BT /F3 8 Tf 1 0 0 1 365.38 638 Tm (The Enterprise AI Agent Fabric) Tj ET
+0.65 G 0.5 w 50.4 628 m 475.2 628 l S
+0.65 G 0.5 w 50.4 43 m 475.2 43 l S
+0.3 g BT /F2 9 Tf 1 0 0 1 50.4 29 Tm (12) Tj ET
+0.4 g BT /F3 8 Tf 1 0 0 1 410.75 29 Tm (AUTHOR PROOF) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 602 Tm (D-10 permits an approved reduced path for read-only calls, separately authorised bounded batches,) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 588 Tm (and recorded break-glass review. D-18 permits an isolated offline worker or an explicitly approved) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 574 Tm (trusted path with equivalent PEP controls. Neither exception creates an unreviewed route for refund) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 50.4 560 Tm (mutations.) Tj ET
+0.1 g BT /F2 17 Tf 1 0 0 1 50.4 535 Tm (Artefacts to produce) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 55.4 507 Tm (-) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 65.4 507 Tm (action-authorisation-contract.json \227 D-10's required decision and execution binding.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 55.4 490 Tm (-) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 65.4 490 Tm (gateway-bypass-proof.md \227 D-18's negative-route evidence and limits.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 55.4 473 Tm (-) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 65.4 473 Tm (delegation-chain-proof.json \227 D-20's Identity-owned prerequisite.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 55.4 456 Tm (-) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 65.4 456 Tm (MF-EVD-AU-001 and MF-EVD-DN-001 \227 the case's linked decision and denial receipts.) Tj ET
+0.1 g BT /F2 17 Tf 1 0 0 1 50.4 434 Tm (See also) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 55.4 406 Tm (-) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 65.4 406 Tm (Chapter 12 \227 Tooling: tool contracts, permitted invocation and side-effect handling.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 55.4 389 Tm (-) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 65.4 389 Tm (Chapter 15 \227 Identity Control Plane: actor chains, delegation and scope attenuation.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 55.4 372 Tm (-) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 65.4 372 Tm (Chapter 18 \227 Verification Control Plane: behavioural assertions and release decisions.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 55.4 355 Tm (-) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 65.4 355 Tm (Chapter 19 \227 Governance Control Plane: policy authority, ownership and review.) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 55.4 338 Tm (-) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 65.4 338 Tm (Chapter 57 \227 Worked Evidence and Delivery Artefacts: complete Meridian evidence) Tj ET
+0.1 g BT /F1 10.5 Tf 1 0 0 1 65.4 324 Tm (specimens.) Tj ET
+endstream
+endobj
+32 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> /Contents 31 0 R >>
+endobj
+33 0 obj
+<< /Title (Chapter 16 - Gateway Control Plane) /Subject (Author proof from pinned manuscript) >>
+endobj
+xref
+0 34
+0000000000 65535 f 
+0000000009 00000 n 
+0000000072 00000 n 
+0000000207 00000 n 
+0000000306 00000 n 
+0000000408 00000 n 
+0000000505 00000 n 
+0000000600 00000 n 
+0000000705 00000 n 
+0000004185 00000 n 
+0000004351 00000 n 
+0000009769 00000 n 
+0000009937 00000 n 
+0000012239 00000 n 
+0000012407 00000 n 
+0000018893 00000 n 
+0000019061 00000 n 
+0000022034 00000 n 
+0000022202 00000 n 
+0000022389 00000 n 
+0000028894 00000 n 
+0000029079 00000 n 
+0000035199 00000 n 
+0000035367 00000 n 
+0000041124 00000 n 
+0000041292 00000 n 
+0000044898 00000 n 
+0000045066 00000 n 
+0000050097 00000 n 
+0000050265 00000 n 
+0000054685 00000 n 
+0000054853 00000 n 
+0000057582 00000 n 
+0000057750 00000 n 
+trailer
+<< /Size 34 /Root 1 0 R /Info 33 0 R >>
+startxref
+57863
+%%EOF
