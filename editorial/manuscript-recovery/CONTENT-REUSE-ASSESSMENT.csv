@@ -1,0 +1,13 @@
+source,existing_assets,structural_reuse,publishable_prose,editorial_adaptation
+Frozen chapter brief,"58 per-chapter hooks, mechanisms, failures, artefacts",HIGH structured topic reuse,LOW verbatim prose,"Convert to unique reader learning, example and narrative; cite"
+Detailed Chapter 13 blueprint,"F6 sections, scenarios, contracts, tests",HIGH source structure,LOW manuscript-ready text,Draft complete contextual explanation and corrected citations
+Detailed Chapter 16 blueprint + draft,F7 design plus actual draft chapter,HIGH editing leverage,MEDIUM existing prose,"Substantive edit, check evidence, peer-review"
+Decision Atlas,30 normative decision rows; two F1 page drafts,HIGH for Chapter 23 and links,LOW-to-MEDIUM final F1 pages,Complete 28 missing F1 pages and audit decisions
+Meridian fixture,"15 events, actor/evidence registries and synthetic narrative",HIGH for examples,LOW ready-to-paste narrative,Preserve IDs/outcomes; build teaching sequences and captions
+Lifecycle chapter definitions,11 frozen stage briefs,MEDIUM-HIGH,LOW,"Add handoffs, examples, criteria and attribution"
+Playbook chapter briefs,10 named playbook workflows,MEDIUM,LOW,Create executable practitioner steps and sample outputs
+Governance documents,"Editorial decision authority, scope constraints",HIGH guardrail value,VERY LOW,"Use as authoring constraints, not book copy"
+Validation programme,"Lint, examples, controlled defects and outcomes",MEDIUM for test teaching,LOW,Separate synthetic/reproduced/approved claim states
+Crosswalk,"58 contracts, 30 decisions and typed links",HIGH reference routing,NONE,Prevent duplicating authoritative concepts
+Digital Twin,Proposed graph and impact prototype,LOW-MEDIUM research,NONE verified production narrative,"Use as an illustrative proposal only, avoid deployment claims"
+Research/forensic dossiers,"Historical comparisons, evidence limits, technology narratives",MEDIUM research leads,LOW rights-cleared prose,"Recheck provenance, permission and current source"
