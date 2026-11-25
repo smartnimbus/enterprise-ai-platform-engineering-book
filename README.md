@@ -2,7 +2,7 @@
 
 **Book:** *The Enterprise AI Agent Fabric: Designing, Governing and Operating AI Agents at Scale*
 
-This is the controlled manuscript and editorial workspace for a proposed professional reference book. The repository operating model is [REPOSITORY-GOVERNANCE.md](REPOSITORY-GOVERNANCE.md). The architecture, 58-chapter structure, D-01–D-30 decision IDs/defaults, and Meridian Evidence Fixture v1.0 are frozen by prior programme decisions. This research-import PR does not change them.
+This is the controlled manuscript and editorial workspace for a proposed professional reference book. The repository operating model is [REPOSITORY-GOVERNANCE.md](REPOSITORY-GOVERNANCE.md). The architecture, 58-chapter structure, D-01–D-30 decision IDs/defaults, and Meridian Evidence Fixture v1.0 are frozen by prior programme decisions. The consolidated book, evidence and publishing materials are available on the default `main` branch.
 
 ## Start here
 - [Style Bible v1.2](editorial/style/style-v1.2.md)
@@ -13,7 +13,10 @@ This is the controlled manuscript and editorial workspace for a proposed profess
 - [Chapter 16 draft](manuscript/part-03/chapter-16-gateway-control-plane-v1.0.md)
 - [Chapter 13 authoring blueprint](editorial/authoring-blueprints/Chapter_13_Authoring_Blueprint_v1.0.md)
 - [Chapter 16 authoring blueprint](editorial/authoring-blueprints/Chapter_16_Authoring_Blueprint_v1.0.md)
-- [Apress proposal](publishing/apress/Apress_Publisher_Proposal_Draft.md)
+- [Apress proposal v2 — current](publishing/apress/v2/Apress_Publisher_Proposal_v2.md)
+- [Apress competitive dossier v2](publishing/apress/v2/Apress_Acquisition_Competitive_Dossier_v2.md)
+- [Apress submission contents](publishing/apress/v2/APRESS-SUBMISSION-PACKAGE-v1.md)
+- [Prior Apress draft (historical)](publishing/apress/Apress_Publisher_Proposal_Draft.md)
 - [Industry comparison v2](knowledge-mining/cross-project-analysis/fabric-industry-comparison-v2.md)
 - [Historical review and source limitations](knowledge-mining/forensic-review/MASTER_FORENSIC_REPORT.md)
 - [Public import status and exclusions](knowledge-mining/RESEARCH-IMPORT-STATUS.md)
@@ -30,15 +33,11 @@ All changes require a branch and reviewable pull request after the one-time gove
 
 **Operating model:** `main` is the sole permanent, approved documentation branch. Use short-lived `docs/*`, `fix/*`, or `research/*` branches for reviewable changes; after an approved PR is merged and verified, its working branch may be deleted. Release history is preserved by immutable release tags and Git history. This navigation policy does **not** replace the review, source-rights, frozen-change or approval rules in `REPOSITORY-GOVERNANCE.md`.
 
-### Current review locations (until integration)
+### Integrated source history
 
-| Material | Review location | Merge prerequisite |
-| --- | --- | --- |
-| Frozen book sources, TOC, Atlas, Meridian, Chapter 16 and research | [Book baseline PR #1](https://github.com/smartnimbus/enterprise-ai-platform-engineering-book/pull/1) | Finish rights and source-custody review; human approval |
-| Knowledge system, Phase 1–8 evidence, lint, Digital Twin and 58-chapter completion plan | [Authoring/knowledge PR #2](https://github.com/smartnimbus/enterprise-ai-platform-engineering-book/pull/2) | Human review of proposals; verify no authoritative-source override |
-| Deterministic-first research mapping | [Pattern PR #3](https://github.com/smartnimbus/enterprise-ai-platform-engineering-book/pull/3) | Rebase onto approved `main`, confirm provenance and citations |
+The original [book baseline PR #1](https://github.com/smartnimbus/enterprise-ai-platform-engineering-book/pull/1), [programme PR #2](https://github.com/smartnimbus/enterprise-ai-platform-engineering-book/pull/2), [pattern PR #3](https://github.com/smartnimbus/enterprise-ai-platform-engineering-book/pull/3) and [manuscript recovery PR #4](https://github.com/smartnimbus/enterprise-ai-platform-engineering-book/pull/4) were merged into `main` on 25 November 2026. Their historical reviews remain accessible. **A merge is not independent editorial acceptance or rights clearance.**
 
-### One-click document sections (after their PRs merge)
+### One-click document sections on `main`
 
 - **Manuscript:** [Drafts](manuscript/), [TOC](editorial/outlines/Enterprise_AI_Agent_Fabric_Revised_TOC.csv) and [development blueprint](editorial/outlines/Enterprise_AI_Agent_Fabric_Development_Blueprint.md).
 - **Atlas:** [D-01–D-30 catalogue](decisions/catalogue/Enterprise_AI_Agent_Fabric_Decision_Catalogue.csv), [F1 production pages](decisions/pages/).
@@ -49,4 +48,4 @@ All changes require a branch and reviewable pull request after the one-time gove
 - **Production:** [Book completion plan](governance/proposals/knowledge-system/book-completion/), [publishing proposal](publishing/apress/).
 - **Decision-support tooling:** [Digital Twin design](governance/proposals/knowledge-system/digital-twin/), [programme operating model](governance/proposals/knowledge-system/programme-os/).
 
-**Current state:** `main` has not yet absorbed these open draft PRs. Some relative paths in the index become available only after the corresponding approved merge. Do not interpret proposed documents as ratified simply because they appear in the repository.
+**Current state:** The controlled source and proposal documents are now accessible from `main`. Their editorial, publication and permissions status is recorded in the documents themselves; presence in GitHub does not imply external approval.
