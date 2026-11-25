@@ -113,3 +113,6 @@ Yes, over-investing in Ch13 relative to total book; one edit and accept with gen
 - [Four-week production schedule](../../publishing/apress/acquisition-samples/production-plan/FOUR-WEEK-PRODUCTION-SCHEDULE.csv)
 - [Repository governance](../../REPOSITORY-GOVERNANCE.md)
 - [Ch13 upgrade plan at pinned branch](https://github.com/smartnimbus/enterprise-ai-platform-engineering-book/blob/ce2953382fbd28f75dd99b13c8e40639c1258939/publishing/apress/acquisition-samples/chapter-13-editorial-upgrade-plan.md)
+
+## Execution companion
+[Acquisition execution plan](ACQUISITION-EXECUTION-PLAN.md) · [Next ten deliverables](NEXT-10-DELIVERABLES.csv) · [Immediate AI authoring queue](IMMEDIATE-AI-AUTHORING-QUEUE.md). Existing roadmap remains unchanged in substance.
