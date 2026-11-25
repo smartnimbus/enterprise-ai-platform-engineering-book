@@ -1,0 +1,59 @@
+chapter,title,purpose_reader_outcome,type_template,narrative_allocation,pages,decision_ids,artefacts
+1,I. The Case for a Shared Fabric,Establish the repeat-use-case problem → identify shared economics/control triggers,O,40%; ≤400 words,9,D-01,Fabric opportunity brief
+2,"I. Agent Capability, Autonomy and Risk",Tie capabilities to permitted actions → classify autonomy envelope,O,40%; ≤400,9,"D-05, D-16",Autonomy classification card
+3,"I. Fabric, Product, Use Case and Tenant",Draw ownership boundaries → assign responsibility without ambiguity,O,40%; ≤400,9,"D-06, D-04",Responsibility boundary map
+4,I. When Not to Build a Fabric,Identify disqualifying conditions → choose an alternative,O,40%; ≤400,9,"D-01, D-02",No-fabric decision memo
+5,"II. Build, Buy, Embed or Partner",Compare acquisition patterns → defend a reversible choice,S,30%; ≤300,11,D-02,Sourcing option appraisal
+6,"II. Central, Federated or Hybrid Ownership",Allocate authority → choose team structure and exception path,S,30%; ≤300,11,"D-03, D-06",Operating-model ADR
+7,II. Tenant Isolation and Sovereignty,Select isolation model → name mandatory data and identity boundaries,S,30%; ≤300,11,"D-04, D-25",Tenant isolation ADR
+8,II. Model Strategy and Unit Economics,Design route and fallback policy → justify spend/performance bounds,S,30%; ≤300,11,"D-17, D-26",Routing policy and cost model
+9,II. Earned Autonomy and Sponsorship,Specify promotion criteria → fund only evidenced autonomy,S,30%; ≤300,11,"D-05, D-16, D-23",Autonomy promotion charter
+10,III. The Canonical Fabric Architecture,Lock E/T/C/L plus eight planes → trace a request and its evidence,Architecture overview/E1,5%; ≤150,8,"D-07, D-18","Layer stack, ownership diagram"
+11,III. Execution Environment,Isolate work → specify sandbox and quota contracts,Structural/F6,5%; ≤150,8,"D-07, D-08",Workload envelope and isolation profile
+12,III. Tooling,Make tool invocation typed and bounded → implement action contracts,Structural/F6,5%; ≤150,8,"D-09, D-10",Tool contract and invocation receipt
+13,III. Context,"Govern retrieval, memory and meaning → specify provenance and contradiction handling",Structural/F6,5%; ≤150,8,D-11–14,"Context manifest, memory policy"
+14,III. Lifecycle,Own the Harness and trajectory → design interruption/resume and multi-agent coordination,Structural/F6,5%; ≤150,8,"D-15, D-16","Harness contract, transition model"
+15,III. Identity Control Plane,Constrain actors/delegation → verify non-expanding authority,Control/F7,5%; ≤150,6.5,"D-19, D-20",Actor-chain schema and tests
+16,III. Gateway Control Plane,Enforce each mutable external action → prove non-bypassability,Control/F7,5%; ≤150,6.5,"D-10, D-18",Policy receipt and bypass test
+17,III. Observability Control Plane,Correlate events and outcomes → reconstruct trajectories,Control/F7,5%; ≤150,6.5,D-24,Evidence envelope and telemetry map
+18,III. Verification Control Plane,Gate behaviours and releases → specify assertions/evidence,Control/F7,5%; ≤150,6.5,"D-22, D-23",Evaluation suite and gate report
+19,III. Governance Control Plane,Establish risk decision rights → govern exceptions and autonomy,Control/F7,5%; ≤150,6.5,"D-05, D-29",Risk charter and policy ledger
+20,III. FinOps Control Plane,Govern budgets/chargeback → attribute cost per successful task,Control/F7,5%; ≤150,6.5,D-26,Allocation ledger and unit-economics card
+21,III. Data Protection Control Plane,Protect personal/regulated data → prove retention and deletion,Control/F7,5%; ≤150,6.5,"D-25, D-30",Data classification and deletion proof
+22,III. Interoperability Control Plane,Version boundary contracts → accept or reject protocol changes,Control/F7,5%; ≤150,6.5,D-21,"Versioned boundary map, conformance record"
+23,IV. The Fabric Decision Atlas,Make every major choice reproducible → complete 30 decision pages,F1×30,0%,30,D-01–30,Thirty F1 pages and ADR links
+24,V. Stage 0: Strategic Intent,Establish demand and alternatives → authorise or stop discovery,Lifecycle/L,50%; ≤600,5,D-01–03,Strategic intent brief
+25,V. Stage 1: Fabric Vision,Define product and success criteria → approve measurable scope,Lifecycle/L,50%; ≤600,5,D-05–06,Vision charter
+26,V. Stage 2: Reference Architecture,Specify topology/control contracts → approve baseline,Lifecycle/L,50%; ≤600,5,"D-07–15, D-18",Baseline architecture pack
+27,V. Stage 3: Trust Chain and Security,Threat-model runtime and delegation → accept bounded risk,Lifecycle/L,50%; ≤600,5,"D-10, D-19–21, D-25",Threat register and abuse tests
+28,V. Stage 4: Tenant Substrate,Build isolation and context partitions → evidence no cross-tenant leak,Lifecycle/L,50%; ≤600,5,"D-04, D-11–14",Tenant readiness certificate
+29,V. Stage 5: Shared Services Bootstrap,"Stand up gateway, observability and verification → pass control smoke tests",Lifecycle/L,50%; ≤600,5,"D-17–18, D-22, D-24",Platform smoke-test bundle
+30,V. Stage 6: First Use Case,Onboard a bounded use case → make a go/no-go decision,Lifecycle/L,50%; ≤600,5,"D-05, D-16, D-23",Pilot release dossier
+31,V. Stage 7: Scale to Twelve Use Cases,Enforce onboarding archetypes → expand without policy drift,Lifecycle/L,50%; ≤600,5,"D-04, D-29",Onboarding catalogue and exceptions
+32,V. Stage 8: Operate as a Product,Institute SLOs/on-call/chargeback → evidence service ownership,Lifecycle/L,50%; ≤600,5,D-26–28,Product service contract
+33,V. Stage 9: Continuous Verification,Detect regression and requalify → sustain earned autonomy,Lifecycle/L,50%; ≤600,5,D-22–23,Requalification report
+34,V. Stage 10: Retirement,Retire a use case and plan Fabric exit → preserve/delete records correctly,Lifecycle/L,50%; ≤600,5,D-30,Retirement certificate
+35,VI. Team Design and Responsibility Matrix,Name owners and deputies → resolve every handoff,Operational/OP,10%; ≤200,9,"D-03, D-06, D-29",RACI and service catalogue
+36,"VI. Reliability, Service Levels and Continuity",Define error budgets and recovery → test a service tier,Operational/OP,10%; ≤200,9,D-27,"SLO book, recovery drill"
+37,VI. Incident Command and Security Response,Contain bad actions → assign incident command and evidence custody,Operational/OP,10%; ≤200,9,D-28,Incident runbook and case record
+38,"VI. Unit Economics, Showback and Chargeback",Attribute usage and value → reconcile unit economics,Operational/OP,10%; ≤200,9,D-26,Chargeback rules and forecast
+39,"VI. Release, Change and Version Control",Control prompts/tools/models/policies → prevent unreviewed production change,Operational/OP,10%; ≤200,9,"D-21–23, D-29","Change record, rollback plan"
+40,VI. Audit Evidence and Assurance Reviews,"Reconstruct permission, action and outcome → produce audit-ready evidence",Operational/OP,10%; ≤200,9,"D-20, D-24, D-30",Evidence chain and review pack
+41,VII. P1: Build the Business Case,Execute sourcing and financial appraisal → obtain funding gate,F2/F5,25%; 150–300,7,"D-01–03, D-26",Business case + ADR
+42,VII. P2: Design the Reference Architecture,Apply structural/control contracts → obtain design approval,F2/F5,25%; 150–300,7,D-07–22,Architecture baseline + threat map
+43,VII. P3: Stand Up the Tenant Substrate,Provision and test tenant partitions → sign isolation proof,F2/F5,25%; 150–300,7,"D-04, D-11–14, D-25",Tenant readiness dossier
+44,VII. P4: Onboard the First Use Case,Register/verify/release use case → approved production pilot,F2/F5,25%; 150–300,7,"D-05, D-16, D-23",Pilot release record
+45,VII. P5: Scale from One to Ten Use Cases,Template onboarding and cost policy → controlled portfolio,F2/F5,25%; 150–300,7,"D-06, D-26, D-29",Onboarding factory report
+46,VII. P6: Plan for Ten to One Hundred-Plus,Capacity and isolation stress-test → scale/no-scale plan,F2/F5,25%; 150–300,7,"D-08, D-27, D-29",Scale stress-test report
+47,VII. P7: Execute a Model Upgrade,Compare candidate with baseline → gated canary or rollback,F2/F5,25%; 150–300,7,"D-17, D-22–23",Upgrade approval or rollback report
+48,VII. P8: Handle a Security Incident,"Contain, preserve and recover → verified safe resumption",F2/F5,25%; 150–300,7,"D-10, D-20, D-28",Incident evidence packet
+49,VII. P9: Retire a Use Case,Revoke access and dispose data → audited use-case retirement,F2/F5,25%; 150–300,7,D-30,Use-case retirement certificate
+50,VII. P10: Retire or Replace the Fabric,Move/terminate tenants and preserve obligations → executable exit,F2/F5,25%; 150–300,7,"D-02, D-27, D-30",Fabric exit plan and rehearsal evidence
+51,VIII. Layer and Control-Plane Checklists,Enable evidenced inspection → verify all 12 architecture units,Reference/F3,0%,7,D-07–25,Twelve C-X checklists
+52,VIII. Architecture Decision and Risk Records,Supply accepted templates → produce a complete ADR and exception,Reference/F8,0%,7,D-01–30,"ADR-001, risk record"
+53,VIII. Protocol and Boundary Reference,Locate versioned protocols → choose and check contracts,Reference/F10,0%,7,"D-09, D-21",Protocol registry and boundary map
+54,VIII. Technology Decision Matrix,Compare implementation categories without endorsement → evaluate alternatives,Reference/matrix,0%,7,"D-02, D-07, D-17",Scoring matrix and evidence register
+55,VIII. Standards and Regulatory Map,Map named standards to controls → prepare compliance crosswalk,Reference/F11,0%,7,"D-19, D-25, D-28",Standards mapping table
+56,VIII. Glossary and Controlled Vocabulary,Find exact meanings → eliminate synonym drift,Reference/F9,0%,7,All,Indexed glossary
+57,VIII. Worked Evidence and Delivery Artefacts,Inspect full specimens → reproduce usable records,Reference/specimens,0%,7,"D-20, D-23, D-30","Release, incident, delegation, deletion specimens"
+58,VIII. Industry Adoption Overlays,Translate constraints to sectors → adapt risk and data choices,Reference/overlay,0%,7,"D-01, D-04, D-25","Banking, insurance, health, public, retail, manufacturing overlays"
