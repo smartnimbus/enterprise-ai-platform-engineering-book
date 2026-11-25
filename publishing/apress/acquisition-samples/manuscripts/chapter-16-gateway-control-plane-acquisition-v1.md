@@ -39,13 +39,13 @@ An admission request identifies the tenant, actor chain, target resource, regist
 
 #### Delegation before admission
 
-Delegation is not the transmission of the agent's preferred outcome. It is the controlled transfer of permission from an authorised principal through a defined chain. Each recipient must receive no more authority than its predecessor can grant.
+The refund service may possess credentials capable of issuing payment. Those credentials do not widen the permission delegated by the originator. Each hop must preserve or narrow that authority.
 
 `MF-EVD-DG-001` records three hops in chain `MF-CHAIN-001`. The human delegates `case:read`, `product:read`, and `refund:request` to agent `MF-AGT-RET-004`. The agent delegates `case:read` and `refund:request` to service `MF-SVC-REF-002`. The service delegates only `refund:request` towards tool `MF-TOOL-REF-001`, with the Gateway PEP as the declared audience.
 
-The effective scope is the intersection of the grants at each hop: `refund:request`. It permits requesting review, not `refund:execute`. Each hop constrains the next, even if the service's own credential possesses broader privileges. The audiences are the agent, the service, and the PEP respectively; expiry narrows from 11:05 through 11:04 to 11:03 UTC on 1 March 2027. The record states `scope_does_not_expand=true` and `signature_status=ILLUSTRATIVE_NOT_CRYPTOGRAPHICALLY_SIGNED`.
+The effective scope is the intersection of the grants at each hop: `refund:request`. Requesting review is not permission to execute a refund. The audiences are the agent, the service, and the PEP respectively; expiry narrows from 11:05 through 11:04 to 11:03 UTC on 1 March 2027. The record states `scope_does_not_expand=true` and `signature_status=ILLUSTRATIVE_NOT_CRYPTOGRAPHICALLY_SIGNED`.
 
-The Meridian claims are illustrative and **not cryptographically signed**. The fixture records a simulated structural validation, not verification of production tokens. In a deployed design, D-20 requires signed, audience-bound, expiring delegation with permissions that narrow at each hop.
+These unsigned claims record simulated structural validation, not verification of production tokens. In a deployed design, D-20 requires signed, audience-bound, expiring delegation with permissions that narrow at each hop.
 
 [Place Figure 16-1 here: Scope attenuation before action admission.]
 
@@ -57,7 +57,7 @@ The Meridian claims are illustrative and **not cryptographically signed**. The f
 
 #### From proposed action to denied decision
 
-The Week 9 sequence uses the earlier request and conflict as policy inputs.
+The narrowed grant and unresolved conflict now become inputs to action admission.
 
 *Table 16-2. Synthetic action-admission events on 2027-03-01 (UTC).*
 
@@ -69,7 +69,7 @@ The Week 9 sequence uses the earlier request and conflict as policy inputs.
 | `MF-EVT-012` | 11:00:03 | Gateway PEP denied mutation; no external processor call. |
 | `MF-EVT-013` | 11:00:04 | Separate simulated direct-route bypass test passed because egress blocked the route. |
 
-The authorisation evaluation in `MF-EVD-AU-001` checked the tenant, actor chain, registered tool, target system, requested permission, unresolved product status, and human approval state. The requested scope was `refund:execute`; the effective scope was only `refund:request`.
+In `MF-EVD-AU-001`, tenant and tool registration checks passed; actor-chain structure passed in simulation. The requested scope was `refund:execute`; the effective scope was only `refund:request`.
 
 Three findings determined that the mutation could not proceed: `required_scope=FAIL`, `context_conflict_precondition=FAIL`, and `human_execution_approval=ABSENT`. The primary denial reason was `SCOPE_EXCEEDS_DELEGATION`. The additional reasons were `UNRESOLVED_PRODUCT_STATUS` and `HUMAN_EXECUTION_APPROVAL_MISSING`.
 
@@ -89,11 +89,11 @@ An idempotency key identifies a logical mutation across retries; it is not execu
 
 ### Threat coverage
 
-The Gateway protects the service-to-action boundary, not every trust boundary in an agent system. OWASP's **Top 10 for Agentic Applications (2026)** identifies **ASI02: Tool Misuse and Exploitation** and **ASI03: Identity and Privilege Abuse** as directly relevant categories. The proposed `refund.issue` without execution authority illustrates why tool intent and delegated privilege must be checked independently. These are threat mappings, not claims that Meridian suffered an attack. [OWASP Agentic Top 10, published 9 December 2025](https://genai.owasp.org/2025/12/09/owasp-top-10-for-agentic-applications-the-benchmark-for-agentic-security-in-the-age-of-autonomous-ai/).
+The Gateway protects the service-to-action boundary. OWASP's **Top 10 for Agentic Applications (2026)** identifies **ASI02: Tool Misuse and Exploitation** and **ASI03: Identity and Privilege Abuse** as relevant risks. The proposed `refund.issue` without execution authority illustrates why tool intent and delegated privilege must be checked independently. These are threat mappings, not claims that Meridian suffered an attack. [OWASP Agentic Top 10, 2026 edition](https://genai.owasp.org/top-10-for-agentic-applications-2026/).
 
 The chain crosses five relevant interfaces: originator to agent, agent to service, service to PEP, PEP to external target, and PEP to evidence store. Identity owns the delegation claims. Gateway evaluates action admission and enforces the result. Observability preserves the corresponding trajectory evidence.
 
-**ASI01: Agent Goal Hijack** and **ASI06: Memory and Context Poisoning** remain relevant upstream threats. The Gateway cannot repair a poisoned source record or determine which conflicting product status is true. Context and Verification controls address those problems separately. The Gateway's contribution is to prevent a prohibited side effect even when a request reaches its boundary.
+**ASI01: Agent Goal Hijack** and **ASI06: Memory & Context Poisoning** remain relevant upstream threats. The Gateway cannot repair poisoned records or agent goals. Context preserves unresolved evidence; Verification tests the agent's response. The Gateway's contribution is to prevent a prohibited side effect even when a request reaches its boundary.
 
 ### Failure modes
 
@@ -109,7 +109,7 @@ The chain crosses five relevant interfaces: originator to agent, agent to servic
 | Duplicate retry | A timed-out request is submitted twice | Repeated mutation attempts | Carry an idempotency key through admission and execution. |
 | Unresolved context | Eligibility records contradict each other | `context_conflict_precondition=FAIL` | Block mutation and escalate reconciliation. |
 
-The controls add latency, dependencies and recovery obligations. They also prevent a failure in the agent's planning from becoming an irreversible external operation. Removing the Gateway check may improve the measured response time while transferring risk to the ledger and its operators.
+The controls add latency, dependencies, and recovery obligations. They also prevent a failure in the agent's planning from becoming an irreversible external operation. Removing the Gateway check may improve the measured response time while transferring risk to the ledger and its operators.
 
 ### Enforcement point
 
@@ -144,7 +144,7 @@ Non-bypassability requires renewed evidence after routing, credential, or deploy
 **What it looks like.** Agents with different delegated scopes share a credential that can issue refunds.  
 **Why it happens.** A single integration credential simplifies initial onboarding.  
 **Why it fails.** Effective privilege exceeds the actor's delegated rights.  
-**The correct pattern.** Bind identity, audience, scope and permitted action as described in Chapter 15 and D-20.  
+**The correct pattern.** Bind identity, audience, scope, and permitted action as described in Chapter 15 and D-20.  
 **Detection signal.** The tool accepts `refund:execute` without a matching actor-chain permission.
 
 #### Decision receipt as execution permission
@@ -152,7 +152,7 @@ Non-bypassability requires renewed evidence after routing, credential, or deploy
 **What it looks like.** An application interprets any authorisation receipt as evidence that the action was approved.  
 **Why it happens.** Decision logging and execution authorisation are collapsed into one field.  
 **Why it fails.** A receipt containing `DENY` can be mistaken for a permit.  
-**The correct pattern.** Require an explicit permit, valid scoped execution authority and bound action attributes under D-10.  
+**The correct pattern.** Require an explicit permit, valid scoped execution authority, and bound action attributes under D-10.  
 **Detection signal.** A denied receipt produces an execution token or target call.
 
 ### Evidence artefact
@@ -183,11 +183,11 @@ Non-bypassability requires renewed evidence after routing, credential, or deploy
 | negative_bypass_test.target_received_request | `false` |
 | negative_bypass_test.proof_type | `SIMULATED_CONTROLLED_NEGATIVE_TEST` |
 
-Both receipts belong to `MF-FIX-001`, case `MF-CASE-REFUND-001`, tenant `MF-TEN-RET-001`, and trajectory `MF-TRJ-001`. An investigator follows delegation_id to the original scope grants, reconciliation_id in the authorisation receipt to the disputed claims, and authorisation_receipt_id in the denial receipt back to the policy decision. The nested bypass record identifies a separate test. In a deployed system, invocation telemetry and target-side evidence must corroborate the no-effect claim. Chapter 57 contains the full specimen.
+Both receipts belong to `MF-FIX-001`, case `MF-CASE-REFUND-001`, tenant `MF-TEN-RET-001`, and trajectory `MF-TRJ-001`. An investigator follows delegation_id to the original scope grants, reconciliation_id in the authorisation receipt to the disputed claims, and authorisation_receipt_id in the denial receipt back to the policy decision. The bypass record identifies a separate test. Neither receipt independently establishes production enforcement; invocation telemetry and target-side evidence must corroborate the no-effect claim. See Chapter 57 for the full specimen.
 
 The operational response is to retain the denial, expose it to the responsible support and security processes, and escalate the unresolved eligibility record. These are different obligations: denial protects the financial boundary, while reconciliation addresses the underlying business-data conflict.
 
-A later candidate, `MF-REL-RET-0.2.0-rc1`, exposed a separate defect. On **15 March 2027**, `MF-EVT-014` recorded a failed behavioural assertion because the candidate selected `refund.issue` despite unresolved context. `MF-EVT-015` blocked promotion. The Gateway denied the simulated mutation, but the candidate failed `MF-ASSERT-CTX-001`, which expects abstention and escalation. Report `MF-EVD-RG-001` records `assertion.assertion_result=FAIL`, `gate_verdict=BLOCK_PROMOTION`, and `production_deployment=false`. No retest outcome appears in the fixture. Chapter 18 develops that release-gate distinction.
+A later candidate, `MF-REL-RET-0.2.0-rc1`, exposed a separate defect. On **15 March 2027**, `MF-EVT-014` recorded a failed behavioural assertion because the candidate selected `refund.issue` despite unresolved context. `MF-EVT-015` blocked promotion. The Gateway denied the simulated mutation, but the candidate failed `MF-ASSERT-CTX-001`, which expects abstention and escalation. A stopped action is not a correct action selection. Report `MF-EVD-RG-001` records `assertion.assertion_result=FAIL`, `gate_verdict=BLOCK_PROMOTION`, and `production_deployment=false`. No retest outcome appears in the fixture. Chapter 18 develops that release-gate distinction.
 
 ### Decisions to make
 
