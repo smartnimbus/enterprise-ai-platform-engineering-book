@@ -35,3 +35,9 @@
 ## Publication distinction
 
 The research report is allowed to recommend **educational emphasis and evidence requirements** within existing chapters. It does not authorise new control planes, chapter renumbering, altered decision defaults or edits to Meridian's approved chronology.
+
+## Subsequent import verification — 25 November 2026
+
+This dated addendum supersedes the obsolete absence statement in the original 24 November snapshot **only for the Meridian machine-readable files**. The complete frozen Meridian v1.0 fixture (18 machine-readable/source/validator files) was subsequently imported under `meridian/fixture/` and checked against its source hashes; the local fixture validator reported 27/27 successful checks. The human-readable narrative remains a synthetic teaching fixture, not evidence of a deployed production environment.
+
+The other rights, source-classification, independent review, branch-protection and editorial approval requirements above remain open until independently accepted. Neither this update nor GitHub file presence ratifies the research import or grants permission to merge. See [PR #1](https://github.com/smartnimbus/enterprise-ai-platform-engineering-book/pull/1) and the separate Phase 1–8 [sync/integrity report in PR #2](https://github.com/smartnimbus/enterprise-ai-platform-engineering-book/pull/2).
