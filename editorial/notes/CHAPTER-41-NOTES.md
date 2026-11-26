@@ -17,3 +17,6 @@ Author explicitly prioritised Chapter 41. [Complete draft](../../manuscript/part
 
 ## Publication-candidate review
 [Ranked publication revision findings](../../editorial/reviews/CHAPTER-41-PUBLICATION-CANDIDATE-REVIEW.md) recorded separately from the manuscript. Priorities: complete decision lifecycle, enforceable funding conditions, standalone orientation, reusable records, switching values and genuine reader trial. No revision or publication approval claimed.
+
+## Signature revision v2 plan
+Author accepted publication findings and requested six bounded improvements only. [Implementation plan](../authoring-blueprints/Chapter_41_Signature_Revision_v2_Plan.md) defines placements, displacement budgets, exact reversal economics, figures and toolkit. Plan authored; manuscript revision not executed.
