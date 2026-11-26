@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="302" viewBox="0 0 720 302" role="img" aria-labelledby="title desc"><title id="title">Figure 16-3. Direct-route negative bypass test</title><desc id="desc">The refund service has an approved architectural route through the Gateway enforcement point and a separately tested direct network route. The direct route terminates at the blocking egress boundary; the external refund ledger receives no request.</desc><defs><marker id="a" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 Z" fill="#333"/></marker></defs><rect width="100%" height="100%" fill="#fff"/><g font-family="Arial, sans-serif" fill="#171717">
+<text x="12" y="24" font-size="17" text-anchor="start" font-weight="bold">Figure 16-3  |  Direct-route negative bypass test</text>
+<rect x="15" y="48" width="280" height="180" rx="8" fill="none" stroke="#555" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="24" y="65" font-size="13" text-anchor="start">Agent-workload boundary</text>
+<rect x="520" y="48" width="185" height="180" rx="8" fill="none" stroke="#555" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="529" y="65" font-size="13" text-anchor="start">External-system boundary</text>
+<rect x="45" y="106" width="172" height="52" rx="1" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="131" y="137" font-size="14" text-anchor="middle">Refund service</text>
+<rect x="342" y="62" width="150" height="48" rx="1" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="417" y="91" font-size="14" text-anchor="middle">Gateway PEP</text>
+<rect x="240" y="173" width="150" height="45" rx="1" fill="#e6e6e6" stroke="#333" stroke-width="1.5"/>
+<text x="315" y="200.5" font-size="14" text-anchor="middle" font-weight="bold">Network egress</text>
+<rect x="548" y="106" width="130" height="52" rx="1" fill="#fff" stroke="#333" stroke-width="1.5" stroke-dasharray="5 3"/>
+<text x="613" y="137" font-size="14" text-anchor="middle">Refund ledger</text>
+<polyline points="217,119 272,119 272,86 342,86" fill="none" stroke="#333" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="365" y="51" font-size="12" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="3" stroke-linejoin="round">submits for admission</text>
+<polyline points="131,158 131,196 240,196" fill="none" stroke="#333" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#a)"/>
+<text x="171" y="186" font-size="12" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="3" stroke-linejoin="round">tries direct route</text>
+<polyline points="390,196 488,196" fill="none" stroke="#333" stroke-width="1.5"/>
+<path d="M488 187V205" stroke="#111" stroke-width="4"/>
+<text x="440" y="184" font-size="12" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="3" stroke-linejoin="round">blocks direct route</text>
+<text x="419" y="128" font-size="13" text-anchor="middle">Approved route design</text>
+<text x="613" y="180" font-size="13" text-anchor="middle" font-weight="bold">No request received</text>
+<text x="15" y="253" font-size="13" text-anchor="start">MF-EVT-013 | DENIED_BY_NETWORK_EGRESS | target_received_request=false</text>
+<text x="15" y="270" font-size="13" text-anchor="start">Separate synthetic negative test; no production firewall proof.</text>
+<text x="15" y="287" font-size="13" text-anchor="start">Service: MF-SVC-REF-002 | PEP: MF-SVC-PEP-001 | Ledger: MF-SYS-LEDGER-001</text></g></svg>
