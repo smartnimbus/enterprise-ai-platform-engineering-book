@@ -15,6 +15,8 @@ Status: working index, 2026-11-26. Scope: selected recent conversation-derived k
 | KN-009 | Verified biography, actual delivery commitment and genuine reader feedback matter commercially | Editorial recommendation; not verified author facts | Apress commercial acquisition package §§1–5 | Publisher proposal, author credibility | [Insights](../publishing/apress/submissions/ACQUISITION-INSIGHTS.md) |
 | KN-010 | Initial publisher enquiry distinct from formal submission; no contact or endorsement inferred | Editorial recommendation | Commissioning enquiry drafts | Apress | [Insights](../publishing/apress/submissions/ACQUISITION-INSIGHTS.md) |
 
+| KN-011 | Significant sessions require complete asset capture, task reconciliation and verified handover | Explicit author direction 2026-11-26 | Mandatory capture-and-handover request | All substantive book work | [Continuity](../continuity/README.md) |
+
 ## Authority and source resolution
 
 Use canonical sources at their verified revisions when making technical claims. At capture, main revision cc728dbec56190276eb3f25b5f10729c9959ab95 contains the Blueprint, Style Bible, TOC, decision catalogue and Meridian dossier. Existing chapter samples and publishing drafts may have separately pinned source revisions. The register is a navigation aid; it does not imply those assets are integrated or approved.

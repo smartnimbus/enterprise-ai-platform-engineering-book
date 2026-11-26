@@ -17,3 +17,7 @@ Read relevant chapter notes before drafting; read the actual canonical source be
 - archive/: historical public-safe material only; raw conversations retained in private storage, if available.
 
 No empty directories or duplicate source masters are needed.
+
+## Mandatory session continuity
+
+Read [continuity entry point](../continuity/README.md), [current state](../continuity/CURRENT-STATE.md) and [next-session handover](../continuity/NEXT-SESSION.md). Use [reusable prompts](../prompts/README.md). The author's capture requirement applies to significant sessions; unchanged topical notes need no artificial edits.

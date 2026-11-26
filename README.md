@@ -49,3 +49,10 @@ The original [book baseline PR #1](https://github.com/smartnimbus/enterprise-ai-
 - **Decision-support tooling:** [Digital Twin design](governance/proposals/knowledge-system/digital-twin/), [programme operating model](governance/proposals/knowledge-system/programme-os/).
 
 **Current state:** The controlled source and proposal documents are now accessible from `main`. Their editorial, publication and permissions status is recorded in the documents themselves; presence in GitHub does not imply external approval.
+
+## Contributor continuity
+
+- [Session operating instructions](AGENTS.md)
+- [Current state and handover](continuity/README.md)
+- [Master knowledge register](knowledge/MASTER-KNOWLEDGE-REGISTER.md)
+- [Reusable session prompts](prompts/README.md)
