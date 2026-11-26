@@ -11,3 +11,18 @@ Reject Fabric-first appraisal, counting pilots as funded demand, false equivalen
 ## Recovery custody (2026-11-26)
 
 [Complete recovered authoring package](../../editorial/authoring-blueprints/Chapter_41_Authoring_Package_Recovered.md) and [manifest](../../editorial/authoring-blueprints/Chapter_41_Recovery_Manifest.md) at verified recovery commit 54e2c204ab9737b50de8224354e572e0aea10ccb. All 18 numbered sections, original recommendation, five-candidate comparison, seven steps, financial assumptions, exact D-01/D-02/D-03/D-26 defaults, overlap and success criteria preserved. Two editable SVG derivatives, original control configuration, reconstructed standalone interactive HTML, scenario CSV and three original specimen extracts saved. The original option ADR is a field-requirements table, not a completed ADR; no invented approval or supplier prices. Manual visible-source transcription; original export and independent browser/visual inspection unavailable. Historical Chapter 41 preference does not override later Chapter 10 recommendation. No manuscript written.
+
+## Acquisition manuscript production
+Author explicitly prioritised Chapter 41. [Complete draft](../../manuscript/part-07/chapter-41/chapter-41.md), four extracted worked records, validation and self-review now exist on the working branch. New hypothetical three-year cost comparison and bounded discovery disposition; no fixture change. Narrative ceiling respected; page fit and independent review pending. Historical recovery remains distinct.
+
+## Publication-candidate review
+[Ranked publication revision findings](../../editorial/reviews/CHAPTER-41-PUBLICATION-CANDIDATE-REVIEW.md) recorded separately from the manuscript. Priorities: complete decision lifecycle, enforceable funding conditions, standalone orientation, reusable records, switching values and genuine reader trial. No revision or publication approval claimed.
+
+## Signature revision v2 plan
+Author accepted publication findings and requested six bounded improvements only. [Implementation plan](../authoring-blueprints/Chapter_41_Signature_Revision_v2_Plan.md) defines placements, displacement budgets, exact reversal economics, figures and toolkit. Plan authored; manuscript revision not executed.
+
+## Signature Revision v2 executed
+Author approved plan and requested manuscript. [v2 manuscript](../../manuscript/part-07/chapter-41/chapter-41-signature-v2.md), four revision-linked records, four blank templates, evidence schedule, sensitivity CSV, two editable figures, redline and validation saved. v1 preserved. 2,933 source whitespace tokens vs 3,471 v1; narrative unchanged. Page fit and independent acceptance outstanding.
+
+## Practitioner validation programme
+Chapter 41 v2 frozen by explicit author instruction for PVP-41. [Public protocol](../validation/chapter-41/PVP-41-PUBLIC-PROTOCOL.md) and exact restricted archive hashes preserved. Complete private study pack prepared and tested with synthetic logic only; no manuscript review or edits, no actual reader evidence. Independent execution, consent and publication production checks remain outstanding.

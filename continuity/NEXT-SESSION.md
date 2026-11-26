@@ -23,3 +23,18 @@ Read AGENTS.md, continuity records, knowledge register, CHAPTER-10-NOTES.md, DIA
 ## Source limitation resolution
 
 When the original commercial response bodies are supplied, recover only missing distinct original assets, compare against the existing versions, preserve privacy, and update CAP-006 and OQ-11 with verified custody. Do not substitute a newly generated questionnaire, email, biography or delivery promise for the lost historical original.
+
+## Latest author-directed production priority
+Chapter 41 has been authored on `docs/chapter-41-business-case`. Read its [self-review](../manuscript/part-07/chapter-41/acquisition-self-review.md) and validation before further revision. Address page fit, full checks and independent reader exercise; do not repeat blueprint or acquisition assessment. Chapter 10 remains CAP-008, deferred rather than cancelled. Author credentials and genuine feedback remain separate dependencies.
+
+## Latest Chapter 41 review
+Author requested publication-candidate critique, not a rewrite. Read [ranked findings](../editorial/reviews/CHAPTER-41-PUBLICATION-CANDIDATE-REVIEW.md) before any authorised focused revision. Preserve current manuscript and recovered packages. CAP-011 remains authored, working PR #24 open; Chapter 10 deferred, CAP-006 partial. Do not perform another assessment unless requested.
+
+## Latest author direction — Chapter 41 Signature Revision v2
+Read [implementation plan](../editorial/authoring-blueprints/Chapter_41_Signature_Revision_v2_Plan.md). Six improvements only; no new review or scope expansion. Execute manuscript revision only on instruction, preserve v1, frozen sources and seven-page planning budget. CAP-011 working PR #24; CAP-008 deferred; CAP-006 partial.
+
+## Signature Revision v2 delivered
+Read [v2 manuscript](../manuscript/part-07/chapter-41/chapter-41-signature-v2.md), [redline](../manuscript/part-07/chapter-41/redline-v2.md) and validation-v2.json. All six approved changes executed; v1 retained. Working PR #24, not publication approval. Next bounded action: actual proof/full checks and genuine independent reader trial, no further generic review. CAP-008 deferred; CAP-006 partial.
+
+## Latest author-directed validation programme
+Chapter 41 Signature Revision v2 frozen. PVP-41 prepared, not executed; see [public protocol and pack hashes](../editorial/validation/chapter-41/PVP-41-PUBLIC-PROTOCOL.md). Full actual scenario/key/workbook/form archives delivered privately in conversation; author retains exact downloaded files and must keep them restricted. Do not publish keys or raw participant/consent data; do not reconstruct or claim actual results. Appoint independent facilitator/assessors, preregister, recruit, run controlled cases, retain genuine data and produce consent-permitted report. No manuscript review/edit or generic assessment. CAP-010 pending real evidence; proof and other acquisition dependencies unchanged.

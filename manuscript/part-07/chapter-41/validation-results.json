@@ -1,0 +1,126 @@
+{
+  "source_main": "0789581aa470fa1f1086dd3e1de6971bb23b0880",
+  "manuscript_blob": "ddc6ed825d03c4d552ec1c8d29cdaef987479f43",
+  "whitespace_tokens": 3471,
+  "narrative_words": 203,
+  "step_count": 7,
+  "steps_fields": [
+    {
+      "field": "Action:",
+      "count": 7
+    },
+    {
+      "field": "Owner:",
+      "count": 7
+    },
+    {
+      "field": "Input:",
+      "count": 7
+    },
+    {
+      "field": "Output:",
+      "count": 7
+    },
+    {
+      "field": "Time:",
+      "count": 7
+    }
+  ],
+  "atlas_checks": [
+    {
+      "id": "D-01",
+      "exact": true
+    },
+    {
+      "id": "D-02",
+      "exact": true
+    },
+    {
+      "id": "D-03",
+      "exact": true
+    },
+    {
+      "id": "D-26",
+      "exact": true
+    }
+  ],
+  "selected_forbidden_phrase_hits": [],
+  "figures": [
+    {
+      "alt": "Seven appraisal steps leading from confirmed demand to a funding disposition",
+      "path": "editorial/figures/chapter-41/seven-step-appraisal.svg",
+      "sha": "5f42415f63e3b4ad8f039e3bba69a844720f40e9",
+      "svg": true,
+      "title": true,
+      "desc": true
+    },
+    {
+      "alt": "Decision, accountability, enforcement, verification, evidence and reconsideration relationships",
+      "path": "editorial/figures/chapter-41/decision-to-evidence-investment.svg",
+      "sha": "f812e8b613fdec0614a4bf28e43849024f70b476",
+      "svg": true,
+      "title": true,
+      "desc": true
+    }
+  ],
+  "records": [
+    {
+      "path": "manuscript/part-07/chapter-41/business-case.md",
+      "sha": "4614de6cda64b3775e9ab26fd5f5f251f06a4ac2",
+      "length": 1426
+    },
+    {
+      "path": "manuscript/part-07/chapter-41/option-adr.md",
+      "sha": "0518afe0e9a64ceffa0aad025a542aceb71c0539",
+      "length": 1431
+    },
+    {
+      "path": "manuscript/part-07/chapter-41/benefits-register.md",
+      "sha": "d5038e1659ac58ca0edb126ba592fcc7d9b24e5b",
+      "length": 1268
+    },
+    {
+      "path": "manuscript/part-07/chapter-41/funding-decision-record.md",
+      "sha": "5ece58cea1f3346ee96311a92eacc718a876fa55",
+      "length": 1143
+    }
+  ],
+  "calculations": {
+    "year1": [
+      120,
+      100
+    ],
+    "one": [
+      60,
+      85
+    ],
+    "extra30": [
+      120,
+      130
+    ],
+    "three": [
+      180,
+      115
+    ],
+    "lifecycle": [
+      240,
+      232
+    ],
+    "present_expenditure": [
+      220.19220386567324,
+      211.6834035201382
+    ],
+    "cost_per_success": [
+      2.5,
+      1.6666666666666667,
+      2
+    ]
+  },
+  "limitations": [
+    "No full repository validator run or CI executed",
+    "No visual render or typesetting inspection",
+    "Seven-page allocation unverified; length above working allocation",
+    "Narrative percentage conflicts with ceiling; ceiling respected",
+    "Independent technical, developmental and practitioner review pending"
+  ]
+}

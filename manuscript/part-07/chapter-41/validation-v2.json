@@ -1,0 +1,134 @@
+{
+  "manuscript_blob": "9a6baa8568fc93b03b44a4c2937ccf9cca9c6daf",
+  "v1_blob": "ddc6ed825d03c4d552ec1c8d29cdaef987479f43",
+  "whitespace_tokens": {
+    "v1": 3471,
+    "v2": 2933,
+    "delta": -538
+  },
+  "narrative": {
+    "words": 203,
+    "unchanged": true
+  },
+  "exact_atlas_defaults": [
+    {
+      "text": "Default to domain-local delivery until at least two funded production use cases need the same control contracts and a positive shared-cost case is evidenced.",
+      "match": true
+    },
+    {
+      "text": "Default to embedding bounded SaaS-native tasks and extending governed shared integration only where cross-system control warrants it.",
+      "match": true
+    },
+    {
+      "text": "Default to a hybrid model with central control contracts and domain-owned use cases.",
+      "match": true
+    },
+    {
+      "text": "Default to tenant, use-case and trajectory-level showback based on cost per successful task, with budgets and invoice reconciliation.",
+      "match": true
+    }
+  ],
+  "steps": 7,
+  "fields": [
+    {
+      "field": "Action:",
+      "count": 7
+    },
+    {
+      "field": "Owner:",
+      "count": 7
+    },
+    {
+      "field": "Input:",
+      "count": 7
+    },
+    {
+      "field": "Output:",
+      "count": 7
+    },
+    {
+      "field": "Time:",
+      "count": 7
+    }
+  ],
+  "arithmetic": {
+    "year1": [
+      120,
+      100
+    ],
+    "three_year": [
+      240,
+      232
+    ],
+    "discounted": [
+      220.19220386567324,
+      211.6834035201382
+    ],
+    "reversal": {
+      "shared_total": 252,
+      "shared_remaining": 247,
+      "local_remaining": 240,
+      "local_programme": 245,
+      "prospective_local_advantage": 7,
+      "full_horizon_threshold": 8,
+      "remaining_threshold": 13
+    },
+    "csv_rows_pass": true
+  },
+  "assets": [
+    {
+      "path": "business-case-v2.md",
+      "sha": "0a8f5e2fbd5580857e24f883480d10676ffdda3f"
+    },
+    {
+      "path": "option-adr-v2.md",
+      "sha": "6114104daa6e834ac980ab59f20bb18c9cf5b5c7"
+    },
+    {
+      "path": "benefits-register-v2.md",
+      "sha": "6321c4423486df1fbc640187d2c5fecfc6ec5d88"
+    },
+    {
+      "path": "funding-decision-record-v2.md",
+      "sha": "e00396633957a10ffa665e49a29a47edc866ac7d"
+    },
+    {
+      "path": "evidence-index-v2.md",
+      "sha": "d4801681990d36840960fcb7135db48e6af5f0d0"
+    },
+    {
+      "path": "reconsideration-v2.csv",
+      "sha": "e5ef11f203d3cf9da710d65065eacd45bfca42a5"
+    },
+    {
+      "path": "templates/business-case.md",
+      "sha": "7363fc6f567d863dd29fefc29b5ac489635841e7"
+    },
+    {
+      "path": "templates/option-adr.md",
+      "sha": "9f10e308b53b573408478ea2e9fda3ee7755950e"
+    },
+    {
+      "path": "templates/benefits-register.md",
+      "sha": "2cd1a86a8beb95eaf604b6d35731966b68f014c1"
+    },
+    {
+      "path": "templates/funding-decision-record.md",
+      "sha": "3408217163baca5f95289288fba88d5a7952fb98"
+    },
+    {
+      "path": "figures/figure-41-1-v2.svg",
+      "sha": "6678b392667d384d749d3ba9db6da8cbcddbebef"
+    },
+    {
+      "path": "figures/figure-41-2-v2.svg",
+      "sha": "eef5702a264a8cf00b8324a5d4a37718f4ca8179"
+    }
+  ],
+  "limitations": [
+    "No complete repository CI or official typeset proof run",
+    "SVG sources retrieved, not visually rendered in this session",
+    "Independent technical, Finance, editorial and practitioner acceptance outstanding",
+    "Seven-page planning allocation not verified; narrative percentage conflict remains"
+  ]
+}
