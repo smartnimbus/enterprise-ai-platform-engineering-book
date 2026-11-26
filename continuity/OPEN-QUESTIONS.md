@@ -13,7 +13,6 @@
 | OQ-09 | Original Chapter 10 package export and independent visual comparison unavailable | Author / curator | Visible-source recovery 7daf061e2807a45d66e1765b162f0dd69e88b531; optional exact export and visual inspection before production |
 | OQ-10 | Original Chapter 41 export and independent browser/visual inspection unavailable; ADR specimen is field guidance only | Author / curator | Visible-source recovery 54e2c204ab9737b50de8224354e572e0aea10ccb; original export if available, actual authoring and production checks later |
 | OQ-11 | Exact later commercial package responses, invitation/questionnaire, distinct differentiation versions, commissioning enquiry, delivery draft and later acquisition review not retrievable | Author / curator | Original response/export supplied or retrievable; compare to existing versions using [CAP-006 manifest](../publishing/apress/submissions/historical-recovery/CAP-006-RECOVERY-MANIFEST.md) |
+| OQ-12 | Chapter 41 seven-page fit, full validator execution, visual inspection and independent reader trial outstanding | Author / production / reviewers | Actual proof, executed checks and genuine feedback |
 
 Resolve only with evidence or explicit author disposition. Unknown is not approved. Keep sensitive details private.
-
-| OQ-12 | Chapter 41 seven-page fit, full validator execution, visual inspection and independent reader trial outstanding | Author / production / reviewers | Actual proof, executed checks and genuine feedback |
