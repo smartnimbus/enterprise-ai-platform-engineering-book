@@ -1,0 +1,402 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R /Lang (en-GB) >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 6 /Kids [6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 3353 >>
+stream
+0.3 g
+BT /F2 8 Tf 1 0 0 1 65 633 Tm (PART IV  /  DECISION ATLAS) Tj ET
+BT /F3 8 Tf 1 0 0 1 407.32 633 Tm (ACQUISITION PROOF) Tj ET
+0.65 G 0.5 w 65 624 m 490 624 l S
+0.1 g
+BT /F2 18 Tf 1 0 0 1 65 602 Tm (D-01: Adopt a shared Fabric) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 576 Tm (Context.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 109.919 576 Tm (Multiple use cases are requesting overlapping tool, identity and verification controls, but a) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 562 Tm (shared service creates recurring operational obligations.) Tj ET
+0.95 g 65 521 425 35 re f
+0.35 g 65 521 3 35 re f
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 74 542 Tm (Default.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 115.4225 542 Tm (Default to domain-local delivery until at least two funded production use cases need) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 74 528 Tm (the same control contracts and a positive shared-cost case is evidenced.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 508 Tm (Why.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 93.0035 508 Tm (A shared Fabric introduces support cost before it creates benefit. Count duplicated controls) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 494 Tm (and onboarding time, then compare their costs with shared operating overhead. In a hypothetical) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 480 Tm (first-year comparison of two funded production use cases needing the same controls, domain-local) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 466 Tm (costs GBP 120,000 and shared delivery costs GBP 100,000. The illustrative GBP 20,000 difference) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 452 Tm (is a case to verify, not earned savings or an investment approval.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 432 Tm (Trade-off.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 116.33449999999999 432 Tm (This buys coherent controls and reuse at the cost of platform operations.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 412 Tm (When to deviate.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 75 398 Tm (- One isolated use case.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 75 384 Tm (- Hard contractual segregation.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 75 370 Tm (- No confirmed shared-control demand.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 356 Tm (Reversibility.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 133.2815 356 Tm (Two-way door.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 336 Tm (Artefact.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 110.507 336 Tm (fabric-adoption-adr.md.) Tj ET
+0.96 g 65 222 425 99 re f
+0.12 g
+BT /F2 9 Tf 1 0 0 1 75 311 Tm (Illustration - hypothetical first-year comparison.) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 297 Tm (- Domain-local: 60,000 + 60,000 = GBP 120,000) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 285 Tm (- Shared: 70,000 service + 30,000 onboarding = GBP 100,000) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 273 Tm (- Difference: GBP 20,000; validate like-for-like scope and costs.) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 261 Tm (- Option: evaluate shared | Owner / approver: to be assigned) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 249 Tm (- Verify: funded demand and positive cost case | Evidence: comparison) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 237 Tm (- Re-evaluate: demand, segregation, or cost changes.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 216 Tm (See also.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 113.447 216 Tm (Chapter 1; Chapter 4; Chapter 5; Chapter 24; Chapter 41.) Tj ET
+0.65 G 0.5 w 65 45 m 490 45 l S
+0.35 g
+BT /F3 8 Tf 1 0 0 1 65 30 Tm (The Enterprise AI Agent Fabric) Tj ET
+BT /F3 8 Tf 1 0 0 1 417.664 30 Tm (D-01  |  Author proof) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 3336 >>
+stream
+0.3 g
+BT /F2 8 Tf 1 0 0 1 65 633 Tm (PART IV  /  DECISION ATLAS) Tj ET
+BT /F3 8 Tf 1 0 0 1 407.32 633 Tm (ACQUISITION PROOF) Tj ET
+0.65 G 0.5 w 65 624 m 490 624 l S
+0.1 g
+BT /F2 18 Tf 1 0 0 1 65 602 Tm (D-10: Authorise mutable tool actions) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 576 Tm (Context.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 109.919 576 Tm (A generated tool intent is not permission to change an external system.) Tj ET
+0.95 g 65 535 425 35 re f
+0.35 g 65 535 3 35 re f
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 74 556 Tm (Default.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 115.4225 556 Tm (Default to Gateway-enforced action authorisation with a signed, scoped receipt and) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 74 542 Tm (idempotency key before every external mutation.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 522 Tm (Why.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 93.0035 522 Tm (The policy enforcement point \(PEP\) checks tenant, actor chain, resource scope, risk, and) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 508 Tm (approval. Tooling executes only after successful validation and logs the resulting side effect. In) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 494 Tm (synthetic Meridian, MF-EVD-DG-001 records effective refund:request, not refund:execute;) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 480 Tm (MF-EVD-AU-001 records DENY for MF-ACT-REF-001. MF-EVD-DN-001 records no external) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 466 Tm (call and zero financial mutations.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 446 Tm (Trade-off.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 116.33449999999999 446 Tm (This buys defensible action boundaries at the cost of policy-check latency.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 426 Tm (When to deviate.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 75 412 Tm (- A read-only call has an approved reduced policy path.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 75 398 Tm (- Bulk action uses a separately authorised bounded batch.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 75 384 Tm (- Emergency operations require recorded break-glass review.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 370 Tm (Reversibility.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 133.2815 370 Tm (Two-way door.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 350 Tm (Artefact.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 110.507 350 Tm (action-authorisation-contract.json.) Tj ET
+0.96 g 65 224 425 111 re f
+0.12 g
+BT /F2 9 Tf 1 0 0 1 75 325 Tm (Illustration - synthetic decision and enforcement.) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 311 Tm (- Request: MF-REQ-REF-001 | Delegation: MF-EVD-DG-001) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 299 Tm (- Decision: MF-EVD-AU-001 = DENY | Receipt: MF-EVD-DN-001) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 287 Tm (- authorised_execution_token = null) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 275 Tm (- signed_authorisation_status = NOT_ISSUED_DENIED) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 263 Tm (- external_tool_called = false | financial_mutation_count = 0) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 251 Tm (- Option: deny | Owner / approver: record in real contract) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 239 Tm (- Verify: no mutation | Evidence: receipts | Recheck: scope or policy change.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 218 Tm (See also.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 113.447 218 Tm (Chapter 12; Chapter 15; Chapter 16; Chapter 27; Chapter 48.) Tj ET
+0.65 G 0.5 w 65 45 m 490 45 l S
+0.35 g
+BT /F3 8 Tf 1 0 0 1 65 30 Tm (The Enterprise AI Agent Fabric) Tj ET
+BT /F3 8 Tf 1 0 0 1 417.664 30 Tm (D-10  |  Author proof) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 11 0 R >>
+endobj
+11 0 obj
+<< /Length 3177 >>
+stream
+0.3 g
+BT /F2 8 Tf 1 0 0 1 65 633 Tm (PART IV  /  DECISION ATLAS) Tj ET
+BT /F3 8 Tf 1 0 0 1 407.32 633 Tm (ACQUISITION PROOF) Tj ET
+0.65 G 0.5 w 65 624 m 490 624 l S
+0.1 g
+BT /F2 18 Tf 1 0 0 1 65 602 Tm (D-14: Reconcile semantic identities) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 576 Tm (Context.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 109.919 576 Tm (Different sources may name the same entity or disagree on its status.) Tj ET
+0.95 g 65 535 425 35 re f
+0.35 g 65 535 3 35 re f
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 74 556 Tm (Default.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 115.4225 556 Tm (Default to canonical IDs with source lineage and explicit unresolved-conflict states;) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 74 542 Tm (never silently choose the newest record as truth.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 522 Tm (Why.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 93.0035 522 Tm (Context owns the entity match and conflict record; the domain data owner defines) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 508 Tm (precedence. In synthetic Meridian, MF-REC-A-001 reports ACTIVE and MF-REC-B-001 reports) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 494 Tm (CLOSED for MF-PROD-0091, both effective 2027-02-22 at 00:00 UTC. MF-EVD-RC-001 records) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 480 Tm (UNRESOLVED and escalation to the Retail Data Steward; a later recording time does not establish) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 466 Tm (authority. Verification tests whether a blocked conflict leads to a side effect.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 446 Tm (Trade-off.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 116.33449999999999 446 Tm (This buys consistent meaning at the cost of stewardship and escalations.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 426 Tm (When to deviate.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 75 412 Tm (- Authoritative source has published precedence rules.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 75 398 Tm (- A disposable unlinked context item needs no canonical entity.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 384 Tm (Reversibility.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 133.2815 384 Tm (Two-way door.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 364 Tm (Artefact.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 110.507 364 Tm (semantic-reconciliation-record.json.) Tj ET
+0.96 g 65 250 425 99 re f
+0.12 g
+BT /F2 9 Tf 1 0 0 1 75 339 Tm (Illustration - synthetic claim comparison.) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 325 Tm (- A: ACTIVE at 09:00 | B: CLOSED at 09:10 \(recorded UTC\)) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 313 Tm (- Common effective time: 2027-02-22 00:00 UTC) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 301 Tm (- MF-EVD-RC-001: UNRESOLVED | MF-TASK-STEWARDSHIP-001) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 289 Tm (- Option: retain conflict | Owner: MF-HUM-RET-OWN-001) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 277 Tm (- Approver: none recorded | Verify: no unsafe side effect) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 265 Tm (- Evidence: reconciliation record | Recheck: published precedence or new evidence.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 244 Tm (See also.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 113.447 244 Tm (Chapter 13; Chapter 18; Chapter 22; Chapter 28.) Tj ET
+0.65 G 0.5 w 65 45 m 490 45 l S
+0.35 g
+BT /F3 8 Tf 1 0 0 1 65 30 Tm (The Enterprise AI Agent Fabric) Tj ET
+BT /F3 8 Tf 1 0 0 1 417.664 30 Tm (D-14  |  Author proof) Tj ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 13 0 R >>
+endobj
+13 0 obj
+<< /Length 3210 >>
+stream
+0.3 g
+BT /F2 8 Tf 1 0 0 1 65 633 Tm (PART IV  /  DECISION ATLAS) Tj ET
+BT /F3 8 Tf 1 0 0 1 407.32 633 Tm (ACQUISITION PROOF) Tj ET
+0.65 G 0.5 w 65 624 m 490 624 l S
+0.1 g
+BT /F2 18 Tf 1 0 0 1 65 602 Tm (D-18: Prove Gateway non-bypassability) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 576 Tm (Context.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 109.919 576 Tm (A gateway control plane is ineffective if tools can call external targets directly.) Tj ET
+0.95 g 65 535 425 35 re f
+0.35 g 65 535 3 35 re f
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 74 556 Tm (Default.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 115.4225 556 Tm (Default to mandatory PEP checks on mutable external actions, enforced by) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 74 542 Tm (credentials, routing policy and egress controls.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 522 Tm (Why.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 93.0035 522 Tm (Architecture diagrams are insufficient proof. A policy enforcement point \(PEP\) denial and) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 508 Tm (direct-bypass negative test must show that unapproved side effects cannot succeed. In synthetic) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 494 Tm (Meridian, MF-EVD-DN-001 records Gateway denial, then MF-EVT-013 separately tests the direct) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 480 Tm (service-to-ledger route without the PEP. Egress blocks that simulated route; this is not evidence of a) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 466 Tm (deployed firewall or every possible bypass.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 446 Tm (Trade-off.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 116.33449999999999 446 Tm (This buys enforceable admission at the cost of proxy dependencies and outage planning.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 426 Tm (When to deviate.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 75 412 Tm (- Restricted offline worker cannot reach external systems.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 75 398 Tm (- An explicitly approved trusted path implements equivalent PEP controls.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 384 Tm (Reversibility.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 133.2815 384 Tm (One-way door.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 364 Tm (Artefact.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 110.507 364 Tm (gateway-bypass-proof.md.) Tj ET
+0.96 g 65 250 425 99 re f
+0.12 g
+BT /F2 9 Tf 1 0 0 1 75 339 Tm (Illustration - separate synthetic negative outcomes.) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 325 Tm (- Gateway path: DENY | MF-EVD-DN-001) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 313 Tm (- Direct route: MF-EVT-013 | DENIED_BY_NETWORK_EGRESS) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 301 Tm (- target_received_request = false | financial_mutation_count = 0) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 289 Tm (- Option: mandatory PEP | Owner / approver: assign for deployment) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 277 Tm (- Verify: normal denial and blocked direct route | Evidence: receipt + event) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 265 Tm (- Re-evaluate: credential, routing, or egress change.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 244 Tm (See also.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 113.447 244 Tm (Chapter 10; Chapter 12; Chapter 16; Chapter 27; Chapter 42.) Tj ET
+0.65 G 0.5 w 65 45 m 490 45 l S
+0.35 g
+BT /F3 8 Tf 1 0 0 1 65 30 Tm (The Enterprise AI Agent Fabric) Tj ET
+BT /F3 8 Tf 1 0 0 1 417.664 30 Tm (D-18  |  Author proof) Tj ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 15 0 R >>
+endobj
+15 0 obj
+<< /Length 3121 >>
+stream
+0.3 g
+BT /F2 8 Tf 1 0 0 1 65 633 Tm (PART IV  /  DECISION ATLAS) Tj ET
+BT /F3 8 Tf 1 0 0 1 407.32 633 Tm (ACQUISITION PROOF) Tj ET
+0.65 G 0.5 w 65 624 m 490 624 l S
+0.1 g
+BT /F2 18 Tf 1 0 0 1 65 602 Tm (D-26: Allocate cost and budgets) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 576 Tm (Context.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 109.919 576 Tm (Multi-tenant model and tool charges must be allocated to outcomes and owners.) Tj ET
+0.95 g 65 535 425 35 re f
+0.35 g 65 535 3 35 re f
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 74 556 Tm (Default.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 115.4225 556 Tm (Default to tenant, use-case and trajectory-level showback based on cost per successful) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 74 542 Tm (task, with budgets and invoice reconciliation.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 522 Tm (Why.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 93.0035 522 Tm (Token charges omit retries, tool calls, compute, and shared overhead. Include failed-task costs) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 508 Tm (in the numerator; count only verified successful tasks in the denominator. In a hypothetical batch of) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 494 Tm (100 tasks, 80 succeed and 20 fail; GBP 160 total divided by 80 verified successes yields GBP 2 per) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 480 Tm (successful task. Reconcile allocated costs to invoices before using showback to govern budgets.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 460 Tm (Trade-off.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 116.33449999999999 460 Tm (This buys unit-economic accountability at the cost of attribution engineering.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 440 Tm (When to deviate.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 75 426 Tm (- Small pilot uses temporary showback only.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 75 412 Tm (- Regulated contract prescribes a fixed-cost recovery model.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 398 Tm (Reversibility.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 133.2815 398 Tm (Two-way door.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 378 Tm (Artefact.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 110.507 378 Tm (cost-allocation-policy.xlsx.) Tj ET
+0.96 g 65 264 425 99 re f
+0.12 g
+BT /F2 9 Tf 1 0 0 1 75 353 Tm (Illustration - hypothetical cost contribution \(GBP\).) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 339 Tm (- Model 70 + tools 30 + compute 20 + overhead 40 = 160) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 327 Tm (- Same total by outcome: successful 120 + failed 40 = 160) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 315 Tm (- 160 / 80 verified successes = GBP 2 per successful task) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 303 Tm (- Option: showback | Owner / approver: to be assigned) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 291 Tm (- Verify: allocation totals reconcile | Evidence: invoice and outcome records) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 279 Tm (- Re-evaluate: tariff, allocation, budget, or success-rate change.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 258 Tm (See also.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 113.447 258 Tm (Chapter 8; Chapter 20; Chapter 32; Chapter 38; Chapter 41.) Tj ET
+0.65 G 0.5 w 65 45 m 490 45 l S
+0.35 g
+BT /F3 8 Tf 1 0 0 1 65 30 Tm (The Enterprise AI Agent Fabric) Tj ET
+BT /F3 8 Tf 1 0 0 1 417.664 30 Tm (D-26  |  Author proof) Tj ET
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 17 0 R >>
+endobj
+17 0 obj
+<< /Length 3532 >>
+stream
+0.3 g
+BT /F2 8 Tf 1 0 0 1 65 633 Tm (PART IV  /  DECISION ATLAS) Tj ET
+BT /F3 8 Tf 1 0 0 1 407.32 633 Tm (ACQUISITION PROOF) Tj ET
+0.65 G 0.5 w 65 624 m 490 624 l S
+0.1 g
+BT /F2 18 Tf 1 0 0 1 65 602 Tm (D-30: Retire use cases and the Fabric) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 576 Tm (Context.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 109.919 576 Tm (Stopping execution leaves credentials, memory, evidence, vendor contracts and legal) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 562 Tm (obligations behind.) Tj ET
+0.95 g 65 521 425 35 re f
+0.35 g 65 521 3 35 re f
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 74 542 Tm (Default.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 115.4225 542 Tm (Default to a formal retirement gate proving token revocation, data disposition,) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 74 528 Tm (preserved obligations and tested export or migration.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 508 Tm (Why.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 93.0035 508 Tm (The identity, Context, and telemetry stores do not share one deletion command. Each owner) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 494 Tm (records disposal, archival, or legal hold against a common inventory. A hypothetical retirement) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 480 Tm (review checks revocation, export, retained obligations, and deletion evidence before accepting) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 466 Tm (closure. An unresolved obligation prevents a claim of completed retirement; no Meridian retirement) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 452 Tm (is recorded.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 432 Tm (Trade-off.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 116.33449999999999 432 Tm (This buys safe closure and portability at the cost of exit rehearsals and retention) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 418 Tm (administration.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 398 Tm (When to deviate.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 75 384 Tm (- Legal hold prevents a specified deletion.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 75 370 Tm (- Phased migration requires dual running.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 75 356 Tm (- Decommission is delayed by unresolved data ownership.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 342 Tm (Reversibility.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 133.2815 342 Tm (One-way door.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 322 Tm (Artefact.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 110.507 322 Tm (retirement-certificate-and-exit-plan.md.) Tj ET
+0.96 g 65 196 425 111 re f
+0.12 g
+BT /F2 9 Tf 1 0 0 1 75 297 Tm (Illustration - hypothetical exit evidence \(all pending\).) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 283 Tm (- Identity: revoke tokens | Revocation evidence pending) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 271 Tm (- Interoperability: test export | Migration evidence pending) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 259 Tm (- Context / Data Protection: dispose or retain | Receipts pending) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 247 Tm (- Legal hold / evidence custody: preserve obligations | Record pending) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 235 Tm (- Option: formal retirement gate | Owner / approver: to be assigned) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 223 Tm (- Verify: all required obligations accounted for | Evidence: exit inventory) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 211 Tm (- Re-evaluate: failed export, unresolved ownership, or hold.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 190 Tm (See also.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 113.447 190 Tm (Chapter 21; Chapter 34; Chapter 40; Chapter 49; Chapter 50; Chapter 57.) Tj ET
+0.65 G 0.5 w 65 45 m 490 45 l S
+0.35 g
+BT /F3 8 Tf 1 0 0 1 65 30 Tm (The Enterprise AI Agent Fabric) Tj ET
+BT /F3 8 Tf 1 0 0 1 417.664 30 Tm (D-30  |  Author proof) Tj ET
+endstream
+endobj
+xref
+0 18
+0000000000 65535 f 
+0000000009 00000 n 
+0000000072 00000 n 
+0000000163 00000 n 
+0000000262 00000 n 
+0000000364 00000 n 
+0000000461 00000 n 
+0000000607 00000 n 
+0000004011 00000 n 
+0000004157 00000 n 
+0000007544 00000 n 
+0000007692 00000 n 
+0000010921 00000 n 
+0000011069 00000 n 
+0000014331 00000 n 
+0000014479 00000 n 
+0000017652 00000 n 
+0000017800 00000 n 
+trailer
+<< /Size 18 /Root 1 0 R >>
+startxref
+21384
+%%EOF

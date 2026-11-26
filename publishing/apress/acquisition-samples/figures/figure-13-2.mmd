@@ -1,0 +1,15 @@
+%% Figure 13-2 — Semantic Reconciliation Workflow
+%% Two authorised records match the same product and effective time but disagree on status. The reconciliation workflow retains UNRESOLVED and escalates to the Retail Data Steward without selecting either value.
+stateDiagram-v2
+ direction LR
+ state "Candidate claims" as A
+ state "Identity matched" as B
+ state "Time aligned" as C
+ state "Conflict detected" as D
+ state "UNRESOLVED" as E
+ state "Steward escalation" as F
+ A --> B: match ID
+ B --> C: align time
+ C --> D: compare status
+ D --> E: retain conflict
+ E --> F: escalate

@@ -1,0 +1,92 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R /Lang (en-GB) >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 1 /Kids [6 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 3336 >>
+stream
+0.3 g
+BT /F2 8 Tf 1 0 0 1 65 633 Tm (PART IV  /  DECISION ATLAS) Tj ET
+BT /F3 8 Tf 1 0 0 1 407.32 633 Tm (ACQUISITION PROOF) Tj ET
+0.65 G 0.5 w 65 624 m 490 624 l S
+0.1 g
+BT /F2 18 Tf 1 0 0 1 65 602 Tm (D-10: Authorise mutable tool actions) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 576 Tm (Context.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 109.919 576 Tm (A generated tool intent is not permission to change an external system.) Tj ET
+0.95 g 65 535 425 35 re f
+0.35 g 65 535 3 35 re f
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 74 556 Tm (Default.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 115.4225 556 Tm (Default to Gateway-enforced action authorisation with a signed, scoped receipt and) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 74 542 Tm (idempotency key before every external mutation.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 522 Tm (Why.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 93.0035 522 Tm (The policy enforcement point \(PEP\) checks tenant, actor chain, resource scope, risk, and) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 508 Tm (approval. Tooling executes only after successful validation and logs the resulting side effect. In) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 494 Tm (synthetic Meridian, MF-EVD-DG-001 records effective refund:request, not refund:execute;) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 480 Tm (MF-EVD-AU-001 records DENY for MF-ACT-REF-001. MF-EVD-DN-001 records no external) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 466 Tm (call and zero financial mutations.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 446 Tm (Trade-off.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 116.33449999999999 446 Tm (This buys defensible action boundaries at the cost of policy-check latency.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 426 Tm (When to deviate.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 75 412 Tm (- A read-only call has an approved reduced policy path.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 75 398 Tm (- Bulk action uses a separately authorised bounded batch.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 75 384 Tm (- Emergency operations require recorded break-glass review.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 370 Tm (Reversibility.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 133.2815 370 Tm (Two-way door.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 350 Tm (Artefact.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 110.507 350 Tm (action-authorisation-contract.json.) Tj ET
+0.96 g 65 224 425 111 re f
+0.12 g
+BT /F2 9 Tf 1 0 0 1 75 325 Tm (Illustration - synthetic decision and enforcement.) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 311 Tm (- Request: MF-REQ-REF-001 | Delegation: MF-EVD-DG-001) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 299 Tm (- Decision: MF-EVD-AU-001 = DENY | Receipt: MF-EVD-DN-001) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 287 Tm (- authorised_execution_token = null) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 275 Tm (- signed_authorisation_status = NOT_ISSUED_DENIED) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 263 Tm (- external_tool_called = false | financial_mutation_count = 0) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 251 Tm (- Option: deny | Owner / approver: record in real contract) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 239 Tm (- Verify: no mutation | Evidence: receipts | Recheck: scope or policy change.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 218 Tm (See also.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 113.447 218 Tm (Chapter 12; Chapter 15; Chapter 16; Chapter 27; Chapter 48.) Tj ET
+0.65 G 0.5 w 65 45 m 490 45 l S
+0.35 g
+BT /F3 8 Tf 1 0 0 1 65 30 Tm (The Enterprise AI Agent Fabric) Tj ET
+BT /F3 8 Tf 1 0 0 1 417.664 30 Tm (D-10  |  Author proof) Tj ET
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000072 00000 n 
+0000000129 00000 n 
+0000000228 00000 n 
+0000000330 00000 n 
+0000000427 00000 n 
+0000000573 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+3960
+%%EOF

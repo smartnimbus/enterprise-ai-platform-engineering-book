@@ -11,6 +11,7 @@ This is the controlled manuscript and editorial workspace for a proposed profess
 - [30-decision catalogue](decisions/catalogue/Enterprise_AI_Agent_Fabric_Decision_Catalogue.csv)
 - [Meridian evidence dossier](meridian/fixture/Meridian_Evidence_Fixture_v1.0.md)
 - [Chapter 16 draft](manuscript/part-03/chapter-16-gateway-control-plane-v1.0.md)
+- [Chapter 13 acquisition sample and review status](publishing/apress/acquisition-samples/README.md)
 - [Chapter 13 authoring blueprint](editorial/authoring-blueprints/Chapter_13_Authoring_Blueprint_v1.0.md)
 - [Chapter 16 authoring blueprint](editorial/authoring-blueprints/Chapter_16_Authoring_Blueprint_v1.0.md)
 - [Apress proposal v2 — current](publishing/apress/v2/Apress_Publisher_Proposal_v2.md)
@@ -40,7 +41,7 @@ The original [book baseline PR #1](https://github.com/smartnimbus/enterprise-ai-
 ### One-click document sections on `main`
 
 - **Manuscript:** [Drafts](manuscript/), [TOC](editorial/outlines/Enterprise_AI_Agent_Fabric_Revised_TOC.csv) and [development blueprint](editorial/outlines/Enterprise_AI_Agent_Fabric_Development_Blueprint.md).
-- **Atlas:** [D-01–D-30 catalogue](decisions/catalogue/Enterprise_AI_Agent_Fabric_Decision_Catalogue.csv), [F1 production pages](decisions/pages/).
+- **Atlas:** [D-01–D-30 catalogue](decisions/catalogue/Enterprise_AI_Agent_Fabric_Decision_Catalogue.csv), [F1 production pages and acquisition sampler](decisions/pages/README.md).
 - **Meridian:** [Dossier and machine-readable evidence](meridian/fixture/).
 - **Editorial:** [Style Bible](editorial/style/style-v1.2.md), [authoring blueprints](editorial/authoring-blueprints/) and [reviews](editorial/reviews/).
 - **Research:** [Forensic and provenance review](knowledge-mining/forensic-review/), [cross-project research](knowledge-mining/cross-project-analysis/).
@@ -49,6 +50,10 @@ The original [book baseline PR #1](https://github.com/smartnimbus/enterprise-ai-
 - **Decision-support tooling:** [Digital Twin design](governance/proposals/knowledge-system/digital-twin/), [programme operating model](governance/proposals/knowledge-system/programme-os/).
 
 **Current state:** The controlled source and proposal documents are now accessible from `main`. Their editorial, publication and permissions status is recorded in the documents themselves; presence in GitHub does not imply external approval.
+
+## Publishing execution
+
+- [Master publishing roadmap](editorial/production-roadmap/MASTER-PUBLISHING-ROADMAP.md) — proposed programme-level execution baseline and chapter matrix.
 
 ## Wave 1 source preparation
 

@@ -1,0 +1,15 @@
+%% Figure 16-1 — Scope attenuation before action admission
+%% A human delegates a read-and-request workflow through an agent and refund service to the Gateway enforcement point. The Gateway denies refund execution because the effective permission is narrower than the required action scope.
+sequenceDiagram
+ participant H as Human
+ participant A as Agent
+ participant S as Refund service
+ participant P as Gateway PEP
+ participant T as Refund tool
+ H->>A: delegates read/request
+ A->>S: delegates request
+ S->>P: requests action
+ Note over P: evaluates scope
+ P-->>S: denies execution
+ Note over T: Not invoked
+ Note over H,P: Effective refund:request; required refund:execute
