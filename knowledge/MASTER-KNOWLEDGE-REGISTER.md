@@ -34,3 +34,5 @@ Use canonical sources at their verified revisions when making technical claims. 
 ## Entry fields
 
 ID; short title; knowledge statement and rationale (in linked note); type; status; source locator and revision if verified; related chapter/figure/decision/evidence IDs; linked canonical source; rejected alternatives; constraints; next use; supersedes/superseded-by if applicable; rights/privacy classification. Add a new row only for a durable distinct insight. Update the existing note when the same insight evolves. Use dates when known; do not invent chat IDs or approval evidence.
+
+| KN-017 | Chapter 41 applies four Atlas defaults to seven-step investment appraisal, three-year economics and four linked records | Author-side acquisition draft; hypothetical examples | Chapter 41 production | CH-041, D-01/02/03/26 | [Manuscript](../manuscript/part-07/chapter-41/chapter-41.md) |
