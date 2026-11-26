@@ -3,7 +3,7 @@
 **Programme:** *The Enterprise AI Agent Fabric: Designing, Governing and Operating AI Agents at Scale*  
 **Repository:** `smartnimbus/enterprise-ai-platform-engineering-book`  
 **Document ID:** `GOV-REPO-001`  
-**Version:** `1.0.0` — proposed baseline, effective upon repository approval  
+**Version:** `1.1.0` — author-authorised working baseline amendment  
 **Custodian:** Book Programme Manager / Configuration Manager  
 **Approver:** Author / Editorial Director  
 **Governing editorial authority:** `style-v1.2.md`  
@@ -11,6 +11,12 @@
 **Last verified:** 2026-11-24
 
 > **Bootstrap status (verified).** At drafting time GitHub reports repository size `0`, default branch designation `main`, and no initial Git commit or tree. Consequently the manuscript, Style Bible and other book files are **not yet installed in the remote repository**. The file locations below are the required *target configuration*, not a claim about existing remote files. Existing conversation artefacts must be imported by an independently verified manifest, never inferred to be present because they were created earlier in a chat. The very first governance commit is a one-time repository bootstrap exception; after that, use pull requests for all controlled changes.
+
+## Effective amendment — working baseline integration (2026-11-25)
+
+Author instruction recorded 25 November 2026: “let's go with your recommendation”, in response to the proposed working-main model. This amendment takes precedence over conflicting working-integration provisions in this document; historical bootstrap text is retained.
+
+Main is the authoritative **working** baseline, not an approved publication release. DRAFT and IN_REVIEW artefacts may be integrated by PR following author authorisation, applicable mechanical checks, preservation of frozen meaning and explicit outstanding-defect disclosure. Existing proof defects may remain in clearly marked author proofs; no known critical technical or rights defect may be concealed. Independent technical and editorial acceptance remains mandatory for approval and submission, not routine working integration. C3 frozen exceptions retain their original independent review requirements. No self-approval, fabricated approval, or relaxation of strict release lint. Existing release gates remain unchanged. Merge commits preserve pinned ancestry; delete redundant topic refs only after verifying ancestry and no active dependencies. No direct pushes to main, force pushes or release tags without proper authority. Repository protection/administration remains an open gap if unavailable. Author permission to integrate existing acquisition PRs is not approval of their content. The configuration custodian records actual integration and checks.
 
 ## 1. Mission, scope and non-negotiable boundaries
 
