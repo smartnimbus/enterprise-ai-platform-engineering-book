@@ -44,3 +44,6 @@ Six approved changes implemented; manuscript chapter-41-signature-v2.md, four re
 
 ## PVP-41 programme design and preparation
 Author instructed freeze/no manuscript review. Complete private facilitator and participant packs, three standalone case pairs with staged updates, assessor key/rubric, scorecards, forms, scoring XLSX, analysis/test script and report template generated. Seven frozen reference hashes, arithmetic, sequence balance, synthetic scoring tests and archive segregation verified; no real participants/results. Public-safe [protocol and exact archive hashes](../editorial/validation/chapter-41/PVP-41-PUBLIC-PROTOCOL.md) committed; restricted full files delivered via conversation, not public repo. No frozen edits. Prompt/diagram source unchanged; no new reusable prompt or figure needed. Human execution pending.
+
+## Acquisition readiness and 90-day commercial strategy
+Saved public-safe commercial assessment and source links under publishing/apress/submissions/ACQUISITION-READINESS-AND-90-DAY-STRATEGY-2026-11-26.md. Frozen assets assumed complete for commercial analysis, not independently audited. No manuscript edit, actual reviewer data, author verification or publisher contact. Public repository and AI-policy clearance identified as critical. CAP-006 partial, CAP-009/010 pending.
