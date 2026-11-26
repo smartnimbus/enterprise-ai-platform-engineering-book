@@ -29,3 +29,6 @@ Chapter 41 has been authored on `docs/chapter-41-business-case`. Read its [self-
 
 ## Latest Chapter 41 review
 Author requested publication-candidate critique, not a rewrite. Read [ranked findings](../editorial/reviews/CHAPTER-41-PUBLICATION-CANDIDATE-REVIEW.md) before any authorised focused revision. Preserve current manuscript and recovered packages. CAP-011 remains authored, working PR #24 open; Chapter 10 deferred, CAP-006 partial. Do not perform another assessment unless requested.
+
+## Latest author direction — Chapter 41 Signature Revision v2
+Read [implementation plan](../editorial/authoring-blueprints/Chapter_41_Signature_Revision_v2_Plan.md). Six improvements only; no new review or scope expansion. Execute manuscript revision only on instruction, preserve v1, frozen sources and seven-page planning budget. CAP-011 working PR #24; CAP-008 deferred; CAP-006 partial.
