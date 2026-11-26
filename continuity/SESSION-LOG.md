@@ -38,3 +38,6 @@ Inspected pinned manuscript, four artefacts, validation, figures, Chapter 10 pac
 
 ## Chapter 41 Signature Revision v2 planning
 Saved editorial/authoring-blueprints/Chapter_41_Signature_Revision_v2_Plan.md. Six accepted improvements mapped to placements and estimated net +80 words, two figure derivatives, four revision-linked records and templates, minimal/maximum implementation paths. Correct prospective reversal uses hypothetical £20k extra transition and £5k sunk discovery, not £12k full-horizon reversal alone. No manuscript change or independent approval.
+
+## Chapter 41 Signature Revision v2 execution
+Six approved changes implemented; manuscript chapter-41-signature-v2.md, four revision-linked specimens, four blank templates, evidence index, reconsideration CSV, two SVG derivatives, validation-v2.json and redline-v2.md. Exact defaults and arithmetic checked, v1 narrative unchanged. £20k additional transition reverses prospective comparison by £7k after £5k sunk discovery. No frozen changes, no publication acceptance. Actual proof and independent checks pending.
