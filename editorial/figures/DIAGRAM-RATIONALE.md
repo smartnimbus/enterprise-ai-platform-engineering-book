@@ -48,3 +48,6 @@ Recovery commit 54e2c204ab9737b50de8224354e572e0aea10ccb; [manifest](../../edito
 - [Sensitivity configuration](chapter-41/sensitivity-model.json), [HTML derivative](chapter-41/sensitivity-model.html), [scenario CSV](chapter-41/sensitivity-scenarios.csv): original five control defaults/ranges/steps and formulas retained. All amounts hypothetical in £ thousands; local=demand×local, shared=fixed+demand×increment+transition. One-use-case branch overrides cost advantage; incompatible contracts not comparable. No ROI or automatic funding approval. Original renderer unavailable, standalone HTML is a reconstruction. Independent browser/visual inspection outstanding.
 
 SVGs are static editable derivatives; no original native master or print approval claimed. Original captions retained where provided. No new numbered manuscript figures mandated.
+
+## Chapter 41 manuscript use
+Existing seven-step appraisal and decision-to-evidence investment SVGs referenced as Figures 41-1 and 41-2 with captions and alternative text. Existing source identities retained; remote source retrieval confirmed, visual render and print inspection pending. No replacement source master created.
