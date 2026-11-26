@@ -1,0 +1,9 @@
+# CH-041 — P1: Build the Business Case
+
+Source: Chapter 41 scalability selection and authoring package. Working guidance, not a ratified chapter contract. Chapter 10 was subsequently recommended ahead of Chapter 41 for architectural coherence; Chapter 41 remains the procedural-writing proof candidate.
+
+Seven planned pages; F2/F5; narrative allowance 150–300 words; proposed 25% allocation needs editorial interpretation against ceiling. Eleanor declines a budget request lacking duplicate-cost and risk assumptions. Use operational imperative voice; every step identifies action, owner, input, output and indicative time.
+
+Proposed seven steps: confirm funded demand; establish equivalent requirements; identify eligible alternatives; calculate lifecycle expenditure; evaluate benefits and uncertainty; assign ownership and conditions; record funding disposition. Produce populated business case, option ADR and benefits register. Apply D-01, D-02, D-03 and D-26 without redefining them. Compare independent delivery, existing-service reuse, embed/buy/build/partner where eligible. Unknown supplier costs remain unknown. Use Chapter 1 hypothetical economics and sensitivity; no fabricated ROI or approved funding.
+
+Reject Fabric-first appraisal, counting pilots as funded demand, false equivalence, omitted operating costs, unsupported benefits, missing owner, confusing recommendation with approval. Chapter 1 explains the investment problem; Chapter 41 executes the procedure. Use completed artefacts, not empty templates. Independent reader application and actual writing/revision effort would support scalability evidence; not yet demonstrated. Source: [Blueprint](../outlines/Enterprise_AI_Agent_Fabric_Development_Blueprint.md), [Style Bible](../style/style-v1.2.md), [catalogue](../../decisions/catalogue/Enterprise_AI_Agent_Fabric_Decision_Catalogue.csv).
