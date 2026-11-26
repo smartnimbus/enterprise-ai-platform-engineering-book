@@ -1,0 +1,72 @@
+{
+  "title": "Business-case sensitivity model",
+  "caption": "Hypothetical first-year expenditure, expressed in £ thousands",
+  "controls": [
+    {
+      "id": "demand",
+      "label": "Funded production use cases",
+      "default": 2,
+      "min": 1,
+      "max": 6,
+      "step": 1
+    },
+    {
+      "id": "local",
+      "label": "Domain-local cost per use case",
+      "default": 60,
+      "min": 30,
+      "max": 100,
+      "step": 5
+    },
+    {
+      "id": "fixed",
+      "label": "Fixed shared-service cost",
+      "default": 70,
+      "min": 40,
+      "max": 150,
+      "step": 5
+    },
+    {
+      "id": "increment",
+      "label": "Incremental shared cost per consumer",
+      "default": 15,
+      "min": 5,
+      "max": 50,
+      "step": 5
+    },
+    {
+      "id": "transition",
+      "label": "Additional transition expenditure",
+      "default": 0,
+      "min": 0,
+      "max": 60,
+      "step": 5
+    }
+  ],
+  "formulas": {
+    "localCost": "demand*local",
+    "sharedCost": "fixed+demand*increment+transition",
+    "difference": "localCost-sharedCost",
+    "barWidth": "cost/Math.max(localCost,sharedCost)*100"
+  },
+  "branches": [
+    {
+      "condition": "demand<2",
+      "title": "Indicative disposition: retain domain-local delivery.",
+      "body": "The D-01 repeated-demand condition is not satisfied."
+    },
+    {
+      "condition": "difference>0",
+      "title": "£{difference}k potential shared-cost advantage.",
+      "body": "Progress the appraisal if the control contracts are equivalent. Confirm evidence, ownership and remaining costs before any funding approval."
+    },
+    {
+      "condition": "otherwise",
+      "title": "Indicative disposition: shared-cost case not demonstrated.",
+      "equal": "The illustrative costs are equal.",
+      "negative": "Shared delivery costs £{abs(difference)}k more under these assumptions.",
+      "body": "Retain domain-local delivery unless the comparison changes or another explicitly justified requirement applies."
+    }
+  ],
+  "footer": "This model demonstrates sensitivity to assumptions. It is not a complete investment forecast or approval mechanism."
+}
