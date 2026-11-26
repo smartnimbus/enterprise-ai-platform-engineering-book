@@ -54,3 +54,7 @@ The original [book baseline PR #1](https://github.com/smartnimbus/enterprise-ai-
 ## Publishing execution
 
 - [Master publishing roadmap](editorial/production-roadmap/MASTER-PUBLISHING-ROADMAP.md) — proposed programme-level execution baseline and chapter matrix.
+
+## Wave 1 source preparation
+
+- [Chapter 14 Lifecycle source handoff](editorial/authoring-blueprints/chapter-14-source-pack.md) — source preparation only; authoring gate pending.
