@@ -26,3 +26,6 @@ When the original commercial response bodies are supplied, recover only missing 
 
 ## Latest author-directed production priority
 Chapter 41 has been authored on `docs/chapter-41-business-case`. Read its [self-review](../manuscript/part-07/chapter-41/acquisition-self-review.md) and validation before further revision. Address page fit, full checks and independent reader exercise; do not repeat blueprint or acquisition assessment. Chapter 10 remains CAP-008, deferred rather than cancelled. Author credentials and genuine feedback remain separate dependencies.
+
+## Latest Chapter 41 review
+Author requested publication-candidate critique, not a rewrite. Read [ranked findings](../editorial/reviews/CHAPTER-41-PUBLICATION-CANDIDATE-REVIEW.md) before any authorised focused revision. Preserve current manuscript and recovered packages. CAP-011 remains authored, working PR #24 open; Chapter 10 deferred, CAP-006 partial. Do not perform another assessment unless requested.
