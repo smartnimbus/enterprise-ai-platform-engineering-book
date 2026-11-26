@@ -35,3 +35,6 @@ Read [implementation plan](../editorial/authoring-blueprints/Chapter_41_Signatur
 
 ## Signature Revision v2 delivered
 Read [v2 manuscript](../manuscript/part-07/chapter-41/chapter-41-signature-v2.md), [redline](../manuscript/part-07/chapter-41/redline-v2.md) and validation-v2.json. All six approved changes executed; v1 retained. Working PR #24, not publication approval. Next bounded action: actual proof/full checks and genuine independent reader trial, no further generic review. CAP-008 deferred; CAP-006 partial.
+
+## Latest author-directed validation programme
+Chapter 41 Signature Revision v2 frozen. PVP-41 prepared, not executed; see [public protocol and pack hashes](../editorial/validation/chapter-41/PVP-41-PUBLIC-PROTOCOL.md). Full actual scenario/key/workbook/form archives delivered privately in conversation; author retains exact downloaded files and must keep them restricted. Do not publish keys or raw participant/consent data; do not reconstruct or claim actual results. Appoint independent facilitator/assessors, preregister, recruit, run controlled cases, retain genuine data and produce consent-permitted report. No manuscript review/edit or generic assessment. CAP-010 pending real evidence; proof and other acquisition dependencies unchanged.
