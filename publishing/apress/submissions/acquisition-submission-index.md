@@ -51,3 +51,7 @@ These are working additions, not an approved release or changes to the historica
 - [Recovery manifest](../../../manuscript/part-01/chapter-01/RECOVERY-MANIFEST.md) — provenance, figures, chart values and limitations.
 
 Recovery commit 5f4a9d7fc14025ee37f8a78120f4b05cbde2c539. This does not alter the historical pinned acquisition manifest or imply independent acceptance or publisher submission.
+
+## Historical commercial source custody (CAP-006)
+
+[Recovery manifest and coverage register](historical-recovery/CAP-006-RECOVERY-MANIFEST.md) — historical, internal source support only; partial recovery, not an approved external submission addition. [Original-file comparison](historical-recovery/original-file-comparison.csv) verifies four library-source text matches against retained v2/v1 masters. Source recovery commit 61bd8a2fc83d148c02733e797656b82a75d35b37. Earlier status statements in this dated assembly are not updated by the recovery; see [current continuity record](../../../continuity/CURRENT-STATE.md). No actual publisher outreach or new commercial draft generated.

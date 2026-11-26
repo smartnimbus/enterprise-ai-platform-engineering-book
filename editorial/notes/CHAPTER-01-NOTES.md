@@ -11,3 +11,7 @@ Reject generic AI history, inevitable shared Fabric, unexplained jargon, consult
 ## Recovery custody (2026-11-26)
 
 [Chapter 1 Acquisition Draft v1](../../manuscript/part-01/chapter-01/chapter-01-acquisition-v1.md) and [recovery manifest](../../manuscript/part-01/chapter-01/RECOVERY-MANIFEST.md), verified remote commit 5f4a9d7fc14025ee37f8a78120f4b05cbde2c539. All three figure derivatives, chart configuration/data and extracted opportunity brief saved. No intentional prose edits; manual visible-source transcription with presentation conversions, not a byte-identical original export. Page fit and visual production approval remain outstanding.
+
+## Historical commercial preparation recovery (2026-11-26)
+
+[Source-backed preparation extracts](../../publishing/apress/submissions/historical-recovery/chapter-01-preparation-source-extracts.md) at commit 61bd8a2fc83d148c02733e797656b82a75d35b37: original Blueprint brief and committed editorial recommendations copied as a historical compilation with source pins. The later standalone detailed Chapter 1 manuscript-preparation response could not be retrieved in full. Do not infer original success-criteria wording from the older guidance or regenerate it as recovered text. CAP-003 manuscript custody and author freeze remain unchanged; old prospective drafting status is historical, not a reversal of the freeze.
