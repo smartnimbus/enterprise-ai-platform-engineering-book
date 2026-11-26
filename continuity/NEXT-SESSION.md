@@ -32,3 +32,6 @@ Author requested publication-candidate critique, not a rewrite. Read [ranked fin
 
 ## Latest author direction — Chapter 41 Signature Revision v2
 Read [implementation plan](../editorial/authoring-blueprints/Chapter_41_Signature_Revision_v2_Plan.md). Six improvements only; no new review or scope expansion. Execute manuscript revision only on instruction, preserve v1, frozen sources and seven-page planning budget. CAP-011 working PR #24; CAP-008 deferred; CAP-006 partial.
+
+## Signature Revision v2 delivered
+Read [v2 manuscript](../manuscript/part-07/chapter-41/chapter-41-signature-v2.md), [redline](../manuscript/part-07/chapter-41/redline-v2.md) and validation-v2.json. All six approved changes executed; v1 retained. Working PR #24, not publication approval. Next bounded action: actual proof/full checks and genuine independent reader trial, no further generic review. CAP-008 deferred; CAP-006 partial.
