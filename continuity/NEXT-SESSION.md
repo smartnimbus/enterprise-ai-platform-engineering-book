@@ -10,11 +10,15 @@ CAP-005: [Chapter 41 authoring package](../editorial/authoring-blueprints/Chapte
 
 CAP-006: [commercial recovery manifest](../publishing/apress/submissions/historical-recovery/CAP-006-RECOVERY-MANIFEST.md), recovery commit 61bd8a2fc83d148c02733e797656b82a75d35b37. Four original library documents match their existing masters; historical publishing handover section 10 and four exact-source extract collections preserved. PARTIAL/BLOCKED: later original conversation bodies unavailable. Do not claim exhaustive recovery, invent missing commercial responses or replace existing accepted drafts. Preserve authentic original text if user supplies the relevant export. No new acquisition review or external publisher contact occurred. No final verified author biography, genuine feedback or delivery commitment supplied.
 
-## Recommended next bounded task — CAP-007 (only on author instruction)
+## CAP-007 completed — integrated working baseline
 
-Integrate outstanding working assets into the authoritative baseline using the existing author-authorised integration process. Verify current PR heads, merge dependencies, status checks and authority; integrate actual working files with preservation of existing history and frozen sources. Distinguish working integration from independent publication acceptance. If integration authority is unclear or checks fail, record blockers and avoid bypassing required controls. CAP-006's missing original conversations do not prevent preservation of the already committed working assets, but keep CAP-006 partial.
+All nine original PRs merged. Main asset integration revision: 6272044e2b4e4d1dd110cda0f1a48e1aec30f4f6. See [integration record](CAP-007-INTEGRATION-RECORD.md). No frozen-source change, release or external submission. Read actual current main at startup. CAP-006 remains partial.
 
-Read AGENTS.md, CURRENT-STATE.md, ACTIVE-DECISIONS.md, OPEN-QUESTIONS.md, BACKLOG.md, knowledge/MASTER-KNOWLEDGE-REGISTER.md, knowledge/CHAT-CAPTURE.md and [commercial recovery manifest](../publishing/apress/submissions/historical-recovery/CAP-006-RECOVERY-MANIFEST.md). Follow the user's explicit next task if different. CAP-008 actual Chapter 10 writing remains outstanding. Do not re-run acquisition reviews or redesign the architecture. Apply session-close checklist and verify remote files.
+## Recommended next bounded task — CAP-008 (only on author instruction)
+
+Write Chapter 10 — The Canonical Fabric Architecture from the recovered authoring package, canonical Development Blueprint, Style Bible, chapter contract, exact Atlas defaults and original Meridian fixture. Keep the frozen architecture and existing manuscripts unchanged. Do not claim a successful refund, completed write or production proof. The proposed figure labels and word allocation require editorial treatment during authoring; no new architecture assessment. CAP-009 and CAP-010 remain blocked on real author and reviewer inputs. Follow the author's explicit next request if different.
+
+Read AGENTS.md, continuity records, knowledge register, CHAPTER-10-NOTES.md, DIAGRAM-RATIONALE.md and actual source files. Apply session-close checklist.
 
 ## Source limitation resolution
 

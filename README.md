@@ -32,7 +32,7 @@ All changes require a branch and reviewable pull request after the one-time gove
 
 ## One-main-branch navigation and convergence
 
-**Operating model:** `main` is the sole permanent, approved documentation branch. Use short-lived `docs/*`, `fix/*`, or `research/*` branches for reviewable changes; after an approved PR is merged and verified, its working branch may be deleted. Release history is preserved by immutable release tags and Git history. This navigation policy does **not** replace the review, source-rights, frozen-change or approval rules in `REPOSITORY-GOVERNANCE.md`.
+**Operating model:** `main` is the sole permanent, authoritative working documentation branch. Use short-lived `docs/*`, `fix/*`, or `research/*` branches for reviewable changes; after an authorised working PR is merged and verified, its working branch may be deleted. Release history is preserved by immutable release tags and Git history. This navigation policy does **not** replace the review, source-rights, frozen-change or approval rules in `REPOSITORY-GOVERNANCE.md`.
 
 ### Integrated source history
 
@@ -65,3 +65,13 @@ The original [book baseline PR #1](https://github.com/smartnimbus/enterprise-ai-
 - [Current state and handover](continuity/README.md)
 - [Master knowledge register](knowledge/MASTER-KNOWLEDGE-REGISTER.md)
 - [Reusable session prompts](prompts/README.md)
+
+## Integrated working acquisition assets
+
+- [Chapter 1 frozen acquisition draft](manuscript/part-01/chapter-01/chapter-01-acquisition-v1.md)
+- [Chapter 13 and 16 manuscripts, figures and proofs](publishing/apress/acquisition-samples/production-plan/README.md)
+- [Chapter 10 recovered authoring package](editorial/authoring-blueprints/Chapter_10_Authoring_Package_Recovered.md) and [Chapter 41 recovered authoring package](editorial/authoring-blueprints/Chapter_41_Authoring_Package_Recovered.md)
+- [Working acquisition index](publishing/apress/submissions/acquisition-submission-index.md) and [historical commercial recovery manifest](publishing/apress/submissions/historical-recovery/CAP-006-RECOVERY-MANIFEST.md)
+- [CAP-007 integration verification](continuity/CAP-007-INTEGRATION-RECORD.md)
+
+Working integration is complete; CAP-006 source recovery remains partial. No publication release or independent acceptance is implied.

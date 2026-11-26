@@ -11,6 +11,6 @@ Navigation record only; existing authoritative decisions remain in the original 
 | AD-05 | Chapter 10 preferred next sample for coherence; Ch41 remains procedural proof | Editorial recommendation, not independent approval | CHAPTER-10-NOTES.md; KN-003 |
 | AD-06 | Successful denial does not establish acceptable agent behaviour; no invented refund | Frozen synthetic evidence constraint | MERIDIAN-EVIDENCE-NOTES.md |
 | AD-07 | Author facts and genuine external feedback require confirmation; no public private data | Existing rights constraints and editorial guidance | ACQUISITION-INSIGHTS.md |
-| AD-08 | Working integration distinct from publication approval | Previously authorised amendment committed, PR #22 open; not integrated at snapshot | REPOSITORY-GOVERNANCE.md proposed amendment |
+| AD-08 | Working integration distinct from publication approval | Author-authorised amendment v1.1.0 integrated via PR #22 | REPOSITORY-GOVERNANCE.md proposed amendment |
 
 AD identifiers are local navigation records, not new Atlas decisions. Update when a real disposition changes; retain superseded rationale in relevant notes.
