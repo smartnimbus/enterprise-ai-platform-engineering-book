@@ -32,3 +32,6 @@ Read AGENTS, continuity records and author-authorised amendment. Integrated PRs 
 
 ## Chapter 41 production session
 Author requested complete Chapter 41 and publisher self-review. Working branch `docs/chapter-41-business-case`: manuscript, four extracted artefacts, validation JSON and self-review saved. Exact defaults, arithmetic, step structure and remote file retrieval checked. No frozen-source edits. Page fit, full CI and independent review outstanding. CAP-008 deferred; CAP-006 remains partial. Prompt library unchanged (no new reusable instruction required).
+
+## Chapter 41 publication-candidate review
+Inspected pinned manuscript, four artefacts, validation, figures, Chapter 10 package and competitor catalogue contents. Durable review saved in editorial/reviews/CHAPTER-41-PUBLICATION-CANDIDATE-REVIEW.md. No manuscript or frozen-source change; no publisher contact or independent approval. PR #24 remains working review.
