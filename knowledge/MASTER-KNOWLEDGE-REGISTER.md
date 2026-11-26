@@ -20,6 +20,8 @@ Status: working index, 2026-11-26. Scope: selected recent conversation-derived k
 
 | KN-013 | Full Chapter 10 authoring package and proposed figure content recovered; distinguish primary figures from supplementary editorial visuals | Verified remote custody; manual transcription, export unavailable | CAP-004, 7daf061e2807a45d66e1765b162f0dd69e88b531 | CH-010, D-07, D-18, FIG-10-1/2 | [Recovery manifest](../editorial/authoring-blueprints/Chapter_10_Recovery_Manifest.md) |
 
+| KN-014 | Full Chapter 41 authoring package recovered with interactive sensitivity model and original specimen limitations | Verified remote custody; manual transcription and reconstructed interactive derivative | CAP-005, 54e2c204ab9737b50de8224354e572e0aea10ccb | CH-041, CH-001, D-01/02/03/26 | [Recovery manifest](../editorial/authoring-blueprints/Chapter_41_Recovery_Manifest.md) |
+
 ## Authority and source resolution
 
 Use canonical sources at their verified revisions when making technical claims. At capture, main revision cc728dbec56190276eb3f25b5f10729c9959ab95 contains the Blueprint, Style Bible, TOC, decision catalogue and Meridian dossier. Existing chapter samples and publishing drafts may have separately pinned source revisions. The register is a navigation aid; it does not imply those assets are integrated or approved.

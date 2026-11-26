@@ -38,3 +38,13 @@ Recovery commit 7daf061e2807a45d66e1765b162f0dd69e88b531; [manifest](../../edito
 - [Acquisition bridge](chapter-10/acquisition-bridge.svg): commercial/editorial relationship between Chapters 1, 10, 13 and 16 and Atlas; not runtime architecture.
 
 All four are editable SVG derivatives; only Figures 10-1 and 10-2 are primary manuscript requirements. Original visible captions preserved; static styles and accessible metadata added. No original UI runtime, native draw.io master, visual render inspection or production approval claimed.
+
+## Chapter 41 recovered figure and model content
+
+Recovery commit 54e2c204ab9737b50de8224354e572e0aea10ccb; [manifest](../../editorial/authoring-blueprints/Chapter_41_Recovery_Manifest.md).
+
+- [Decision-to-evidence investment](chapter-41/decision-to-evidence-investment.svg): six responsibilities and reconsideration feedback path; strategic investment, not runtime enforcement.
+- [Seven-step appraisal](chapter-41/seven-step-appraisal.svg): confirmed demand through funding disposition, producing business case, option ADR and benefits register. Proposed pedagogical decomposition, not a new canonical decision.
+- [Sensitivity configuration](chapter-41/sensitivity-model.json), [HTML derivative](chapter-41/sensitivity-model.html), [scenario CSV](chapter-41/sensitivity-scenarios.csv): original five control defaults/ranges/steps and formulas retained. All amounts hypothetical in £ thousands; local=demand×local, shared=fixed+demand×increment+transition. One-use-case branch overrides cost advantage; incompatible contracts not comparable. No ROI or automatic funding approval. Original renderer unavailable, standalone HTML is a reconstruction. Independent browser/visual inspection outstanding.
+
+SVGs are static editable derivatives; no original native master or print approval claimed. Original captions retained where provided. No new numbered manuscript figures mandated.
