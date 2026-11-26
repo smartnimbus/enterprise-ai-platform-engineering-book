@@ -55,3 +55,7 @@ Recovery commit 5f4a9d7fc14025ee37f8a78120f4b05cbde2c539. This does not alter th
 ## Historical commercial source custody (CAP-006)
 
 [Recovery manifest and coverage register](historical-recovery/CAP-006-RECOVERY-MANIFEST.md) — historical, internal source support only; partial recovery, not an approved external submission addition. [Original-file comparison](historical-recovery/original-file-comparison.csv) verifies four library-source text matches against retained v2/v1 masters. Source recovery commit 61bd8a2fc83d148c02733e797656b82a75d35b37. Earlier status statements in this dated assembly are not updated by the recovery; see [current continuity record](../../../continuity/CURRENT-STATE.md). No actual publisher outreach or new commercial draft generated.
+
+## Integrated working baseline — 26 November 2026
+
+All nine original working PRs merged at 6272044e2b4e4d1dd110cda0f1a48e1aec30f4f6. Historical statements above about open PRs, missing Ch1, formal lint and preflight pending are assembly-date history. Ch1 recovered; Ch13/16/Atlas author proofs present; pinned mechanical and preflight results executed and integrated ([mechanical](validation/acquisition-mechanical-results.json), [preflight](validation/acquisition-proof-preflight-results.json)). Strict release checks, proof remediation and independent acceptance outstanding. All 50 pinned entries match integrated file identities and sizes. No approved release or external submission. [Integration verification](../../../continuity/CAP-007-INTEGRATION-RECORD.md). CAP-006 partial.
