@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="410" viewBox="0 0 720 410" role="img" aria-labelledby="title desc"><title id="title">Figure 13-3. Governed Memory Write Decision</title><desc id="desc">A proposed write undergoes provenance, ownership, policy, retention, and contradiction checks. The unresolved eligibility claim follows the hold path; no completed memory write or receipt is shown.</desc><defs><marker id="a" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 Z" fill="#333"/></marker></defs><rect width="100%" height="100%" fill="#fff"/><g font-family="Arial, sans-serif" fill="#171717">
+<text x="12" y="24" font-size="17" text-anchor="start" font-weight="bold">Figure 13-3  |  Governed Memory Write Decision</text>
+<rect x="6" y="42" width="92" height="36" rx="7" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="52" y="65" font-size="14" text-anchor="middle">Agent</text>
+<polyline points="52,78 52,323" fill="none" stroke="#333" stroke-width="0.8" stroke-dasharray="5 4"/>
+<rect x="108.5" y="42" width="92" height="36" rx="7" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="154.5" y="65" font-size="14" text-anchor="middle">Write gate</text>
+<polyline points="154.5,78 154.5,323" fill="none" stroke="#333" stroke-width="0.8" stroke-dasharray="5 4"/>
+<rect x="211" y="42" width="92" height="36" rx="7" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="257" y="57.5" font-size="14" text-anchor="middle">Provenance</text>
+<text x="257" y="72.5" font-size="14" text-anchor="middle">verifier</text>
+<polyline points="257,78 257,323" fill="none" stroke="#333" stroke-width="0.8" stroke-dasharray="5 4"/>
+<rect x="313.5" y="42" width="92" height="36" rx="7" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="359.5" y="65" font-size="14" text-anchor="middle">Policy checks</text>
+<polyline points="359.5,78 359.5,323" fill="none" stroke="#333" stroke-width="0.8" stroke-dasharray="5 4"/>
+<rect x="416" y="42" width="92" height="36" rx="7" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="462" y="57.5" font-size="14" text-anchor="middle">Reconciliation</text>
+<text x="462" y="72.5" font-size="14" text-anchor="middle">checker</text>
+<polyline points="462,78 462,323" fill="none" stroke="#333" stroke-width="0.8" stroke-dasharray="5 4"/>
+<rect x="518.5" y="42" width="92" height="36" rx="7" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="564.5" y="57.5" font-size="14" text-anchor="middle">Durable</text>
+<text x="564.5" y="72.5" font-size="14" text-anchor="middle">memory</text>
+<polyline points="564.5,78 564.5,323" fill="none" stroke="#333" stroke-width="0.8" stroke-dasharray="5 4"/>
+<rect x="621" y="42" width="92" height="36" rx="7" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="667" y="57.5" font-size="14" text-anchor="middle">Stewardship</text>
+<text x="667" y="72.5" font-size="14" text-anchor="middle">queue</text>
+<polyline points="667,78 667,323" fill="none" stroke="#333" stroke-width="0.8" stroke-dasharray="5 4"/>
+<polyline points="52,105 154.5,105" fill="none" stroke="#333" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="103.25" y="97" font-size="12" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="3" stroke-linejoin="round">proposes claim</text>
+<polyline points="154.5,140 257,140" fill="none" stroke="#333" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="205.75" y="132" font-size="12" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="3" stroke-linejoin="round">checks lineage</text>
+<polyline points="154.5,175 359.5,175" fill="none" stroke="#333" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="257" y="167" font-size="12" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="3" stroke-linejoin="round">checks owner / class / retention</text>
+<polyline points="154.5,210 462,210" fill="none" stroke="#333" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="308.25" y="202" font-size="12" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="3" stroke-linejoin="round">checks conflict</text>
+<polyline points="462,245 154.5,245" fill="none" stroke="#333" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#a)"/>
+<text x="308.25" y="237" font-size="12" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="3" stroke-linejoin="round">returns UNRESOLVED</text>
+<polyline points="154.5,280 667,280" fill="none" stroke="#333" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#a)"/>
+<text x="410.75" y="272" font-size="12" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="3" stroke-linejoin="round">references existing ticket</text>
+<polyline points="154.5,315 52,315" fill="none" stroke="#333" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#a)"/>
+<text x="103.25" y="307" font-size="12" text-anchor="middle" paint-order="stroke" stroke="#fff" stroke-width="3" stroke-linejoin="round">holds assertion</text>
+<text x="564.5" y="341" font-size="14" text-anchor="middle" font-weight="bold">No write</text>
+<text x="12" y="363" font-size="13" text-anchor="start">Required design process only | MF-EVD-RC-001 | MF-TASK-STEWARDSHIP-001</text>
+<text x="12" y="381" font-size="13" text-anchor="start">No durable memory assertion of eligibility; no completed memory transaction.</text>
+<text x="12" y="399" font-size="13" text-anchor="start">Stewardship reference identifies the existing ticket; no new event is asserted.</text></g></svg>
