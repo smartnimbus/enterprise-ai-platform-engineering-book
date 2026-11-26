@@ -1,0 +1,5 @@
+# Funding decision record (FD-41-01, revision 1)
+
+Hypothetical decision authority: investment committee, with executive sponsor accountable. Decision: PROCEED with discovery only, £5k ceiling, 30-day review. No procurement, build, production release or business-action authority. Conditions: Finance refreshes the cost comparison and confirms workload commitments; procurement supplies comparable terms; security and domain owners confirm contract equivalence; service owner accepts continuing obligations. Evidence: BC-41-01, ADR-41-01 and BR-41-01 at revision 1, plus the outstanding items in step 6. At review, proceed to a separate build decision only if the evidence supports it; defer on unresolved material assumptions; reject shared investment if D-01 conditions fail without an authorised deviation. Reconsider at each quarterly funding review and on demand, cost, control or ownership changes. Approval status: illustrative disposition only, not an actual signature or authorisation.
+
+Hypothetical teaching specimen; extracted from chapter-41.md, which remains the editable manuscript master. No actual approval or realised benefit.
