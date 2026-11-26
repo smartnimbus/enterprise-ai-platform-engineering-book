@@ -1,0 +1,7 @@
+# Option ADR (ADR-41-01, revision 1)
+
+Context: BC-41-01 requires comparable controls across two funded workloads. Decision: recommend selective shared integration for discovery, not procurement or build approval. Apply D-01, D-02 and D-03; retain D-26 financial attribution. Alternatives and exclusions are recorded in step 3. The rationale is a narrow positive illustrative lifecycle cost difference and common control obligations; unknown supplier terms prevent final selection. Trade-offs include central support cost, coordination and supplier dependence versus duplication under local delivery. Reversibility: retain domain adapters and exportable records; price exit and rehearse it before production commitment. Evidence references: demand register, requirement comparison, cost model and BR-41-01. Reopen on demand loss, changed isolation, supplier evidence, ownership change or non-positive remaining cost advantage. Status: proposed option, discovery disposition only; no deviation from Atlas defaults authorised.
+
+The combined option ADR does not replace the individual Atlas artefacts fabric-adoption-adr.md, sourcing-options-adr.md, operating-model-adr.md or cost-allocation-policy.xlsx. Record each applicable decision in its own artefact when progressing the design.
+
+Hypothetical teaching specimen; extracted from chapter-41.md, which remains the editable manuscript master. No actual approval or realised benefit.
