@@ -18,6 +18,8 @@ Status: working index, 2026-11-26. Scope: selected recent conversation-derived k
 
 | KN-012 | Frozen Chapter 1 recovered from visible original response; preserve prose and distinguish derivative figures from original UI | Verified remote custody; manual transcription, export unavailable | Chapter 1 recovery session, 5f4a9d7fc14025ee37f8a78120f4b05cbde2c539 | CH-001, D-01, FIG-1-1–3 | [Recovery manifest](../manuscript/part-01/chapter-01/RECOVERY-MANIFEST.md) |
 
+| KN-013 | Full Chapter 10 authoring package and proposed figure content recovered; distinguish primary figures from supplementary editorial visuals | Verified remote custody; manual transcription, export unavailable | CAP-004, 7daf061e2807a45d66e1765b162f0dd69e88b531 | CH-010, D-07, D-18, FIG-10-1/2 | [Recovery manifest](../editorial/authoring-blueprints/Chapter_10_Recovery_Manifest.md) |
+
 ## Authority and source resolution
 
 Use canonical sources at their verified revisions when making technical claims. At capture, main revision cc728dbec56190276eb3f25b5f10729c9959ab95 contains the Blueprint, Style Bible, TOC, decision catalogue and Meridian dossier. Existing chapter samples and publishing drafts may have separately pinned source revisions. The register is a navigation aid; it does not imply those assets are integrated or approved.

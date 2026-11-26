@@ -11,4 +11,6 @@
 | OQ-07 | Are proof remediation and independent acceptance complete? | Production / reviewers | Actual corrected proofs and review evidence |
 | OQ-08 | Can outstanding working commits be integrated and administrative cleanup performed? | Repository custodian | Verified ancestry and current remote state |
 
+| OQ-09 | Original Chapter 10 package export and independent visual comparison unavailable | Author / curator | Visible-source recovery 7daf061e2807a45d66e1765b162f0dd69e88b531; optional exact export and visual inspection before production |
+
 Resolve only with evidence or explicit author disposition. Unknown is not approved. Keep sensitive details private.

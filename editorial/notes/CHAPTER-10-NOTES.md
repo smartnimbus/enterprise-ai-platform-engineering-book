@@ -32,3 +32,7 @@ Opening failure: a mutable action cannot be attributed to one policy decision ac
 ## Intended next use
 
 Write manuscript and native figure sources from these constraints; check page fit and exact evidence links. This file is not that manuscript.
+
+## Recovery custody (2026-11-26)
+
+[Complete recovered authoring package](../../editorial/authoring-blueprints/Chapter_10_Authoring_Package_Recovered.md) and [manifest](../../editorial/authoring-blueprints/Chapter_10_Recovery_Manifest.md) at verified remote recovery commit 7daf061e2807a45d66e1765b162f0dd69e88b531. Sections 1–20 preserved from visible original, including selection rationale, execution/ownership crosswalk, read and denied-action trajectories, evidence interpretation boundaries, decision defaults, overlap and editor criteria. Two primary figures and two supplementary editorial visuals recovered as static editable SVG derivatives. No intentional editorial rewriting; original export unavailable, no independent exact-text comparison or visual rendering. No manuscript written. The original proposed diagram semantics must be checked before production, including the ambiguous “External mutation” label inside Tooling (proposed operation only, never pre-PEP execution).

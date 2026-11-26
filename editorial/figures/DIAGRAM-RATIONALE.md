@@ -4,11 +4,11 @@ Working companion to existing figure sources, not a new architecture authority. 
 
 ## FIG-10-1 — Canonical Fabric responsibility model
 
-Status: proposed teaching layout from Chapter 10 package §8; no completed native master established here. Purpose: explain four Structural Layers and eight cross-cutting Control Planes. Group responsibilities rather than draw twelve separate products; no layer order implying execution sequence. Reject tier proliferation and single giant architecture image. Caption: logical boundaries do not prescribe physical deployment topology. Alt: four structural responsibilities are grouped separately from eight cross-cutting controls. Related CH-010–022; D-07/D-18.
+Status: proposed teaching layout from Chapter 10 package §8; editable static SVG derivative recovered (see custody below), no approved native production master. Purpose: explain four Structural Layers and eight cross-cutting Control Planes. Group responsibilities rather than draw twelve separate products; no layer order implying execution sequence. Reject tier proliferation and single giant architecture image. Caption: logical boundaries do not prescribe physical deployment topology. Alt: four structural responsibilities are grouped separately from eight cross-cutting controls. Related CH-010–022; D-07/D-18.
 
 ## FIG-10-2 — Request, authority and evidence relationships
 
-Status: proposed teaching layout. Purpose: show Lifecycle/Harness coordination, Context access and conflict handling, Tooling action proposal, Gateway admission before external mutation, evidence and independent Verification. Distinguish request/action, authority/control and evidence paths with labelled lines and grayscale-safe styles. Permitted write is conditional only; denial has no external call. No central proxy assumed for all reads. Do not collapse historical case records and release test into synchronous trace. Related CH-010, CH-013, CH-016, CH-018; D-18; MF-EVD-CM/RC/DG/AU/DN/RG-001 (abbreviated labels; exact IDs in fixture).
+Status: proposed teaching layout; editable static SVG derivative recovered (see custody below). Purpose: show Lifecycle/Harness coordination, Context access and conflict handling, Tooling action proposal, Gateway admission before external mutation, evidence and independent Verification. Distinguish request/action, authority/control and evidence paths with labelled lines and grayscale-safe styles. Permitted write is conditional only; denial has no external call. No central proxy assumed for all reads. Do not collapse historical case records and release test into synchronous trace. Related CH-010, CH-013, CH-016, CH-018; D-18; MF-EVD-CM/RC/DG/AU/DN/RG-001 (abbreviated labels; exact IDs in fixture).
 
 ## Existing acquisition figure sources
 
@@ -27,3 +27,14 @@ Source: original visible Chapter 1 manuscript response; recovery commit 5f4a9d7f
 - [FIG-1-3](../../manuscript/part-01/chapter-01/figures/figure-1-3.svg): six decision-to-evidence responsibilities and feedback path. Static SVG derivative of original inline vector layout. No implication that a hypothetical investment is actually approved.
 
 All captions and original provided alternative text retained in manuscript. SVGs include title and description. No native draw.io original or original chart renderer recovered; no visual render inspection or print acceptance claimed.
+
+## Chapter 10 recovered figure content
+
+Recovery commit 7daf061e2807a45d66e1765b162f0dd69e88b531; [manifest](../../editorial/authoring-blueprints/Chapter_10_Recovery_Manifest.md).
+
+- [FIG-10-1](chapter-10/figure-10-1.svg): original four-layer/eight-plane grouping and labels; not sequential execution tiers.
+- [FIG-10-2](chapter-10/figure-10-2.svg): original selected interaction layout, permit/deny and evidence semantics. Permit remains conditional; “External mutation” in Tooling is a proposed operation, not execution before PEP. Ambiguous source label retained for fidelity, not endorsed as final.
+- [Evidence relationships](chapter-10/evidence-relationships.svg): six related synthetic records; explanatory order, not synchronous chronology or verified join graph.
+- [Acquisition bridge](chapter-10/acquisition-bridge.svg): commercial/editorial relationship between Chapters 1, 10, 13 and 16 and Atlas; not runtime architecture.
+
+All four are editable SVG derivatives; only Figures 10-1 and 10-2 are primary manuscript requirements. Original visible captions preserved; static styles and accessible metadata added. No original UI runtime, native draw.io master, visual render inspection or production approval claimed.
