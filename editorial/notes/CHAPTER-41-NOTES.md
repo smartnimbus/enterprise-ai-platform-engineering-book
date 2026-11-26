@@ -23,3 +23,6 @@ Author accepted publication findings and requested six bounded improvements only
 
 ## Signature Revision v2 executed
 Author approved plan and requested manuscript. [v2 manuscript](../../manuscript/part-07/chapter-41/chapter-41-signature-v2.md), four revision-linked records, four blank templates, evidence schedule, sensitivity CSV, two editable figures, redline and validation saved. v1 preserved. 2,933 source whitespace tokens vs 3,471 v1; narrative unchanged. Page fit and independent acceptance outstanding.
+
+## Practitioner validation programme
+Chapter 41 v2 frozen by explicit author instruction for PVP-41. [Public protocol](../validation/chapter-41/PVP-41-PUBLIC-PROTOCOL.md) and exact restricted archive hashes preserved. Complete private study pack prepared and tested with synthetic logic only; no manuscript review or edits, no actual reader evidence. Independent execution, consent and publication production checks remain outstanding.
