@@ -41,3 +41,6 @@ Saved editorial/authoring-blueprints/Chapter_41_Signature_Revision_v2_Plan.md. S
 
 ## Chapter 41 Signature Revision v2 execution
 Six approved changes implemented; manuscript chapter-41-signature-v2.md, four revision-linked specimens, four blank templates, evidence index, reconsideration CSV, two SVG derivatives, validation-v2.json and redline-v2.md. Exact defaults and arithmetic checked, v1 narrative unchanged. £20k additional transition reverses prospective comparison by £7k after £5k sunk discovery. No frozen changes, no publication acceptance. Actual proof and independent checks pending.
+
+## PVP-41 programme design and preparation
+Author instructed freeze/no manuscript review. Complete private facilitator and participant packs, three standalone case pairs with staged updates, assessor key/rubric, scorecards, forms, scoring XLSX, analysis/test script and report template generated. Seven frozen reference hashes, arithmetic, sequence balance, synthetic scoring tests and archive segregation verified; no real participants/results. Public-safe [protocol and exact archive hashes](../editorial/validation/chapter-41/PVP-41-PUBLIC-PROTOCOL.md) committed; restricted full files delivered via conversation, not public repo. No frozen edits. Prompt/diagram source unchanged; no new reusable prompt or figure needed. Human execution pending.
