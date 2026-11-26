@@ -14,3 +14,6 @@ Reject Fabric-first appraisal, counting pilots as funded demand, false equivalen
 
 ## Acquisition manuscript production
 Author explicitly prioritised Chapter 41. [Complete draft](../../manuscript/part-07/chapter-41/chapter-41.md), four extracted worked records, validation and self-review now exist on the working branch. New hypothetical three-year cost comparison and bounded discovery disposition; no fixture change. Narrative ceiling respected; page fit and independent review pending. Historical recovery remains distinct.
+
+## Publication-candidate review
+[Ranked publication revision findings](../../editorial/reviews/CHAPTER-41-PUBLICATION-CANDIDATE-REVIEW.md) recorded separately from the manuscript. Priorities: complete decision lifecycle, enforceable funding conditions, standalone orientation, reusable records, switching values and genuine reader trial. No revision or publication approval claimed.
