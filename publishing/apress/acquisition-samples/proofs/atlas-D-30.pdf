@@ -1,0 +1,94 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R /Lang (en-GB) >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 1 /Kids [6 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 540 666] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 3532 >>
+stream
+0.3 g
+BT /F2 8 Tf 1 0 0 1 65 633 Tm (PART IV  /  DECISION ATLAS) Tj ET
+BT /F3 8 Tf 1 0 0 1 407.32 633 Tm (ACQUISITION PROOF) Tj ET
+0.65 G 0.5 w 65 624 m 490 624 l S
+0.1 g
+BT /F2 18 Tf 1 0 0 1 65 602 Tm (D-30: Retire use cases and the Fabric) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 576 Tm (Context.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 109.919 576 Tm (Stopping execution leaves credentials, memory, evidence, vendor contracts and legal) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 562 Tm (obligations behind.) Tj ET
+0.95 g 65 521 425 35 re f
+0.35 g 65 521 3 35 re f
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 74 542 Tm (Default.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 115.4225 542 Tm (Default to a formal retirement gate proving token revocation, data disposition,) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 74 528 Tm (preserved obligations and tested export or migration.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 508 Tm (Why.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 93.0035 508 Tm (The identity, Context, and telemetry stores do not share one deletion command. Each owner) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 494 Tm (records disposal, archival, or legal hold against a common inventory. A hypothetical retirement) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 480 Tm (review checks revocation, export, retained obligations, and deletion evidence before accepting) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 466 Tm (closure. An unresolved obligation prevents a claim of completed retirement; no Meridian retirement) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 452 Tm (is recorded.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 432 Tm (Trade-off.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 116.33449999999999 432 Tm (This buys safe closure and portability at the cost of exit rehearsals and retention) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 65 418 Tm (administration.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 398 Tm (When to deviate.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 75 384 Tm (- Legal hold prevents a specified deletion.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 75 370 Tm (- Phased migration requires dual running.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 75 356 Tm (- Decommission is delayed by unresolved data ownership.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 342 Tm (Reversibility.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 133.2815 342 Tm (One-way door.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 322 Tm (Artefact.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 110.507 322 Tm (retirement-certificate-and-exit-plan.md.) Tj ET
+0.96 g 65 196 425 111 re f
+0.12 g
+BT /F2 9 Tf 1 0 0 1 75 297 Tm (Illustration - hypothetical exit evidence \(all pending\).) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 283 Tm (- Identity: revoke tokens | Revocation evidence pending) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 271 Tm (- Interoperability: test export | Migration evidence pending) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 259 Tm (- Context / Data Protection: dispose or retain | Receipts pending) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 247 Tm (- Legal hold / evidence custody: preserve obligations | Record pending) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 235 Tm (- Option: formal retirement gate | Owner / approver: to be assigned) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 223 Tm (- Verify: all required obligations accounted for | Evidence: exit inventory) Tj ET
+BT /F3 9 Tf 1 0 0 1 75 211 Tm (- Re-evaluate: failed export, unresolved ownership, or hold.) Tj ET
+0.1 g
+BT /F2 10.5 Tf 1 0 0 1 65 190 Tm (See also.) Tj ET
+BT /F1 10.5 Tf 1 0 0 1 113.447 190 Tm (Chapter 21; Chapter 34; Chapter 40; Chapter 49; Chapter 50; Chapter 57.) Tj ET
+0.65 G 0.5 w 65 45 m 490 45 l S
+0.35 g
+BT /F3 8 Tf 1 0 0 1 65 30 Tm (The Enterprise AI Agent Fabric) Tj ET
+BT /F3 8 Tf 1 0 0 1 417.664 30 Tm (D-30  |  Author proof) Tj ET
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000072 00000 n 
+0000000129 00000 n 
+0000000228 00000 n 
+0000000330 00000 n 
+0000000427 00000 n 
+0000000573 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+4156
+%%EOF

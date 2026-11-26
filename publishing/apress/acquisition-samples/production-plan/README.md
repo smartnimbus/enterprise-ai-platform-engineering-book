@@ -29,3 +29,11 @@ Authoring complete; pinned mechanical validation executed (see submission valida
 - [Complete author proof](../proofs/chapter-16.pdf)
 - [Proof production identity](../proofs/chapter-16-proof-manifest.md)
 
+
+## Six Atlas acquisition specimens
+
+- [Six Atlas author proofs and editable masters](../../../../decisions/pages/README.md)
+- [Combined sampler](../proofs/atlas-six-page-sampler.pdf)
+- [Proof production identity](../proofs/atlas-proof-manifest.md)
+
+Final independent editorial acceptance, production typography and accessibility remain pending. Chapter manuscripts and rendered figures are tracked separately above. The frozen catalogue remains authoritative.
