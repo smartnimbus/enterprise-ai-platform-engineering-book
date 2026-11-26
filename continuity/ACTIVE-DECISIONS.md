@@ -14,3 +14,5 @@ Navigation record only; existing authoritative decisions remain in the original 
 | AD-08 | Working integration distinct from publication approval | Author-authorised amendment v1.1.0 integrated via PR #22 | REPOSITORY-GOVERNANCE.md proposed amendment |
 
 AD identifiers are local navigation records, not new Atlas decisions. Update when a real disposition changes; retain superseded rationale in relevant notes.
+
+| AD-09 | Chapter 41 produced ahead of Chapter 10; preserve both packages and frozen sources | Explicit author production request; no publication approval | Chapter 41 manuscript and self-review |
