@@ -15,3 +15,5 @@
 | OQ-11 | Exact later commercial package responses, invitation/questionnaire, distinct differentiation versions, commissioning enquiry, delivery draft and later acquisition review not retrievable | Author / curator | Original response/export supplied or retrievable; compare to existing versions using [CAP-006 manifest](../publishing/apress/submissions/historical-recovery/CAP-006-RECOVERY-MANIFEST.md) |
 
 Resolve only with evidence or explicit author disposition. Unknown is not approved. Keep sensitive details private.
+
+| OQ-12 | Chapter 41 seven-page fit, full validator execution, visual inspection and independent reader trial outstanding | Author / production / reviewers | Actual proof, executed checks and genuine feedback |
