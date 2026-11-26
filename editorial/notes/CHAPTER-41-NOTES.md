@@ -20,3 +20,6 @@ Author explicitly prioritised Chapter 41. [Complete draft](../../manuscript/part
 
 ## Signature revision v2 plan
 Author accepted publication findings and requested six bounded improvements only. [Implementation plan](../authoring-blueprints/Chapter_41_Signature_Revision_v2_Plan.md) defines placements, displacement budgets, exact reversal economics, figures and toolkit. Plan authored; manuscript revision not executed.
+
+## Signature Revision v2 executed
+Author approved plan and requested manuscript. [v2 manuscript](../../manuscript/part-07/chapter-41/chapter-41-signature-v2.md), four revision-linked records, four blank templates, evidence schedule, sensitivity CSV, two editable figures, redline and validation saved. v1 preserved. 2,933 source whitespace tokens vs 3,471 v1; narrative unchanged. Page fit and independent acceptance outstanding.
