@@ -19,3 +19,6 @@ Snapshot after verified integration of all nine original outstanding pull reques
 [Blueprint](../editorial/outlines/Enterprise_AI_Agent_Fabric_Development_Blueprint.md), [Style Bible](../editorial/style/style-v1.2.md), [TOC](../publishing/apress/v2/FROZEN-TOC-58.csv), [Atlas catalogue](../decisions/catalogue/Enterprise_AI_Agent_Fabric_Decision_Catalogue.csv), [Meridian dossier](../meridian/fixture/Meridian_Evidence_Fixture_v1.0.md). Preserve four layers, eight planes, 58 chapters, D-01–30 and fixture v1.0. Existing proposed chapter contracts not implicitly ratified.
 
 Read [next session](NEXT-SESSION.md), [backlog](BACKLOG.md) and [knowledge register](../knowledge/MASTER-KNOWLEDGE-REGISTER.md).
+
+## Chapter 41 production update
+Author requested Chapter 41 ahead of CAP-008. Complete working manuscript, four extracted specimens, source/arithmetic checks and self-review committed on `docs/chapter-41-business-case`. Not independently accepted or publication-ready. Chapter 10 remains outstanding; CAP-006 remains partial. See [Chapter 41](../manuscript/part-07/chapter-41/chapter-41.md) and [validation](../manuscript/part-07/chapter-41/validation-results.json).
