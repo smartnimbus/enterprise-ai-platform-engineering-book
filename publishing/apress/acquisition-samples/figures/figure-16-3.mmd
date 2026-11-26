@@ -1,0 +1,14 @@
+%% Figure 16-3 — Direct-route negative bypass test
+%% The refund service has an approved architectural route through the Gateway enforcement point and a separately tested direct network route. The direct route terminates at the blocking egress boundary; the external refund ledger receives no request.
+flowchart LR
+ subgraph W["Agent-workload boundary"]
+ S["Refund service"]
+ E["Network egress"]
+ end
+ P["Gateway PEP"]
+ subgraph T["External-system boundary"]
+ L["Refund ledger"]
+ end
+ S -->|submits for admission| P
+ S -.->|tries direct route| E
+ E ---|blocks direct route| X["STOP before ledger"]

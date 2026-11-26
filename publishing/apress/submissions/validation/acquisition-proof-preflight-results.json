@@ -1,0 +1,851 @@
+{
+  "pins": {
+    "13": "22ecbf572e885cad992b261fc0b3181c01e654ed",
+    "16": "441dc92902ba26666ba6615af8ae9343baf45322",
+    "atlas": "dec94ae45dbbb7ada8e67571549224952fc018ea"
+  },
+  "pdfs": [
+    {
+      "name": "chapter-13",
+      "sha256": "cc4bfe1b0cb0ceb61c8f249221a68710148cea5f72d4188f5f1a60aa16050628",
+      "pages": 12,
+      "expected_pages": 12,
+      "page_results": [
+        {
+          "page": 1,
+          "size_pt": [
+            540,
+            666
+          ],
+          "spans": 51,
+          "outside_trim": [],
+          "replacement_chars": 0,
+          "render_sha256": "38cd8e06b770837bf3224c83deb081a91c3209222e71f54069594f1c1fed7d95",
+          "fonts": [
+            "Courier",
+            "Helvetica",
+            "Helvetica-Bold",
+            "Helvetica-Oblique",
+            "Times-Bold",
+            "Times-Roman"
+          ]
+        },
+        {
+          "page": 2,
+          "size_pt": [
+            540,
+            666
+          ],
+          "spans": 100,
+          "outside_trim": [],
+          "replacement_chars": 0,
+          "render_sha256": "dfe3eb54b26b1b3346e2fa4701f0075032b13e38167d669b0218e360b9f679ce",
+          "fonts": [
+            "Courier",
+            "Helvetica",
+            "Helvetica-Bold",
+            "Helvetica-Oblique",
+            "Times-Roman"
+          ]
+        },
+        {
+          "page": 3,
+          "size_pt": [
+            540,
+            666
+          ],
+          "spans": 76,
+          "outside_trim": [],
+          "replacement_chars": 0,
+          "render_sha256": "298112c31714b203b5632a11a5108c512b16751ae815a5d586fd6d9e29e02faa",
+          "fonts": [
+            "Courier",
+            "Helvetica",
+            "Helvetica-Bold",
+            "Helvetica-Oblique",
+            "Times-Roman"
+          ]
+        },
+        {
+          "page": 4,
+          "size_pt": [
+            540,
+            666
+          ],
+          "spans": 64,
+          "outside_trim": [],
+          "replacement_chars": 0,
+          "render_sha256": "040e56baaa9e469fe7b8bb020500fbab4fb381e6717a9047b21fce9dbc68de25",
+          "fonts": [
+            "Courier",
+            "Helvetica",
+            "Helvetica-Bold",
+            "Helvetica-Oblique",
+            "Times-Roman"
+          ]
+        },
+        {
+          "page": 5,
+          "size_pt": [
+            540,
+            666
+          ],
+          "spans": 67,
+          "outside_trim": [],
+          "replacement_chars": 0,
+          "render_sha256": "a0c4eb71c6fde2be7bf49e92e3aa6ee2a282f092a5a87f57783d7a0aaa2f3d0e",
+          "fonts": [
+            "Courier",
+            "Helvetica",
+            "Helvetica-Bold",
+            "Helvetica-Oblique",
+            "Times-Roman"
+          ]
+        },
+        {
+          "page": 6,
+          "size_pt": [
+            540,
+            666
+          ],
+          "spans": 40,
+          "outside_trim": [],
+          "replacement_chars": 0,
+          "render_sha256": "2ef6443d0c3ae07d30cfba8aa6241ed510e4985a19ce826a86e72102e0f37921",
+          "fonts": [
+            "Courier",
+            "Helvetica",
+            "Helvetica-Bold",
+            "Times-Roman"
+          ]
+        },
+        {
+          "page": 7,
+          "size_pt": [
+            540,
+            666
+          ],
+          "spans": 47,
+          "outside_trim": [],
+          "replacement_chars": 0,
+          "render_sha256": "907c050f011f819b393c3b46a4966c21d144e350e6066a58a224b98098668462",
+          "fonts": [
+            "Helvetica",
+            "Helvetica-Bold",
+            "Helvetica-Oblique",
+            "Times-Roman"
+          ]
+        },
+        {
+          "page": 8,
+          "size_pt": [
+            540,
+            666
+          ],
+          "spans": 43,
+          "outside_trim": [],
+          "replacement_chars": 0,
+          "render_sha256": "2a3b2bbb5d2a670aef0c1e6d0cc094c92b6bbb2edef96b8b60dc243f11ebded3",
+          "fonts": [
+            "Courier",
+            "Helvetica",
+            "Helvetica-Bold",
+            "Times-Roman"
+          ]
+        },
+        {
+          "page": 9,
+          "size_pt": [
+            540,
+            666
+          ],
+          "spans": 85,
+          "outside_trim": [],
+          "replacement_chars": 0,
+          "render_sha256": "4ac2ba6be41fe31ff9375ba0d9408fd379bc68d996870c944718da0c290d3ed1",
+          "fonts": [
+            "Helvetica",
+            "Helvetica-Bold",
+            "Helvetica-Oblique",
+            "Times-Roman"
+          ]
+        },
+        {
+          "page": 10,
+          "size_pt": [
+            540,
+            666
+          ],
+          "spans": 97,
+          "outside_trim": [],
+          "replacement_chars": 0,
+          "render_sha256": "9f4c527b905c5002f69594d3a248e2438becd0e8e6cdddcecb60300c05476635",
+          "fonts": [
+            "Helvetica",
+            "Helvetica-Bold",
+            "Times-Bold",
+            "Times-Roman"
+          ]
+        },
+        {
+          "page": 11,
+          "size_pt": [
+            540,
+            666
+          ],
+          "spans": 83,
+          "outside_trim": [],
+          "replacement_chars": 0,
+          "render_sha256": "891760af2673e4192a793c20196e8a5e5077dd372db8334922956cdbf73ccb6a",
+          "fonts": [
+            "Courier",
+            "Helvetica",
+            "Helvetica-Bold",
+            "Times-Bold",
+            "Times-Roman"
+          ]
+        },
+        {
+          "page": 12,
+          "size_pt": [
+            540,
+            666
+          ],
+          "spans": 13,
+          "outside_trim": [],
+          "replacement_chars": 0,
+          "render_sha256": "64022a6c2809df0de19c5476e5c7d6c4204ea3ab1be8ddfa96eaeb9922dc2115",
+          "fonts": [
+            "Helvetica",
+            "Helvetica-Bold",
+            "Times-Roman"
+          ]
+        }
+      ],
+      "fonts_report": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nTimes-Roman                          Type 1            WinAnsi          no  no  no       3  0\nHelvetica-Bold                       Type 1            WinAnsi          no  no  no       4  0\nHelvetica                            Type 1            WinAnsi          no  no  no       5  0\nCourier                              Type 1            WinAnsi          no  no  no       6  0\nHelvetica-Oblique                    Type 1            WinAnsi          no  no  no       7  0\nTimes-Bold                           Type 1            WinAnsi          no  no  no       8  0\nTimes-Italic                         Type 1            WinAnsi          no  no  no       9  0\n",
+      "tagged": false,
+      "language": [
+        "string",
+        "en-GB"
+      ],
+      "approved_fonts": false,
+      "links": 0,
+      "source_sha256": "a73354aa996c00ff397b252523bd809be778a3933ae14d921c0005213fe5c1d8",
+      "figure_captions": {
+        "13-1": true,
+        "13-2": true,
+        "13-3": true
+      },
+      "table_captions": {
+        "13-1": true,
+        "13-2": true,
+        "13-3": true,
+        "13-4": true
+      },
+      "alt_markers": 3,
+      "missing_headings": []
+    },
+    {
+      "name": "chapter-16",
+      "sha256": "5e4f152e0c2ff9635e7e61a888e902c384d0340ca8aafb3a47a89d4ea6e9212e",
+      "pages": 10,
+      "expected_pages": 10,
+      "page_results": [
+        {
+          "page": 1,
+          "size_pt": [
+            540,
+            666
+          ],
+          "spans": 52,
+          "outside_trim": [],
+          "replacement_chars": 0,
+          "render_sha256": "cf7835ab45c528bd87ed44072aba88a392c7b86f757e5716e4830978b99dec02",
+          "fonts": [
+            "Courier",
+            "Helvetica",
+            "Helvetica-Bold",
+            "Times-Bold",
+            "Times-Roman"
+          ]
+        },
+        {
+          "page": 2,
+          "size_pt": [
+            540,
+            666
+          ],
+          "spans": 69,
+          "outside_trim": [],
+          "replacement_chars": 0,
+          "render_sha256": "84708b8aed8ce8caf58582089a45eaf280be37a2cfb3052a731099e00f3a23ac",
+          "fonts": [
+            "Courier",
+            "Helvetica",
+            "Helvetica-Bold",
+            "Helvetica-Oblique",
+            "Times-Roman"
+          ]
+        },
+        {
+          "page": 3,
+          "size_pt": [
+            540,
+            666
+          ],
+          "spans": 55,
+          "outside_trim": [],
+          "replacement_chars": 0,
+          "render_sha256": "ca3d6286cc77abcb7a3113484cf354ca3879b7fc9a6b7c86acdb35987438bea6",
+          "fonts": [
+            "Courier",
+            "Helvetica",
+            "Helvetica-Bold",
+            "Helvetica-Oblique",
+            "Times-Roman"
+          ]
+        },
+        {
+          "page": 4,
+          "size_pt": [
+            540,
+            666
+          ],
+          "spans": 59,
+          "outside_trim": [],
+          "replacement_chars": 0,
+          "render_sha256": "99df35ebf97921944eb34b06fa0bfbc01376fa9cb916b017e58fcdf2db433b9b",
+          "fonts": [
+            "Courier",
+            "Helvetica",
+            "Helvetica-Bold",
+            "Helvetica-Oblique",
+            "Times-Roman"
+          ]
+        },
+        {
+          "page": 5,
+          "size_pt": [
+            540,
+            666
+          ],
+          "spans": 96,
+          "outside_trim": [],
+          "replacement_chars": 0,
+          "render_sha256": "19987c13bd7a537ea1901e3b6193729b2aac183701d5bcc37eb8f7455f163120",
+          "fonts": [
+            "Courier",
+            "Helvetica",
+            "Helvetica-Bold",
+            "Helvetica-Oblique",
+            "Times-Bold",
+            "Times-Roman"
+          ]
+        },
+        {
+          "page": 6,
+          "size_pt": [
+            540,
+            666
+          ],
+          "spans": 88,
+          "outside_trim": [],
+          "replacement_chars": 0,
+          "render_sha256": "a533a0e0581883d8e00c8fce4ca113dd30247d84bb3834607acc93d968f0129c",
+          "fonts": [
+            "Courier",
+            "Helvetica",
+            "Helvetica-Bold",
+            "Helvetica-Oblique",
+            "Times-Bold",
+            "Times-Roman"
+          ]
+        },
+        {
+          "page": 7,
+          "size_pt": [
+            540,
+            666
+          ],
+          "spans": 62,
+          "outside_trim": [],
+          "replacement_chars": 0,
+          "render_sha256": "37a3ba42e8ef211f23f5240254a2a91aafaf4aff697b0003433ead86082b167f",
+          "fonts": [
+            "Courier",
+            "Helvetica",
+            "Helvetica-Bold",
+            "Helvetica-Oblique",
+            "Times-Bold",
+            "Times-Roman"
+          ]
+        },
+        {
+          "page": 8,
+          "size_pt": [
+            540,
+            666
+          ],
+          "spans": 114,
+          "outside_trim": [],
+          "replacement_chars": 0,
+          "render_sha256": "e3d3641f0b5ebb968b708b2fda35f87299d473c613f083539f7eedbc1964441f",
+          "fonts": [
+            "Courier",
+            "Helvetica",
+            "Helvetica-Bold",
+            "Helvetica-Oblique",
+            "Times-Bold",
+            "Times-Roman"
+          ]
+        },
+        {
+          "page": 9,
+          "size_pt": [
+            540,
+            666
+          ],
+          "spans": 76,
+          "outside_trim": [],
+          "replacement_chars": 0,
+          "render_sha256": "308f8aff5ea8fe98398a4df9a08bef96cd2ada1986fb5b631d0dc3794e1267ba",
+          "fonts": [
+            "Courier",
+            "Helvetica",
+            "Helvetica-Bold",
+            "Helvetica-Oblique",
+            "Times-Bold",
+            "Times-Roman"
+          ]
+        },
+        {
+          "page": 10,
+          "size_pt": [
+            540,
+            666
+          ],
+          "spans": 146,
+          "outside_trim": [],
+          "replacement_chars": 0,
+          "render_sha256": "c43a9dbc02aacb8ad455ed7d694daafe3bf96d5743797a16733bd513f5c7084b",
+          "fonts": [
+            "Courier",
+            "Helvetica",
+            "Helvetica-Bold",
+            "Times-Bold",
+            "Times-Roman"
+          ]
+        }
+      ],
+      "fonts_report": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nTimes-Roman                          Type 1            WinAnsi          no  no  no       3  0\nHelvetica-Bold                       Type 1            WinAnsi          no  no  no       4  0\nHelvetica                            Type 1            WinAnsi          no  no  no       5  0\nCourier                              Type 1            WinAnsi          no  no  no       6  0\nHelvetica-Oblique                    Type 1            WinAnsi          no  no  no       7  0\nTimes-Bold                           Type 1            WinAnsi          no  no  no       8  0\nTimes-Italic                         Type 1            WinAnsi          no  no  no       9  0\n",
+      "tagged": false,
+      "language": [
+        "string",
+        "en-GB"
+      ],
+      "approved_fonts": false,
+      "links": 6,
+      "source_sha256": "0a4c90a803998e1f192d2be2dbd59bf45757a95964f99b7e39894537a9c0ddfb",
+      "figure_captions": {
+        "16-1": true,
+        "16-2": true,
+        "16-3": true
+      },
+      "table_captions": {
+        "16-1": true,
+        "16-2": true,
+        "16-3": true,
+        "16-4": true
+      },
+      "alt_markers": 3,
+      "missing_headings": []
+    },
+    {
+      "name": "atlas-D-01",
+      "sha256": "610decb6e517a8b9627cbbd06f2c29b99dd771a5d2966ff1461104de99a4a120",
+      "pages": 1,
+      "expected_pages": 1,
+      "page_results": [
+        {
+          "page": 1,
+          "size_pt": [
+            540,
+            666
+          ],
+          "spans": 36,
+          "outside_trim": [],
+          "replacement_chars": 0,
+          "render_sha256": "be3f56938029216c5382e6ab008450a26ec2322c2c63cd98929e286b172af026",
+          "fonts": [
+            "Helvetica",
+            "Helvetica-Bold",
+            "Times-Roman"
+          ]
+        }
+      ],
+      "fonts_report": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nTimes-Roman                          Type 1            WinAnsi          no  no  no       3  0\nHelvetica-Bold                       Type 1            WinAnsi          no  no  no       4  0\nHelvetica                            Type 1            WinAnsi          no  no  no       5  0\n",
+      "tagged": false,
+      "language": [
+        "string",
+        "en-GB"
+      ],
+      "approved_fonts": false,
+      "links": 0,
+      "missing_defaults": []
+    },
+    {
+      "name": "atlas-D-10",
+      "sha256": "6d259e54aa39ae5fa189862703d731adb0312a9092525e88948c7af406c407f8",
+      "pages": 1,
+      "expected_pages": 1,
+      "page_results": [
+        {
+          "page": 1,
+          "size_pt": [
+            540,
+            666
+          ],
+          "spans": 36,
+          "outside_trim": [],
+          "replacement_chars": 0,
+          "render_sha256": "8d3a2ad513b9cb1e9ecba7a06a43ce2c977931267208b638c410038ad5e3b497",
+          "fonts": [
+            "Helvetica",
+            "Helvetica-Bold",
+            "Times-Roman"
+          ]
+        }
+      ],
+      "fonts_report": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nTimes-Roman                          Type 1            WinAnsi          no  no  no       3  0\nHelvetica-Bold                       Type 1            WinAnsi          no  no  no       4  0\nHelvetica                            Type 1            WinAnsi          no  no  no       5  0\n",
+      "tagged": false,
+      "language": [
+        "string",
+        "en-GB"
+      ],
+      "approved_fonts": false,
+      "links": 0,
+      "missing_defaults": []
+    },
+    {
+      "name": "atlas-D-14",
+      "sha256": "5de2e8155060ba2f8a24b4ca918c7a89f927c4d45a34b32dd77c9076cf877697",
+      "pages": 1,
+      "expected_pages": 1,
+      "page_results": [
+        {
+          "page": 1,
+          "size_pt": [
+            540,
+            666
+          ],
+          "spans": 34,
+          "outside_trim": [],
+          "replacement_chars": 0,
+          "render_sha256": "32246fbe17324ce32e317b3518f5b4201cd8c2284a9f9dacf208541b043e3bd3",
+          "fonts": [
+            "Helvetica",
+            "Helvetica-Bold",
+            "Times-Roman"
+          ]
+        }
+      ],
+      "fonts_report": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nTimes-Roman                          Type 1            WinAnsi          no  no  no       3  0\nHelvetica-Bold                       Type 1            WinAnsi          no  no  no       4  0\nHelvetica                            Type 1            WinAnsi          no  no  no       5  0\n",
+      "tagged": false,
+      "language": [
+        "string",
+        "en-GB"
+      ],
+      "approved_fonts": false,
+      "links": 0,
+      "missing_defaults": []
+    },
+    {
+      "name": "atlas-D-18",
+      "sha256": "0d27ad2ad077f6248728217a2f50ab5b22b2b2f221aa9afe04c5dcb015bb958f",
+      "pages": 1,
+      "expected_pages": 1,
+      "page_results": [
+        {
+          "page": 1,
+          "size_pt": [
+            540,
+            666
+          ],
+          "spans": 34,
+          "outside_trim": [],
+          "replacement_chars": 0,
+          "render_sha256": "ddf0da05bf8126368e8da09d93abbeeffd368396dddb735eefdcf818a9b97354",
+          "fonts": [
+            "Helvetica",
+            "Helvetica-Bold",
+            "Times-Roman"
+          ]
+        }
+      ],
+      "fonts_report": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nTimes-Roman                          Type 1            WinAnsi          no  no  no       3  0\nHelvetica-Bold                       Type 1            WinAnsi          no  no  no       4  0\nHelvetica                            Type 1            WinAnsi          no  no  no       5  0\n",
+      "tagged": false,
+      "language": [
+        "string",
+        "en-GB"
+      ],
+      "approved_fonts": false,
+      "links": 0,
+      "missing_defaults": []
+    },
+    {
+      "name": "atlas-D-26",
+      "sha256": "667ac5264cb551860d19b731df9ed343e45aa0e7a0cb7a0d70c6f96c8d4230d9",
+      "pages": 1,
+      "expected_pages": 1,
+      "page_results": [
+        {
+          "page": 1,
+          "size_pt": [
+            540,
+            666
+          ],
+          "spans": 33,
+          "outside_trim": [],
+          "replacement_chars": 0,
+          "render_sha256": "a7477944d4cf8934cf9e600677a36cf16bb233760ba76132527b8a3e4c1545fb",
+          "fonts": [
+            "Helvetica",
+            "Helvetica-Bold",
+            "Times-Roman"
+          ]
+        }
+      ],
+      "fonts_report": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nTimes-Roman                          Type 1            WinAnsi          no  no  no       3  0\nHelvetica-Bold                       Type 1            WinAnsi          no  no  no       4  0\nHelvetica                            Type 1            WinAnsi          no  no  no       5  0\n",
+      "tagged": false,
+      "language": [
+        "string",
+        "en-GB"
+      ],
+      "approved_fonts": false,
+      "links": 0,
+      "missing_defaults": []
+    },
+    {
+      "name": "atlas-D-30",
+      "sha256": "d295c67cfeb1d31379c157b6e0f75dea2de5ad720cbb7aeaa33e71718468e6b6",
+      "pages": 1,
+      "expected_pages": 1,
+      "page_results": [
+        {
+          "page": 1,
+          "size_pt": [
+            540,
+            666
+          ],
+          "spans": 38,
+          "outside_trim": [],
+          "replacement_chars": 0,
+          "render_sha256": "df1b053bfb798206ead30845ec5c7ef77a2fce301fcbc35c47694af196ba4894",
+          "fonts": [
+            "Helvetica",
+            "Helvetica-Bold",
+            "Times-Roman"
+          ]
+        }
+      ],
+      "fonts_report": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nTimes-Roman                          Type 1            WinAnsi          no  no  no       3  0\nHelvetica-Bold                       Type 1            WinAnsi          no  no  no       4  0\nHelvetica                            Type 1            WinAnsi          no  no  no       5  0\n",
+      "tagged": false,
+      "language": [
+        "string",
+        "en-GB"
+      ],
+      "approved_fonts": false,
+      "links": 0,
+      "missing_defaults": []
+    },
+    {
+      "name": "atlas-six-page-sampler",
+      "sha256": "3b57aa7e9f56426afa6155dbba9c0ef57e044b71680c83714c4ff0dfc5602a3d",
+      "pages": 6,
+      "expected_pages": 6,
+      "page_results": [
+        {
+          "page": 1,
+          "size_pt": [
+            540,
+            666
+          ],
+          "spans": 36,
+          "outside_trim": [],
+          "replacement_chars": 0,
+          "render_sha256": "be3f56938029216c5382e6ab008450a26ec2322c2c63cd98929e286b172af026",
+          "fonts": [
+            "Helvetica",
+            "Helvetica-Bold",
+            "Times-Roman"
+          ]
+        },
+        {
+          "page": 2,
+          "size_pt": [
+            540,
+            666
+          ],
+          "spans": 36,
+          "outside_trim": [],
+          "replacement_chars": 0,
+          "render_sha256": "8d3a2ad513b9cb1e9ecba7a06a43ce2c977931267208b638c410038ad5e3b497",
+          "fonts": [
+            "Helvetica",
+            "Helvetica-Bold",
+            "Times-Roman"
+          ]
+        },
+        {
+          "page": 3,
+          "size_pt": [
+            540,
+            666
+          ],
+          "spans": 34,
+          "outside_trim": [],
+          "replacement_chars": 0,
+          "render_sha256": "32246fbe17324ce32e317b3518f5b4201cd8c2284a9f9dacf208541b043e3bd3",
+          "fonts": [
+            "Helvetica",
+            "Helvetica-Bold",
+            "Times-Roman"
+          ]
+        },
+        {
+          "page": 4,
+          "size_pt": [
+            540,
+            666
+          ],
+          "spans": 34,
+          "outside_trim": [],
+          "replacement_chars": 0,
+          "render_sha256": "ddf0da05bf8126368e8da09d93abbeeffd368396dddb735eefdcf818a9b97354",
+          "fonts": [
+            "Helvetica",
+            "Helvetica-Bold",
+            "Times-Roman"
+          ]
+        },
+        {
+          "page": 5,
+          "size_pt": [
+            540,
+            666
+          ],
+          "spans": 33,
+          "outside_trim": [],
+          "replacement_chars": 0,
+          "render_sha256": "a7477944d4cf8934cf9e600677a36cf16bb233760ba76132527b8a3e4c1545fb",
+          "fonts": [
+            "Helvetica",
+            "Helvetica-Bold",
+            "Times-Roman"
+          ]
+        },
+        {
+          "page": 6,
+          "size_pt": [
+            540,
+            666
+          ],
+          "spans": 38,
+          "outside_trim": [],
+          "replacement_chars": 0,
+          "render_sha256": "df1b053bfb798206ead30845ec5c7ef77a2fce301fcbc35c47694af196ba4894",
+          "fonts": [
+            "Helvetica",
+            "Helvetica-Bold",
+            "Times-Roman"
+          ]
+        }
+      ],
+      "fonts_report": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nTimes-Roman                          Type 1            WinAnsi          no  no  no       3  0\nHelvetica-Bold                       Type 1            WinAnsi          no  no  no       4  0\nHelvetica                            Type 1            WinAnsi          no  no  no       5  0\n",
+      "tagged": false,
+      "language": [
+        "string",
+        "en-GB"
+      ],
+      "approved_fonts": false,
+      "links": 0,
+      "missing_defaults": []
+    }
+  ],
+  "svgs": [
+    {
+      "name": "figure-13-1",
+      "sha256": "74125974fa2e5e34378be5b9974361c036a3b45eff12d94254479d56e69beb3b",
+      "render_sha256": "987edbc06c03a35d97825163dfdcdc00fac85fd33f763b4316096811923f5c3f",
+      "title": "Figure 13-1. Context Manifest Assembly",
+      "desc": "Retail records A and B pass source and consumer checks and enter context. The incorrectly tagged insurance result fails the source check and follows a quarantine path that cannot deliver its payload to the agent.",
+      "role": "img",
+      "labelledby": "title desc",
+      "viewBox": "0 0 720 449",
+      "text_count": 33
+    },
+    {
+      "name": "figure-13-2",
+      "sha256": "ee6e2678aa36c616acdc2516e3ecef28b7f9f5b47ba128c659290c7e24e29479",
+      "render_sha256": "01691e91c18d6334fd42df5b309fbcf5c1d166953f4d4723dc921b05a8562d48",
+      "title": "Figure 13-2. Semantic Reconciliation Workflow",
+      "desc": "Two authorised records match the same product and effective time but disagree on status. The reconciliation workflow retains UNRESOLVED and escalates to the Retail Data Steward without selecting either value.",
+      "role": "img",
+      "labelledby": "title desc",
+      "viewBox": "0 0 720 270",
+      "text_count": 15
+    },
+    {
+      "name": "figure-13-3",
+      "sha256": "28a05b1b993b07b5b12901cdb1fba342c490d3b81cf09b238aa6c6735e6f8691",
+      "render_sha256": "4a048cf66d5b1260b290be76830767288301bb65f380d7b3719a2b95e5088288",
+      "title": "Figure 13-3. Governed Memory Write Decision",
+      "desc": "A proposed write undergoes provenance, ownership, policy, retention, and contradiction checks. The unresolved eligibility claim follows the hold path; no completed memory write or receipt is shown.",
+      "role": "img",
+      "labelledby": "title desc",
+      "viewBox": "0 0 720 410",
+      "text_count": 23
+    },
+    {
+      "name": "figure-16-1",
+      "sha256": "90806e462323be9d9a0b65022c59681e7dbb5e8bef4443bd666d39c849cde19a",
+      "render_sha256": "8e8e951cafea4a4b44d5a67b6516120df1e146e61a3d9df585efd38bf1ab6bca",
+      "title": "Figure 16-1. Scope attenuation before action admission",
+      "desc": "A human delegates a read-and-request workflow through an agent and refund service to the Gateway enforcement point. The Gateway denies refund execution because the effective permission is narrower than the required action scope.",
+      "role": "img",
+      "labelledby": "title desc",
+      "viewBox": "0 0 720 346",
+      "text_count": 17
+    },
+    {
+      "name": "figure-16-2",
+      "sha256": "0eb4592abf3f6f9c8ce57d9ba2f6bcfa4841473932c26fa038d87908ab644efe",
+      "render_sha256": "55a3baeace03113fdc0e0bc4d530f07fa0cef03e3c2dc48d61987b90e2b4d683",
+      "title": "Figure 16-2. Gateway evaluation and denied decision",
+      "desc": "The refund service proposes a mutation, but the Gateway enforcement point receives a denial from the policy evaluator and records the decision. No execution token or external ledger request is issued.",
+      "role": "img",
+      "labelledby": "title desc",
+      "viewBox": "0 0 720 404",
+      "text_count": 25
+    },
+    {
+      "name": "figure-16-3",
+      "sha256": "5f28d717fd81ad25ff1dbba94eb6f9d607861f8f5750d20bcfcac5e6c79bc9a7",
+      "render_sha256": "1c8337221b646678c7a90d26d192cc0865ed9677e941d4f780c14b9ee3678f18",
+      "title": "Figure 16-3. Direct-route negative bypass test",
+      "desc": "The refund service has an approved architectural route through the Gateway enforcement point and a separately tested direct network route. The direct route terminates at the blocking egress boundary; the external refund ledger receives no request.",
+      "role": "img",
+      "labelledby": "title desc",
+      "viewBox": "0 0 720 302",
+      "text_count": 15
+    }
+  ],
+  "limitations": [
+    "Rendered raster images require human visual inspection; automated coordinate checks do not establish overlap absence.",
+    "PDF tagging flag is not PDF/UA certification.",
+    "Expected page counts are prior proof counts, not approved budgets."
+  ],
+  "workflow_run_id": 45647970456,
+  "workflow_job_id": 139324026703,
+  "provenance": "Actual workflow stdout; independent rendering completed; human visual inspection and production remediation not implied."
+}

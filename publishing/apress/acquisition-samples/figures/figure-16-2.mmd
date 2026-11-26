@@ -1,0 +1,17 @@
+%% Figure 16-2 — Gateway evaluation and denied decision
+%% The refund service proposes a mutation, but the Gateway enforcement point receives a denial from the policy evaluator and records the decision. No execution token or external ledger request is issued.
+sequenceDiagram
+ participant A as Agent
+ participant S as Refund service
+ participant P as Gateway PEP
+ participant D as Policy evaluator
+ participant E as Evidence store
+ participant L as Refund ledger
+ A->>S: proposes refund
+ S->>P: requests mutation
+ P->>D: requests decision
+ D-->>P: returns DENY
+ P->>E: records decision
+ P-->>S: returns denial
+ Note over L: No call
+ Note over P,D: Scope FAIL; conflict FAIL; approval ABSENT

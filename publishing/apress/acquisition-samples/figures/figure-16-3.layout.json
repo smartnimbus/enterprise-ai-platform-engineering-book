@@ -1,0 +1,178 @@
+{
+  "id": "16-3",
+  "title": "Direct-route negative bypass test",
+  "w": 720,
+  "h": 302,
+  "items": [
+    {
+      "t": "boundary",
+      "x": 15,
+      "y": 48,
+      "w": 280,
+      "h": 180,
+      "label": "Agent-workload boundary"
+    },
+    {
+      "t": "boundary",
+      "x": 520,
+      "y": 48,
+      "w": 185,
+      "h": 180,
+      "label": "External-system boundary"
+    },
+    {
+      "t": "box",
+      "x": 45,
+      "y": 106,
+      "w": 172,
+      "h": 52,
+      "lines": [
+        "Refund service"
+      ],
+      "kind": "normal"
+    },
+    {
+      "t": "box",
+      "x": 342,
+      "y": 62,
+      "w": 150,
+      "h": 48,
+      "lines": [
+        "Gateway PEP"
+      ],
+      "kind": "normal"
+    },
+    {
+      "t": "box",
+      "x": 240,
+      "y": 173,
+      "w": 150,
+      "h": 45,
+      "lines": [
+        "Network egress"
+      ],
+      "kind": "hold"
+    },
+    {
+      "t": "box",
+      "x": 548,
+      "y": 106,
+      "w": 130,
+      "h": 52,
+      "lines": [
+        "Refund ledger"
+      ],
+      "kind": "external"
+    },
+    {
+      "t": "edge",
+      "points": [
+        [
+          217,
+          119
+        ],
+        [
+          272,
+          119
+        ],
+        [
+          272,
+          86
+        ],
+        [
+          342,
+          86
+        ]
+      ],
+      "label": "submits for admission",
+      "x": 365,
+      "y": 51,
+      "kind": "solid"
+    },
+    {
+      "t": "edge",
+      "points": [
+        [
+          131,
+          158
+        ],
+        [
+          131,
+          196
+        ],
+        [
+          240,
+          196
+        ]
+      ],
+      "label": "tries direct route",
+      "x": 171,
+      "y": 186,
+      "kind": "dash"
+    },
+    {
+      "t": "edge",
+      "points": [
+        [
+          390,
+          196
+        ],
+        [
+          488,
+          196
+        ]
+      ],
+      "label": "blocks direct route",
+      "x": 440,
+      "y": 184,
+      "kind": "stop"
+    },
+    {
+      "t": "text",
+      "x": 419,
+      "y": 128,
+      "s": "Approved route design",
+      "size": 13,
+      "align": "center",
+      "bold": false
+    },
+    {
+      "t": "text",
+      "x": 613,
+      "y": 180,
+      "s": "No request received",
+      "size": 13,
+      "align": "center",
+      "bold": true
+    },
+    {
+      "t": "text",
+      "x": 15,
+      "y": 253,
+      "s": "MF-EVT-013 | DENIED_BY_NETWORK_EGRESS | target_received_request=false",
+      "size": 13,
+      "align": "left",
+      "bold": false
+    },
+    {
+      "t": "text",
+      "x": 15,
+      "y": 270,
+      "s": "Separate synthetic negative test; no production firewall proof.",
+      "size": 13,
+      "align": "left",
+      "bold": false
+    },
+    {
+      "t": "text",
+      "x": 15,
+      "y": 287,
+      "s": "Service: MF-SVC-REF-002 | PEP: MF-SVC-PEP-001 | Ledger: MF-SYS-LEDGER-001",
+      "size": 13,
+      "align": "left",
+      "bold": false
+    }
+  ],
+  "mmd": "%% Figure 16-3 — Direct-route negative bypass test\n%% The refund service has an approved architectural route through the Gateway enforcement point and a separately tested direct network route. The direct route terminates at the blocking egress boundary; the external refund ledger receives no request.\nflowchart LR\n subgraph W[\"Agent-workload boundary\"]\n S[\"Refund service\"]\n E[\"Network egress\"]\n end\n P[\"Gateway PEP\"]\n subgraph T[\"External-system boundary\"]\n L[\"Refund ledger\"]\n end\n S -->|submits for admission| P\n S -.->|tries direct route| E\n E ---|blocks direct route| X[\"STOP before ledger\"]\n",
+  "alt": "The refund service has an approved architectural route through the Gateway enforcement point and a separately tested direct network route. The direct route terminates at the blocking egress boundary; the external refund ledger receives no request."
+}

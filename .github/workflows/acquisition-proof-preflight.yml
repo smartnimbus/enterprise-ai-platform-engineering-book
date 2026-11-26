@@ -1,0 +1,24 @@
+name: Acquisition independent proof preflight
+on:
+  push:
+    branches: [engineering/acquisition-proof-preflight]
+    paths: [automation/preflight_acquisition.py, .github/workflows/acquisition-proof-preflight.yml]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - run: git fetch origin 22ecbf572e885cad992b261fc0b3181c01e654ed 441dc92902ba26666ba6615af8ae9343baf45322 dec94ae45dbbb7ada8e67571549224952fc018ea
+      - run: sudo apt-get update && sudo apt-get install -y poppler-utils librsvg2-bin
+      - run: python3 -m pip install pymupdf
+      - run: python3 automation/preflight_acquisition.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: acquisition-independent-renders
+          path: preflight-output/
