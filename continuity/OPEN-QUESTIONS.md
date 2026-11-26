@@ -7,7 +7,7 @@
 | OQ-03 | How should the narrative percentage and absolute word ceilings be reconciled in affected chapter types? | Developmental editor / author | Narrow editorial decision, no silent style change |
 | OQ-04 | Are proposed chapter contracts ratified for production? | Author / relevant editor | Actual approval evidence |
 | OQ-05 | What author credentials, rights, AI-use disclosures and delivery commitment can be substantiated? | Author | Private verified facts; authorised public-safe versions |
-| OQ-06 | Has actual practitioner or publisher feedback been obtained? | Author | Dated attributable evidence and permission |
+| OQ-06 | PVP-41 programme prepared; has genuine independent practitioner or publisher evidence been obtained? | Author / independent facilitator | Locked results, consent-permitted aggregate report and independent confirmation; [protocol](../editorial/validation/chapter-41/PVP-41-PUBLIC-PROTOCOL.md) |
 | OQ-07 | Are proof remediation and independent acceptance complete? | Production / reviewers | Actual corrected proofs and review evidence |
 | OQ-08 | Working integration resolved; branch protection and optional administrative cleanup outstanding | Repository custodian | Nine PRs merged, all 13 non-main refs ancestor-verified at 6272044e2b4e4d1dd110cda0f1a48e1aec30f4f6; no deletion or protection change performed |
 | OQ-09 | Original Chapter 10 package export and independent visual comparison unavailable | Author / curator | Visible-source recovery 7daf061e2807a45d66e1765b162f0dd69e88b531; optional exact export and visual inspection before production |
