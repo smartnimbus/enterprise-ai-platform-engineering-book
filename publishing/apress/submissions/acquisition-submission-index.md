@@ -44,3 +44,10 @@ PRs [7](https://github.com/smartnimbus/enterprise-ai-platform-engineering-book/p
 - [Five commissioning evidence priorities](commissioning-evidence-priorities.md) — outstanding commercial evidence.
 
 These are working additions, not an approved release or changes to the historical 50-entry pinned source manifest.
+
+## Recovered Chapter 1 acquisition draft (working addition)
+
+- [Chapter 1 Acquisition Draft v1](../../../manuscript/part-01/chapter-01/chapter-01-acquisition-v1.md) — author-frozen conversation draft, transcribed without intentional rewriting; original export unavailable.
+- [Recovery manifest](../../../manuscript/part-01/chapter-01/RECOVERY-MANIFEST.md) — provenance, figures, chart values and limitations.
+
+Recovery commit 5f4a9d7fc14025ee37f8a78120f4b05cbde2c539. This does not alter the historical pinned acquisition manifest or imply independent acceptance or publisher submission.

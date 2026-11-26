@@ -17,3 +17,13 @@ Ch13 and Ch16 source masters, Mermaid, SVG and selected native draw.io files are
 ## Figure record format
 
 Figure ID; chapter; purpose; source/master path and revision; rendered path and revision; semantic constraints; source decisions/evidence; caption; alt text; legend and line semantics; rejected alternatives; production status and limitations; supersession. Use exact source links when available; don't invent diagram IDs as authoritative Atlas entries. Final render and print fit require actual inspection.
+
+## Chapter 1 recovered figure content
+
+Source: original visible Chapter 1 manuscript response; recovery commit 5f4a9d7fc14025ee37f8a78120f4b05cbde2c539. [Manifest](../../manuscript/part-01/chapter-01/RECOVERY-MANIFEST.md).
+
+- [FIG-1-1](../../manuscript/part-01/chapter-01/figures/figure-1-1.svg): domain-local versus selective sharing; preserve domain logic and common responsibility distinction. Static SVG derivative of original inline geometry and labels.
+- [FIG-1-2](../../manuscript/part-01/chapter-01/figures/figure-1-2.svg): illustrative first-year expenditure across one to five funded use cases. [Original chart configuration](../../manuscript/part-01/chapter-01/figures/figure-1-2.chart.json) and [data](../../manuscript/part-01/chapter-01/figures/figure-1-2-data.csv) preserved. Reconstructed visual style, exact numerical series. No achieved savings claimed.
+- [FIG-1-3](../../manuscript/part-01/chapter-01/figures/figure-1-3.svg): six decision-to-evidence responsibilities and feedback path. Static SVG derivative of original inline vector layout. No implication that a hypothetical investment is actually approved.
+
+All captions and original provided alternative text retained in manuscript. SVGs include title and description. No native draw.io original or original chart renderer recovered; no visual render inspection or print acceptance claimed.

@@ -2,7 +2,7 @@
 
 | ID | Question / missing evidence | Responsible role | Resolution evidence |
 |---|---|---|---|
-| OQ-01 | Can the exact frozen Ch1 manuscript and original inline figure content be recovered? | Author / curator | Actual source message/export and standalone remote files |
+| OQ-01 | Visible Ch1 content recovered; original message export and independent exact-text comparison unavailable | Author / curator | Recovery commit 5f4a9d7fc14025ee37f8a78120f4b05cbde2c539; optional original export for byte-level comparison, visual inspection before production |
 | OQ-02 | Are all historical chat-only outputs available for recovery? | Curator | Source inventory, exact file matches or explicit unavailable records |
 | OQ-03 | How should the narrative percentage and absolute word ceilings be reconciled in affected chapter types? | Developmental editor / author | Narrow editorial decision, no silent style change |
 | OQ-04 | Are proposed chapter contracts ratified for production? | Author / relevant editor | Actual approval evidence |

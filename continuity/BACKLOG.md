@@ -5,8 +5,8 @@ Bounded recovery and authoring continuity view; not a replacement roadmap. The h
 | ID | Deliverable / action | Status at preparation | Destination / evidence | Dependency |
 |---|---|---|---|---|
 | CAP-001 | Starter knowledge notes/register | COMMITTED | d98fcdf5f0a71e7fb32f9f91dd5e083ce985a6b5 | Integration outstanding |
-| CAP-002 | Mandatory continuity files | In progress at snapshot | continuity/, AGENTS.md, prompts/; this change | Remote verification required |
-| CAP-003 | Exact Ch1 manuscript + figure content | CHAT_ONLY | proposed manuscript/part-01/chapter-01/chapter-01-acquisition-v1.md | Original response/export |
+| CAP-002 | Mandatory continuity files | COMMITTED | de909e9c3c9cdc856a40860921630f00ad97a837 | Integration outstanding |
+| CAP-003 | Ch1 manuscript + figure content recovery | COMMITTED — visible-source transcription; original UI export unavailable | [5f4a9d7fc14025ee37f8a78120f4b05cbde2c539](https://github.com/smartnimbus/enterprise-ai-platform-engineering-book/commit/5f4a9d7fc14025ee37f8a78120f4b05cbde2c539) | Integration, original byte-level comparison and visual inspection outstanding |
 | CAP-004 | Full Ch10 authoring package and diagram specs | Partial capture (notes only) | editorial/authoring-blueprints/; editorial/figures/ | Original response |
 | CAP-005 | Full Ch41 authoring package | Partial capture (notes only) | editorial/authoring-blueprints/ | Original response |
 | CAP-006 | Historical commercial assets and reviews | Partial capture | existing publishing/apress/ and editorial/reviews/ | Source history/rights |

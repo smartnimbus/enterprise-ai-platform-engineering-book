@@ -14,8 +14,9 @@ Status: working index, 2026-11-26. Scope: selected recent conversation-derived k
 | KN-008 | Two complementary architecture figures; no giant diagram or tier proliferation | Blueprint requirement / proposed figure treatment | Chapter 10 package §8 | FIG-10-1, FIG-10-2, CH-010 | [Rationale](../editorial/figures/DIAGRAM-RATIONALE.md) |
 | KN-009 | Verified biography, actual delivery commitment and genuine reader feedback matter commercially | Editorial recommendation; not verified author facts | Apress commercial acquisition package §§1–5 | Publisher proposal, author credibility | [Insights](../publishing/apress/submissions/ACQUISITION-INSIGHTS.md) |
 | KN-010 | Initial publisher enquiry distinct from formal submission; no contact or endorsement inferred | Editorial recommendation | Commissioning enquiry drafts | Apress | [Insights](../publishing/apress/submissions/ACQUISITION-INSIGHTS.md) |
-
 | KN-011 | Significant sessions require complete asset capture, task reconciliation and verified handover | Explicit author direction 2026-11-26 | Mandatory capture-and-handover request | All substantive book work | [Continuity](../continuity/README.md) |
+
+| KN-012 | Frozen Chapter 1 recovered from visible original response; preserve prose and distinguish derivative figures from original UI | Verified remote custody; manual transcription, export unavailable | Chapter 1 recovery session, 5f4a9d7fc14025ee37f8a78120f4b05cbde2c539 | CH-001, D-01, FIG-1-1–3 | [Recovery manifest](../manuscript/part-01/chapter-01/RECOVERY-MANIFEST.md) |
 
 ## Authority and source resolution
 
