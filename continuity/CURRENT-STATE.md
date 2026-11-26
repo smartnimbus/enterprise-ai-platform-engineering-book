@@ -22,3 +22,6 @@ Read [next session](NEXT-SESSION.md), [backlog](BACKLOG.md) and [knowledge regis
 
 ## Chapter 41 production update
 Author requested Chapter 41 ahead of CAP-008. Complete working manuscript, four extracted specimens, source/arithmetic checks and self-review committed on `docs/chapter-41-business-case`. Not independently accepted or publication-ready. Chapter 10 remains outstanding; CAP-006 remains partial. See [Chapter 41](../manuscript/part-07/chapter-41/chapter-41.md) and [validation](../manuscript/part-07/chapter-41/validation-results.json).
+
+## Chapter 41 Signature Revision v2
+Complete v2 authored on docs/chapter-41-business-case; v1 unchanged. Four revision pairs, blank templates, evidence index, CSV, figures and validation preserved. Actual page fit, full CI and independent acceptance outstanding. Working PR #24.
