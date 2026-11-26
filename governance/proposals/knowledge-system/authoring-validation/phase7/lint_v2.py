@@ -6,9 +6,9 @@ Reads frozen chapter contracts but never writes to frozen inputs.
 import argparse,csv,json,re,sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent.parent
-CONTRACTS={r['chapter_id']:r for r in csv.DictReader((ROOT/'phase4_authoring/CHAPTER-AUTHORING-CONTRACTS-58.csv').open(encoding='utf-8'))}
+CONTRACTS={r['chapter_id']:r for r in csv.DictReader((ROOT/'phase4/CHAPTER-AUTHORING-CONTRACTS-58.csv').open(encoding='utf-8'))}
 PLANE_NAMES=['Identity','Gateway','Observability','Verification','Governance','FinOps','Data Protection','Interoperability']
-KNOWN_EVD={'MF-EVD-RC-001','MF-EVD-CM-001','MF-EVD-AU-001','MF-EVD-DN-001','MF-EVD-DG-001','MF-ACT-REF-001','MF-REQ-REF-001','MF-EVT-013'}
+KNOWN_EVD={'MF-EVD-RC-001','MF-EVD-CM-001','MF-EVD-AU-001','MF-EVD-DN-001','MF-EVD-DG-001','MF-EVD-RG-001','MF-ACT-REF-001','MF-REQ-REF-001','MF-EVT-013'}
 NEG=re.compile(r'\b(?:not|no|never|cannot|does not|did not|without|false|incorrect|denied|prohibited|reject(?:ed)?|unsupported|rather than|isn.t|wasn.t)\b',re.I)
 
 def negated(s):
