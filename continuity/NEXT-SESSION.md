@@ -38,3 +38,6 @@ Read [v2 manuscript](../manuscript/part-07/chapter-41/chapter-41-signature-v2.md
 
 ## Latest author-directed validation programme
 Chapter 41 Signature Revision v2 frozen. PVP-41 prepared, not executed; see [public protocol and pack hashes](../editorial/validation/chapter-41/PVP-41-PUBLIC-PROTOCOL.md). Full actual scenario/key/workbook/form archives delivered privately in conversation; author retains exact downloaded files and must keep them restricted. Do not publish keys or raw participant/consent data; do not reconstruct or claim actual results. Appoint independent facilitator/assessors, preregister, recruit, run controlled cases, retain genuine data and produce consent-permitted report. No manuscript review/edit or generic assessment. CAP-010 pending real evidence; proof and other acquisition dependencies unchanged.
+
+## Commercial acquisition direction
+Author requested acquisition-only assessment assuming frozen assets. Read [commercial strategy](../publishing/apress/submissions/ACQUISITION-READINESS-AND-90-DAY-STRATEGY-2026-11-26.md). Priority: verified author facts, rights/public/AI clearance, independent PVP execution, delivery commitment and early Apress fit enquiry. No manuscript review or new methodology; no actual outreach. CAP-009/010 pending human evidence.
