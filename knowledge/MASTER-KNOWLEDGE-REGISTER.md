@@ -22,6 +22,8 @@ Status: working index, 2026-11-26. Scope: selected recent conversation-derived k
 | KN-016 | All nine working PRs integrated with original ancestry and unchanged frozen sources; CAP-006 remains incomplete | Verified integrated working baseline, not publication approval | CAP-007, 6272044e2b4e4d1dd110cda0f1a48e1aec30f4f6 | Working source custody | [Integration record](../continuity/CAP-007-INTEGRATION-RECORD.md) |
 | KN-017 | Chapter 41 applies four Atlas defaults to seven-step investment appraisal, three-year economics and four linked records | Author-side acquisition draft; hypothetical examples | Chapter 41 production | CH-041, D-01/02/03/26 | [Manuscript](../manuscript/part-07/chapter-41/chapter-41.md) |
 
+| KN-018 | PVP-41 tests independent application through three case pairs, non-compensable gates and participant-level endpoint, not Fabric preference | Programme prepared; no actual results; private case/answer custody | Author PVP-41 instruction | CH-041, D-01/02/03/26, CAP-010 | [Public protocol](../editorial/validation/chapter-41/PVP-41-PUBLIC-PROTOCOL.md) |
+
 ## Authority and source resolution
 
 Use canonical sources at their verified revisions when making technical claims. At capture, main revision cc728dbec56190276eb3f25b5f10729c9959ab95 contains the Blueprint, Style Bible, TOC, decision catalogue and Meridian dossier. Existing chapter samples and publishing drafts retain separately pinned source revisions and are now integrated into main at the CAP-007 asset revision. The register does not imply independent acceptance or publication approval.
