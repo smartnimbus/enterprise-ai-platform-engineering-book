@@ -14,4 +14,6 @@ Navigation record only; existing authoritative decisions remain in the original 
 | AD-08 | Working integration distinct from publication approval | Author-authorised amendment v1.1.0 integrated via PR #22 | REPOSITORY-GOVERNANCE.md proposed amendment |
 | AD-09 | Chapter 41 produced ahead of Chapter 10; preserve both packages and frozen sources | Explicit author production request; no publication approval | Chapter 41 manuscript and self-review |
 
+| AD-10 | Freeze Chapter 41 Signature Revision v2 for independent practitioner validation; no author assistance or manuscript changes; restrict case keys and participant data | Explicit author instruction; PVP-41 prepared, not executed | [Public protocol](../editorial/validation/chapter-41/PVP-41-PUBLIC-PROTOCOL.md) |
+
 AD identifiers are local navigation records, not new Atlas decisions. Update when a real disposition changes; retain superseded rationale in relevant notes.
