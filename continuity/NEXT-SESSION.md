@@ -23,3 +23,6 @@ Read AGENTS.md, continuity records, knowledge register, CHAPTER-10-NOTES.md, DIA
 ## Source limitation resolution
 
 When the original commercial response bodies are supplied, recover only missing distinct original assets, compare against the existing versions, preserve privacy, and update CAP-006 and OQ-11 with verified custody. Do not substitute a newly generated questionnaire, email, biography or delivery promise for the lost historical original.
+
+## Latest author-directed production priority
+Chapter 41 has been authored on `docs/chapter-41-business-case`. Read its [self-review](../manuscript/part-07/chapter-41/acquisition-self-review.md) and validation before further revision. Address page fit, full checks and independent reader exercise; do not repeat blueprint or acquisition assessment. Chapter 10 remains CAP-008, deferred rather than cancelled. Author credentials and genuine feedback remain separate dependencies.
