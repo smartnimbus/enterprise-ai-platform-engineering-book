@@ -20,6 +20,7 @@ class LintTests(unittest.TestCase):
  def test_no_evidence_grade(self):self.assertBlocked('# Title\nD-14 MF-EVD-RC-001 unresolved')
  def test_negated_context_authority(self):self.assertEqual(lint('CH-013','# Title\nContext does not authorize payment mutations. D-14.')['counts']['BLOCK'],0)
  def test_negated_gateway_reconcile(self):self.assertEqual(lint('CH-016','# Title\nGateway does not reconcile product records. D-10.')['counts']['BLOCK'],0)
+ def test_release_report_reference(self):self.assertEqual(lint('CH-016','# Chapter 16: Gateway Control Plane\nSynthetic MF-EVD-RG-001 records blocked promotion. D-10.')['counts']['BLOCK'],0)
  def test_invalid_chapter(self):self.assertBlocked('# Title\nD-14','CH-999')
  def test_missing_title(self):self.assertBlocked('Meridian synthetic D-14 example')
 if __name__=='__main__':unittest.main(verbosity=2)

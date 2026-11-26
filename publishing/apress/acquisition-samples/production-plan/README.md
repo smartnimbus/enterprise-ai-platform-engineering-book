@@ -1,6 +1,17 @@
 # Apress acquisition sample production pack — v1
 
-Contains one full Ch13/Ch16 manuscript assembly plan, six source-exact Atlas F1 production **specifications**, a four-week deliverable schedule, locked input hashes and the six-defaults source check. It does not yet contain finished sample manuscripts, rendered figures or copyedited Atlas page proofs. Read `ACQUISITION-SAMPLE-MANUSCRIPT-ASSEMBLY-PLAN-v1.md` first. Source copies are NOT modified.
+Contains one full Ch13/Ch16 manuscript assembly plan, six source-exact Atlas F1 production **specifications**, a four-week deliverable schedule, locked input hashes and the six-defaults source check. Read `ACQUISITION-SAMPLE-MANUSCRIPT-ASSEMBLY-PLAN-v1.md` first. Source copies are NOT modified.
+
+## Chapter 13 author-final candidate
+
+- [Acquisition sample index](../README.md)
+- [Manuscript](../manuscripts/chapter-13-context-acquisition-v1.md)
+- [Evidence crosswalk](../evidence/ch13-claim-crosswalk.csv)
+- [Author self-review](../chapter-13-editorial-self-review.md)
+- [Author proof](../proofs/chapter-13.pdf)
+- [Proof production identity](../proofs/chapter-13-proof-manifest.md)
+
+Chapter 13 author-final teaching revision and editable figure sources are present. Independent acceptance and final print approval remain outstanding.
 
 ## Chapter 16 author-final candidate
 
@@ -8,7 +19,7 @@ Contains one full Ch13/Ch16 manuscript assembly plan, six source-exact Atlas F1 
 - [Evidence crosswalk](../evidence/ch16-claim-crosswalk.csv)
 - [Executed validation](../chapter-16-editorial-self-review.md)
 
-Authoring complete; formal lint, independent acceptance and final print approval pending. The crosswalk is the canonical file for the assembly plan's Chapter 16 evidence crosswalk requirement.
+Authoring complete; pinned mechanical validation executed (see submission validation records); strict release lint, independent acceptance and final print approval pending. The crosswalk is the canonical file for the assembly plan's Chapter 16 evidence crosswalk requirement.
 
 ## Chapter 16 production files
 
@@ -17,3 +28,4 @@ Authoring complete; formal lint, independent acceptance and final print approval
 - Figure 16-3: [editable Mermaid](../figures/figure-16-3.mmd) · [SVG](../figures/figure-16-3.svg)
 - [Complete author proof](../proofs/chapter-16.pdf)
 - [Proof production identity](../proofs/chapter-16-proof-manifest.md)
+

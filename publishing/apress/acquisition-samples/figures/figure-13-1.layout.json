@@ -1,0 +1,379 @@
+{
+  "id": "13-1",
+  "title": "Context Manifest Assembly",
+  "w": 720,
+  "h": 449,
+  "items": [
+    {
+      "t": "box",
+      "x": 12,
+      "y": 48,
+      "w": 155,
+      "h": 43,
+      "lines": [
+        "Retail product",
+        "registry"
+      ],
+      "kind": "normal"
+    },
+    {
+      "t": "box",
+      "x": 12,
+      "y": 113,
+      "w": 155,
+      "h": 43,
+      "lines": [
+        "Retail CRM"
+      ],
+      "kind": "normal"
+    },
+    {
+      "t": "box",
+      "x": 12,
+      "y": 178,
+      "w": 155,
+      "h": 43,
+      "lines": [
+        "Insurance policy",
+        "repository"
+      ],
+      "kind": "external"
+    },
+    {
+      "t": "box",
+      "x": 205,
+      "y": 112,
+      "w": 110,
+      "h": 48,
+      "lines": [
+        "Retrieval",
+        "index"
+      ],
+      "kind": "normal"
+    },
+    {
+      "t": "box",
+      "x": 355,
+      "y": 112,
+      "w": 116,
+      "h": 48,
+      "lines": [
+        "Context retrieval",
+        "service"
+      ],
+      "kind": "normal"
+    },
+    {
+      "t": "box",
+      "x": 515,
+      "y": 112,
+      "w": 150,
+      "h": 48,
+      "lines": [
+        "Source ACL",
+        "recheck"
+      ],
+      "kind": "normal"
+    },
+    {
+      "t": "box",
+      "x": 515,
+      "y": 225,
+      "w": 150,
+      "h": 45,
+      "lines": [
+        "Context assembler",
+        "Consumer recheck"
+      ],
+      "kind": "normal"
+    },
+    {
+      "t": "box",
+      "x": 515,
+      "y": 304,
+      "w": 150,
+      "h": 43,
+      "lines": [
+        "Context consumer"
+      ],
+      "kind": "actor"
+    },
+    {
+      "t": "box",
+      "x": 285,
+      "y": 225,
+      "w": 155,
+      "h": 45,
+      "lines": [
+        "Context Manifest"
+      ],
+      "kind": "store"
+    },
+    {
+      "t": "box",
+      "x": 285,
+      "y": 304,
+      "w": 155,
+      "h": 43,
+      "lines": [
+        "Restricted quarantine"
+      ],
+      "kind": "hold"
+    },
+    {
+      "t": "edge",
+      "points": [
+        [
+          167,
+          69
+        ],
+        [
+          188,
+          69
+        ],
+        [
+          188,
+          125
+        ],
+        [
+          205,
+          125
+        ]
+      ],
+      "label": "indexes A",
+      "x": 187,
+      "y": 58,
+      "kind": "solid"
+    },
+    {
+      "t": "edge",
+      "points": [
+        [
+          167,
+          134
+        ],
+        [
+          205,
+          134
+        ]
+      ],
+      "label": "indexes B",
+      "x": 185,
+      "y": 104,
+      "kind": "solid"
+    },
+    {
+      "t": "edge",
+      "points": [
+        [
+          167,
+          199
+        ],
+        [
+          190,
+          199
+        ],
+        [
+          190,
+          148
+        ],
+        [
+          205,
+          148
+        ]
+      ],
+      "label": "indexes item",
+      "x": 196,
+      "y": 216,
+      "kind": "solid"
+    },
+    {
+      "t": "edge",
+      "points": [
+        [
+          315,
+          136
+        ],
+        [
+          355,
+          136
+        ]
+      ],
+      "label": "returns hits",
+      "x": 335,
+      "y": 101,
+      "kind": "solid"
+    },
+    {
+      "t": "edge",
+      "points": [
+        [
+          471,
+          136
+        ],
+        [
+          515,
+          136
+        ]
+      ],
+      "label": "checks sources",
+      "x": 493,
+      "y": 101,
+      "kind": "solid"
+    },
+    {
+      "t": "edge",
+      "points": [
+        [
+          590,
+          160
+        ],
+        [
+          590,
+          225
+        ]
+      ],
+      "label": "admits A/B",
+      "x": 642,
+      "y": 198,
+      "kind": "solid"
+    },
+    {
+      "t": "edge",
+      "points": [
+        [
+          515,
+          146
+        ],
+        [
+          480,
+          146
+        ],
+        [
+          480,
+          325
+        ],
+        [
+          440,
+          325
+        ]
+      ],
+      "label": "rejects insurance",
+      "x": 438,
+      "y": 301,
+      "kind": "dash"
+    },
+    {
+      "t": "edge",
+      "points": [
+        [
+          515,
+          247
+        ],
+        [
+          440,
+          247
+        ]
+      ],
+      "label": "records decisions",
+      "x": 477,
+      "y": 236,
+      "kind": "solid"
+    },
+    {
+      "t": "edge",
+      "points": [
+        [
+          440,
+          314
+        ],
+        [
+          460,
+          314
+        ],
+        [
+          460,
+          258
+        ],
+        [
+          440,
+          258
+        ]
+      ],
+      "label": "records denial",
+      "x": 373,
+      "y": 287,
+      "kind": "dash"
+    },
+    {
+      "t": "edge",
+      "points": [
+        [
+          590,
+          270
+        ],
+        [
+          590,
+          304
+        ]
+      ],
+      "label": "delivers A/B",
+      "x": 645,
+      "y": 291,
+      "kind": "solid"
+    },
+    {
+      "t": "text",
+      "x": 12,
+      "y": 366,
+      "s": "A/B: MF-REC-A-001 / MF-REC-B-001 | Excluded: MF-REC-INS-LEAK-001",
+      "size": 13,
+      "align": "left",
+      "bold": false
+    },
+    {
+      "t": "text",
+      "x": 12,
+      "y": 382,
+      "s": "MF-EVD-CM-001 | A/B consumer recheck ALLOW | Insurance source ACL DENY",
+      "size": 13,
+      "align": "left",
+      "bold": false
+    },
+    {
+      "t": "text",
+      "x": 12,
+      "y": 397,
+      "s": "Policies: MF-POL-RET-ACCESS-v1.0 / MF-POL-TENANT-v1.0",
+      "size": 13,
+      "align": "left",
+      "bold": false
+    },
+    {
+      "t": "text",
+      "x": 12,
+      "y": 413,
+      "s": "cryptographic_signature=NOT_APPLIED_SYNTHETIC_FIXTURE",
+      "size": 13,
+      "align": "left"
+    },
+    {
+      "t": "text",
+      "x": 12,
+      "y": 429,
+      "s": "Context retrieval: MF-SVC-CTX-001 | Consumer: MF-AGT-RET-004",
+      "size": 13,
+      "align": "left"
+    },
+    {
+      "t": "text",
+      "x": 12,
+      "y": 444,
+      "s": "Quarantine records denial metadata; no insurance payload reaches the consumer.",
+      "size": 13,
+      "align": "left"
+    }
+  ],
+  "mmd": "%% Figure 13-1 — Context Manifest Assembly\n%% Retail records A and B pass source and consumer checks and enter context. The incorrectly tagged insurance result fails the source check and follows a quarantine path that cannot deliver its payload to the agent.\nflowchart LR\n A[\"Retail product registry\"] -->|indexes A| I[\"Retrieval index\"]\n B[\"Retail CRM\"] -->|indexes B| I\n X[\"Insurance policy repository\"] -->|indexes item| I\n I -->|returns hits| S[\"Context retrieval service\"]\n S -->|checks sources| C[\"Source ACL recheck\"]\n C -->|admits A/B| M[\"Context assembler / consumer recheck\"]\n C -.->|rejects insurance| Q[\"Restricted quarantine\"]\n M -->|records decisions| R[(\"Context Manifest\")]\n Q -.->|records denial| R\n M -->|delivers A/B| U[\"Context consumer\"]\n",
+  "alt": "Retail records A and B pass source and consumer checks and enter context. The incorrectly tagged insurance result fails the source check and follows a quarantine path that cannot deliver its payload to the agent."
+}

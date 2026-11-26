@@ -1,0 +1,19 @@
+%% Figure 13-3 — Governed Memory Write Decision
+%% A proposed write undergoes provenance, ownership, policy, retention, and contradiction checks. The unresolved eligibility claim follows the hold path; no completed memory write or receipt is shown.
+sequenceDiagram
+ participant A as Agent
+ participant G as Write gate
+ participant V as Provenance verifier
+ participant P as Policy checks
+ participant R as Reconciliation checker
+ participant M as Durable memory
+ participant Q as Stewardship queue
+ A->>G: proposes claim
+ G->>V: checks lineage
+ G->>P: checks owner / class / retention
+ G->>R: checks conflict
+ R-->>G: returns UNRESOLVED
+ G-->>Q: references existing ticket
+ G-->>A: holds assertion
+ Note over M: No write
+ Note over A,G: Required design process only; existing stewardship ticket

@@ -9,7 +9,7 @@ BASE=Path(__file__).resolve().parent
 ROOT=BASE.parent
 ALLOW_D={f'D-{i:02}' for i in range(1,31)}
 ALLOW_CH={f'CH-{i:03}' for i in range(1,59)}
-MERIDIAN_KNOWN={'MF-EVD-RC-001','MF-EVD-CM-001','MF-EVD-AU-001','MF-EVD-DN-001','MF-EVD-DG-001','MF-ACT-REF-001','MF-REQ-REF-001','MF-EVT-013'}
+MERIDIAN_KNOWN={'MF-EVD-RC-001','MF-EVD-CM-001','MF-EVD-AU-001','MF-EVD-DN-001','MF-EVD-DG-001','MF-EVD-RG-001','MF-ACT-REF-001','MF-REQ-REF-001','MF-EVT-013'}
 
 def readcsv(path):
  with open(path,encoding='utf-8',newline='') as f:return list(csv.DictReader(f))
@@ -19,7 +19,7 @@ def lint(chapter,text):
  def add(rule,severity,message,excerpt='',line=0):
   problems.append({'rule':rule,'severity':severity,'message':message,'line':line,'excerpt':excerpt[:160]})
  if chapter not in ALLOW_CH:add('L001','BLOCK','Invalid chapter ID',chapter)
- contracts={r['chapter_id']:r for r in readcsv(BASE.parent/'phase4_authoring'/'CHAPTER-AUTHORING-CONTRACTS-58.csv')}
+ contracts={r['chapter_id']:r for r in readcsv(BASE.parent/'phase4'/'CHAPTER-AUTHORING-CONTRACTS-58.csv')}
  if chapter not in contracts:add('L009','BLOCK','Chapter has no frozen authoring contract',chapter)
  title_match=re.search(r'(?m)^#\s+(.+)$',text)
  if not title_match:add('L009','BLOCK','Missing top-level chapter title')

@@ -28,6 +28,10 @@ class V2(unittest.TestCase):
         self.assertEqual(lint('CH-016','# Chapter 16\nMeridian fixture does not prove production security. D-18')['counts']['BLOCK'],0)
     def test_strict_release_blocked_without_metadata(self):
         self.assertEqual(lint('CH-013','# Chapter 13: Context\nD-14',strict=True)['status'],'BLOCK')
+    def test_release_report_reference(self):
+        self.assertEqual(lint('CH-016','# Chapter 16: Gateway Control Plane\nSynthetic MF-EVD-RG-001 records blocked promotion. D-10.')['counts']['BLOCK'],0)
+    def test_unknown_evidence_reference(self):
+        self.assertEqual(lint('CH-016','# Chapter 16: Gateway Control Plane\nSynthetic MF-EVD-RG-999. D-10.')['status'],'BLOCK')
     def test_invalid_id(self):
         self.assertEqual(lint('CH-013','# Chapter 13\nD-31 is true')['status'],'BLOCK')
     def test_unsafe_title(self):
