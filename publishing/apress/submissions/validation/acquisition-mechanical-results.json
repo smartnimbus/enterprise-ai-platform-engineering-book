@@ -1,0 +1,395 @@
+{
+  "pins": {
+    "13": "22ecbf572e885cad992b261fc0b3181c01e654ed",
+    "16": "441dc92902ba26666ba6615af8ae9343baf45322",
+    "atlas": "dec94ae45dbbb7ada8e67571549224952fc018ea",
+    "package": "31872adf82758bccf53d50a8c3f10688b5f29df7"
+  },
+  "validator_commit": "a145ed91a2153348ffc83682bb71b2c0396afd23",
+  "tests": {
+    "phase5": {
+      "command": [
+        "/usr/bin/python3",
+        "/home/runner/work/enterprise-ai-platform-engineering-book/enterprise-ai-platform-engineering-book/governance/proposals/knowledge-system/authoring-validation/phase5/test_lint.py"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_a_clean (__main__.LintTests.test_a_clean) ... ok\ntest_b_clean (__main__.LintTests.test_b_clean) ... ok\ntest_conflict_resolved (__main__.LintTests.test_conflict_resolved) ... ok\ntest_context_wrong_authority (__main__.LintTests.test_context_wrong_authority) ... ok\ntest_delegation_widened (__main__.LintTests.test_delegation_widened) ... ok\ntest_fake_meridian_event (__main__.LintTests.test_fake_meridian_event) ... ok\ntest_gateway_wrong_reconciliation (__main__.LintTests.test_gateway_wrong_reconciliation) ... ok\ntest_invalid_chapter (__main__.LintTests.test_invalid_chapter) ... ok\ntest_legacy_layer (__main__.LintTests.test_legacy_layer) ... ok\ntest_legacy_plane (__main__.LintTests.test_legacy_plane) ... ok\ntest_missing_title (__main__.LintTests.test_missing_title) ... ok\ntest_negated_context_authority (__main__.LintTests.test_negated_context_authority) ... ok\ntest_negated_gateway_reconcile (__main__.LintTests.test_negated_gateway_reconcile) ... ok\ntest_no_evidence_grade (__main__.LintTests.test_no_evidence_grade) ... ok\ntest_production_claim (__main__.LintTests.test_production_claim) ... ok\ntest_refund_posted (__main__.LintTests.test_refund_posted) ... ok\ntest_release_report_reference (__main__.LintTests.test_release_report_reference) ... ok\ntest_unknown_chapter (__main__.LintTests.test_unknown_chapter) ... ok\ntest_unknown_decision (__main__.LintTests.test_unknown_decision) ... ok\n\n----------------------------------------------------------------------\nRan 19 tests in 0.012s\n\nOK\n"
+    },
+    "phase7": {
+      "command": [
+        "/usr/bin/python3",
+        "/home/runner/work/enterprise-ai-platform-engineering-book/enterprise-ai-platform-engineering-book/governance/proposals/knowledge-system/authoring-validation/phase7/test_lint_v2.py"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_baseline_undetected_mutations_now_block (__main__.V2.test_baseline_undetected_mutations_now_block) ... ok\ntest_invalid_id (__main__.V2.test_invalid_id) ... ok\ntest_negation_window (__main__.V2.test_negation_window) ... ok\ntest_release_report_reference (__main__.V2.test_release_report_reference) ... ok\ntest_safe_variants_not_blocked (__main__.V2.test_safe_variants_not_blocked) ... ok\ntest_strict_release_blocked_without_metadata (__main__.V2.test_strict_release_blocked_without_metadata) ... ok\ntest_unknown_evidence_reference (__main__.V2.test_unknown_evidence_reference) ... ok\ntest_unsafe_title (__main__.V2.test_unsafe_title) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.003s\n\nOK\n"
+    }
+  },
+  "lint": {
+    "13": {
+      "source_sha256": "a73354aa996c00ff397b252523bd809be778a3933ae14d921c0005213fe5c1d8",
+      "phase5": {
+        "command": [
+          "/usr/bin/python3",
+          "/home/runner/work/enterprise-ai-platform-engineering-book/enterprise-ai-platform-engineering-book/governance/proposals/knowledge-system/authoring-validation/phase5/lint_manuscript.py",
+          "CH-013",
+          "/tmp/tmp9g9ioiyj/chapter-13.md"
+        ],
+        "exit_code": 0,
+        "stdout": "{\n  \"chapter\": \"CH-013\",\n  \"status\": \"DRAFT_LINT_PASS_NOT_APPROVED\",\n  \"diagnostics\": [],\n  \"counts\": {\n    \"BLOCK\": 0,\n    \"WARN\": 0\n  },\n  \"limits\": [\n    \"Mechanical scanning cannot detect every semantic contradiction\",\n    \"No review, rights or approval is inferred\",\n    \"Frozen source bytes must be checked separately\"\n  ]\n}\n",
+        "stderr": ""
+      },
+      "phase7": {
+        "command": [
+          "/usr/bin/python3",
+          "/home/runner/work/enterprise-ai-platform-engineering-book/enterprise-ai-platform-engineering-book/governance/proposals/knowledge-system/authoring-validation/phase7/lint_v2.py",
+          "CH-013",
+          "/tmp/tmp9g9ioiyj/chapter-13.md"
+        ],
+        "exit_code": 0,
+        "stdout": "{\n  \"chapter\": \"CH-013\",\n  \"status\": \"DRAFT_LINT_PASS_NOT_APPROVED\",\n  \"counts\": {\n    \"BLOCK\": 0,\n    \"WARN\": 0\n  },\n  \"diagnostics\": [],\n  \"limits\": [\n    \"No exact Atlas semantic equivalence without frozen-text extraction and human review\",\n    \"Source manifest/approval never inferred from prose\",\n    \"No arbitrary prose regex proves absence of contradictions\"\n  ]\n}\n",
+        "stderr": ""
+      },
+      "strict_negative": {
+        "command": [
+          "/usr/bin/python3",
+          "/home/runner/work/enterprise-ai-platform-engineering-book/enterprise-ai-platform-engineering-book/governance/proposals/knowledge-system/authoring-validation/phase7/lint_v2.py",
+          "CH-013",
+          "/tmp/tmp9g9ioiyj/chapter-13.md",
+          "--strict"
+        ],
+        "exit_code": 1,
+        "stdout": "{\n  \"chapter\": \"CH-013\",\n  \"status\": \"BLOCK\",\n  \"counts\": {\n    \"BLOCK\": 9,\n    \"WARN\": 0\n  },\n  \"diagnostics\": [\n    {\n      \"rule\": \"V2-METADATA\",\n      \"severity\": \"BLOCK\",\n      \"message\": \"Missing release-required metadata: source_sha256\",\n      \"line\": 0,\n      \"evidence\": \"\"\n    },\n    {\n      \"rule\": \"V2-METADATA\",\n      \"severity\": \"BLOCK\",\n      \"message\": \"Missing release-required metadata: decision_default_hashes\",\n      \"line\": 0,\n      \"evidence\": \"\"\n    },\n    {\n      \"rule\": \"V2-METADATA\",\n      \"severity\": \"BLOCK\",\n      \"message\": \"Missing release-required metadata: evidence_claims\",\n      \"line\": 0,\n      \"evidence\": \"\"\n    },\n    {\n      \"rule\": \"V2-METADATA\",\n      \"severity\": \"BLOCK\",\n      \"message\": \"Missing release-required metadata: review_record\",\n      \"line\": 0,\n      \"evidence\": \"\"\n    },\n    {\n      \"rule\": \"V2-METADATA\",\n      \"severity\": \"BLOCK\",\n      \"message\": \"Missing release-required metadata: crosswalk_status\",\n      \"line\": 0,\n      \"evidence\": \"\"\n    },\n    {\n      \"rule\": \"V2-METADATA\",\n      \"severity\": \"BLOCK\",\n      \"message\": \"Missing release-required metadata: style_errata_status\",\n      \"line\": 0,\n      \"evidence\": \"\"\n    },\n    {\n      \"rule\": \"V2-CROSSWALK\",\n      \"severity\": \"BLOCK\",\n      \"message\": \"Candidate crosswalk cannot be treated as ratified\",\n      \"line\": 0,\n      \"evidence\": \"\"\n    },\n    {\n      \"rule\": \"V2-STYLE\",\n      \"severity\": \"BLOCK\",\n      \"message\": \"Style errata need authorised sign-off\",\n      \"line\": 0,\n      \"evidence\": \"\"\n    },\n    {\n      \"rule\": \"V2-APPROVAL\",\n      \"severity\": \"BLOCK\",\n      \"message\": \"No qualified human approval for exact revision\",\n      \"line\": 0,\n      \"evidence\": \"\"\n    }\n  ],\n  \"limits\": [\n    \"No exact Atlas semantic equivalence without frozen-text extraction and human review\",\n    \"Source manifest/approval never inferred from prose\",\n    \"No arbitrary prose regex proves absence of contradictions\"\n  ]\n}\n",
+        "stderr": ""
+      }
+    },
+    "16": {
+      "source_sha256": "0a4c90a803998e1f192d2be2dbd59bf45757a95964f99b7e39894537a9c0ddfb",
+      "phase5": {
+        "command": [
+          "/usr/bin/python3",
+          "/home/runner/work/enterprise-ai-platform-engineering-book/enterprise-ai-platform-engineering-book/governance/proposals/knowledge-system/authoring-validation/phase5/lint_manuscript.py",
+          "CH-016",
+          "/tmp/tmp9g9ioiyj/chapter-16.md"
+        ],
+        "exit_code": 0,
+        "stdout": "{\n  \"chapter\": \"CH-016\",\n  \"status\": \"DRAFT_LINT_PASS_NOT_APPROVED\",\n  \"diagnostics\": [],\n  \"counts\": {\n    \"BLOCK\": 0,\n    \"WARN\": 0\n  },\n  \"limits\": [\n    \"Mechanical scanning cannot detect every semantic contradiction\",\n    \"No review, rights or approval is inferred\",\n    \"Frozen source bytes must be checked separately\"\n  ]\n}\n",
+        "stderr": ""
+      },
+      "phase7": {
+        "command": [
+          "/usr/bin/python3",
+          "/home/runner/work/enterprise-ai-platform-engineering-book/enterprise-ai-platform-engineering-book/governance/proposals/knowledge-system/authoring-validation/phase7/lint_v2.py",
+          "CH-016",
+          "/tmp/tmp9g9ioiyj/chapter-16.md"
+        ],
+        "exit_code": 0,
+        "stdout": "{\n  \"chapter\": \"CH-016\",\n  \"status\": \"DRAFT_LINT_PASS_NOT_APPROVED\",\n  \"counts\": {\n    \"BLOCK\": 0,\n    \"WARN\": 0\n  },\n  \"diagnostics\": [],\n  \"limits\": [\n    \"No exact Atlas semantic equivalence without frozen-text extraction and human review\",\n    \"Source manifest/approval never inferred from prose\",\n    \"No arbitrary prose regex proves absence of contradictions\"\n  ]\n}\n",
+        "stderr": ""
+      },
+      "strict_negative": {
+        "command": [
+          "/usr/bin/python3",
+          "/home/runner/work/enterprise-ai-platform-engineering-book/enterprise-ai-platform-engineering-book/governance/proposals/knowledge-system/authoring-validation/phase7/lint_v2.py",
+          "CH-016",
+          "/tmp/tmp9g9ioiyj/chapter-16.md",
+          "--strict"
+        ],
+        "exit_code": 1,
+        "stdout": "{\n  \"chapter\": \"CH-016\",\n  \"status\": \"BLOCK\",\n  \"counts\": {\n    \"BLOCK\": 9,\n    \"WARN\": 0\n  },\n  \"diagnostics\": [\n    {\n      \"rule\": \"V2-METADATA\",\n      \"severity\": \"BLOCK\",\n      \"message\": \"Missing release-required metadata: source_sha256\",\n      \"line\": 0,\n      \"evidence\": \"\"\n    },\n    {\n      \"rule\": \"V2-METADATA\",\n      \"severity\": \"BLOCK\",\n      \"message\": \"Missing release-required metadata: decision_default_hashes\",\n      \"line\": 0,\n      \"evidence\": \"\"\n    },\n    {\n      \"rule\": \"V2-METADATA\",\n      \"severity\": \"BLOCK\",\n      \"message\": \"Missing release-required metadata: evidence_claims\",\n      \"line\": 0,\n      \"evidence\": \"\"\n    },\n    {\n      \"rule\": \"V2-METADATA\",\n      \"severity\": \"BLOCK\",\n      \"message\": \"Missing release-required metadata: review_record\",\n      \"line\": 0,\n      \"evidence\": \"\"\n    },\n    {\n      \"rule\": \"V2-METADATA\",\n      \"severity\": \"BLOCK\",\n      \"message\": \"Missing release-required metadata: crosswalk_status\",\n      \"line\": 0,\n      \"evidence\": \"\"\n    },\n    {\n      \"rule\": \"V2-METADATA\",\n      \"severity\": \"BLOCK\",\n      \"message\": \"Missing release-required metadata: style_errata_status\",\n      \"line\": 0,\n      \"evidence\": \"\"\n    },\n    {\n      \"rule\": \"V2-CROSSWALK\",\n      \"severity\": \"BLOCK\",\n      \"message\": \"Candidate crosswalk cannot be treated as ratified\",\n      \"line\": 0,\n      \"evidence\": \"\"\n    },\n    {\n      \"rule\": \"V2-STYLE\",\n      \"severity\": \"BLOCK\",\n      \"message\": \"Style errata need authorised sign-off\",\n      \"line\": 0,\n      \"evidence\": \"\"\n    },\n    {\n      \"rule\": \"V2-APPROVAL\",\n      \"severity\": \"BLOCK\",\n      \"message\": \"No qualified human approval for exact revision\",\n      \"line\": 0,\n      \"evidence\": \"\"\n    }\n  ],\n  \"limits\": [\n    \"No exact Atlas semantic equivalence without frozen-text extraction and human review\",\n    \"Source manifest/approval never inferred from prose\",\n    \"No arbitrary prose regex proves absence of contradictions\"\n  ]\n}\n",
+        "stderr": ""
+      }
+    }
+  },
+  "atlas": [
+    {
+      "id": "D-01",
+      "default_exact": true,
+      "unknown_evidence": []
+    },
+    {
+      "id": "D-10",
+      "default_exact": true,
+      "unknown_evidence": []
+    },
+    {
+      "id": "D-14",
+      "default_exact": true,
+      "unknown_evidence": []
+    },
+    {
+      "id": "D-18",
+      "default_exact": true,
+      "unknown_evidence": []
+    },
+    {
+      "id": "D-26",
+      "default_exact": true,
+      "unknown_evidence": []
+    },
+    {
+      "id": "D-30",
+      "default_exact": true,
+      "unknown_evidence": []
+    }
+  ],
+  "manifest": [
+    {
+      "path": "publishing/apress/v2/Apress_Publisher_Proposal_v2.md",
+      "match": true,
+      "sha256": "5baa790eeb175c3a37d744e55268a213075a1214283357f71ca0193bac2382c4"
+    },
+    {
+      "path": "publishing/apress/v2/Apress_Executive_Pitch_v1.md",
+      "match": true,
+      "sha256": "ee88dd465b6afaf5498b3f123833490220017f62b3ccef87d19747732156537f"
+    },
+    {
+      "path": "publishing/apress/v2/Apress_Acquisition_Competitive_Dossier_v2.md",
+      "match": true,
+      "sha256": "d538fb52ee1227963dd13a2c8a467bc8a5be17d00cd6e48e1fe60796c75fbd8c"
+    },
+    {
+      "path": "publishing/apress/v2/FROZEN-TOC-58.csv",
+      "match": true,
+      "sha256": "2866cc73850a55d98d0626c7675f542bae2a38e16a1338d49790d6a49fbafe72"
+    },
+    {
+      "path": "publishing/apress/v2/APRESS-SUBMISSION-PACKAGE-v1.md",
+      "match": true,
+      "sha256": "11dbd10a6140aaed1a7db1ead9ec386bdecd4896031b2c8670bee7b3c36cc0a2"
+    },
+    {
+      "path": "publishing/apress/acquisition-samples/manuscripts/chapter-13-context-acquisition-v1.md",
+      "match": true,
+      "sha256": "a73354aa996c00ff397b252523bd809be778a3933ae14d921c0005213fe5c1d8"
+    },
+    {
+      "path": "publishing/apress/acquisition-samples/proofs/chapter-13.pdf",
+      "match": true,
+      "sha256": "cc4bfe1b0cb0ceb61c8f249221a68710148cea5f72d4188f5f1a60aa16050628"
+    },
+    {
+      "path": "publishing/apress/acquisition-samples/proofs/chapter-13-proof-manifest.md",
+      "match": true,
+      "sha256": "d011b01188d1514a852c8cb6693e7e8653e0094a7feb357d2935dd1096f70776"
+    },
+    {
+      "path": "publishing/apress/acquisition-samples/evidence/ch13-claim-crosswalk.csv",
+      "match": true,
+      "sha256": "53ef6f4b43ecb46ad8d9181b1e8b7aa1a3438155bfcd28db269b7cb129962a0e"
+    },
+    {
+      "path": "publishing/apress/acquisition-samples/chapter-13-editorial-self-review.md",
+      "match": true,
+      "sha256": "d76864cc5667c1a50482e3012bc066ab90dd78b65b1bae2ed8ff4dd3b0bd5c31"
+    },
+    {
+      "path": "publishing/apress/acquisition-samples/figures/figure-13-1.mmd",
+      "match": true,
+      "sha256": "06b50f8646d366a235f306ee0a4e94a971ec97de2587adc75b8b9b45256ef38c"
+    },
+    {
+      "path": "publishing/apress/acquisition-samples/figures/figure-13-1.svg",
+      "match": true,
+      "sha256": "74125974fa2e5e34378be5b9974361c036a3b45eff12d94254479d56e69beb3b"
+    },
+    {
+      "path": "publishing/apress/acquisition-samples/figures/figure-13-1.layout.json",
+      "match": true,
+      "sha256": "32e081b2325fe63d15bb5cf7570676ccccde932483a318b5b499fc01542a396f"
+    },
+    {
+      "path": "publishing/apress/acquisition-samples/figures/figure-13-1.drawio",
+      "match": true,
+      "sha256": "17750d38a220833b18c602ac52de46a6c4cf7a37878899c15771b8f58dc975b1"
+    },
+    {
+      "path": "publishing/apress/acquisition-samples/figures/figure-13-2.mmd",
+      "match": true,
+      "sha256": "9b87cd4e4eab22363572ac0f7937937f011500dc3f4cc8b15edace68a2879783"
+    },
+    {
+      "path": "publishing/apress/acquisition-samples/figures/figure-13-2.svg",
+      "match": true,
+      "sha256": "ee6e2678aa36c616acdc2516e3ecef28b7f9f5b47ba128c659290c7e24e29479"
+    },
+    {
+      "path": "publishing/apress/acquisition-samples/figures/figure-13-2.layout.json",
+      "match": true,
+      "sha256": "16bb08fcf7d6052b79a6920a676e0a04957fea39499f2b932ba751a06167f2c1"
+    },
+    {
+      "path": "publishing/apress/acquisition-samples/figures/figure-13-3.mmd",
+      "match": true,
+      "sha256": "913f819fb388e5ab5bd1d440e8dd1bdf8600cc776232f7e6c8437c703282518f"
+    },
+    {
+      "path": "publishing/apress/acquisition-samples/figures/figure-13-3.svg",
+      "match": true,
+      "sha256": "28a05b1b993b07b5b12901cdb1fba342c490d3b81cf09b238aa6c6735e6f8691"
+    },
+    {
+      "path": "publishing/apress/acquisition-samples/figures/figure-13-3.layout.json",
+      "match": true,
+      "sha256": "f357d091a6c837e1f4a05ff4fba9c647ac6c5cb995120062282efd10b7c5ad57"
+    },
+    {
+      "path": "publishing/apress/acquisition-samples/manuscripts/chapter-16-gateway-control-plane-acquisition-v1.md",
+      "match": true,
+      "sha256": "0a4c90a803998e1f192d2be2dbd59bf45757a95964f99b7e39894537a9c0ddfb"
+    },
+    {
+      "path": "publishing/apress/acquisition-samples/proofs/chapter-16.pdf",
+      "match": true,
+      "sha256": "5e4f152e0c2ff9635e7e61a888e902c384d0340ca8aafb3a47a89d4ea6e9212e"
+    },
+    {
+      "path": "publishing/apress/acquisition-samples/proofs/chapter-16-proof-manifest.md",
+      "match": true,
+      "sha256": "34c0c3c9a2202dcd8d23b571062542c8a8bc2b5acdeda2120fb7b5574c6b720b"
+    },
+    {
+      "path": "publishing/apress/acquisition-samples/evidence/ch16-claim-crosswalk.csv",
+      "match": true,
+      "sha256": "b6f1176ef84fecb64563a3634e53a89b70a3922e3ace01859bb8e02508ae5baa"
+    },
+    {
+      "path": "publishing/apress/acquisition-samples/chapter-16-editorial-self-review.md",
+      "match": true,
+      "sha256": "c47ea65007593c462de403f01808dbdb75bea2c5f20d8a0b9820beebd018da6c"
+    },
+    {
+      "path": "publishing/apress/acquisition-samples/figures/figure-16-1.mmd",
+      "match": true,
+      "sha256": "c6041fdbc253e6406f0d473adfab5ade01a8fe1aca77683043a8e710198a1076"
+    },
+    {
+      "path": "publishing/apress/acquisition-samples/figures/figure-16-1.svg",
+      "match": true,
+      "sha256": "90806e462323be9d9a0b65022c59681e7dbb5e8bef4443bd666d39c849cde19a"
+    },
+    {
+      "path": "publishing/apress/acquisition-samples/figures/figure-16-1.layout.json",
+      "match": true,
+      "sha256": "6d4cfd6a63b866a11930c52f9bf745456e483a2032cda544502eed2593aff6fc"
+    },
+    {
+      "path": "publishing/apress/acquisition-samples/figures/figure-16-2.mmd",
+      "match": true,
+      "sha256": "2c7372ae457d6a8fe0cc7ff2a70a5577ebdfd10e71a78b949bde162fe2b4a354"
+    },
+    {
+      "path": "publishing/apress/acquisition-samples/figures/figure-16-2.svg",
+      "match": true,
+      "sha256": "0eb4592abf3f6f9c8ce57d9ba2f6bcfa4841473932c26fa038d87908ab644efe"
+    },
+    {
+      "path": "publishing/apress/acquisition-samples/figures/figure-16-2.layout.json",
+      "match": true,
+      "sha256": "4056ca8be74f11798be799c8216b445417b7507b032d6072a113cc4af93cc7da"
+    },
+    {
+      "path": "publishing/apress/acquisition-samples/figures/figure-16-3.mmd",
+      "match": true,
+      "sha256": "f244242c8b5d51ff9c6af92c73291a1eb19d4d5ce748f93a7940e589cdb3848d"
+    },
+    {
+      "path": "publishing/apress/acquisition-samples/figures/figure-16-3.svg",
+      "match": true,
+      "sha256": "5f28d717fd81ad25ff1dbba94eb6f9d607861f8f5750d20bcfcac5e6c79bc9a7"
+    },
+    {
+      "path": "publishing/apress/acquisition-samples/figures/figure-16-3.layout.json",
+      "match": true,
+      "sha256": "643e30c57dd0a226278264c8b6792e954a3b1bce9d4cf88d19dd00d700a9e0db"
+    },
+    {
+      "path": "publishing/apress/acquisition-samples/figures/figure-16-3.drawio",
+      "match": true,
+      "sha256": "c6de0ce49db6d163c6ebc0d4e50f5b7a165df7403e782567d7a5d695fc323537"
+    },
+    {
+      "path": "decisions/pages/D-01.md",
+      "match": true,
+      "sha256": "598e249c4b294b60f9e2285791aad8f8b9b5557258edacd8733fd0be4a5affcc"
+    },
+    {
+      "path": "publishing/apress/acquisition-samples/proofs/atlas-D-01.pdf",
+      "match": true,
+      "sha256": "610decb6e517a8b9627cbbd06f2c29b99dd771a5d2966ff1461104de99a4a120"
+    },
+    {
+      "path": "decisions/pages/D-10.md",
+      "match": true,
+      "sha256": "e9cef8978f91ba6a856b88c573946943c9677ffe77c0fc4cae369ee833518c03"
+    },
+    {
+      "path": "publishing/apress/acquisition-samples/proofs/atlas-D-10.pdf",
+      "match": true,
+      "sha256": "6d259e54aa39ae5fa189862703d731adb0312a9092525e88948c7af406c407f8"
+    },
+    {
+      "path": "decisions/pages/D-14.md",
+      "match": true,
+      "sha256": "683ecb27ba21571e1a73a8ee0c666906e7660c2e5f0dc1bb3f846e14b85b2709"
+    },
+    {
+      "path": "publishing/apress/acquisition-samples/proofs/atlas-D-14.pdf",
+      "match": true,
+      "sha256": "5de2e8155060ba2f8a24b4ca918c7a89f927c4d45a34b32dd77c9076cf877697"
+    },
+    {
+      "path": "decisions/pages/D-18.md",
+      "match": true,
+      "sha256": "00b033f13ab19f2bec7882619667ab8ef2b909f831430f763e92a4f3b727cc98"
+    },
+    {
+      "path": "publishing/apress/acquisition-samples/proofs/atlas-D-18.pdf",
+      "match": true,
+      "sha256": "0d27ad2ad077f6248728217a2f50ab5b22b2b2f221aa9afe04c5dcb015bb958f"
+    },
+    {
+      "path": "decisions/pages/D-26.md",
+      "match": true,
+      "sha256": "a45e30726e44b9241098965f13e82dae70cc6061c7312847ea60978d79e333b5"
+    },
+    {
+      "path": "publishing/apress/acquisition-samples/proofs/atlas-D-26.pdf",
+      "match": true,
+      "sha256": "667ac5264cb551860d19b731df9ed343e45aa0e7a0cb7a0d70c6f96c8d4230d9"
+    },
+    {
+      "path": "decisions/pages/D-30.md",
+      "match": true,
+      "sha256": "5ebfa26be9f5684a3ac280f35aa3011b4edb521ab5576e17c5e60763c4a783ca"
+    },
+    {
+      "path": "publishing/apress/acquisition-samples/proofs/atlas-D-30.pdf",
+      "match": true,
+      "sha256": "d295c67cfeb1d31379c157b6e0f75dea2de5ad720cbb7aeaa33e71718468e6b6"
+    },
+    {
+      "path": "publishing/apress/acquisition-samples/proofs/atlas-six-page-sampler.pdf",
+      "match": true,
+      "sha256": "3b57aa7e9f56426afa6155dbba9c0ef57e044b71680c83714c4ff0dfc5602a3d"
+    },
+    {
+      "path": "publishing/apress/acquisition-samples/proofs/atlas-proof-manifest.md",
+      "match": true,
+      "sha256": "3aa47a564bd433c3e77c8a1c10a5143622f08e05d06215eeaf52bf9c83e719c0"
+    },
+    {
+      "path": "decisions/pages/README.md",
+      "match": true,
+      "sha256": "81a4dcbf3b1694748cca91c11e48b52ebec93fde55b5f4feab921be00fb51311"
+    }
+  ],
+  "status": "MECHANICAL_PASS_NOT_APPROVED",
+  "workflow_run_id": 45647403006,
+  "workflow_job_id": 139321998995,
+  "artifact_id": 15039235521,
+  "artifact_archive_sha256": "a18b44ee4c97c473ea244dfa5db0b5dc8eea7f61d1e463d42f9bde49eca1e80a",
+  "provenance": "Exact JSON captured from workflow stdout; run succeeded. Strict mode intentionally blocked. No human acceptance."
+}

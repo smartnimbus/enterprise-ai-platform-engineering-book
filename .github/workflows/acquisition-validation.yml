@@ -1,0 +1,23 @@
+name: Acquisition mechanical validation
+on:
+  push:
+    branches: [engineering/acquisition-mechanical-validation]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Fetch pinned candidate commits
+        run: git fetch origin 22ecbf572e885cad992b261fc0b3181c01e654ed 441dc92902ba26666ba6615af8ae9343baf45322 dec94ae45dbbb7ada8e67571549224952fc018ea 31872adf82758bccf53d50a8c3f10688b5f29df7
+      - name: Execute validators
+        run: python3 automation/validate_acquisition.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: acquisition-validation-results
+          path: acquisition-validation-results.json
