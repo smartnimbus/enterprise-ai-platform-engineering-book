@@ -25,3 +25,6 @@ Author requested Chapter 41 ahead of CAP-008. Complete working manuscript, four 
 
 ## Chapter 41 Signature Revision v2
 Complete v2 authored on docs/chapter-41-business-case; v1 unchanged. Four revision pairs, blank templates, evidence index, CSV, figures and validation preserved. Actual page fit, full CI and independent acceptance outstanding. Working PR #24.
+
+## PVP-41 independent practitioner validation
+Author froze Chapter 41 v2 for this study. [Public protocol and restricted archive custody](../editorial/validation/chapter-41/PVP-41-PUBLIC-PROTOCOL.md). Complete facilitator/participant portable packs and scoring workbook created and checked; privately deliver via conversation, not public repo. 24-person target / 12-person pilot; no actual participants or results. Human execution and independent evidence remain outstanding; manuscript unchanged.
