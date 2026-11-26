@@ -51,3 +51,6 @@ SVGs are static editable derivatives; no original native master or print approva
 
 ## Chapter 41 manuscript use
 Existing seven-step appraisal and decision-to-evidence investment SVGs referenced as Figures 41-1 and 41-2 with captions and alternative text. Existing source identities retained; remote source retrieval confirmed, visual render and print inspection pending. No replacement source master created.
+
+## Chapter 41 Signature Revision v2
+Two new publication derivatives at manuscript/part-07/chapter-41/figures/figure-41-1-v2.svg and figure-41-2-v2.svg. First adds four outputs and return path; second anchors six responsibilities in FD r1/r2, FC-41-01, FE-41-01 and CE-41-02. Recovered sources unchanged. Captions/alt and SVG source retrieval checked; actual render/print acceptance pending.
