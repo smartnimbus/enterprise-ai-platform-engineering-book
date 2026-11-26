@@ -14,6 +14,6 @@ Bounded recovery and authoring continuity view; not a replacement roadmap. The h
 | CAP-008 | Write Ch10 manuscript | Deferred by explicit Chapter 41 production request | existing manuscript structure | Source capture, author direction |
 | CAP-009 | Author package factual completion | BLOCKED | Private author documents; public-safe drafts exist | Author facts and permissions |
 | CAP-010 | Practitioner feedback / delivery commitment | BLOCKED | Private feedback and authorised proposal material | Actual reader/author inputs |
-| CAP-011 | Write Chapter 41 acquisition manuscript | Authored; working PR review pending | [Chapter 41](../manuscript/part-07/chapter-41/chapter-41.md) | Page fit, full validation and independent review outstanding |
+| CAP-011 | Chapter 41 manuscript and approved Signature Revision v2 | V2 AUTHORED; working PR #24 pending integration | [Signature v2](../manuscript/part-07/chapter-41/chapter-41-signature-v2.md); v1 retained | Actual proof, full validation and independent acceptance outstanding |
 
 For future tasks: ID, task, owner role, source issue or existing task, status, exact output path/commit, dependency, next action. Do not mark a summary as a captured full deliverable. No additional task needed for unaffected topics.
