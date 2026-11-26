@@ -35,3 +35,6 @@ Author requested complete Chapter 41 and publisher self-review. Working branch `
 
 ## Chapter 41 publication-candidate review
 Inspected pinned manuscript, four artefacts, validation, figures, Chapter 10 package and competitor catalogue contents. Durable review saved in editorial/reviews/CHAPTER-41-PUBLICATION-CANDIDATE-REVIEW.md. No manuscript or frozen-source change; no publisher contact or independent approval. PR #24 remains working review.
+
+## Chapter 41 Signature Revision v2 planning
+Saved editorial/authoring-blueprints/Chapter_41_Signature_Revision_v2_Plan.md. Six accepted improvements mapped to placements and estimated net +80 words, two figure derivatives, four revision-linked records and templates, minimal/maximum implementation paths. Correct prospective reversal uses hypothetical £20k extra transition and £5k sunk discovery, not £12k full-horizon reversal alone. No manuscript change or independent approval.
