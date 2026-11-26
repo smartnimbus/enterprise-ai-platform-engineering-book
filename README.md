@@ -58,3 +58,10 @@ The original [book baseline PR #1](https://github.com/smartnimbus/enterprise-ai-
 ## Wave 1 source preparation
 
 - [Chapter 14 Lifecycle source handoff](editorial/authoring-blueprints/chapter-14-source-pack.md) — source preparation only; authoring gate pending.
+
+## Contributor continuity
+
+- [Session operating instructions](AGENTS.md)
+- [Current state and handover](continuity/README.md)
+- [Master knowledge register](knowledge/MASTER-KNOWLEDGE-REGISTER.md)
+- [Reusable session prompts](prompts/README.md)

@@ -14,3 +14,7 @@ A publisher-facing draft is not a complete submitted package. Chapter 13 is not 
 - `FROZEN-TOC-58.csv` — unmodified source reference.
 
 **No publisher approval or external submission is claimed.**
+
+## Current working acquisition assembly
+
+[Candidate package](../submissions/acquisition-submission-index.md) — dated production status and pinned assets; not approved or sent.

@@ -1,0 +1,3 @@
+# Close and preserve this session
+
+Execute the checklist in continuity/SESSION-COMPLETION-CHECKLIST.md now. Save complete public-safe deliverables in canonical locations; update affected notes, knowledge register, tasks, decisions, questions, handover and session log. Update diagram rationale and prompt library where relevant; state N/A for unchanged areas. Commit, push and verify remote files through existing repository procedures. Provide exact commit, file links and remaining blockers. If a source or write is unavailable, preserve what is possible and explicitly identify uncaptured items. Never claim a chat response alone is preserved.

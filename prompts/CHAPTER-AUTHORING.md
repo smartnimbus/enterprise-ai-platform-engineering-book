@@ -1,0 +1,3 @@
+# Author a chapter and preserve its assets
+
+Read actual chapter specification, Style Bible, authoritative decisions, relevant fixture records, chapter notes and figure rationale. Respect frozen scope, ownership and evidence boundaries. Write the requested manuscript rather than another outline unless explicitly asked. Save manuscript, editable figures or faithful labelled derivatives, captions, alt text, reader artefacts and source references. Distinguish hypothetical from recorded synthetic and real evidence. Capture new editorial reasoning and actual production effort; do not invent review acceptance. Apply SESSION-CLOSE.md.

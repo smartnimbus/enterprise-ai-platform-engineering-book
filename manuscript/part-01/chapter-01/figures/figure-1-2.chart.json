@@ -1,0 +1,47 @@
+{
+  "chartType": "line",
+  "xKey": "cases",
+  "series": [
+    {
+      "dataKey": "local",
+      "label": "Domain-local delivery",
+      "valuePrefix": "£",
+      "valueFormat": "compact"
+    },
+    {
+      "dataKey": "shared",
+      "label": "Shared delivery",
+      "valuePrefix": "£",
+      "valueFormat": "compact"
+    }
+  ],
+  "xAxisLabel": "Funded production use cases",
+  "yAxisMin": 0,
+  "data": [
+    {
+      "cases": "1",
+      "local": 60000,
+      "shared": 85000
+    },
+    {
+      "cases": "2",
+      "local": 120000,
+      "shared": 100000
+    },
+    {
+      "cases": "3",
+      "local": 180000,
+      "shared": 115000
+    },
+    {
+      "cases": "4",
+      "local": 240000,
+      "shared": 130000
+    },
+    {
+      "cases": "5",
+      "local": 300000,
+      "shared": 145000
+    }
+  ]
+}
